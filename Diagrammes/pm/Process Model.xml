@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AB5FFCD0-B7F4-DB81-BDCB-A4CC78B0D342">
+<createdBy>gevrai</createdBy>
+<createdTime>2016-10-27 00:42:48 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

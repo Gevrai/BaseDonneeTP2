@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sous-categorie" directorySegmentName="seg_0" id="9B0CB2ED-C11F-17ED-1785-371F7592A05B">
+<createdBy>gevrai</createdBy>
+<createdTime>2016-10-27 02:13:08 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<sourcePk>72DB2457-581A-F59C-25F0-5934C67A694B</sourcePk>
+<targetPk>72DB2457-581A-F59C-25F0-5934C67A694B</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Englobe</nameOnSource>
+<nameOnTarget>est sous-categorie de</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>607680D2-190B-24FF-0C70-EF5C81ED0041</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>607680D2-190B-24FF-0C70-EF5C81ED0041</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
