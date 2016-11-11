@@ -8,7 +8,7 @@ View > Data Modeler > Browser
 ## Génération de données (faker et eventful.com)
 
 
-faker
+###faker
 
 ```
 git clone https://github.com/joke2k/faker.git
@@ -17,7 +17,7 @@ sudo python setup.py install
 
 Pour générer des données un peu plus 'vrais' que des string aléatoires, on va chercher des vrais données!
 
-eventful API
+###eventful API
 ```
 pip install simplejson
 pip install httplib2
