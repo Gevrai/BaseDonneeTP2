@@ -215,7 +215,7 @@ for categ in categories['category']:
     categ_list.append(c)
     print c.categorie
    
-for page in range(1,2):
+for page in range(1,10):
     fetchEventsVenues(page)
 print "Evenements: " + str(len(event_list))
 print "Emplacements:  " + str(len(empl_list)) 
