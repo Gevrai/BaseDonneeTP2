@@ -76,7 +76,6 @@ class Client():
         return general_INSERT_str(tableName, columnNames, values)
         
 # TODO SQL Interval syntax for 'duree'
-# TODO TEST INSERT_str method
 class Evenement():
     def __init__(self, e, id):
         self.evenementID = id
@@ -96,7 +95,7 @@ class Evenement():
         values = [self.evenementID, self.titre, self.description, self.siteWeb, self.duree] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO TEST INSERT_str method
+# TODO nom de categorie meme que le nom de la table, pas bon!
 class Categorie():
     def __init__(self, cat):
         self.APIname = cat
@@ -113,7 +112,6 @@ class Categorie():
         values = [self.surCategorie, self.categorie] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO TEST INSERT_str method
 class Occurence():
     def __init__(self, id, evenementID, emplacementID, start_time=None, prix = None):
         global fake
@@ -132,7 +130,6 @@ class Occurence():
         values = [self.occurenceID, self.dateEtHeure, self.prix, self.evenementID, self.emplacementID] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO TEST INSERT_str method
 class Emplacement():
     def __init__(self, e, id):
         global fake
@@ -164,7 +161,6 @@ class Emplacement():
         values = [self.emplacementID, self.siteID, self.nom, self.siteWeb, self.capacite, self.numCivique, self.rue, self.codePostal, self.ville, self.province, self.numTel] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO TEST INSERT_str method
 class Transaction():
     def __init__(self, transactionID, clientID, occurenceID, prix, codeRabais=None):
         global fake
@@ -189,7 +185,6 @@ class Transaction():
         values = [self.transactionID, self.clientID, self.occurenceID, self.statut, self.codeRabais, self.cout, self.dateEtHeure, self.modePaiement] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO TEST INSERT_str method
 class Rabais():
     def __init__(self, code):
         global fake
