@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="tp2domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="StatutTransaction" id="98DEC3A5-4DAA-3C7D-09BE-F9723115725C">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:17:26 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <importedID>31006AC1-F11B-B222-7015-7B22A63806B6</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>9</dataTypeSize>
+         <defaultValue>en attente</defaultValue>
+         <fileName>tp2domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="annulée" description=""/>
+            <valueDef value="approuvée" description=""/>
+            <valueDef value="en attente" description=""/>
+            <valueDef value="payée" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:16:36 UTC</createdTime>
+         <ownerDesignName>Diagrammes</ownerDesignName>
+         <importedID>DOM3000004</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>tp2domains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ModePaiement" id="E16D8C1C-2B40-9FFD-2AAC-0137272AB145">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:34:51 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <importedID>400D5960-44F7-171F-8E37-80BBE4E4B247</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>8 CHAR</dataTypeSize>
+         <fileName>tp2domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="comptant" description=""/>
+            <valueDef value="crédit" description=""/>
+            <valueDef value="débit" description=""/>
+         </listOfValues>
+      </Domain>
+   </domains>
+</DomainFile>

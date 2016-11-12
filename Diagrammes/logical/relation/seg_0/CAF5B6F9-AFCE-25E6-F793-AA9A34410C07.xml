@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CouponTransaction" directorySegmentName="seg_0" id="CAF5B6F9-AFCE-25E6-F793-AA9A34410C07">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 18:00:12 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<sourcePk>603E8E83-887B-33F2-0C35-26614029ADCB</sourcePk>
+<targetPk>F71D3416-64B1-388C-44D5-3FE97627312D</targetPk>
+<identifying>false</identifying>
+<nameOnSource>s&apos;applique sur</nameOnSource>
+<nameOnTarget>est réduit par</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E90CAAB-5C90-18DD-136E-4C55C07C2692</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54431BA7-F512-F966-3189-F77249BF962C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

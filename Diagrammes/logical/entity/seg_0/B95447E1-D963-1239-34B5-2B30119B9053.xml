@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E58EEA35-4019-E899-E405-B471AED4D155" name="Evenement">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:01 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B95447E1-D963-1239-34B5-2B30119B9053" name="Client">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:23 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
@@ -15,9 +15,60 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NoEvenement" id="80D2AC16-27A5-15A0-E988-E4BF0E51EFD0">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:56:17 UTC</createdTime>
+<Attribute name="NomUtilisateur" id="5D1B2088-D6B4-D8A9-DC0E-135305ECE8DF">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MotDePasse" id="6E119F2C-BCA8-F39A-371A-3F285374171C">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="93F987FC-D3A0-D51F-368C-619FE2A20995">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prenom" id="C6F3023D-F920-91E7-B008-0DF578354D47">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NoClient" id="1E02B2D8-22E9-AC55-CEF9-5613A8CF212E">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
@@ -27,94 +78,26 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Titre" id="A5573E60-269D-A516-F89C-2CE78ADCFA15">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:50 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Description" id="4E912FF2-8196-0C88-A941-CB2B6734AB41">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:51 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512</dataTypeSize>
-<ownDataTypeParameters>512,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SiteWeb" id="6490AC81-E475-FB9F-96B1-33622E1B7B3F">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:51 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
-<ownDataTypeParameters>256,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Duree" id="7B408765-BE99-04A3-B2F2-093CB73BEB4A">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:52 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT049</logicalDatatype>
-<dataTypePrecision>9</dataTypePrecision>
-<ownDataTypeParameters>,9,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ImageAffiche" id="9FFE443F-C722-1CA3-06A9-F48B5F51C795">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 00:54:52 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT010</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Nom" id="2B34D1DD-B5E4-FE07-3B9E-802F7AF7BB31">
+<Attribute name="NoAddresse" id="86E1ACF7-B6E4-EF6B-70E7-379321169F1E">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-08 20:25:52 UTC</createdTime>
-<generatorID>75B04050-EAD8-7AE5-C4AF-D3F8602E30EC</generatorID>
+<createdTime>2016-11-10 18:01:52 UTC</createdTime>
+<generatorID>823F1D41-9F37-6941-CE8E-93F8692A5319</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>76F5A1A1-8151-B94D-5368-F05C45869BC6</referedAttribute>
+<referedAttribute>8249E8DD-EDA5-0F04-F7B1-2F5B506144B2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="7F678EE4-1467-427F-DF72-6F414A42FAE3" name="Evenement PK">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:52:42 UTC</createdTime>
+<identifier id="D050B733-30D5-3726-B5EA-B19438EA15BC" name="Clients PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:48 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -122,7 +105,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>80D2AC16-27A5-15A0-E988-E4BF0E51EFD0</attributeRef>
+<attributeRef>1E02B2D8-22E9-AC55-CEF9-5613A8CF212E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

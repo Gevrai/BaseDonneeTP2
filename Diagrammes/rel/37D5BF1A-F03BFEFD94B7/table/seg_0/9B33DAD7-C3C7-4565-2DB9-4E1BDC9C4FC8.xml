@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B33DAD7-C3C7-4565-2DB9-4E1BDC9C4FC8" name="Categorie">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>607680D2-190B-24FF-0C70-EF5C81ED0041</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nom" id="AAFCF657-DA20-9B56-6C9B-E735ABFD8FB2">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>76F5A1A1-8151-B94D-5368-F05C45869BC6</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Parent" id="00488B18-1249-9AC4-969A-DF83CAFACC64">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>CD65705E-A61B-BF08-1C61-144D90A25D96</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8704CD92-718D-F6C5-3C70-6834EAF509D5" referredColumn="AAFCF657-DA20-9B56-6C9B-E735ABFD8FB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA1673F4-ADC6-6ECC-6DB3-68AE8870458A" name="Categorie_PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>72DB2457-581A-F59C-25F0-5934C67A694B</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAFCF657-DA20-9B56-6C9B-E735ABFD8FB2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2012643-8CF7-BAE3-19C7-AFBCAAC30C63" name="Sous-categorie">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>9B0CB2ED-C11F-17ED-1785-371F7592A05B</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00488B18-1249-9AC4-969A-DF83CAFACC64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

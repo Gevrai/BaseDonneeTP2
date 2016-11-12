@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5609A44C-C16D-B5AA-C859-9E1E47B4F035" name="Occurence">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>A67C83EF-7FE1-5167-9FB5-98ABE9191932</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NoOccurence" id="4A8962E9-89A0-672F-4CE3-9D75C2D05DD7">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>66AE1E09-2937-949E-7062-F7C2C8E35A21</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateEtHeure" id="FD9B207E-4C65-C7EF-A78C-23886E012DB8">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>FD5DD42C-2B33-0E91-DC42-CDC95212C5B2</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prix" id="BC5F68D7-3FD4-33A0-20D1-10558C8EB204">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>F404A3CF-B5A4-9480-1DCB-80AC9413C3E7</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoEvenement" id="492F2C69-F48F-EDCB-420B-B31BEB16DDCA">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>624AA287-1B7D-4801-189D-8F8FC14C4B84</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57AF5789-6296-315F-684A-65B0063489E0" referredColumn="CEDE1C37-04F6-B633-E31B-2D4B06B67DF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DBD54D6-B40E-687E-A868-1E423BC9E077" name="Occurence_PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>07B4A68D-117A-0E9F-B3EC-8D8EB30AEC99</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8962E9-89A0-672F-4CE3-9D75C2D05DD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8838400A-1088-4906-2F15-92772FCCCED9" name="EvenementOccurence">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>67CF08D3-6011-661B-4B25-B481E4D11F70</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492F2C69-F48F-EDCB-420B-B31BEB16DDCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

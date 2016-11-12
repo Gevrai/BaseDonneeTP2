@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Nom_Categorie" id="76F5A1A1-8151-B94D-5368-F05C45869BC6">
+<Attribute name="Nom" id="76F5A1A1-8151-B94D-5368-F05C45869BC6">
 <createdBy>gevrai</createdBy>
 <createdTime>2016-10-27 02:07:28 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nom_Sur-Categorie" id="CD65705E-A61B-BF08-1C61-144D90A25D96">
+<Attribute name="Parent" id="CD65705E-A61B-BF08-1C61-144D90A25D96">
 <createdBy>gevrai</createdBy>
 <createdTime>2016-10-27 02:13:08 UTC</createdTime>
 <generatorID>9B0CB2ED-C11F-17ED-1785-371F7592A05B</generatorID>
@@ -50,8 +50,9 @@
 <createdBy>gevrai</createdBy>
 <createdTime>2016-10-27 02:07:57 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

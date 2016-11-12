@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA4DB312-512A-D6CF-496B-10761A1F6C83" name="Addresse">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>E93EF1B9-4D78-B432-0E83-DE779D5BDC9C</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NoCivique" id="9E19A777-2342-5058-FD62-6B5A7EF60BFB">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>6546CE99-4A2A-12E3-ACB8-BB75AEC88C24</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rue" id="4335CF3F-8138-70DB-D707-8310B27A0064">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>4453CE63-6808-1536-7058-8C9B9A600230</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CodePostal" id="95200E71-6BC5-C23B-C3E3-914DAA20A2BE">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>AAF39212-5B4D-3C6A-2718-C8B152B04975</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ville" id="E30EEA6C-9A30-FFE8-8686-F1111A7FDFDA">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>5C741198-289A-0880-1165-FBD6CCE8162A</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Province" id="227AB10C-50F6-1AE1-5E55-63FD6D0B8B31">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>67CD0DE9-9F6A-668E-E0C8-9682125682D1</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoAddresse" id="4919F92C-D4B0-6ADB-8703-FA8E0D7CB26E">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>8249E8DD-EDA5-0F04-F7B1-2F5B506144B2</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9550C16-4864-9231-D0B5-92B6F68CF3D3" name="Locations_PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:07 UTC</createdTime>
+<generatorID>9BE95ECF-6FE3-230D-185C-4E15EF859B39</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4919F92C-D4B0-6ADB-8703-FA8E0D7CB26E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5652D7D7-5229-0E7B-74CA-1DFE33818373" name="Transaction">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>54431BA7-F512-F966-3189-F77249BF962C</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<abbreviation>Trans</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NoTransaction" id="D8B9838E-A539-F19E-9770-11F797A649AE">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>1543458F-2A0C-4341-F51D-4C1557EF8512</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Statut" id="D4C85A65-8F7C-93E0-36D1-4CC07BDBDE12">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>5523C6EF-4C9D-2FF8-F709-0CE17BD260B7</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>98DEC3A5-4DAA-3C7D-09BE-F9723115725C</domain>
+<defaultValue>en attente</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Coût" id="033AFEBA-4B64-A09C-0ACD-095FCFE9F8C3">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>F9CA894F-A4DF-000E-3C57-5628FEEFA5DF</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="78E6702B-79BE-65DF-6200-83B3871BDB38">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>E4A1A44A-235A-3DC3-9E4D-739A0FFCF83E</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ModePaiement" id="260C22E3-70F5-5035-FD2E-F9B5450F9AD8">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>60D5A978-F458-7D2D-C6F5-0F3A85A6F347</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E16D8C1C-2B40-9FFD-2AAC-0137272AB145</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MontantPayé" id="09A10DAC-1A5F-35E2-5430-CA5272D1C751">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>9005E8DD-9ABA-2157-5142-2D1428587EB7</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NoClient" id="04182777-28FE-410B-7F2C-6A1E146BC677">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>411932E2-B2D4-7A5E-886E-50C72676E918</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="766D15F9-D97F-A3DA-EDAF-11EF278A17A2" referredColumn="B3E65085-8241-DF9E-5E29-12DE6DE8F2C8"/>
+</associations>
+</Column>
+<Column name="Code" id="D3FA787E-4D12-A825-84C7-22C305D1FAEF">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>40DD0382-EC65-B63E-FAE5-2BD93B6DCEE7</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BB31D6B-7ACB-A504-2C71-73F72A3A3C1B" referredColumn="E37DADC0-426D-D194-F008-E2EF2D4584AC"/>
+</associations>
+</Column>
+<Column name="NoOccurence" id="3ABEC1E3-C5F4-2CF9-CD81-AA8ACF20BE25">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>BA44C3DA-935A-DE92-3961-9017D484CE6D</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A78944-08F5-6E05-4BB2-5665FBFF9045" referredColumn="4A8962E9-89A0-672F-4CE3-9D75C2D05DD7"/>
+</associations>
+</Column>
+<Column name="Billets" id="2670A6A8-3FFF-79DF-BDEE-7B6C26A5F24E">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>C6C35FAC-80C5-B78D-0B37-036B0AA147F7</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03128013-E71F-DC05-FB4B-7AA417370F45" name="Transaction_PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>F71D3416-64B1-388C-44D5-3FE97627312D</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8B9838E-A539-F19E-9770-11F797A649AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D94619D4-7C5D-EB7B-E1DB-2893F0AE2364" name="ClientTransaction">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>0841709E-6F86-0DB8-1134-0C160FB03816</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04182777-28FE-410B-7F2C-6A1E146BC677"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E683534-E233-FD73-B504-A677345EBB81" name="CouponTransaction">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>CAF5B6F9-AFCE-25E6-F793-AA9A34410C07</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3FA787E-4D12-A825-84C7-22C305D1FAEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61C07380-8FC6-5709-5817-8A172D216167" name="OccurenceTransaction">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<generatorID>960392CC-85B3-B0FF-F8A6-05FD7F746475</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ABEC1E3-C5F4-2CF9-CD81-AA8ACF20BE25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

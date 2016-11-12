@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="tp2domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="StatutTransaction" directorySegmentName="seg_0" id="31006AC1-F11B-B222-7015-7B22A63806B6">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:20:38 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>9</dataTypeSize>
+         <defaultValue>en attente</defaultValue>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="annulée" description=""/>
+            <valueDef value="approuvée" description=""/>
+            <valueDef value="en attente" description=""/>
+            <valueDef value="payée" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ModePaiement" directorySegmentName="seg_0" id="400D5960-44F7-171F-8E37-80BBE4E4B247">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:36:17 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>8 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="comptant" description=""/>
+            <valueDef value="crédit" description=""/>
+            <valueDef value="débit" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-11-08 19:20:29 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EmplacementAddresse" directorySegmentName="seg_0" id="6A5E2672-8F18-08C4-23B0-A71EE8A0C611">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-08 20:18:18 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<sourcePk>087FF83C-FFF3-8B55-0585-9BE3BD963200</sourcePk>
+<targetPk>9BE95ECF-6FE3-230D-185C-4E15EF859B39</targetPk>
+<dominantRole>E93EF1B9-4D78-B432-0E83-DE779D5BDC9C</dominantRole>
+<identifying>false</identifying>
+<nameOnSource>est située à</nameOnSource>
+<nameOnTarget>est l&apos;addresse de</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2EC32D8-8E93-221B-9BFA-B500A64A7348</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E93EF1B9-4D78-B432-0E83-DE779D5BDC9C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62D7DA83-8DB6-DF79-B01B-D42A29B6EA26" name="Client">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:57:41 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E90CAAB-5C90-18DD-136E-4C55C07C2692" name="Coupon">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:53:34 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
@@ -15,21 +15,48 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="NomUtilisateur" id="ADCBB0E8-9D71-83C5-75AE-D4EA44E9DC52">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:57:54 UTC</createdTime>
+<Attribute name="Rabais" id="C4A68475-8C51-95EE-7162-5A5DD483A3B8">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:57:10 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Code" id="1FD96E04-7965-61FE-AF35-EAEB53A5F042">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:58:41 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MotDePasse" id="B300097F-811A-6D80-0A4F-742878A320A7">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:57:56 UTC</createdTime>
+<Attribute name="Expiration" id="44C5D8D3-54BD-B939-B09B-8778C25F116B">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:59:08 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nom" id="231ED850-C03F-3BCA-4E7D-4C65489D8422">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 18:12:26 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
@@ -38,46 +65,22 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Nom" id="027B5C5F-9FE9-3013-7FF5-351112D45461">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:57:57 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Prenom" id="F9313B3A-3391-BF6F-6302-565EED376CA3">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:57:58 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FE7C90DC-65CD-AABB-5FC4-D0CC13380A1F" name="Client PK">
-<createdBy>gevrai</createdBy>
-<createdTime>2016-10-27 01:58:24 UTC</createdTime>
+<identifier id="603E8E83-887B-33F2-0C35-26614029ADCB" name="Coupon PK">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:59:01 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ADCBB0E8-9D71-83C5-75AE-D4EA44E9DC52</attributeRef>
+<attributeRef>1FD96E04-7965-61FE-AF35-EAEB53A5F042</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
