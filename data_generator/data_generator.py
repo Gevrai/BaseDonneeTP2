@@ -13,10 +13,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+#Api key
 api = eventful.API('NGGMrssxfJT52ZSP')
-
-# Decimal context for money
-getcontext.prec=2
 
 # Create object factory with en_CA locale
 fake = Factory.create('en_CA')
@@ -45,10 +43,10 @@ def general_INSERT_str(tableName, columnNames, values):
     for e in columnNames:
         cols_str.append(str(e))
     for e in values:
-        if (e == 'None'):
+        if (e == 'None' or not e):
             vals_str.append("NULL")
         elif (isinstance(e, basestring)):
-            vals_str.append("'{}'".format(e))
+            vals_str.append('"{}"'.format(e))
         else:
             vals_str.append(str(e))
 
@@ -121,7 +119,7 @@ class Occurence():
             self.dateEtHeure = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
         else:
             self.dateEtHeure = start_time
-        self.prix = Decimal(random.uniform(5.0,75.0))
+        self.prix = float2decimal(random.uniform(5.0,75.0))
         self.evenementID = evenementID
         self.emplacementID = emplacementID
 
@@ -220,6 +218,11 @@ def fetchEventsVenues(page=1):
         event_list.append(e)
         occurence_list.append(o)
     print ' '
+
+def float2decimal(f, r='0.01', rounding=ROUND_UP ):
+    r = Decimal(r)
+    f = Decimal(f)
+    return f.quantize(r, rounding=rounding)
 
 def contientVenueID(e,empl_list):
     for empl in empl_list:
