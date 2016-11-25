@@ -21,9 +21,8 @@ fake = Factory.create('en_CA')
 fake.seed('12345')
 
 # Constants
-nb_clients = 100
-villes = ['Montreal','Ottawa','Toronto']
-nb_evenements_par_ville = 2
+nb_clients = 1000
+nb_occurences_alea = 1000
 
 # Global variables
 client_list = []
@@ -50,7 +49,7 @@ def general_INSERT_str(tableName, columnNames, values):
         else:
             vals_str.append(str(e))
 
-    return "INSERT INTO {}\n({})\nVALUES\n({});".format(
+    return "INSERT INTO {}\n({})\nVALUES\n({});\n".format(
             tableName, ', '.join(cols_str), ', '.join(vals_str))
 
 class Client():
@@ -141,6 +140,8 @@ class Emplacement():
             self.numCivique = address[0]
             if (len(address) == 2):
                 self.rue = address[1]
+            else:
+                self.rue = None
             self.codePostal = e['postal_code']
             self.ville = e['city_name']
             self.province = e['region_abbr']
@@ -201,9 +202,12 @@ def fetchEventsVenues(page=1):
     global event_list
     global empl_list
     for event in events['events']['event']:
-        sys.stdout.write('\rEvents:  {}/2250    Emplacements:  {}'.format(str(len(event_list)),str(len(empl_list))))
+        # Print progress
+        cur = 20*len(event_list)/2250
+        progress = "\r[{}{}] {}/2250".format('#'*cur, '-'*(20-cur), len(event_list))
+        sys.stdout.write(progress)
         sys.stdout.flush()
-        # print '\rEvents:\t{}/2250\tEmplacements:\t{}'.format(str(len(event_list)),str(len(empl_list))),
+        # Make current event
         e = Evenement(event, len(event_list))
         if (not contientVenueID(event, empl_list)):
             v = fetchVenueByID(event['venue_id'], len(empl_list))
@@ -217,7 +221,6 @@ def fetchEventsVenues(page=1):
                 prix=event['price'])
         event_list.append(e)
         occurence_list.append(o)
-    print ' '
 
 def float2decimal(f, r='0.01', rounding=ROUND_UP ):
     r = Decimal(r)
@@ -234,6 +237,7 @@ def fetchVenueID(siteID):
     for empl in empl_list:
         if empl.siteID == siteID:
             return empl.emplacementID
+    assert(True), "Couldn't find {} in emplacement list".format(siteID)
 
 def fetchVenueByID(venueid, id):
     empl = api.call('venues/search', l= venueid) 
@@ -276,7 +280,12 @@ def createRandomTransaction():
     transaction_list.append(t)
 
 # Remplissage de clients
+print 'Creation de {} clients'.format(nb_clients)
 for id in range(nb_clients):
+    cur = 20* id/(nb_clients-1)
+    progress = "\r[{}{}]".format('#'*cur, '-'*(20-cur))
+    sys.stdout.write(progress)
+    sys.stdout.flush()
     client_list.append(Client(id))
 
 # Remplissage de categories a partir du fichier 'categories.json'
@@ -285,12 +294,15 @@ for categ in categories['category']:
     c = Categorie(categ['name'])
     categ_list.append(c)
 
-print "Created {} categories".format(str(len(categ_list)))
+print "\nCréation de {} categories".format(str(len(categ_list)))
+print "[{}]".format('#'*20)
 
+print "Création des evénements, emplacements et occurences associées"
 for page in range(1,10):
     fetchEventsVenues(page)
+print ''
 
-for i in range(1000):
+for i in range(nb_occurences_alea):
     createRandomOccurrence()
 
 createRabais()
@@ -306,30 +318,37 @@ print "Rabais: " + str(len(rabais_list))
 print "Transactions: " + str(len(transaction_list))
 
 # Files printing
+print "\nImpression dans fichier 'output/clients.sql'"
 with open('output/clients.sql', 'w+') as f:
     for e in client_list:
         print >>f, e.INSERT_str('client')
 
+print "Impression dans fichier 'output/evenements.sql'"
 with open('output/evenements.sql', 'w+') as f:
     for e in event_list:
         print >>f, e.INSERT_str('evenement')
 
+print "Impression dans fichier 'output/categories.sql'"
 with open('output/categories.sql', 'w+') as f:
     for e in categ_list:
         print >>f, e.INSERT_str('categorie')
 
+print "Impression dans fichier 'output/emplacements.sql'"
 with open('output/emplacements.sql', 'w+') as f:
     for e in empl_list:
         print >>f, e.INSERT_str('emplacement')
 
+print "Impression dans fichier 'output/occurences.sql'"
 with open('output/occurences.sql', 'w+') as f:
     for e in occurence_list:
         print >>f, e.INSERT_str('occurence')
 
+print "Impression dans fichier 'output/transactions.sql'"
 with open('output/transactions.sql', 'w+') as f:
     for e in transaction_list:
         print >>f, e.INSERT_str('transaction')
 
+print "Impression dans fichier 'output/rabais.sql'"
 with open('output/rabais.sql', 'w+') as f:
     for e in rabais_list:
         print >>f, e.INSERT_str('rabais')
