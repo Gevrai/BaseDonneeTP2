@@ -13,8 +13,8 @@
 <identifying>false</identifying>
 <nameOnSource>vend billets</nameOnSource>
 <nameOnTarget>pour occurence</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A67C83EF-7FE1-5167-9FB5-98ABE9191932</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

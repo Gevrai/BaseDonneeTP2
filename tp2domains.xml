@@ -6,7 +6,7 @@
          <createdTime>2016-11-08 19:20:38 UTC</createdTime>
          <ownerDesignName>System</ownerDesignName>
          <avTSortOrder>0</avTSortOrder>
-         <dataTypeSize>9</dataTypeSize>
+         <dataTypeSize>12</dataTypeSize>
          <defaultValue>en attente</defaultValue>
          <fileName>defaultdomains</fileName>
          <logicalDatatype>LOGDT024</logicalDatatype>
@@ -27,8 +27,8 @@
          <logicalDatatype>LOGDT024</logicalDatatype>
          <listOfValues>
             <valueDef value="comptant" description=""/>
-            <valueDef value="crédit" description=""/>
-            <valueDef value="débit" description=""/>
+            <valueDef value="credit" description=""/>
+            <valueDef value="debit" description=""/>
          </listOfValues>
       </Domain>
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">

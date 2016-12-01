@@ -15,6 +15,18 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NoClient" id="1E02B2D8-22E9-AC55-CEF9-5613A8CF212E">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-10 17:54:29 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="NomUtilisateur" id="5D1B2088-D6B4-D8A9-DC0E-135305ECE8DF">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 17:54:29 UTC</createdTime>
@@ -35,7 +47,6 @@
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -70,18 +81,6 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NoClient" id="1E02B2D8-22E9-AC55-CEF9-5613A8CF212E">
-<createdBy>drpyser</createdBy>
-<createdTime>2016-11-10 17:54:29 UTC</createdTime>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NoAddresse" id="86E1ACF7-B6E4-EF6B-70E7-379321169F1E">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 18:01:52 UTC</createdTime>
@@ -97,20 +96,32 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CodeCoupon" id="A877334D-4065-C437-D831-20A33F019969">
+<Attribute name="Courriel" id="97ADB38F-5924-5AF3-ED8D-9BCE624B21B4">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-22 19:32:37 UTC</createdTime>
-<generatorID>CAF5B6F9-AFCE-25E6-F793-AA9A34410C07</generatorID>
+<createdTime>2016-12-01 02:27:49 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telephone" id="EE275552-3596-A014-5C74-A97C8DF89074">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:28:43 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>1FD96E04-7965-61FE-AF35-EAEB53A5F042</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31</dataTypeSize>
+<ownDataTypeParameters>31,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -118,8 +129,9 @@
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 17:54:48 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

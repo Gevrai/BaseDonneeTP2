@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5609A44C-C16D-B5AA-C859-9E1E47B4F035" name="Occurence">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E617788A-FBB4-6A8B-FE32-153C0BA08EDB" name="Occurence">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>A67C83EF-7FE1-5167-9FB5-98ABE9191932</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="NoOccurence" id="4A8962E9-89A0-672F-4CE3-9D75C2D05DD7">
+<Column name="NoOccurence" id="352773DE-817D-702A-3464-F466AC268A8C">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>66AE1E09-2937-949E-7062-F7C2C8E35A21</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,21 +19,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DateEtHeure" id="FD9B207E-4C65-C7EF-A78C-23886E012DB8">
+<Column name="DateEtHeure" id="D73E649C-5106-79D9-586E-107337037CB8">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>FD5DD42C-2B33-0E91-DC42-CDC95212C5B2</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prix" id="BC5F68D7-3FD4-33A0-20D1-10558C8EB204">
+<Column name="Prix" id="C140FBCC-4ED5-82A7-B69D-DDBAFCF1AD75">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>F404A3CF-B5A4-9480-1DCB-80AC9413C3E7</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -45,12 +45,11 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NoEvenement" id="492F2C69-F48F-EDCB-420B-B31BEB16DDCA">
+<Column name="NoEvenement" id="FA1E356B-7092-FF67-BB5E-B68F9F18A04C">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:54:20 UTC</createdTime>
 <generatorID>624AA287-1B7D-4801-189D-8F8FC14C4B84</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -58,33 +57,41 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="57AF5789-6296-315F-684A-65B0063489E0" referredColumn="CEDE1C37-04F6-B633-E31B-2D4B06B67DF2"/>
+<colAssociation fkAssociation="22B5D6E9-9EDD-4FDE-D452-0D740C165953" referredColumn="98DF5D83-62B4-4938-5C00-6E462DF68501"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5DBD54D6-B40E-687E-A868-1E423BC9E077" name="Occurence_PK">
+<ind_PK_UK id="6D787739-993A-A01B-9F4C-60312E6DD8A2" name="Occurence_PK">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>07B4A68D-117A-0E9F-B3EC-8D8EB30AEC99</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4A8962E9-89A0-672F-4CE3-9D75C2D05DD7"/>
+<colUsage columnID="352773DE-817D-702A-3464-F466AC268A8C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8838400A-1088-4906-2F15-92772FCCCED9" name="EvenementOccurence">
+<ind_PK_UK id="A7FE1601-EB23-0E9A-7F1D-F1D5E7EFF0DA" name="EvenementOccurence">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>67CF08D3-6011-661B-4B25-B481E4D11F70</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="492F2C69-F48F-EDCB-420B-B31BEB16DDCA"/>
+<colUsage columnID="FA1E356B-7092-FF67-BB5E-B68F9F18A04C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Occurence_Prix_Positif" directorySegmentName="seg_0" id="7373DC8A-9E5F-5FC8-C472-4BBB3E4920D9">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:20:24 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>Prix &gt; 0</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

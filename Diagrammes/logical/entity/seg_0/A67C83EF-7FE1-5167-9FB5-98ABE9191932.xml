@@ -37,7 +37,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Prix" id="F404A3CF-B5A4-9480-1DCB-80AC9413C3E7">
@@ -63,7 +63,6 @@
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>80D2AC16-27A5-15A0-E988-E4BF0E51EFD0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

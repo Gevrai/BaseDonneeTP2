@@ -14,7 +14,7 @@
 <nameOnSource>effectu</nameOnSource>
 <nameOnTarget>est fait par</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B95447E1-D963-1239-34B5-2B30119B9053</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

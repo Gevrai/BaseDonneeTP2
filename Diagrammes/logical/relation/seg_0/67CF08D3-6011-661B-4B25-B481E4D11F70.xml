@@ -11,8 +11,8 @@
 <identifying>false</identifying>
 <nameOnSource>occure</nameOnSource>
 <nameOnTarget>instancie</nameOnTarget>
-<optionalSource>false</optionalSource>
-<optionalTarget>true</optionalTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E58EEA35-4019-E899-E405-B471AED4D155</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

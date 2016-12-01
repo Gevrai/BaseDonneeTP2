@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EF8F8B8-360C-16EC-CEA4-7A4D98AE4725" containerWithKeyObject="691993F6-8A7D-C5CF-1DC8-3526F12E0F4D" localFKIndex="B4CC2106-71DD-4B3E-CD09-CFEA4E9395F9" name="CouponTransactions">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:05:11 UTC</createdTime>
+<generatorID>BE099420-F268-3D04-D329-C855E9B7D7A4</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4E87F0C-C88C-0758-3995-5010D3612230</referredTableID>
+<keyObject>9C3CB03B-9E07-F9C5-3181-E8A6E565CB32</keyObject>
+<referredKeyID>9C3CB03B-9E07-F9C5-3181-E8A6E565CB32</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

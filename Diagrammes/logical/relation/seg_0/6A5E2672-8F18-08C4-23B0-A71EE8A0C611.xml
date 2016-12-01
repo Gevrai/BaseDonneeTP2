@@ -13,7 +13,7 @@
 <nameOnSource>est située à</nameOnSource>
 <nameOnTarget>est l&apos;addresse de</nameOnTarget>
 <optionalSource>false</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>E2EC32D8-8E93-221B-9BFA-B500A64A7348</sourceEntity>
 <targetCardinalityString>1</targetCardinalityString>

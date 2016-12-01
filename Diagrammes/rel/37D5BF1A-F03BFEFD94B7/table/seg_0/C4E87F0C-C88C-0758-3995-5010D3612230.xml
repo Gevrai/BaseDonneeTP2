@@ -1,16 +1,27 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF9CDB7-2C96-B412-B0CD-5488C63F4DC6" name="Coupon">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4E87F0C-C88C-0758-3995-5010D3612230" name="Coupon">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>8E90CAAB-5C90-18DD-136E-4C55C07C2692</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Rabais" id="B3D15B64-FD46-C8D7-1159-995C6B33BCE5">
+<Column name="CodeCoupon" id="2481AE0A-37AB-FFBB-CDC1-0A708ABEC04D">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
+<generatorID>1FD96E04-7965-61FE-AF35-EAEB53A5F042</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rabais" id="C47BD583-234C-9778-B3DA-E84D6A29CCD7">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>C4A68475-8C51-95EE-7162-5A5DD483A3B8</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -21,20 +32,9 @@
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Code" id="E37DADC0-426D-D194-F008-E2EF2D4584AC">
+<Column name="Expiration" id="B55CF385-A901-ECA3-23E7-E11E785277C5">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
-<generatorID>1FD96E04-7965-61FE-AF35-EAEB53A5F042</generatorID>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Expiration" id="3E069766-5421-3F64-A85E-3DCF542FFE3E">
-<createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>44C5D8D3-54BD-B939-B09B-8778C25F116B</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -44,9 +44,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nom" id="AE2323A5-B6EC-98D7-8298-58B99F86F5D3">
+<Column name="Description" id="8A12DD3D-216C-47B8-18B3-437BB2254C86">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>231ED850-C03F-3BCA-4E7D-4C65489D8422</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -59,17 +59,31 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B08D8472-938A-E7B9-76AA-3D7A034E92A1" name="Coupon_PK">
+<ind_PK_UK id="9C3CB03B-9E07-F9C5-3181-E8A6E565CB32" name="Coupon_PK">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-11 18:56:08 UTC</createdTime>
+<createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>603E8E83-887B-33F2-0C35-26614029ADCB</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E37DADC0-426D-D194-F008-E2EF2D4584AC"/>
+<colUsage columnID="2481AE0A-37AB-FFBB-CDC1-0A708ABEC04D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Coupon_Rabais_Positif" directorySegmentName="seg_0" id="2126FE18-945E-8620-3769-1F893AAA585B">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:22:04 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>Rabais &gt; 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Coupon_Rabais_Pourcent" directorySegmentName="seg_0" id="125C8109-4C11-7A4B-653E-D960E762908F">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:24:42 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>Rabais &lt; 1</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

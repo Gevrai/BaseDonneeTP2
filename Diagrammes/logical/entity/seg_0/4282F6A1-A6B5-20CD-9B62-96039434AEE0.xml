@@ -62,7 +62,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ModePaiement" id="593C96D4-55B1-DAE8-5A1C-2EF3CF50F790">
@@ -109,7 +109,6 @@
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>1E02B2D8-22E9-AC55-CEF9-5613A8CF212E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -124,8 +123,22 @@
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <referedAttribute>66AE1E09-2937-949E-7062-F7C2C8E35A21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodeCoupon" id="949D7D4B-3EE0-0B82-7A1B-2F0FDE182073">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 02:00:36 UTC</createdTime>
+<generatorID>BE099420-F268-3D04-D329-C855E9B7D7A4</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1FD96E04-7965-61FE-AF35-EAEB53A5F042</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
@@ -137,8 +150,9 @@
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-22 19:40:58 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
