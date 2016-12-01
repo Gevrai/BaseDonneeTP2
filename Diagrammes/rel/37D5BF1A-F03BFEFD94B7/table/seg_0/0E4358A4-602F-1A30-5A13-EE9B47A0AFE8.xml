@@ -16,7 +16,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="MotDePasse" id="53141A31-0E16-92D5-6E7C-1F98C395ABD8">
@@ -28,7 +29,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Nom" id="61334429-A660-FB79-08F9-6C1BB9133015">
@@ -40,7 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Prenom" id="A5530348-6EF1-DAAE-6EDE-A667FDF7A6D0">
@@ -52,7 +55,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NoClient" id="B3E65085-8241-DF9E-5E29-12DE6DE8F2C8">
@@ -82,6 +86,22 @@
 <colAssociation fkAssociation="FB1E0F98-0899-FDBD-6B76-0049B23BE8D6" referredColumn="4919F92C-D4B0-6ADB-8703-FA8E0D7CB26E"/>
 </associations>
 </Column>
+<Column name="Code" id="DDA48BAF-1D1C-515A-57AD-E1F0544075E9">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-22 19:48:54 UTC</createdTime>
+<generatorID>A877334D-4065-C437-D831-20A33F019969</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BD6989F-02DE-02F1-8F38-F16EBB7864C0" referredColumn="E37DADC0-426D-D194-F008-E2EF2D4584AC"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="88266AA3-B42A-7ECB-FA69-727CA9647687" name="Clients_PK">
@@ -105,6 +125,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8BBF28AA-812F-A9BB-74B4-391E22431AC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="842743CC-6298-3461-23B1-0EB1A28CC84B" name="CouponTransaction">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-22 19:48:54 UTC</createdTime>
+<generatorID>CAF5B6F9-AFCE-25E6-F793-AA9A34410C07</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDA48BAF-1D1C-515A-57AD-E1F0544075E9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

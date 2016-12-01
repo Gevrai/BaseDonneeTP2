@@ -25,7 +25,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="MotDePasse" id="6E119F2C-BCA8-F39A-371A-3F285374171C">
 <createdBy>drpyser</createdBy>
@@ -38,7 +39,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Nom" id="93F987FC-D3A0-D51F-368C-619FE2A20995">
 <createdBy>drpyser</createdBy>
@@ -51,7 +53,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Prenom" id="C6F3023D-F920-91E7-B008-0DF578354D47">
 <createdBy>drpyser</createdBy>
@@ -64,7 +67,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NoClient" id="1E02B2D8-22E9-AC55-CEF9-5613A8CF212E">
 <createdBy>drpyser</createdBy>
@@ -93,15 +97,29 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CodeCoupon" id="A877334D-4065-C437-D831-20A33F019969">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-11-22 19:32:37 UTC</createdTime>
+<generatorID>CAF5B6F9-AFCE-25E6-F793-AA9A34410C07</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1FD96E04-7965-61FE-AF35-EAEB53A5F042</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D050B733-30D5-3726-B5EA-B19438EA15BC" name="Clients PK">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 17:54:48 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="false"/>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -1,22 +1,24 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClientTransaction" directorySegmentName="seg_0" id="0841709E-6F86-0DB8-1134-0C160FB03816">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClientTransactions" directorySegmentName="seg_0" id="8940FF1C-5FDE-8CD2-9B45-C0981F025719">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-10 17:55:54 UTC</createdTime>
+<createdTime>2016-11-22 19:42:04 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
 <sourcePk>D050B733-30D5-3726-B5EA-B19438EA15BC</sourcePk>
-<targetPk>F71D3416-64B1-388C-44D5-3FE97627312D</targetPk>
+<targetPk>13DEE977-AFD7-D4BD-B457-31DE41E10FC6</targetPk>
 <identifying>false</identifying>
 <nameOnSource>effectu</nameOnSource>
-<nameOnTarget>effectuées par</nameOnTarget>
+<nameOnTarget>est fait par</nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>B95447E1-D963-1239-34B5-2B30119B9053</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>54431BA7-F512-F966-3189-F77249BF962C</targetEntity>
+<targetEntity>4282F6A1-A6B5-20CD-9B62-96039434AEE0</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
