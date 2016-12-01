@@ -29,7 +29,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,3,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Code" id="1FD96E04-7965-61FE-AF35-EAEB53A5F042">
+<Attribute name="CodeCoupon" id="1FD96E04-7965-61FE-AF35-EAEB53A5F042">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 17:58:41 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>

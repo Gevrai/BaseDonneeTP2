@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OccurenceTransaction" directorySegmentName="seg_0" id="960392CC-85B3-B0FF-F8A6-05FD7F746475">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OccurenceTransactions" directorySegmentName="seg_0" id="9AA3E6B0-B68D-975C-52A6-92395C7BC46B">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-10 18:19:32 UTC</createdTime>
+<createdTime>2016-11-22 19:43:05 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
@@ -9,15 +9,16 @@
 <sourceTransferable>false</sourceTransferable>
 <targetTransferable>false</targetTransferable>
 <sourcePk>07B4A68D-117A-0E9F-B3EC-8D8EB30AEC99</sourcePk>
-<targetPk>F71D3416-64B1-388C-44D5-3FE97627312D</targetPk>
+<targetPk>13DEE977-AFD7-D4BD-B457-31DE41E10FC6</targetPk>
 <identifying>false</identifying>
 <nameOnSource>vend billets</nameOnSource>
-<optionalSource>true</optionalSource>
+<nameOnTarget>pour occurence</nameOnTarget>
+<optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>A67C83EF-7FE1-5167-9FB5-98ABE9191932</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>54431BA7-F512-F966-3189-F77249BF962C</targetEntity>
+<targetEntity>4282F6A1-A6B5-20CD-9B62-96039434AEE0</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

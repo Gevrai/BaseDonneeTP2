@@ -94,21 +94,19 @@
 <logicalDatatype>LOGDT010</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nom" id="2B34D1DD-B5E4-FE07-3B9E-802F7AF7BB31">
+<Attribute name="NoCategorie" id="7120CBF8-ADC3-A3B6-1F2B-184135C7E726">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-11-08 20:25:52 UTC</createdTime>
+<createdTime>2016-11-22 20:03:36 UTC</createdTime>
 <generatorID>75B04050-EAD8-7AE5-C4AF-D3F8602E30EC</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
 <engineerTo>
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<referedAttribute>76F5A1A1-8151-B94D-5368-F05C45869BC6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
+<referedAttribute>6F922106-A678-6260-1A25-7EC294C4B65E</referedAttribute>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

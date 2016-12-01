@@ -7,16 +7,16 @@
 <item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
 </engineerTo>
 <sourcePk>603E8E83-887B-33F2-0C35-26614029ADCB</sourcePk>
-<targetPk>F71D3416-64B1-388C-44D5-3FE97627312D</targetPk>
+<targetPk>D050B733-30D5-3726-B5EA-B19438EA15BC</targetPk>
 <identifying>false</identifying>
-<nameOnSource>s&apos;applique sur</nameOnSource>
-<nameOnTarget>est réduit par</nameOnTarget>
+<nameOnSource>s&apos;applique pour</nameOnSource>
+<nameOnTarget>Possède</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>8E90CAAB-5C90-18DD-136E-4C55C07C2692</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>54431BA7-F512-F966-3189-F77249BF962C</targetEntity>
+<targetEntity>B95447E1-D963-1239-34B5-2B30119B9053</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
