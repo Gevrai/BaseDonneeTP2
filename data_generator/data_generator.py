@@ -261,22 +261,37 @@ def createRabais():
     for i in range(6):
         rabais_list.append(Rabais(i+1))
 
+def getTauxRabaisFromID(rabaisID):
+    global rabais_list
+    for r in rabais_list:
+        if (r.code == rabaisID):
+            return r.tauxRabais
+    return 1.0;
+
 def createRandomTransaction():
     global event_list 
     global empl_list 
     global occurence_list
     global transaction_list
+    global rabais_list
 
-    if (random.random() > 0.75):
-        codeRabais = random.randint(1,6)
     c = random.choice(client_list)
     o = random.choice(occurence_list)
+
+    if (random.random() > 0.75):
+        codeRabais = random.randint(1,len(rabais_list))
+        prixTrans = o.prix*getTauxRabaisFromID(codeRabais)
+    else:
+        codeRabais = None
+        prixTrans = o.prix
+
     t = Transaction(
             transactionID = len(transaction_list),
             clientID = c.clientID,
             occurenceID = o.occurenceID,
-            prix = o.prix,
-            codeRabais=None)
+            prix = prixTrans,
+            codeRabais=codeRabais)
+
     transaction_list.append(t)
 
 # Remplissage de clients

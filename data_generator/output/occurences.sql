@@ -1,5000 +1,6250 @@
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(0, '2016-11-26 14:00:00', 30.763109422967570338869336410425603389739990234375, 1, 0);
+(NULL, "2016-11-26 14:00:00", 73.55, 1, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1, '2017-01-21 11:00:00', 69.40694046874386913259513676166534423828125, 1, 0);
+(1, "2017-01-21 11:00:00", 64.41, 1, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(2, '2017-01-31 20:00:00', 8.931981834500337669169311993755400180816650390625, 1, 0);
+(2, "2017-01-31 20:00:00", 29.50, 1, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(3, '2016-12-09 19:00:00', 32.44552672343075983008020557463169097900390625, 2, 1);
+(3, "2016-12-09 19:00:00", 36.62, 2, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(4, '2016-11-16 20:00:00', 50.79407502783138994573164382018148899078369140625, 3, 2);
+(4, "2016-11-16 20:00:00", 60.33, 3, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(5, '2017-02-22 20:00:00', 20.17196397758316805948197725228965282440185546875, 4, 3);
+(5, "2017-02-22 20:00:00", 72.43, 4, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(6, '2017-02-22 20:00:00', 45.34698481328769048559479415416717529296875, 4, 3);
+(6, "2017-02-22 20:00:00", 5.13, 4, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(7, '2016-11-14 19:00:00', 36.0859566178705648553659557364881038665771484375, 5, 4);
+(7, "2016-11-14 19:00:00", 12.37, 5, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(8, '2017-03-25 11:00:00', 18.39597676338869547407739446498453617095947265625, 5, 0);
+(8, "2017-03-25 11:00:00", 33.54, 5, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(9, '2017-04-12 20:00:00', 23.373124695819189611256661009974777698516845703125, 6, 5);
+(9, "2017-04-12 20:00:00", 64.47, 6, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(10, '2017-04-12 20:00:00', 69.7294242795815790714186732657253742218017578125, 6, 5);
+(10, "2017-04-12 20:00:00", 11.38, 6, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(11, '2017-04-08 20:00:00', 26.12703186939204869077002513222396373748779296875, 6, 5);
+(11, "2017-04-08 20:00:00", 10.24, 6, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(12, '2017-03-12 14:00:00', 7.3097182391740407325642081559635698795318603515625, 7, 6);
+(12, "2017-03-12 14:00:00", 44.41, 7, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(13, '2017-02-17 19:00:00', 58.0451867356707253975400817580521106719970703125, 7, 6);
+(13, "2017-02-17 19:00:00", 35.18, 7, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(14, '2017-03-18 11:00:00', 23.12007493244351508110412396490573883056640625, 7, 0);
+(14, "2017-03-18 11:00:00", 32.14, 7, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(15, '2017-02-18 19:00:00', 42.38050302733136476263098302297294139862060546875, 8, 7);
+(15, "2017-02-18 19:00:00", 29.61, 8, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(16, '2017-02-23 20:00:00', 31.71994534218180206153192557394504547119140625, 9, 8);
+(16, "2017-02-23 20:00:00", 5.48, 9, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(17, '2016-12-01 20:00:00', 40.98058184474800924590454087592661380767822265625, 10, 9);
+(17, "2016-12-01 20:00:00", 19.36, 10, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(18, '2017-02-26 15:30:00', 27.41790340943921222560675232671201229095458984375, 10, 8);
+(18, "2017-02-26 15:30:00", 51.94, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(19, '2017-02-22 19:00:00', 33.35240672169884845743581536225974559783935546875, 10, 8);
+(19, "2017-02-22 19:00:00", 73.44, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(20, '2017-02-24 20:00:00', 15.4089869266325880658996538841165602207183837890625, 10, 8);
+(20, "2017-02-24 20:00:00", 21.32, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(21, '2017-04-05 19:00:00', 36.2551035186128132181693217717111110687255859375, 10, 8);
+(21, "2017-04-05 19:00:00", 59.79, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(22, '2017-04-08 20:00:00', 16.261753158038441569033238920383155345916748046875, 10, 8);
+(22, "2017-04-08 20:00:00", 23.34, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(23, '2017-04-07 20:00:00', 40.5128345639436275860134628601372241973876953125, 10, 8);
+(23, "2017-04-07 20:00:00", 56.67, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(24, '2017-04-06 20:00:00', 36.78305559046034289849558263085782527923583984375, 10, 8);
+(24, "2017-04-06 20:00:00", 37.58, 10, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(25, '2016-11-27 19:30:00', 72.6814088401222733182294177822768688201904296875, 11, 10);
+(25, "2016-11-27 19:30:00", 40.44, 11, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(26, '2017-01-09 19:30:00', 60.57659543055651596432653605006635189056396484375, 12, 11);
+(26, "2017-01-09 19:30:00", 52.16, 12, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(27, '2017-01-18 19:00:00', 47.35624743905997746651337365619838237762451171875, 12, 11);
+(27, "2017-01-18 19:00:00", 41.00, 12, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(28, '2017-02-18 20:00:00', 13.558695638979155972947410191409289836883544921875, 13, 12);
+(28, "2017-02-18 20:00:00", 54.02, 13, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(29, '2017-03-25 14:00:00', 28.686641291187211066926465719006955623626708984375, 13, 0);
+(29, "2017-03-25 14:00:00", 17.43, 13, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(30, '2016-11-26 11:00:00', 22.323762205706596972731858841143548488616943359375, 13, 0);
+(30, "2016-11-26 11:00:00", 42.23, 13, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(31, '2017-01-21 14:00:00', 23.603464319906944268723236746154725551605224609375, 13, 0);
+(31, "2017-01-21 14:00:00", 63.38, 13, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(32, '2017-03-18 14:00:00', 18.603354409387772960826623602770268917083740234375, 13, 0);
+(32, "2017-03-18 14:00:00", 47.31, 13, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(33, '2017-01-07 19:30:00', 11.7519573899017135687472546123899519443511962890625, 14, 13);
+(33, "2017-01-07 19:30:00", 18.61, 14, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(34, '2017-02-26 15:30:00', 15.289830309559558685350566520355641841888427734375, 14, 8);
+(34, "2017-02-26 15:30:00", 57.85, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(35, '2017-02-24 20:00:00', 9.102606948864423230816100840456783771514892578125, 14, 8);
+(35, "2017-02-24 20:00:00", 68.00, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(36, '2017-02-22 19:00:00', 37.70113265223503873357913107611238956451416015625, 14, 8);
+(36, "2017-02-22 19:00:00", 68.94, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(37, '2017-01-21 20:00:00', 28.581492360119426621167804114520549774169921875, 14, 8);
+(37, "2017-01-21 20:00:00", 28.38, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(38, '2017-01-22 15:30:00', 59.22164371016378225931475753895938396453857421875, 14, 8);
+(38, "2017-01-22 15:30:00", 19.53, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(39, '2017-01-20 20:00:00', 33.1950466383138831361065967939794063568115234375, 14, 8);
+(39, "2017-01-20 20:00:00", 71.46, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(40, '2017-02-25 20:00:00', 67.699316899290352012030780315399169921875, 14, 8);
+(40, "2017-02-25 20:00:00", 14.66, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(41, '2017-01-19 20:00:00', 56.849362399255795708086225204169750213623046875, 14, 8);
+(41, "2017-01-19 20:00:00", 51.31, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(42, '2017-01-19 20:00:00', 39.72414458541953052872486296109855175018310546875, 14, 8);
+(42, "2017-01-19 20:00:00", 22.12, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(43, '2017-01-20 20:00:00', 46.431771606933267548811272718012332916259765625, 14, 8);
+(43, "2017-01-20 20:00:00", 62.16, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(44, '2017-02-09 20:00:00', 68.74332411104506945775938220322132110595703125, 14, 8);
+(44, "2017-02-09 20:00:00", 65.67, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(45, '2017-02-12 15:30:00', 10.04421313881282884494794416241347789764404296875, 14, 8);
+(45, "2017-02-12 15:30:00", 72.45, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(46, '2017-02-10 20:00:00', 55.4286560568599924181398819200694561004638671875, 14, 8);
+(46, "2017-02-10 20:00:00", 62.25, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(47, '2017-02-11 20:00:00', 14.27577540621012985866400413215160369873046875, 14, 8);
+(47, "2017-02-11 20:00:00", 71.21, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(48, '2017-02-11 20:00:00', 22.90583369259694990205389331094920635223388671875, 14, 8);
+(48, "2017-02-11 20:00:00", 67.42, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(49, '2017-02-09 20:00:00', 61.02676175851825490781266125850379467010498046875, 14, 8);
+(49, "2017-02-09 20:00:00", 42.25, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(50, '2017-02-12 15:30:00', 71.644682944223433196384576149284839630126953125, 14, 8);
+(50, "2017-02-12 15:30:00", 9.20, 14, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(51, '2017-01-21 19:00:00', 59.7106160152125227114083827473223209381103515625, 14, 11);
+(51, "2017-01-21 19:00:00", 68.16, 14, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(52, '2017-01-06 19:00:00', 23.874194900912517169899729196913540363311767578125, 14, 11);
+(52, "2017-01-06 19:00:00", 31.08, 14, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(53, '2017-02-14 00:00:00', 28.74941282088932581473272875882685184478759765625, 15, 14);
+(53, "2017-02-14 00:00:00", 61.33, 15, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(54, '2016-12-14 19:00:00', 18.160304878772993930624579661525785923004150390625, 15, 11);
+(54, "2016-12-14 19:00:00", 67.18, 15, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(55, '2017-01-27 19:00:00', 54.59197802912348151949117891490459442138671875, 15, 6);
+(55, "2017-01-27 19:00:00", 65.44, 15, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(56, '2017-02-04 19:00:00', 6.785586438331780101407275651581585407257080078125, 15, 6);
+(56, "2017-02-04 19:00:00", 64.75, 15, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(57, '2017-03-12 14:00:00', 67.966158999282498598404345102608203887939453125, 15, 6);
+(57, "2017-03-12 14:00:00", 45.88, 15, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(58, '2017-01-05 20:00:00', 51.1311411473448202968938858248293399810791015625, 16, 15);
+(58, "2017-01-05 20:00:00", 42.13, 16, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(59, '2017-01-15 14:00:00', 71.76008602912651213046046905219554901123046875, 16, 6);
+(59, "2017-01-15 14:00:00", 10.77, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(60, '2016-12-30 19:00:00', 74.7974426071018143602486816234886646270751953125, 16, 6);
+(60, "2016-12-30 19:00:00", 66.56, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(61, '2017-02-17 19:00:00', 56.71756296230895344478994957171380519866943359375, 16, 6);
+(61, "2017-02-17 19:00:00", 27.23, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(62, '2017-03-15 19:00:00', 54.78958829944594555172443506307899951934814453125, 16, 11);
+(62, "2017-03-15 19:00:00", 70.79, 16, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(63, '2017-02-18 19:00:00', 30.25526624298334610330130090005695819854736328125, 16, 11);
+(63, "2017-02-18 19:00:00", 10.86, 16, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(64, '2017-01-20 19:00:00', 31.6487905299394896019293810240924358367919921875, 16, 6);
+(64, "2017-01-20 19:00:00", 10.26, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(65, '2016-12-07 19:00:00', 11.149327098789260759303942904807627201080322265625, 16, 11);
+(65, "2016-12-07 19:00:00", 62.81, 16, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(66, '2017-03-11 19:00:00', 36.0049007652161208170582540333271026611328125, 16, 11);
+(66, "2017-03-11 19:00:00", 15.59, 16, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(67, '2017-01-07 19:30:00', 42.3129720585457818060604040510952472686767578125, 16, 6);
+(67, "2017-01-07 19:30:00", 58.75, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(68, '2017-01-14 19:00:00', 58.77912569093162886701975367031991481781005859375, 16, 11);
+(68, "2017-01-14 19:00:00", 50.12, 16, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(69, '2016-12-10 19:00:00', 12.5773253767504140654409638955257833003997802734375, 16, 6);
+(69, "2016-12-10 19:00:00", 64.06, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(70, '2017-01-11 19:00:00', 61.4470042529377309392657480202615261077880859375, 16, 6);
+(70, "2017-01-11 19:00:00", 73.55, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(71, '2017-01-13 19:00:00', 7.16480446991422414981798283406533300876617431640625, 16, 6);
+(71, "2017-01-13 19:00:00", 37.44, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(72, '2016-11-27 14:00:00', 9.99295398438034254695594427175819873809814453125, 16, 6);
+(72, "2016-11-27 14:00:00", 71.69, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(73, '2017-02-03 19:00:00', 50.342838797162215769276372157037258148193359375, 16, 6);
+(73, "2017-02-03 19:00:00", 22.69, 16, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(74, '2016-11-26 20:00:00', 73.808521535216158326875302009284496307373046875, 17, 16);
+(74, "2016-11-26 20:00:00", 57.19, 17, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(75, '2017-03-08 19:00:00', 70.322862022294685857559670694172382354736328125, 17, 11);
+(75, "2017-03-08 19:00:00", 27.85, 17, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(76, '2017-03-17 19:00:00', 71.54294588831800183470477350056171417236328125, 17, 6);
+(76, "2017-03-17 19:00:00", 73.19, 17, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(77, '2017-02-24 19:00:00', 23.1097142375306106032439856790006160736083984375, 17, 11);
+(77, "2017-02-24 19:00:00", 44.70, 17, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(78, '2016-12-28 19:00:00', 60.6337983342045419021815177984535694122314453125, 17, 11);
+(78, "2016-12-28 19:00:00", 24.22, 17, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(79, '2017-02-24 19:00:00', 56.02108306955546623839836684055626392364501953125, 17, 6);
+(79, "2017-02-24 19:00:00", 52.39, 17, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(80, '2017-03-10 19:00:00', 12.3127043005580389944952912628650665283203125, 17, 6);
+(80, "2017-03-10 19:00:00", 9.59, 17, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(81, '2017-02-22 19:00:00', 18.16726363994376924893003888428211212158203125, 17, 11);
+(81, "2017-02-22 19:00:00", 44.28, 17, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(82, '2017-02-19 14:00:00', 54.6396238498152371221294743008911609649658203125, 17, 6);
+(82, "2017-02-19 14:00:00", 61.82, 17, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(83, '2016-11-26 12:00:00', 28.113621732718097945280533167533576488494873046875, 18, 17);
+(83, "2016-11-26 12:00:00", 22.26, 18, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(84, '2016-12-30 19:00:00', 38.59233463976710254428326152265071868896484375, 18, 6);
+(84, "2016-12-30 19:00:00", 43.70, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(85, '2016-12-02 19:00:00', 59.49547528363743964519017026759684085845947265625, 18, 6);
+(85, "2016-12-02 19:00:00", 6.62, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(86, '2016-12-02 19:00:00', 13.623579856694394862870467477478086948394775390625, 18, 6);
+(86, "2016-12-02 19:00:00", 25.53, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(87, '2016-11-27 14:00:00', 20.63261770294169394901473424397408962249755859375, 18, 6);
+(87, "2016-11-27 14:00:00", 23.06, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(88, '2016-11-27 14:00:00', 43.18864438212295198127321782521903514862060546875, 18, 6);
+(88, "2016-11-27 14:00:00", 16.00, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(89, '2017-03-17 19:00:00', 18.545825334260062078328701318241655826568603515625, 18, 6);
+(89, "2017-03-17 19:00:00", 5.21, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(90, '2017-03-17 19:00:00', 43.366824438220447746061836369335651397705078125, 18, 6);
+(90, "2017-03-17 19:00:00", 52.89, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(91, '2017-03-10 19:00:00', 20.64971234750833417592730256728827953338623046875, 18, 6);
+(91, "2017-03-10 19:00:00", 59.30, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(92, '2017-03-10 19:00:00', 8.719278942189507830562433809973299503326416015625, 18, 6);
+(92, "2017-03-10 19:00:00", 47.57, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(93, '2017-02-24 19:00:00', 50.38164679386952826689594076015055179595947265625, 18, 6);
+(93, "2017-02-24 19:00:00", 56.28, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(94, '2017-02-25 19:00:00', 71.574078339054636899163597263395786285400390625, 18, 6);
+(94, "2017-02-25 19:00:00", 42.02, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(95, '2017-02-25 19:00:00', 50.42994638309988175706166657619178295135498046875, 18, 6);
+(95, "2017-02-25 19:00:00", 66.02, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(96, '2017-02-19 14:00:00', 36.92018353557296705957924132235348224639892578125, 18, 6);
+(96, "2017-02-19 14:00:00", 54.36, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(97, '2017-02-04 19:00:00', 64.094124572899005443105124868452548980712890625, 18, 6);
+(97, "2017-02-04 19:00:00", 40.41, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(98, '2017-02-17 19:00:00', 56.4835332155238205587011179886758327484130859375, 18, 6);
+(98, "2017-02-17 19:00:00", 12.91, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(99, '2017-01-27 19:00:00', 30.62803220940039494735174230299890041351318359375, 18, 6);
+(99, "2017-01-27 19:00:00", 50.00, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(100, '2017-02-03 19:00:00', 18.09629585178156929714532452635467052459716796875, 18, 6);
+(100, "2017-02-03 19:00:00", 74.01, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(101, '2017-02-03 19:00:00', 60.222842787130645092474878765642642974853515625, 18, 6);
+(101, "2017-02-03 19:00:00", 25.75, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(102, '2017-01-20 19:00:00', 70.898859026229644086924963630735874176025390625, 18, 6);
+(102, "2017-01-20 19:00:00", 39.42, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(103, '2017-01-15 14:00:00', 20.01268788455132607850828208029270172119140625, 18, 6);
+(103, "2017-01-15 14:00:00", 69.87, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(104, '2017-01-11 19:00:00', 23.388398274171844803959174896590411663055419921875, 18, 6);
+(104, "2017-01-11 19:00:00", 73.06, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(105, '2017-01-13 19:00:00', 42.74316150499981858956743963062763214111328125, 18, 6);
+(105, "2017-01-13 19:00:00", 8.40, 18, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(106, '2017-04-09 15:30:00', 58.23746140244283964193527936004102230072021484375, 18, 8);
+(106, "2017-04-09 15:30:00", 30.10, 18, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(107, '2017-04-09 15:30:00', 59.50911896967922842804910033009946346282958984375, 18, 8);
+(107, "2017-04-09 15:30:00", 28.57, 18, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(108, '2017-04-07 20:00:00', 71.8552863651397473176984931342303752899169921875, 18, 8);
+(108, "2017-04-07 20:00:00", 54.42, 18, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(109, '2016-12-17 13:00:00', 58.4875993010791574988616048358380794525146484375, 18, 12);
+(109, "2016-12-17 13:00:00", 42.32, 18, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(110, '2017-01-09 19:30:00', 42.37110731618586356717059970833361148834228515625, 18, 11);
+(110, "2017-01-09 19:30:00", 52.25, 18, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(111, '2017-01-09 19:30:00', 72.2735730640752791487102513201534748077392578125, 18, 11);
+(111, "2017-01-09 19:30:00", 57.25, 18, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(112, '2016-11-12 10:00:00', 26.9642677880867012163434992544353008270263671875, 19, 18);
+(112, "2016-11-12 10:00:00", 44.59, 19, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(113, '2017-02-22 11:00:00', 61.51690388483806515296237193979322910308837890625, 20, 19);
+(113, "2017-02-22 11:00:00", 25.31, 20, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(114, '2017-02-18 15:00:00', 46.136024916823458852377370931208133697509765625, 20, 19);
+(114, "2017-02-18 15:00:00", 66.67, 20, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(115, '2017-01-07 17:00:00', 10.761633333031294768034058506600558757781982421875, 20, 19);
+(115, "2017-01-07 17:00:00", 6.86, 20, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(116, '2016-12-17 16:30:00', 38.51831146688380869136381079442799091339111328125, 20, 12);
+(116, "2016-12-17 16:30:00", 36.09, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(117, '2017-03-25 13:00:00', 58.1350505824497219009572290815412998199462890625, 20, 12);
+(117, "2017-03-25 13:00:00", 47.01, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(118, '2016-12-15 15:30:00', 46.06743102222179686577874235808849334716796875, 20, 12);
+(118, "2016-12-15 15:30:00", 64.52, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(119, '2016-12-10 20:00:00', 14.979810355740422522785593173466622829437255859375, 20, 12);
+(119, "2016-12-10 20:00:00", 52.48, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(120, '2016-12-22 19:30:00', 23.707028931762597068200193461962044239044189453125, 20, 12);
+(120, "2016-12-22 19:30:00", 71.67, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(121, '2016-12-03 13:30:00', 25.769006024818708056045579724013805389404296875, 20, 12);
+(121, "2016-12-03 13:30:00", 8.02, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(122, '2016-12-15 18:30:00', 15.5628514219922227113102053408510982990264892578125, 20, 12);
+(122, "2016-12-15 18:30:00", 22.81, 20, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(123, '2017-03-11 19:00:00', 22.236131054650638105840698699466884136199951171875, 20, 11);
+(123, "2017-03-11 19:00:00", 53.14, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(124, '2017-03-15 19:00:00', 68.68067239168345849975594319403171539306640625, 20, 11);
+(124, "2017-03-15 19:00:00", 18.63, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(125, '2017-03-08 19:00:00', 45.84423257896668246758054010570049285888671875, 20, 11);
+(125, "2017-03-08 19:00:00", 57.78, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(126, '2017-03-15 19:00:00', 10.484095053996835389398256666027009487152099609375, 20, 11);
+(126, "2017-03-15 19:00:00", 51.71, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(127, '2017-03-08 19:00:00', 40.91492444954054263916987110860645771026611328125, 20, 11);
+(127, "2017-03-08 19:00:00", 23.79, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(128, '2017-02-24 19:00:00', 65.01555025117312425209092907607555389404296875, 20, 11);
+(128, "2017-02-24 19:00:00", 28.34, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(129, '2017-02-22 19:00:00', 69.918185030116745792838628403842449188232421875, 20, 11);
+(129, "2017-02-22 19:00:00", 24.31, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(130, '2017-02-22 19:00:00', 31.21351554013252638242192915640771389007568359375, 20, 11);
+(130, "2017-02-22 19:00:00", 73.88, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(131, '2017-02-18 19:00:00', 46.1421161774587886839071870781481266021728515625, 20, 11);
+(131, "2017-02-18 19:00:00", 59.95, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(132, '2017-01-21 19:00:00', 66.6723264454188182526195305399596691131591796875, 20, 11);
+(132, "2017-01-21 19:00:00", 30.32, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(133, '2017-01-18 19:00:00', 51.6171337387707893640254042111337184906005859375, 20, 11);
+(133, "2017-01-18 19:00:00", 11.07, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(134, '2017-01-14 19:00:00', 28.122992374138018334406297071836888790130615234375, 20, 11);
+(134, "2017-01-14 19:00:00", 66.56, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(135, '2017-01-18 19:00:00', 28.194053359732546226723570725880563259124755859375, 20, 11);
+(135, "2017-01-18 19:00:00", 50.85, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(136, '2017-01-14 19:00:00', 63.90690718012569249140142346732318401336669921875, 20, 11);
+(136, "2017-01-14 19:00:00", 50.97, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(137, '2017-01-06 19:00:00', 65.35892209199300850741565227508544921875, 20, 11);
+(137, "2017-01-06 19:00:00", 13.36, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(138, '2017-01-06 19:00:00', 27.58061915137319175528318737633526325225830078125, 20, 11);
+(138, "2017-01-06 19:00:00", 45.42, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(139, '2016-12-28 19:00:00', 54.39346958351558924960045260377228260040283203125, 20, 11);
+(139, "2016-12-28 19:00:00", 44.55, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(140, '2016-12-14 19:00:00', 67.2213359168905526530579663813114166259765625, 20, 11);
+(140, "2016-12-14 19:00:00", 68.15, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(141, '2016-12-28 19:00:00', 18.31776502851443666486375150270760059356689453125, 20, 11);
+(141, "2016-12-28 19:00:00", 19.12, 20, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(142, '2017-02-04 14:00:00', 24.28612938225818851378789986483752727508544921875, 21, 20);
+(142, "2017-02-04 14:00:00", 49.46, 21, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(143, '2017-01-21 20:00:00', 41.67437518841808952174687874503433704376220703125, 21, 8);
+(143, "2017-01-21 20:00:00", 29.45, 21, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(144, '2017-04-07 14:00:00', 69.0835217979728355430779629386961460113525390625, 22, 21);
+(144, "2017-04-07 14:00:00", 14.05, 22, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(145, '2017-03-30 19:00:00', 43.93796430485313209146625013090670108795166015625, 22, 12);
+(145, "2017-03-30 19:00:00", 46.43, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(146, '2016-11-12 19:30:00', 24.0604554782792519063150393776595592498779296875, 22, 12);
+(146, "2016-11-12 19:30:00", 73.88, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(147, '2017-06-02 19:30:00', 20.72286991507183984140283428132534027099609375, 22, 12);
+(147, "2017-06-02 19:30:00", 55.13, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(148, '2017-02-10 20:00:00', 65.1779705872349524042874691076576709747314453125, 22, 12);
+(148, "2017-02-10 20:00:00", 23.48, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(149, '2017-03-04 14:00:00', 56.8494234602724901606052299030125141143798828125, 22, 12);
+(149, "2017-03-04 14:00:00", 64.54, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(150, '2017-02-18 14:00:00', 7.068811682327773127099135308526456356048583984375, 22, 12);
+(150, "2017-02-18 14:00:00", 68.27, 22, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(151, '2016-11-12 20:00:00', 59.56181297351263737027693423442542552947998046875, 23, 22);
+(151, "2016-11-12 20:00:00", 19.92, 23, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(152, '2017-02-08 19:30:00', 16.37951207949081577908145845867693424224853515625, 23, 12);
+(152, "2017-02-08 19:30:00", 7.12, 23, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(153, '2016-12-08 19:00:00', 40.2637174038311371759846224449574947357177734375, 24, 23);
+(153, "2016-12-08 19:00:00", 15.34, 24, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(154, '2016-12-13 09:00:00', 34.3816757497664156062455731444060802459716796875, 25, 24);
+(154, "2016-12-13 09:00:00", 72.34, 25, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(155, '2016-11-25 18:30:00', 72.505620976786048004214535467326641082763671875, 26, 25);
+(155, "2016-11-25 18:30:00", 13.86, 26, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(156, '2016-12-02 19:00:00', 17.18456219746449420426870347000658512115478515625, 27, 26);
+(156, "2016-12-02 19:00:00", 38.87, 27, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(157, '2016-12-02 19:00:00', 45.44394379962167107578352442942559719085693359375, 28, 27);
+(157, "2016-12-02 19:00:00", 7.63, 28, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(158, '2016-11-16 00:00:00', 30.838162051312441036543532391078770160675048828125, 29, 28);
+(158, "2016-11-16 00:00:00", 18.33, 29, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(159, '2016-12-02 19:00:00', 7.2710600375347720358831793419085443019866943359375, 30, 29);
+(159, "2016-12-02 19:00:00", 20.11, 30, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(160, '2016-11-16 16:30:00', 56.0729547839290347610585740767419338226318359375, 31, 30);
+(160, "2016-11-16 16:30:00", 35.35, 31, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(161, '2016-11-16 11:00:00', 26.6280851618655418633352383039891719818115234375, 32, 31);
+(161, "2016-11-16 11:00:00", 14.17, 32, 31);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(162, '2016-11-16 20:00:00', 56.3761855033344545518048107624053955078125, 33, 32);
+(162, "2016-11-16 20:00:00", 26.71, 33, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(163, '2016-11-16 00:00:00', 15.41897992799812300290795974433422088623046875, 34, 33);
+(163, "2016-11-16 00:00:00", 73.54, 34, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(164, '2016-12-02 19:00:00', 18.05628300572680444702200475148856639862060546875, 35, 34);
+(164, "2016-12-02 19:00:00", 48.48, 35, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(165, '2016-11-16 20:00:00', 65.145459426342057440706412307918071746826171875, 36, 35);
+(165, "2016-11-16 20:00:00", 43.18, 36, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(166, '2016-12-02 21:00:00', 59.75363653973789723750087432563304901123046875, 37, 36);
+(166, "2016-12-02 21:00:00", 72.78, 37, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(167, '2016-11-16 17:00:00', 31.258347076299049405179175664670765399932861328125, 38, 37);
+(167, "2016-11-16 17:00:00", 56.76, 38, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(168, '2016-12-02 19:00:00', 32.077598559460284377564676105976104736328125, 39, 38);
+(168, "2016-12-02 19:00:00", 35.20, 39, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(169, '2016-12-02 19:00:00', 18.278233849328302085268660448491573333740234375, 40, 39);
+(169, "2016-12-02 19:00:00", 47.69, 40, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(170, '2017-01-31 21:00:00', 53.4599226268226033198516233824193477630615234375, 40, 3);
+(170, "2017-01-31 21:00:00", 36.70, 40, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(171, '2016-12-02 19:30:00', 67.0930617165600011730930418707430362701416015625, 41, 40);
+(171, "2016-12-02 19:30:00", 17.04, 41, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(172, '2016-12-02 08:00:00', 12.511340303256215378269189386628568172454833984375, 42, 41);
+(172, "2016-12-02 08:00:00", 26.56, 42, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(173, '2017-01-31 20:00:00', 33.0529197788443269701019744388759136199951171875, 43, 42);
+(173, "2017-01-31 20:00:00", 9.23, 43, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(174, '2016-12-02 19:30:00', 35.67543724721301856561694876290857791900634765625, 44, 43);
+(174, "2016-12-02 19:30:00", 9.48, 44, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(175, '2016-12-02 19:00:00', 69.5069572887387749915433232672512531280517578125, 45, 44);
+(175, "2016-12-02 19:00:00", 45.27, 45, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(176, '2016-11-16 19:00:00', 15.303896214157251876031295978464186191558837890625, 46, 45);
+(176, "2016-11-16 19:00:00", 62.67, 46, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(177, '2016-12-02 20:00:00', 10.2559040194913375643182007479481399059295654296875, 47, 46);
+(177, "2016-12-02 20:00:00", 63.07, 47, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(178, '2016-12-02 20:00:00', 69.3094761359703710468238568864762783050537109375, 47, 0);
+(178, "2016-12-02 20:00:00", 59.91, 47, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(179, '2016-12-02 21:00:00', 57.5701956071168154949191375635564327239990234375, 48, 47);
+(179, "2016-12-02 21:00:00", 74.34, 48, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(180, '2016-11-16 08:30:00', 52.14129079506924568931935937143862247467041015625, 49, 48);
+(180, "2016-11-16 08:30:00", 43.27, 49, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(181, '2017-01-31 20:00:00', 17.758571124708762312138787820003926753997802734375, 50, 49);
+(181, "2017-01-31 20:00:00", 73.33, 50, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(182, '2016-12-02 19:00:00', 27.011726746328832859944668598473072052001953125, 51, 50);
+(182, "2016-12-02 19:00:00", 69.56, 51, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(183, '2016-12-02 19:30:00', 74.075868282125696850926033221185207366943359375, 52, 51);
+(183, "2016-12-02 19:30:00", 32.88, 52, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(184, '2016-12-02 20:00:00', 73.5256393556196741201347322203218936920166015625, 53, 52);
+(184, "2016-12-02 20:00:00", 42.34, 53, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(185, '2016-12-02 21:00:00', 39.39447261393282673225257894955575466156005859375, 54, 53);
+(185, "2016-12-02 21:00:00", 53.65, 54, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(186, '2016-12-02 19:00:00', 17.82953831460661575647463905625045299530029296875, 55, 54);
+(186, "2016-12-02 19:00:00", 59.62, 55, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(187, '2016-12-02 19:30:00', 68.581072997355221332327346317470073699951171875, 56, 55);
+(187, "2016-12-02 19:30:00", 68.42, 56, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(188, '2017-01-21 00:00:00', 66.057253809363629670770023949444293975830078125, 57, 56);
+(188, "2017-01-21 00:00:00", 52.41, 57, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(189, '2016-11-11 19:00:00', 38.01883911592850751048899837769567966461181640625, 58, 57);
+(189, "2016-11-11 19:00:00", 6.55, 58, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(190, '2016-11-11 19:00:00', 34.3986264970792916528807836584746837615966796875, 59, 58);
+(190, "2016-11-11 19:00:00", 9.38, 59, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(191, '2016-12-28 19:00:00', 67.46414195755340870164218358695507049560546875, 60, 59);
+(191, "2016-12-28 19:00:00", 8.58, 60, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(192, '2017-01-28 13:00:00', 40.04797826938425231446672114543616771697998046875, 61, 60);
+(192, "2017-01-28 13:00:00", 37.03, 61, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(193, '2017-04-18 18:30:00', 50.0053957305857892379208351485431194305419921875, 62, 61);
+(193, "2017-04-18 18:30:00", 74.01, 62, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(194, '2017-02-19 14:00:00', 50.5386418660700798000107170082628726959228515625, 62, 21);
+(194, "2017-02-19 14:00:00", 73.60, 62, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(195, '2017-03-16 18:30:00', 74.9253658428865065843638149090111255645751953125, 63, 62);
+(195, "2017-03-16 18:30:00", 69.56, 63, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(196, '2017-04-08 13:00:00', 44.53657654051138337081283680163323879241943359375, 64, 63);
+(196, "2017-04-08 13:00:00", 51.69, 64, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(197, '2016-11-10 14:00:00', 26.146053872745856239134809584356844425201416015625, 65, 64);
+(197, "2016-11-10 14:00:00", 43.21, 65, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(198, '2017-04-14 18:30:00', 69.469746029354837446589954197406768798828125, 66, 65);
+(198, "2017-04-14 18:30:00", 34.42, 66, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(199, '2017-02-14 18:30:00', 20.346213514035383695954806171357631683349609375, 67, 66);
+(199, "2017-02-14 18:30:00", 20.70, 67, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(200, '2017-03-14 18:30:00', 57.05538001148985216559594846330583095550537109375, 68, 67);
+(200, "2017-03-14 18:30:00", 40.02, 68, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(201, '2017-02-13 18:30:00', 13.209152377372763709217906580306589603424072265625, 69, 68);
+(201, "2017-02-13 18:30:00", 69.38, 69, 68);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(202, '2017-02-18 20:00:00', 33.1374055845497679229083587415516376495361328125, 70, 69);
+(202, "2017-02-18 20:00:00", 53.74, 70, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(203, '2017-02-17 18:30:00', 69.53471915713959106142283417284488677978515625, 71, 70);
+(203, "2017-02-17 18:30:00", 47.09, 71, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(204, '2017-04-19 18:00:00', 73.1375654445222806998572195880115032196044921875, 72, 71);
+(204, "2017-04-19 18:00:00", 47.70, 72, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(205, '2017-03-16 15:30:00', 53.69000594596031561422933009453117847442626953125, 72, 62);
+(205, "2017-03-16 15:30:00", 24.42, 72, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(206, '2017-03-22 18:30:00', 57.699115181452469869327615015208721160888671875, 73, 72);
+(206, "2017-03-22 18:30:00", 47.94, 73, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(207, '2017-02-23 18:30:00', 38.819996546917906243834295310080051422119140625, 74, 73);
+(207, "2017-02-23 18:30:00", 17.48, 74, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(208, '2017-04-28 00:00:00', 28.14612972570704840791222522966563701629638671875, 75, 74);
+(208, "2017-04-28 00:00:00", 38.60, 75, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(209, '2017-06-24 19:30:00', 10.1306576606290530406795369344763457775115966796875, 76, 75);
+(209, "2017-06-24 19:30:00", 60.73, 76, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(210, '2016-11-25 19:05:00', 47.80921134490338175737633719108998775482177734375, 77, 76);
+(210, "2016-11-25 19:05:00", 34.22, 77, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(211, '2017-01-09 00:00:00', 14.6596897258416589693297282792627811431884765625, 78, 77);
+(211, "2017-01-09 00:00:00", 44.83, 78, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(212, '2016-12-19 00:00:00', 5.072101928410372551070395275019109249114990234375, 79, 78);
+(212, "2016-12-19 00:00:00", 53.12, 79, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(213, '2016-11-11 12:00:00', 69.257928795505648622565786354243755340576171875, 80, 79);
+(213, "2016-11-11 12:00:00", 26.76, 80, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(214, '2016-11-10 18:30:00', 16.397530227131941416018889867700636386871337890625, 80, 79);
+(214, "2016-11-10 18:30:00", 29.70, 80, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(215, '2016-12-22 00:00:00', 65.8476967818133971377392299473285675048828125, 80, 78);
+(215, "2016-12-22 00:00:00", 7.54, 80, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(216, '2017-02-23 20:00:00', 42.59723092200518834715694538317620754241943359375, 81, 80);
+(216, "2017-02-23 20:00:00", 48.38, 81, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(217, '2017-02-11 19:00:00', 66.399738508304920969749218784272670745849609375, 81, 55);
+(217, "2017-02-11 19:00:00", 61.36, 81, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(218, '2016-12-18 20:00:00', 50.1313648640843467774175223894417285919189453125, 82, 81);
+(218, "2016-12-18 20:00:00", 68.75, 82, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(219, '2017-03-11 12:30:00', 54.62724826189829485656446195207536220550537109375, 82, 40);
+(219, "2017-03-11 12:30:00", 8.58, 82, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(220, '2017-02-21 19:00:00', 65.4822312378566806501112296245992183685302734375, 83, 82);
+(220, "2017-02-21 19:00:00", 34.46, 83, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(221, '2016-11-26 20:00:00', 66.854326920273223322510602883994579315185546875, 84, 83);
+(221, "2016-11-26 20:00:00", 69.64, 84, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(222, '2017-02-10 20:00:00', 23.917132227779024589153777924366295337677001953125, 85, 84);
+(222, "2017-02-10 20:00:00", 22.17, 85, 84);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(223, '2016-11-15 08:30:00', 59.272688061348162591457366943359375, 86, 85);
+(223, "2016-11-15 08:30:00", 17.52, 86, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(224, '2016-11-15 19:05:00', 33.3604250077976729471629369072616100311279296875, 87, 86);
+(224, "2016-11-15 19:05:00", 26.40, 87, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(225, '2016-11-15 21:00:00', 56.2148871506232552519577438943088054656982421875, 88, 87);
+(225, "2016-11-15 21:00:00", 66.46, 88, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(226, '2016-11-15 19:00:00', 60.3062224555489905242211534641683101654052734375, 89, 88);
+(226, "2016-11-15 19:00:00", 11.42, 89, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(227, '2016-11-15 20:00:00', 5.1265421341145884781553831999190151691436767578125, 90, 89);
+(227, "2016-11-15 20:00:00", 45.74, 90, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(228, '2016-11-15 18:00:00', 16.5557994850241385620392975397408008575439453125, 91, 90);
+(228, "2016-11-15 18:00:00", 48.07, 91, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(229, '2016-11-15 18:30:00', 66.57567045031549923805869184434413909912109375, 92, 91);
+(229, "2016-11-15 18:30:00", 37.41, 92, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(230, '2016-11-15 18:00:00', 46.62201624284664802644329029135406017303466796875, 93, 92);
+(230, "2016-11-15 18:00:00", 38.77, 93, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(231, '2016-11-15 19:30:00', 19.53314429371491911524572060443460941314697265625, 93, 75);
+(231, "2016-11-15 19:30:00", 44.38, 93, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(232, '2016-11-15 18:30:00', 10.3680429261787079298073876998387277126312255859375, 94, 93);
+(232, "2016-11-15 18:30:00", 41.51, 94, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(233, '2016-11-15 19:00:00', 71.355041715852877359793637879192829132080078125, 95, 94);
+(233, "2016-11-15 19:00:00", 20.37, 95, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(234, '2016-11-15 20:00:00', 44.16207843571670110804916475899517536163330078125, 95, 3);
+(234, "2016-11-15 20:00:00", 10.09, 95, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(235, '2016-11-15 18:00:00', 47.7362872406967966298907413147389888763427734375, 96, 95);
+(235, "2016-11-15 18:00:00", 48.84, 96, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(236, '2016-11-15 20:00:00', 28.10893546922994801207096315920352935791015625, 97, 96);
+(236, "2016-11-15 20:00:00", 56.18, 97, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(237, '2016-11-15 17:30:00', 14.762149712450966632104609743691980838775634765625, 98, 97);
+(237, "2016-11-15 17:30:00", 66.45, 98, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(238, '2016-11-15 09:00:00', 64.1970488485623036467586643993854522705078125, 99, 98);
+(238, "2016-11-15 09:00:00", 47.86, 99, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(239, '2016-11-15 19:05:00', 10.7839731082489596047935265232808887958526611328125, 100, 99);
+(239, "2016-11-15 19:05:00", 37.91, 100, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(240, '2016-11-15 09:30:00', 31.507773185139665628184957313351333141326904296875, 101, 100);
+(240, "2016-11-15 09:30:00", 45.24, 101, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(241, '2016-11-15 18:00:00', 55.17110622825924792778096161782741546630859375, 102, 101);
+(241, "2016-11-15 18:00:00", 18.69, 102, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(242, '2016-11-15 18:00:00', 26.2903333223064947787861456163227558135986328125, 103, 102);
+(242, "2016-11-15 18:00:00", 5.90, 103, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(243, '2016-11-15 11:00:00', 34.987455809679403273548814468085765838623046875, 104, 103);
+(243, "2016-11-15 11:00:00", 67.17, 104, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(244, '2016-11-15 20:00:00', 45.91637864989069583998571033589541912078857421875, 105, 104);
+(244, "2016-11-15 20:00:00", 29.88, 105, 104);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(245, '2016-11-15 17:00:00', 10.21867310089459834898661938495934009552001953125, 105, 103);
+(245, "2016-11-15 17:00:00", 48.52, 105, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(246, '2016-11-15 10:00:00', 28.561029987938379548495504423044621944427490234375, 105, 62);
+(246, "2016-11-15 10:00:00", 52.46, 105, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(247, '2016-11-15 18:00:00', 38.88216917355260449085108120925724506378173828125, 106, 105);
+(247, "2016-11-15 18:00:00", 44.18, 106, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(248, '2016-11-15 21:00:00', 14.0306607615939338273847170057706534862518310546875, 107, 106);
+(248, "2016-11-15 21:00:00", 63.30, 107, 106);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(249, '2016-11-15 20:00:00', 19.03994450805347327104755095206201076507568359375, 107, 52);
+(249, "2016-11-15 20:00:00", 38.43, 107, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(250, '2016-10-24 08:25:07', 68.168870066471214386183419264853000640869140625, 19, 106);
+(250, "2016-10-24 08:25:07", 51.42, 61, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(251, '2018-05-26 02:10:18', 31.97631121225566630528192035853862762451171875, 173, 23);
+(251, "2018-05-26 02:10:18", 72.67, 132, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(252, '2020-09-06 00:14:17', 29.983720730527419817690315539948642253875732421875, 86, 97);
+(252, "2020-09-06 00:14:17", 25.91, 198, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(253, '2017-03-30 17:55:25', 57.982227416216829851691727526485919952392578125, 25, 39);
+(253, "2017-03-30 17:55:25", 19.83, 27, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(254, '2018-01-07 09:54:15', 15.6773206405696914345071490970440208911895751953125, 68, 32);
+(254, "2018-01-07 09:54:15", 72.84, 9, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(255, '2020-01-30 19:36:08', 71.803530766789180006526294164359569549560546875, 144, 82);
+(255, "2020-01-30 19:36:08", 27.70, 138, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(256, '2017-05-12 01:48:35', 40.96973819733756982941486057825386524200439453125, 51, 55);
+(256, "2017-05-12 01:48:35", 63.77, 208, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(257, '2016-03-17 07:52:32', 43.99489098400548670042553567327558994293212890625, 146, 90);
+(257, "2016-03-17 07:52:32", 7.76, 53, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(258, '2017-05-05 10:09:44', 63.0981572860920465473100193776190280914306640625, 125, 72);
+(258, "2017-05-05 10:09:44", 23.89, 166, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(259, '2018-04-09 00:05:27', 60.2921699448488226380504784174263477325439453125, 218, 90);
+(259, "2018-04-09 00:05:27", 50.30, 139, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(260, '2016-11-27 02:22:18', 23.7161983091080941221662214957177639007568359375, 7, 87);
+(260, "2016-11-27 02:22:18", 52.68, 95, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(261, '2019-05-18 11:37:50', 18.04247035340662108637843630276620388031005859375, 99, 64);
+(261, "2019-05-18 11:37:50", 39.30, 100, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(262, '2016-06-09 23:25:10', 50.54954791747082509800748084671795368194580078125, 114, 27);
+(262, "2016-06-09 23:25:10", 56.03, 162, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(263, '2020-09-12 12:32:54', 48.11898910647303040377664729021489620208740234375, 48, 105);
+(263, "2020-09-12 12:32:54", 6.03, 244, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(264, '2017-04-11 00:03:04', 11.8006363771952660357555942027829587459564208984375, 84, 9);
+(264, "2017-04-11 00:03:04", 13.95, 220, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(265, '2018-07-12 15:02:44', 46.504956988218765445708413608372211456298828125, 179, 14);
+(265, "2018-07-12 15:02:44", 71.92, 247, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(266, '2018-06-28 19:07:32', 46.75258340578609050908198696561157703399658203125, 104, 103);
+(266, "2018-06-28 19:07:32", 49.51, 119, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(267, '2016-03-20 06:45:48', 26.50053848733715966545787523500621318817138671875, 192, 96);
+(267, "2016-03-20 06:45:48", 14.31, 134, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(268, '2018-09-20 06:54:18', 11.4808596368064659287711037904955446720123291015625, 195, 96);
+(268, "2018-09-20 06:54:18", 46.02, NULL, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(269, '2016-12-06 15:37:41', 7.489679367857746683512232266366481781005859375, 216, 72);
+(269, "2016-12-06 15:37:41", 65.99, 247, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(270, '2019-06-22 18:29:01', 13.8943909756310315373184494092129170894622802734375, 190, 80);
+(270, "2019-06-22 18:29:01", 71.06, 117, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(271, '2020-05-30 05:28:14', 11.6130246200037579029640255612321197986602783203125, 51, 36);
+(271, "2020-05-30 05:28:14", 20.59, 71, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(272, '2019-06-22 23:21:58', 57.66051396583680599405852262862026691436767578125, 124, 53);
+(272, "2019-06-22 23:21:58", 69.06, 161, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(273, '2019-07-24 13:37:52', 71.4009396797811888291107607074081897735595703125, 197, 35);
+(273, "2019-07-24 13:37:52", 9.67, 186, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(274, '2019-05-09 11:58:47', 58.8120409952475000636695767752826213836669921875, 228, 46);
+(274, "2019-05-09 11:58:47", 67.33, 179, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(275, '2016-05-15 00:07:34', 62.7878147594213800175566575489938259124755859375, 216, 14);
+(275, "2016-05-15 00:07:34", 55.86, 144, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(276, '2017-02-12 16:00:33', 67.5586987181683298331336118280887603759765625, 20, 1);
+(276, "2017-02-12 16:00:33", 63.41, 33, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(277, '2017-10-14 07:07:18', 24.865613257173965422452965867705643177032470703125, 206, 59);
+(277, "2017-10-14 07:07:18", 5.50, 14, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(278, '2019-05-06 02:46:25', 36.0361528782917588387135765515267848968505859375, 145, 27);
+(278, "2019-05-06 02:46:25", 37.69, 188, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(279, '2020-04-28 23:11:23', 18.73016823083158755025579011999070644378662109375, 141, 68);
+(279, "2020-04-28 23:11:23", 35.46, 19, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(280, '2020-06-07 20:09:16', 59.1040640187995478527227533049881458282470703125, 53, 60);
+(280, "2020-06-07 20:09:16", 32.46, 6, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(281, '2020-05-16 06:15:47', 47.55397470019351402470419998280704021453857421875, 38, 59);
+(281, "2020-05-16 06:15:47", 5.33, 26, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(282, '2018-04-30 22:21:11', 17.871481093267053807949196198023855686187744140625, 239, 9);
+(282, "2018-04-30 22:21:11", 50.93, 50, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(283, '2018-02-03 16:35:43', 37.3364264170471216175428708083927631378173828125, 179, 72);
+(283, "2018-02-03 16:35:43", 29.47, 172, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(284, '2020-05-13 20:41:32', 19.146644466860180955336545594036579132080078125, 13, 35);
+(284, "2020-05-13 20:41:32", 31.64, 27, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(285, '2018-06-09 07:46:40', 35.8559489884051316721524926833808422088623046875, 88, 64);
+(285, "2018-06-09 07:46:40", 44.12, 41, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(286, '2019-10-10 14:05:03', 29.104715460166261209451477043330669403076171875, 193, 104);
+(286, "2019-10-10 14:05:03", 6.03, 39, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(287, '2018-01-31 13:03:09', 46.8125757853388364537750021554529666900634765625, 158, 106);
+(287, "2018-01-31 13:03:09", 13.61, 87, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(288, '2018-10-26 22:00:26', 18.1714425077933157126608421094715595245361328125, 192, 106);
+(288, "2018-10-26 22:00:26", 26.99, 4, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(289, '2016-09-27 07:17:30', 41.842688721910604954246082343161106109619140625, 184, 106);
+(289, "2016-09-27 07:17:30", 47.82, 79, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(290, '2018-11-15 04:13:33', 9.882438395481234039152695913799107074737548828125, 171, 38);
+(290, "2018-11-15 04:13:33", 37.99, 228, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(291, '2020-06-25 20:52:39', 61.90079361912659550171156297437846660614013671875, 136, 42);
+(291, "2020-06-25 20:52:39", 19.76, 8, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(292, '2020-12-08 17:40:31', 62.51423977544300214503891766071319580078125, 173, 94);
+(292, "2020-12-08 17:40:31", 40.01, 103, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(293, '2019-02-04 01:25:54', 68.9824470776862170851018163375556468963623046875, 208, 93);
+(293, "2019-02-04 01:25:54", 55.63, 127, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(294, '2018-03-11 12:30:44', 56.573943350972285770694725215435028076171875, 110, 41);
+(294, "2018-03-11 12:30:44", 49.27, 24, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(295, '2018-03-02 19:35:35', 14.2883222537696070730817154981195926666259765625, 22, 1);
+(295, "2018-03-02 19:35:35", 21.36, 25, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(296, '2018-03-07 12:02:23', 45.1269147020695839955806150101125240325927734375, 247, 42);
+(296, "2018-03-07 12:02:23", 22.31, 96, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(297, '2017-03-26 14:31:09', 73.04918972503975282961619086563587188720703125, 78, 106);
+(297, "2017-03-26 14:31:09", 46.74, 45, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(298, '2019-06-21 16:47:12', 57.72748180842211951357967336662113666534423828125, 117, 44);
+(298, "2019-06-21 16:47:12", 14.76, 228, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(299, '2018-06-05 14:06:35', 5.03295875315406870953438556171022355556488037109375, 66, 48);
+(299, "2018-06-05 14:06:35", 28.48, 147, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(300, '2020-05-18 07:36:46', 20.851436268506798654698286554776132106781005859375, 65, 60);
+(300, "2020-05-18 07:36:46", 64.84, 20, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(301, '2020-02-13 01:57:05', 54.170522611558709513701614923775196075439453125, 13, 26);
+(301, "2020-02-13 01:57:05", 45.71, 66, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(302, '2018-12-09 08:32:27', 71.7765628873321617220426560379564762115478515625, 47, 77);
+(302, "2018-12-09 08:32:27", 62.43, 50, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(303, '2020-05-31 10:57:07', 29.42989942443369955071830190718173980712890625, 5, 58);
+(303, "2020-05-31 10:57:07", 27.38, 217, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(304, '2020-06-21 12:48:38', 34.22238729322931050091938232071697711944580078125, 192, 64);
+(304, "2020-06-21 12:48:38", 66.53, 123, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(305, '2020-11-30 16:42:42', 6.05283604386673257380380164249800145626068115234375, 205, 43);
+(305, "2020-11-30 16:42:42", 18.86, 193, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(306, '2017-06-15 22:47:02', 37.22179483308985936673707328736782073974609375, 63, 56);
+(306, "2017-06-15 22:47:02", 5.64, 38, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(307, '2020-08-20 11:06:14', 66.7926662866454563527440768666565418243408203125, 4, 20);
+(307, "2020-08-20 11:06:14", 34.86, 30, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(308, '2019-12-25 12:10:42', 16.508673674415458521025357185862958431243896484375, 191, 8);
+(308, "2019-12-25 12:10:42", 71.57, 3, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(309, '2016-05-20 09:56:07', 21.889990910060692641536661540158092975616455078125, 190, 106);
+(309, "2016-05-20 09:56:07", 25.54, 204, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(310, '2018-03-11 08:36:31', 44.9851877997626701244371361099183559417724609375, 48, 92);
+(310, "2018-03-11 08:36:31", 18.90, 57, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(311, '2016-07-14 22:56:39', 42.25904859988389716818346641957759857177734375, 86, 40);
+(311, "2016-07-14 22:56:39", 15.67, 65, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(312, '2020-10-15 15:27:42', 55.43587136189207598135908483527600765228271484375, 149, 34);
+(312, "2020-10-15 15:27:42", 27.64, 122, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(313, '2016-07-06 04:20:03', 30.917724487366768926221993751823902130126953125, 187, 36);
+(313, "2016-07-06 04:20:03", 72.03, 94, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(314, '2020-08-30 00:35:08', 60.63094309373069989987925509922206401824951171875, 207, 26);
+(314, "2020-08-30 00:35:08", 49.53, 47, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(315, '2019-04-30 12:07:27', 44.888160774400290620178566314280033111572265625, 130, 41);
+(315, "2019-04-30 12:07:27", 71.23, 71, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(316, '2018-06-12 15:54:59', 69.871351937375408169828006066381931304931640625, 188, 5);
+(316, "2018-06-12 15:54:59", 29.33, 209, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(317, '2016-09-10 01:27:01', 25.392037419171305856480103102512657642364501953125, 46, 11);
+(317, "2016-09-10 01:27:01", 7.19, 19, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(318, '2019-01-23 02:53:51', 47.8819756859885643507368513382971286773681640625, 70, 40);
+(318, "2019-01-23 02:53:51", 66.36, 40, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(319, '2019-05-25 15:10:35', 43.01104502263871864897737395949661731719970703125, 236, 9);
+(319, "2019-05-25 15:10:35", 56.82, 84, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(320, '2016-12-04 13:15:40', 68.241040055840812783571891486644744873046875, 181, 94);
+(320, "2016-12-04 13:15:40", 5.62, 244, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(321, '2016-08-20 19:07:45', 29.083062757327379443950121640227735042572021484375, 171, 85);
+(321, "2016-08-20 19:07:45", 25.81, 82, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(322, '2019-12-27 10:56:44', 47.36372290715515731562845758162438869476318359375, 97, 71);
+(322, "2019-12-27 10:56:44", 65.22, 29, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(323, '2017-04-01 17:07:22', 27.76716618707282435707384138368070125579833984375, 87, 94);
+(323, "2017-04-01 17:07:22", 45.00, 147, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(324, '2017-12-28 22:34:03', 19.34404301742153364784826408140361309051513671875, 87, 98);
+(324, "2017-12-28 22:34:03", 49.98, 41, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(325, '2020-01-10 15:50:33', 40.9744705068586227980631520040333271026611328125, 71, 10);
+(325, "2020-01-10 15:50:33", 64.60, 171, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(326, '2019-07-11 21:53:16', 10.466452500794044766507795429788529872894287109375, 134, 24);
+(326, "2019-07-11 21:53:16", 53.85, 72, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(327, '2017-06-12 06:26:39', 30.39304004224141664280978147871792316436767578125, 224, 71);
+(327, "2017-06-12 06:26:39", 66.99, 143, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(328, '2019-10-03 10:55:36', 42.94341614085060854222319903783500194549560546875, 3, 7);
+(328, "2019-10-03 10:55:36", 48.20, 225, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(329, '2020-10-30 20:12:56', 9.242002504288489461714561912231147289276123046875, 175, 48);
+(329, "2020-10-30 20:12:56", 62.81, 126, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(330, '2019-08-16 05:11:49', 38.83591400405515514648868702352046966552734375, 198, 29);
+(330, "2019-08-16 05:11:49", 62.17, 196, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(331, '2016-10-18 06:01:19', 20.48234056342743514278481598012149333953857421875, 177, 58);
+(331, "2016-10-18 06:01:19", 56.91, 68, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(332, '2017-01-23 20:54:32', 14.942609700468896249958561384119093418121337890625, 103, 28);
+(332, "2017-01-23 20:54:32", 68.47, 235, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(333, '2016-11-14 07:35:21', 69.7705405580529856024440960027277469635009765625, 27, 25);
+(333, "2016-11-14 07:35:21", 51.79, 66, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(334, '2018-05-07 14:52:27', 62.49203364127721016529903863556683063507080078125, 54, 86);
+(334, "2018-05-07 14:52:27", 13.04, 224, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(335, '2020-04-08 07:47:28', 62.24281225214478041607435443438589572906494140625, 159, 86);
+(335, "2020-04-08 07:47:28", 71.99, 149, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(336, '2018-01-12 11:59:38', 12.1530675007440276402803647215478122234344482421875, 8, 94);
+(336, "2018-01-12 11:59:38", 48.14, 176, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(337, '2019-06-06 09:22:04', 28.788568594069335659924036008305847644805908203125, 194, 10);
+(337, "2019-06-06 09:22:04", 42.96, 45, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(338, '2020-10-10 11:56:15', 31.618700549255695619876860291697084903717041015625, 183, 18);
+(338, "2020-10-10 11:56:15", 13.08, 102, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(339, '2020-03-19 00:14:26', 55.222267198231378415584913454949855804443359375, 221, 99);
+(339, "2020-03-19 00:14:26", 36.98, 222, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(340, '2019-03-05 05:27:54', 49.17529313620084252534070401452481746673583984375, 195, 89);
+(340, "2019-03-05 05:27:54", 33.35, 221, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(341, '2017-10-15 10:12:34', 64.42487959702503985681687481701374053955078125, 88, 60);
+(341, "2017-10-15 10:12:34", 40.34, 164, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(342, '2020-03-11 01:11:03', 64.448419950758733421025681309401988983154296875, 189, 97);
+(342, "2020-03-11 01:11:03", 13.07, 182, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(343, '2016-03-24 20:07:10', 43.7843908544963795748117263428866863250732421875, 60, 91);
+(343, "2016-03-24 20:07:10", 29.21, 118, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(344, '2020-03-18 22:45:06', 33.44845473552879155931805144064128398895263671875, 41, 27);
+(344, "2020-03-18 22:45:06", 52.57, 24, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(345, '2018-06-16 00:31:22', 27.053052890449833967068116180598735809326171875, 125, 14);
+(345, "2018-06-16 00:31:22", 46.81, 211, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(346, '2019-08-17 04:12:56', 41.84603604159093492853571660816669464111328125, 217, 102);
+(346, "2019-08-17 04:12:56", 28.52, 27, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(347, '2018-02-14 15:58:18', 54.84141314261616884095928980968892574310302734375, 32, 103);
+(347, "2018-02-14 15:58:18", 15.44, 116, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(348, '2016-05-10 23:32:24', 60.3476980168645837920848862268030643463134765625, 124, 37);
+(348, "2016-05-10 23:32:24", 55.23, 246, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(349, '2020-09-23 13:33:47', 51.435945879010347425719373859465122222900390625, 165, 92);
+(349, "2020-09-23 13:33:47", 46.38, 164, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(350, '2020-01-07 05:01:00', 73.9160386293604716456684400327503681182861328125, 128, 26);
+(350, "2020-01-07 05:01:00", 53.96, 233, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(351, '2019-04-14 21:03:32', 74.7492649353169582582268049009144306182861328125, 55, 59);
+(351, "2019-04-14 21:03:32", 7.12, 148, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(352, '2019-06-12 06:59:15', 48.88769621447953994675117428414523601531982421875, 82, 94);
+(352, "2019-06-12 06:59:15", 58.97, 8, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(353, '2020-06-25 08:42:35', 31.3372534664816981830881559289991855621337890625, 209, 8);
+(353, "2020-06-25 08:42:35", 38.19, 181, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(354, '2020-03-18 14:04:50', 24.656378086125155135732711642049252986907958984375, 89, 56);
+(354, "2020-03-18 14:04:50", 56.76, 207, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(355, '2020-07-04 16:59:46', 71.48804587541775390491238795220851898193359375, 185, 42);
+(355, "2020-07-04 16:59:46", 18.45, 226, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(356, '2018-04-25 17:25:07', 57.25014714953854166878954856656491756439208984375, 73, 48);
+(356, "2018-04-25 17:25:07", 53.41, 215, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(357, '2018-08-07 22:21:12', 73.7373429385476271136212744750082492828369140625, 115, 69);
+(357, "2018-08-07 22:21:12", 42.97, 159, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(358, '2016-08-21 11:16:48', 39.88466339296502383149345405399799346923828125, 71, 8);
+(358, "2016-08-21 11:16:48", 57.07, 204, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(359, '2018-08-20 18:56:44', 36.31964294279367777562583796679973602294921875, 226, 69);
+(359, "2018-08-20 18:56:44", 8.21, 178, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(360, '2019-04-25 22:58:29', 61.227400427677793004477280192077159881591796875, 105, 91);
+(360, "2019-04-25 22:58:29", 53.64, 114, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(361, '2019-06-11 02:34:11', 42.09660557768481936591342673636972904205322265625, 204, 91);
+(361, "2019-06-11 02:34:11", 59.06, 93, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(362, '2017-06-01 04:48:33', 13.186593094495226097251361352391541004180908203125, 209, 100);
+(362, "2017-06-01 04:48:33", 9.02, 202, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(363, '2020-04-15 04:39:53', 32.697640211438937285493011586368083953857421875, 45, 87);
+(363, "2020-04-15 04:39:53", 65.71, 248, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(364, '2018-01-09 09:47:21', 57.8740349205801720700037549249827861785888671875, 193, 65);
+(364, "2018-01-09 09:47:21", 10.22, 220, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(365, '2016-04-22 05:07:34', 23.971610151735575300335767678916454315185546875, 190, 38);
+(365, "2016-04-22 05:07:34", 31.75, 38, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(366, '2020-05-17 01:26:42', 11.0549717670853642204065181431360542774200439453125, 46, 74);
+(366, "2020-05-17 01:26:42", 14.37, 115, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(367, '2017-02-22 09:39:32', 69.4214025034320485474381712265312671661376953125, 1, 28);
+(367, "2017-02-22 09:39:32", 14.05, 66, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(368, '2016-12-10 01:15:14', 48.83148635701360262828529812395572662353515625, 104, 10);
+(368, "2016-12-10 01:15:14", 22.69, 168, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(369, '2016-11-08 19:45:00', 20.612661373400204212202879716642200946807861328125, 149, 48);
+(369, "2016-11-08 19:45:00", 74.43, 68, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(370, '2020-11-16 10:17:47', 12.34222402285940489718996104784309864044189453125, 85, 38);
+(370, "2020-11-16 10:17:47", 72.74, 184, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(371, '2019-09-30 06:47:16', 20.68381743334209232898501795716583728790283203125, 33, 72);
+(371, "2019-09-30 06:47:16", 15.57, 82, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(372, '2018-03-08 12:23:01', 67.168142006738207783200778067111968994140625, 187, 65);
+(372, "2018-03-08 12:23:01", 20.27, 134, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(373, '2019-03-13 11:00:52', 46.09136828045581779633721453137695789337158203125, 16, 44);
+(373, "2019-03-13 11:00:52", 26.58, 192, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(374, '2016-12-16 13:54:02', 9.238737646818936610770833794958889484405517578125, 22, 66);
+(374, "2016-12-16 13:54:02", 47.88, 1, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(375, '2016-03-22 05:13:16', 15.451034734366931644444775884039700031280517578125, 29, 10);
+(375, "2016-03-22 05:13:16", 71.74, 25, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(376, '2016-08-11 01:14:48', 29.545195110842829677721965708769857883453369140625, 117, 32);
+(376, "2016-08-11 01:14:48", 16.81, NULL, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(377, '2018-08-16 01:14:27', 12.6836826692339403876985670649446547031402587890625, 8, 28);
+(377, "2018-08-16 01:14:27", 40.50, 26, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(378, '2019-03-07 12:34:11', 8.2135886289993909059603538480587303638458251953125, 113, 52);
+(378, "2019-03-07 12:34:11", 45.42, 103, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(379, '2019-07-29 00:31:58', 22.711835951672139088941548834554851055145263671875, 245, 83);
+(379, "2019-07-29 00:31:58", 41.39, 179, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(380, '2017-10-19 22:02:44', 55.1042392374796321519170305691659450531005859375, 54, 103);
+(380, "2017-10-19 22:02:44", 11.21, 116, 31);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(381, '2020-08-24 23:30:21', 48.07858245650101736146098119206726551055908203125, 143, 18);
+(381, "2020-08-24 23:30:21", 64.32, 121, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(382, '2017-10-07 00:54:25', 67.85374899894287636925582773983478546142578125, 212, 75);
+(382, "2017-10-07 00:54:25", 52.24, 105, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(383, '2018-12-07 02:46:29', 66.106903002846280514859245158731937408447265625, 82, 9);
+(383, "2018-12-07 02:46:29", 38.25, NULL, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(384, '2018-02-04 06:30:57', 16.419293895272716099498211406171321868896484375, 100, 42);
+(384, "2018-02-04 06:30:57", 69.57, 215, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(385, '2020-10-05 16:05:21', 61.53810717340282820941865793429315090179443359375, 28, 92);
+(385, "2020-10-05 16:05:21", 70.38, 30, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(386, '2017-11-02 14:27:22', 52.973777197016488571534864604473114013671875, 39, 14);
+(386, "2017-11-02 14:27:22", 25.75, 136, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(387, '2016-05-17 01:49:11', 16.436246445355521927922382019460201263427734375, 23, 13);
+(387, "2016-05-17 01:49:11", 37.47, 192, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(388, '2019-07-27 01:39:56', 25.134045011453697071601709467358887195587158203125, 151, 33);
+(388, "2019-07-27 01:39:56", 52.51, 16, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(389, '2019-02-20 01:44:35', 26.81716564211418329932712367735803127288818359375, 5, 42);
+(389, "2019-02-20 01:44:35", 72.41, 200, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(390, '2017-02-21 19:11:49', 6.08091790415330546437644443358294665813446044921875, 110, 82);
+(390, "2017-02-21 19:11:49", 29.48, 92, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(391, '2019-01-15 06:06:41', 37.3685912060889080521519645117223262786865234375, 172, 8);
+(391, "2019-01-15 06:06:41", 51.13, 126, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(392, '2016-08-09 23:02:19', 56.3888129265205151341433520428836345672607421875, 117, 43);
+(392, "2016-08-09 23:02:19", 31.91, 87, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(393, '2016-09-27 06:49:17', 20.58437595847946255389615544117987155914306640625, 102, 50);
+(393, "2016-09-27 06:49:17", 26.22, 37, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(394, '2020-11-09 05:36:34', 63.9368779939273821355527616105973720550537109375, 2, 71);
+(394, "2020-11-09 05:36:34", 74.16, 213, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(395, '2018-04-07 14:05:56', 72.2887782192834720262908376753330230712890625, 201, 67);
+(395, "2018-04-07 14:05:56", 61.57, 180, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(396, '2019-08-29 11:28:00', 9.2642892800293470401129525271244347095489501953125, 161, 30);
+(396, "2019-08-29 11:28:00", 14.29, 231, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(397, '2018-10-24 06:38:58', 63.84458631563897057503709220327436923980712890625, 173, 58);
+(397, "2018-10-24 06:38:58", 45.26, 13, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(398, '2016-06-29 23:56:38', 41.58414675879325983487433404661715030670166015625, 230, 7);
+(398, "2016-06-29 23:56:38", 36.04, 31, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(399, '2018-05-06 21:00:56', 34.16904334488193484276052913628518581390380859375, 157, 15);
+(399, "2018-05-06 21:00:56", 50.75, 243, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(400, '2019-02-13 11:04:08', 48.76447430485224998619742109440267086029052734375, 92, 77);
+(400, "2019-02-13 11:04:08", 56.60, 224, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(401, '2019-06-18 21:26:51', 38.60163476815004202080672257579863071441650390625, 36, 55);
+(401, "2019-06-18 21:26:51", 74.65, 54, 84);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(402, '2019-02-22 01:20:06', 19.999855910171266515362731297500431537628173828125, 229, 7);
+(402, "2019-02-22 01:20:06", 20.60, 16, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(403, '2018-02-25 19:37:03', 56.3702786276298155598851735703647136688232421875, 195, 98);
+(403, "2018-02-25 19:37:03", 28.65, 19, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(404, '2019-05-31 04:22:28', 23.297021205052004688695888034999370574951171875, 52, 61);
+(404, "2019-05-31 04:22:28", 60.10, 46, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(405, '2020-03-20 00:26:21', 74.14072109027637225153739564120769500732421875, 91, 86);
+(405, "2020-03-20 00:26:21", 44.63, 142, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(406, '2017-08-08 20:44:50', 73.67788526361613321569166146218776702880859375, 32, 102);
+(406, "2017-08-08 20:44:50", 61.87, 141, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(407, '2018-01-25 12:00:23', 65.153969805058522979379631578922271728515625, 57, 69);
+(407, "2018-01-25 12:00:23", 74.10, 61, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(408, '2020-05-08 11:32:02', 38.4031508850978156033306731842458248138427734375, 84, 35);
+(408, "2020-05-08 11:32:02", 40.37, 92, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(409, '2017-03-27 15:24:26', 21.43300452738397865459774038754403591156005859375, 69, 39);
+(409, "2017-03-27 15:24:26", 55.06, 117, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(410, '2018-10-11 07:54:03', 66.60738706501325623321463353931903839111328125, 90, 40);
+(410, "2018-10-11 07:54:03", 16.37, 121, 31);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(411, '2017-01-21 07:01:44', 20.6353011551557443681303993798792362213134765625, 156, 35);
+(411, "2017-01-21 07:01:44", 27.87, 22, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(412, '2016-04-16 18:21:33', 57.79674003434156048797376570291817188262939453125, 11, 70);
+(412, "2016-04-16 18:21:33", 68.01, 9, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(413, '2020-02-06 16:04:44', 44.3399298041370997225385508500039577484130859375, 201, 58);
+(413, "2020-02-06 16:04:44", 16.09, 173, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(414, '2016-02-28 09:41:59', 30.488264056212432961956437793560326099395751953125, 202, 84);
+(414, "2016-02-28 09:41:59", 52.49, 8, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(415, '2020-05-15 03:24:09', 45.37661442802704669929880765266716480255126953125, 206, 73);
+(415, "2020-05-15 03:24:09", 69.40, 106, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(416, '2016-09-13 21:46:05', 61.49415250613086669773110770620405673980712890625, 139, 44);
+(416, "2016-09-13 21:46:05", 22.14, 115, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(417, '2016-07-11 05:14:55', 16.83494324949436560245885630138218402862548828125, 226, 20);
+(417, "2016-07-11 05:14:55", 35.90, 148, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(418, '2017-05-28 16:51:33', 28.104053357432167814522472326643764972686767578125, 79, 44);
+(418, "2017-05-28 16:51:33", 8.88, 124, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(419, '2018-05-20 02:31:39', 33.75706722152978045414783991873264312744140625, 167, 32);
+(419, "2018-05-20 02:31:39", 27.14, 242, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(420, '2019-04-12 09:13:04', 57.71747808290175640877350815571844577789306640625, 233, 104);
+(420, "2019-04-12 09:13:04", 43.53, 187, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(421, '2016-08-29 05:19:28', 14.5761384429739582202500969287939369678497314453125, 139, 52);
+(421, "2016-08-29 05:19:28", 60.84, 113, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(422, '2016-04-20 09:58:57', 66.52181367064525829846388660371303558349609375, 103, 103);
+(422, "2016-04-20 09:58:57", 52.59, 109, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(423, '2018-01-29 08:58:34', 7.35032542891616902380746978451497852802276611328125, 231, 65);
+(423, "2018-01-29 08:58:34", 40.63, 138, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(424, '2019-08-12 05:02:12', 65.8932671870071544617530889809131622314453125, 75, 24);
+(424, "2019-08-12 05:02:12", 58.32, 172, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(425, '2018-03-03 17:19:19', 72.963343360924085345686762593686580657958984375, 239, 13);
+(425, "2018-03-03 17:19:19", 44.33, 90, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(426, '2018-02-10 05:55:40', 5.5334905020624631788450642488896846771240234375, 57, 93);
+(426, "2018-02-10 05:55:40", 14.15, 161, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(427, '2016-02-14 16:13:47', 57.53662536637725821719868690706789493560791015625, 196, 13);
+(427, "2016-02-14 16:13:47", 20.85, 13, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(428, '2019-07-09 13:49:12', 35.02664742626131300085035036318004131317138671875, 47, 65);
+(428, "2019-07-09 13:49:12", 72.66, 128, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(429, '2018-12-09 14:10:52', 46.52875675662723864434155984781682491302490234375, 19, 10);
+(429, "2018-12-09 14:10:52", 45.40, 17, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(430, '2016-03-23 00:39:50', 49.98021227262216115150295081548392772674560546875, 80, 100);
+(430, "2016-03-23 00:39:50", 66.06, 238, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(431, '2016-06-16 18:31:19', 7.79169102260636048384867535787634551525115966796875, 191, 12);
+(431, "2016-06-16 18:31:19", 69.60, 166, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(432, '2018-10-14 16:19:37', 6.542271678134749635091793606989085674285888671875, 215, 12);
+(432, "2018-10-14 16:19:37", 14.81, 39, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(433, '2019-05-26 01:39:11', 35.857699559228422003798186779022216796875, 85, 71);
+(433, "2019-05-26 01:39:11", 22.03, 150, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(434, '2018-06-05 09:08:21', 56.59666311033962671217523165978491306304931640625, 91, 85);
+(434, "2018-06-05 09:08:21", 17.89, 69, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(435, '2019-05-19 23:21:19', 72.4321602324757094493179465644061565399169921875, 237, 95);
+(435, "2019-05-19 23:21:19", 35.30, 88, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(436, '2016-08-27 01:46:54', 32.3997163864749353479055571369826793670654296875, 23, 74);
+(436, "2016-08-27 01:46:54", 31.17, 233, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(437, '2020-09-16 10:39:12', 74.9499212944841701755649410188198089599609375, 86, 102);
+(437, "2020-09-16 10:39:12", 40.65, 84, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(438, '2016-02-10 07:55:36', 72.4946478637395017585731693543493747711181640625, 68, 48);
+(438, "2016-02-10 07:55:36", 6.95, 159, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(439, '2020-09-27 02:59:40', 49.1095582966771502242409042082726955413818359375, 197, 13);
+(439, "2020-09-27 02:59:40", 17.48, 79, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(440, '2020-12-25 10:09:49', 39.894496686523552853032015264034271240234375, 92, 3);
+(440, "2020-12-25 10:09:49", 34.76, 111, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(441, '2016-05-08 11:56:46', 68.461323920521607533373753540217876434326171875, 188, 11);
+(441, "2016-05-08 11:56:46", 28.99, 82, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(442, '2020-11-21 18:10:40', 5.204912141765039024221550789661705493927001953125, 227, 60);
+(442, "2020-11-21 18:10:40", 26.20, 100, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(443, '2016-11-20 15:57:19', 63.28173710068345059198691160418093204498291015625, 40, 16);
+(443, "2016-11-20 15:57:19", 71.72, 107, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(444, '2016-07-22 11:00:04', 33.1411731813467582696830504573881626129150390625, 183, 23);
+(444, "2016-07-22 11:00:04", 55.35, 208, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(445, '2017-02-20 03:15:59', 15.172585699989664220765916979871690273284912109375, 71, 80);
+(445, "2017-02-20 03:15:59", 71.33, 73, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(446, '2016-02-24 07:18:26', 8.30622029824704810607727267779409885406494140625, 17, 96);
+(446, "2016-02-24 07:18:26", 13.09, 178, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(447, '2020-02-05 02:09:31', 69.7881508723947945327381603419780731201171875, 58, 21);
+(447, "2020-02-05 02:09:31", 62.67, 246, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(448, '2019-03-25 02:32:17', 60.9325902571351178949043969623744487762451171875, 130, 40);
+(448, "2019-03-25 02:32:17", 34.16, 168, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(449, '2018-11-29 04:52:15', 26.396959698965218876764993183314800262451171875, 159, 34);
+(449, "2018-11-29 04:52:15", 66.52, 220, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(450, '2020-05-17 04:32:25', 47.67885799460375295666381134651601314544677734375, 242, 3);
+(450, "2020-05-17 04:32:25", 54.48, 165, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(451, '2016-12-10 18:17:30', 44.3355265307563826127079664729535579681396484375, 243, 87);
+(451, "2016-12-10 18:17:30", 10.90, 72, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(452, '2018-07-26 18:44:40', 66.00301335922421230861800722777843475341796875, 76, 18);
+(452, "2018-07-26 18:44:40", 39.92, 118, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(453, '2016-03-06 06:44:15', 67.492816436447611749827046878635883331298828125, 203, 30);
+(453, "2016-03-06 06:44:15", 29.96, 98, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(454, '2017-06-10 14:59:44', 67.95186309399110768936225213110446929931640625, 83, 43);
+(454, "2017-06-10 14:59:44", 51.20, 131, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(455, '2016-10-24 20:57:08', 46.849831687397454516030848026275634765625, 232, 84);
+(455, "2016-10-24 20:57:08", 74.68, 42, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(456, '2019-09-29 23:41:29', 57.233329233737180175012326799333095550537109375, 37, 9);
+(456, "2019-09-29 23:41:29", 38.27, 223, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(457, '2019-07-13 18:25:23', 48.33042010122034781716138240881264209747314453125, 194, 74);
+(457, "2019-07-13 18:25:23", 22.16, 126, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(458, '2019-08-07 09:28:31', 20.83326595847947970696623087860643863677978515625, 84, 73);
+(458, "2019-08-07 09:28:31", 12.46, 16, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(459, '2017-04-25 04:51:56', 38.86840169611701867324882186949253082275390625, 109, 6);
+(459, "2017-04-25 04:51:56", 57.68, 122, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(460, '2019-09-03 14:58:33', 5.34428111146838347167431493289768695831298828125, 41, 85);
+(460, "2019-09-03 14:58:33", 21.81, 207, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(461, '2018-08-18 15:52:03', 5.20435083259803565880474707228131592273712158203125, 71, 68);
+(461, "2018-08-18 15:52:03", 16.94, 247, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(462, '2018-10-18 10:48:31', 73.542461378346416722706635482609272003173828125, 107, 96);
+(462, "2018-10-18 10:48:31", 39.71, 102, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(463, '2018-11-01 06:18:24', 45.96421998314770718252475489862263202667236328125, 108, 89);
+(463, "2018-11-01 06:18:24", 16.56, 209, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(464, '2019-04-14 15:06:58', 61.523427762537920671093161217868328094482421875, 239, 54);
+(464, "2019-04-14 15:06:58", 55.33, 112, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(465, '2017-07-03 04:17:25', 45.74395242871623423752680537290871143341064453125, 212, 52);
+(465, "2017-07-03 04:17:25", 7.70, 88, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(466, '2019-10-23 22:58:32', 7.96944383479792772817518198280595242977142333984375, 135, 19);
+(466, "2019-10-23 22:58:32", 54.86, 238, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(467, '2017-01-16 11:40:17', 45.5079361594517735056797391735017299652099609375, 3, 98);
+(467, "2017-01-16 11:40:17", 13.73, 205, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(468, '2020-05-06 13:58:38', 15.939488839092074812242572079412639141082763671875, 20, 43);
+(468, "2020-05-06 13:58:38", 62.98, 121, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(469, '2017-12-03 15:14:57', 69.085700784600390988998697139322757720947265625, 235, 73);
+(469, "2017-12-03 15:14:57", 16.09, 218, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(470, '2017-04-30 20:55:52', 65.889946302920378684575553052127361297607421875, 192, 106);
+(470, "2017-04-30 20:55:52", 25.62, 215, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(471, '2017-08-15 03:25:45', 49.066105688431747466893284581601619720458984375, 53, 0);
+(471, "2017-08-15 03:25:45", 41.19, 118, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(472, '2020-02-14 12:37:03', 43.68625648589537746602218248881399631500244140625, 61, 8);
+(472, "2020-02-14 12:37:03", 65.08, 79, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(473, '2019-08-15 18:02:42', 50.1102200593085029822759679518640041351318359375, 118, 8);
+(473, "2019-08-15 18:02:42", 58.90, 244, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(474, '2016-06-12 07:09:56', 58.76220898016584470724410493858158588409423828125, 201, 40);
+(474, "2016-06-12 07:09:56", 49.89, 74, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(475, '2017-01-10 00:17:01', 7.3492928434478610455471425666473805904388427734375, 34, 11);
+(475, "2017-01-10 00:17:01", 29.40, 213, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(476, '2017-04-20 04:51:39', 9.667283046705055227221237146295607089996337890625, 172, 88);
+(476, "2017-04-20 04:51:39", 64.96, 215, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(477, '2017-05-12 13:27:42', 26.305556957540009221929722116328775882720947265625, 102, 79);
+(477, "2017-05-12 13:27:42", 22.97, 160, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(478, '2016-11-14 12:26:44', 19.118191047907647117654050816781818866729736328125, 124, 38);
+(478, "2016-11-14 12:26:44", 19.39, 200, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(479, '2019-06-15 15:27:23', 73.6989527719064625443934346549212932586669921875, 41, 5);
+(479, "2019-06-15 15:27:23", 13.56, 53, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(480, '2019-08-15 08:04:30', 9.46892782175680025602559908293187618255615234375, 156, 58);
+(480, "2019-08-15 08:04:30", 25.38, 64, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(481, '2019-01-05 02:09:11', 56.1444321754734829710287158377468585968017578125, 45, 67);
+(481, "2019-01-05 02:09:11", 7.33, 140, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(482, '2017-09-28 14:39:40', 28.883747837707300476495220209471881389617919921875, 73, 73);
+(482, "2017-09-28 14:39:40", 24.80, 173, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(483, '2018-01-26 04:18:15', 10.576687344999523787691941834054887294769287109375, 211, 2);
+(483, "2018-01-26 04:18:15", 30.48, 141, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(484, '2019-02-28 15:13:55', 71.21925758025389541217009536921977996826171875, 242, 7);
+(484, "2019-02-28 15:13:55", 23.77, 31, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(485, '2017-11-30 17:43:19', 55.73506302448023319584535784088075160980224609375, 97, 15);
+(485, "2017-11-30 17:43:19", 20.90, 225, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(486, '2016-06-21 19:56:03', 12.430225847304679831495377584360539913177490234375, 13, 102);
+(486, "2016-06-21 19:56:03", 52.10, 178, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(487, '2020-02-20 00:12:31', 33.380708282541689868594403378665447235107421875, 132, 80);
+(487, "2020-02-20 00:12:31", 37.12, 75, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(488, '2018-02-12 04:35:26', 70.55102725749492265094886533915996551513671875, 241, 53);
+(488, "2018-02-12 04:35:26", 53.63, 139, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(489, '2017-05-20 21:27:35', 40.09870476506739578326232731342315673828125, 15, 54);
+(489, "2017-05-20 21:27:35", 5.96, 182, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(490, '2016-08-21 20:22:50', 11.450318218116432689157591084949672222137451171875, 216, 38);
+(490, "2016-08-21 20:22:50", 12.69, 203, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(491, '2019-09-17 09:27:30', 67.166310376721185093629173934459686279296875, 58, 47);
+(491, "2019-09-17 09:27:30", 26.45, 49, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(492, '2019-05-22 11:39:21', 72.9191564934477440829141414724290370941162109375, 218, 41);
+(492, "2019-05-22 11:39:21", 18.21, 165, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(493, '2016-01-13 23:29:03', 26.84053121719869494654631125740706920623779296875, 108, 10);
+(493, "2016-01-13 23:29:03", 36.67, 6, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(494, '2018-02-02 06:05:19', 38.69135536582411560857508447952568531036376953125, 201, 4);
+(494, "2018-02-02 06:05:19", 6.11, 127, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(495, '2019-07-06 07:52:10', 48.05694080805091772390369442291557788848876953125, 165, 81);
+(495, "2019-07-06 07:52:10", 48.38, 34, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(496, '2016-07-08 12:49:56', 54.141978561639149347683996893465518951416015625, 170, 25);
+(496, "2016-07-08 12:49:56", 69.24, 201, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(497, '2020-07-14 05:17:03', 46.84482991347986313712681294418871402740478515625, 39, 22);
+(497, "2020-07-14 05:17:03", 33.71, 91, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(498, '2017-10-20 18:30:11', 56.57301747514110701331446762196719646453857421875, 135, 40);
+(498, "2017-10-20 18:30:11", 15.20, 235, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(499, '2016-02-17 11:34:35', 70.2315911574732893996042548678815364837646484375, 242, 93);
+(499, "2016-02-17 11:34:35", 68.90, 238, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(500, '2017-09-10 21:07:26', 28.082528631112698036531583056785166263580322265625, 122, 79);
+(500, "2017-09-10 21:07:26", 21.56, 244, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(501, '2020-05-15 03:49:45', 74.6150315613302694828234962187707424163818359375, 215, 105);
+(501, "2020-05-15 03:49:45", 10.96, 198, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(502, '2016-02-26 04:53:36', 25.0753996457994361435339669696986675262451171875, 167, 95);
+(502, "2016-02-26 04:53:36", 23.59, 92, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(503, '2019-10-07 12:07:40', 8.1558319549502993339729073341004550457000732421875, 196, 14);
+(503, "2019-10-07 12:07:40", 22.77, 27, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(504, '2017-02-25 08:05:35', 57.83010206131682906516289222054183483123779296875, 169, 98);
+(504, "2017-02-25 08:05:35", 50.88, 68, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(505, '2018-03-03 08:02:55', 15.5204121363104068365146304131485521793365478515625, 97, 91);
+(505, "2018-03-03 08:02:55", 14.93, 98, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(506, '2018-08-21 19:33:02', 65.814233381048552473657764494419097900390625, 91, 81);
+(506, "2018-08-21 19:33:02", 63.98, 239, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(507, '2018-06-01 18:09:03', 64.462170487133988672212581150233745574951171875, 141, 85);
+(507, "2018-06-01 18:09:03", 28.55, 37, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(508, '2020-04-11 08:03:32', 42.184046695807268179123639129102230072021484375, 12, 31);
+(508, "2020-04-11 08:03:32", 50.00, 115, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(509, '2019-03-22 19:30:28', 69.0998031955937364045894355513155460357666015625, 140, 102);
+(509, "2019-03-22 19:30:28", 38.95, 170, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(510, '2017-10-09 22:27:32', 54.2650306203846497510312474332749843597412109375, 89, 8);
+(510, "2017-10-09 22:27:32", 15.95, 227, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(511, '2016-11-25 03:55:11', 50.4780652572553805157440365292131900787353515625, 224, 40);
+(511, "2016-11-25 03:55:11", 20.09, 242, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(512, '2019-05-09 18:54:10', 8.15875496071788575136451981961727142333984375, 14, 36);
+(512, "2019-05-09 18:54:10", 68.98, 94, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(513, '2017-09-13 08:32:25', 40.81068775268749959650449454784393310546875, 190, 64);
+(513, "2017-09-13 08:32:25", 66.00, 95, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(514, '2019-03-10 10:43:13', 55.9171202381285610272243502549827098846435546875, 247, 52);
+(514, "2019-03-10 10:43:13", 33.90, 157, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(515, '2020-05-27 18:03:08', 12.6453639512815225742770053329877555370330810546875, 116, 18);
+(515, "2020-05-27 18:03:08", 62.86, 98, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(516, '2016-06-18 15:46:00', 10.55825985386231735674300580285489559173583984375, 168, 71);
+(516, "2016-06-18 15:46:00", 69.65, 154, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(517, '2018-09-06 18:52:26', 21.20701093528439429292120621539652347564697265625, 51, 93);
+(517, "2018-09-06 18:52:26", 16.04, 87, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(518, '2017-12-25 15:50:09', 26.765463263005045746467658318579196929931640625, 140, 48);
+(518, "2017-12-25 15:50:09", 30.79, 151, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(519, '2019-11-07 04:20:11', 50.87111477466836362282265326939523220062255859375, 238, 87);
+(519, "2019-11-07 04:20:11", 66.44, 117, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(520, '2019-02-11 11:54:31', 72.9204516625410263941375887952744960784912109375, 16, 79);
+(520, "2019-02-11 11:54:31", 29.36, 178, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(521, '2019-02-16 16:36:15', 19.01787586859865797350721550174057483673095703125, 138, 90);
+(521, "2019-02-16 16:36:15", 61.72, 106, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(522, '2020-07-30 06:31:32', 22.149742632290713828524530981667339801788330078125, 68, 5);
+(522, "2020-07-30 06:31:32", 54.56, 45, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(523, '2017-04-18 12:42:35', 10.96734141952075702874935814179480075836181640625, 173, 61);
+(523, "2017-04-18 12:42:35", 71.76, 185, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(524, '2020-07-11 01:35:15', 25.964008139109164829960718634538352489471435546875, 223, 81);
+(524, "2020-07-11 01:35:15", 36.20, 206, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(525, '2020-11-26 18:56:46', 31.77312214652872768283486948348581790924072265625, 150, 20);
+(525, "2020-11-26 18:56:46", 63.92, 182, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(526, '2018-02-24 18:08:50', 72.671812559246205864837975241243839263916015625, 112, 56);
+(526, "2018-02-24 18:08:50", 62.14, 197, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(527, '2019-10-01 07:16:09', 59.462709547520745445581269450485706329345703125, 92, 48);
+(527, "2019-10-01 07:16:09", 25.64, 223, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(528, '2017-02-26 09:08:32', 15.1077328170963216535938045126385986804962158203125, 173, 76);
+(528, "2017-02-26 09:08:32", 16.10, 129, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(529, '2016-02-29 02:21:29', 47.68881486279470749423126108013093471527099609375, 101, 31);
+(529, "2016-02-29 02:21:29", 70.44, 18, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(530, '2016-12-07 18:43:51', 13.2391630320595563574670450179837644100189208984375, 199, 41);
+(530, "2016-12-07 18:43:51", 65.96, 156, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(531, '2017-05-31 19:06:09', 6.0190347265748993521583543042652308940887451171875, 211, 51);
+(531, "2017-05-31 19:06:09", 17.15, 174, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(532, '2017-10-02 16:30:06', 38.8183115866711858643611776642501354217529296875, 59, 47);
+(532, "2017-10-02 16:30:06", 69.41, 112, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(533, '2018-05-19 15:12:29', 52.3411737084637707084766589105129241943359375, 142, 105);
+(533, "2018-05-19 15:12:29", 13.29, 176, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(534, '2018-09-01 04:53:18', 42.72984412279136989809558144770562648773193359375, 59, 99);
+(534, "2018-09-01 04:53:18", 50.75, 100, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(535, '2016-07-08 14:23:49', 62.96838230449115059172982000745832920074462890625, 99, 94);
+(535, "2016-07-08 14:23:49", 23.83, 45, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(536, '2018-08-10 08:15:49', 18.73469592484942580767892650328576564788818359375, 16, 54);
+(536, "2018-08-10 08:15:49", 51.72, 61, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(537, '2017-12-09 10:02:25', 33.26730956217144097308846539817750453948974609375, 44, 36);
+(537, "2017-12-09 10:02:25", 27.88, 100, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(538, '2020-06-16 00:40:34', 44.01141919664218704610902932472527027130126953125, 107, 11);
+(538, "2020-06-16 00:40:34", 34.12, 178, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(539, '2018-11-10 03:23:20', 44.86811315319908288756778347305953502655029296875, 152, 72);
+(539, "2018-11-10 03:23:20", 58.38, 3, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(540, '2018-06-24 11:22:47', 50.8886698071414826927139074541628360748291015625, 103, 101);
+(540, "2018-06-24 11:22:47", 59.38, 130, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(541, '2020-09-27 15:58:09', 15.891774012349966227475306368432939052581787109375, 228, 1);
+(541, "2020-09-27 15:58:09", 13.84, 158, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(542, '2018-08-03 02:17:55', 28.960385127900195811889716424047946929931640625, 163, 28);
+(542, "2018-08-03 02:17:55", 25.11, 249, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(543, '2018-03-09 13:38:28', 21.269109212514937468085918226279318332672119140625, 170, 13);
+(543, "2018-03-09 13:38:28", 55.23, 198, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(544, '2019-09-20 00:01:52', 22.70819157604753257828633650206029415130615234375, 177, 32);
+(544, "2019-09-20 00:01:52", 33.96, 25, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(545, '2019-10-28 09:29:51', 51.3990222848468505389973870478570461273193359375, 67, 44);
+(545, "2019-10-28 09:29:51", 22.31, 13, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(546, '2017-07-03 22:06:32', 17.67000296261283409648967790417373180389404296875, 71, 59);
+(546, "2017-07-03 22:06:32", 57.65, 151, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(547, '2019-07-15 11:21:03', 40.295321393750697325231158174574375152587890625, 181, 67);
+(547, "2019-07-15 11:21:03", 66.11, 216, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(548, '2016-11-23 22:37:29', 11.744176528868255360293915146030485630035400390625, 140, 70);
+(548, "2016-11-23 22:37:29", 27.39, 42, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(549, '2018-02-17 20:59:18', 70.3775942375144865081892930902540683746337890625, 7, 8);
+(549, "2018-02-17 20:59:18", 13.91, 114, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(550, '2018-01-25 04:49:02', 37.66239894326543691249753464944660663604736328125, 229, 58);
+(550, "2018-01-25 04:49:02", 68.47, 149, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(551, '2016-08-06 22:45:38', 54.5921207384747475543917971663177013397216796875, 2, 51);
+(551, "2016-08-06 22:45:38", 60.81, 93, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(552, '2018-07-28 05:37:46', 49.5034763978521681337952031753957271575927734375, 192, 98);
+(552, "2018-07-28 05:37:46", 13.88, 148, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(553, '2019-05-08 09:13:09', 34.26453164151509866997002973221242427825927734375, 32, 99);
+(553, "2019-05-08 09:13:09", 69.48, 212, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(554, '2019-12-15 02:14:51', 50.80034179539115513080105301924049854278564453125, 19, 71);
+(554, "2019-12-15 02:14:51", 33.43, 204, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(555, '2017-01-22 04:07:56', 35.3587404504349507305960287339985370635986328125, 235, 31);
+(555, "2017-01-22 04:07:56", 48.43, 6, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(556, '2019-01-29 19:06:39', 69.016736931268241050929646007716655731201171875, 98, 86);
+(556, "2019-01-29 19:06:39", 38.44, 144, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(557, '2018-09-16 12:02:28', 53.836649587188531995707307942211627960205078125, 171, 34);
+(557, "2018-09-16 12:02:28", 57.01, 72, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(558, '2017-06-25 03:34:48', 56.6844827113667548701414489187300205230712890625, 85, 2);
+(558, "2017-06-25 03:34:48", 38.82, 223, 18);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(559, '2019-09-21 02:24:32', 15.9708564782978168494764759088866412639617919921875, 232, 38);
+(559, "2019-09-21 02:24:32", 61.92, 177, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(560, '2019-06-10 10:57:12', 14.5767036711000823601125375716947019100189208984375, 97, 53);
+(560, "2019-06-10 10:57:12", 21.81, 231, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(561, '2017-11-06 13:08:29', 73.9429100009316044861407135613262653350830078125, 36, 15);
+(561, "2017-11-06 13:08:29", 48.37, 12, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(562, '2019-02-05 06:16:25', 46.76286301275991519332819734700024127960205078125, 213, 17);
+(562, "2019-02-05 06:16:25", 61.07, 139, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(563, '2016-07-20 01:21:15', 40.97700334923597864644762012176215648651123046875, 13, 20);
+(563, "2016-07-20 01:21:15", 22.64, 70, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(564, '2019-07-30 08:23:27', 19.834917831405025623325855121947824954986572265625, 117, 30);
+(564, "2019-07-30 08:23:27", 61.98, 232, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(565, '2020-02-07 05:28:25', 70.7409993642449563822083291597664356231689453125, 88, 15);
+(565, "2020-02-07 05:28:25", 7.72, 214, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(566, '2017-02-28 01:12:18', 45.4705346570189732346989330835640430450439453125, 222, 87);
+(566, "2017-02-28 01:12:18", 33.49, 170, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(567, '2017-08-06 21:13:15', 31.455961338456678078046024893410503864288330078125, 232, 64);
+(567, "2017-08-06 21:13:15", 13.24, 150, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(568, '2017-05-08 02:39:18', 29.934936275349212309038193779997527599334716796875, 133, 75);
+(568, "2017-05-08 02:39:18", 14.30, 247, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(569, '2020-02-11 04:23:23', 40.88196521531445881691979593597352504730224609375, 161, 15);
+(569, "2020-02-11 04:23:23", 48.31, 179, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(570, '2018-07-08 16:59:17', 36.4838066077873151016319752670824527740478515625, 124, 55);
+(570, "2018-07-08 16:59:17", 74.60, 3, 104);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(571, '2020-06-06 01:39:36', 32.8568970493543162092464626766741275787353515625, 241, 50);
+(571, "2020-06-06 01:39:36", 26.14, 120, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(572, '2020-09-27 06:16:10', 34.00056981896085517291794531047344207763671875, 144, 39);
+(572, "2020-09-27 06:16:10", 45.48, 219, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(573, '2019-02-08 18:47:25', 13.9907516486250127485391203663311898708343505859375, 65, 86);
+(573, "2019-02-08 18:47:25", 70.24, 5, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(574, '2016-04-05 09:55:10', 27.86478386244936444882114301435649394989013671875, 82, 98);
+(574, "2016-04-05 09:55:10", 14.91, 72, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(575, '2020-03-27 04:57:38', 28.87222879084709603603187133558094501495361328125, 27, 58);
+(575, "2020-03-27 04:57:38", 41.54, 106, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(576, '2016-07-23 10:09:48', 60.52740486711515899287405773065984249114990234375, 35, 8);
+(576, "2016-07-23 10:09:48", 70.33, 130, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(577, '2016-12-10 08:47:32', 33.8611402070127809338373481296002864837646484375, 37, 82);
+(577, "2016-12-10 08:47:32", 71.78, 199, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(578, '2016-10-06 13:04:10', 66.8445629461478603161594946868717670440673828125, 240, 73);
+(578, "2016-10-06 13:04:10", 52.04, 147, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(579, '2017-02-06 21:46:01', 64.481565817063966505884309299290180206298828125, 121, 102);
+(579, "2017-02-06 21:46:01", 34.34, 240, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(580, '2020-11-22 09:26:36', 5.94067935485529829975348548032343387603759765625, 115, 13);
+(580, "2020-11-22 09:26:36", 6.16, 219, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(581, '2016-12-08 16:18:12', 35.454949857803541135581326670944690704345703125, 21, 68);
+(581, "2016-12-08 16:18:12", 70.41, 2, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(582, '2018-07-08 21:40:55', 70.5844385139225920511307776905596256256103515625, 9, 12);
+(582, "2018-07-08 21:40:55", 44.66, 61, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(583, '2017-05-09 16:34:54', 27.644081189285987676385047961957752704620361328125, 58, 70);
+(583, "2017-05-09 16:34:54", 15.22, 237, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(584, '2020-12-19 05:01:17', 73.7757188776901102755800820887088775634765625, 143, 55);
+(584, "2020-12-19 05:01:17", 11.29, 173, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(585, '2019-07-02 03:22:47', 64.987546618683467158916755579411983489990234375, 51, 23);
+(585, "2019-07-02 03:22:47", 49.85, 232, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(586, '2017-04-15 13:26:02', 74.6701243269658476719996542669832706451416015625, 142, 77);
+(586, "2017-04-15 13:26:02", 34.03, 196, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(587, '2019-11-20 01:14:42', 61.1501443441928671518326154910027980804443359375, 5, 76);
+(587, "2019-11-20 01:14:42", 42.29, 108, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(588, '2016-03-07 04:30:49', 57.1689066830910661565212649293243885040283203125, 97, 97);
+(588, "2016-03-07 04:30:49", 33.70, 116, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(589, '2020-08-05 07:17:59', 32.0340186341881150156041258014738559722900390625, 90, 38);
+(589, "2020-08-05 07:17:59", 51.96, 115, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(590, '2020-04-09 02:55:12', 18.80887308799009360882337205111980438232421875, 52, 89);
+(590, "2020-04-09 02:55:12", 49.94, 74, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(591, '2016-06-17 02:45:40', 37.6685118417784536859471700154244899749755859375, 231, 47);
+(591, "2016-06-17 02:45:40", 62.33, 205, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(592, '2019-04-03 00:45:52', 15.0006092711848975085331403533928096294403076171875, 148, 80);
+(592, "2019-04-03 00:45:52", 61.60, 152, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(593, '2019-11-13 08:33:32', 37.36905295604511678675407893024384975433349609375, 231, 49);
+(593, "2019-11-13 08:33:32", 58.49, 99, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(594, '2018-07-18 01:40:28', 10.874983702489284809189484803937375545501708984375, 7, 100);
+(594, "2018-07-18 01:40:28", 63.44, 19, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(595, '2020-04-24 00:07:11', 65.04991294872087337353150360286235809326171875, 27, 59);
+(595, "2020-04-24 00:07:11", 38.99, 48, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(596, '2020-01-03 00:31:19', 44.9358012257813470569089986383914947509765625, 238, 46);
+(596, "2020-01-03 00:31:19", 11.12, 84, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(597, '2017-11-29 00:25:32', 72.286946085575749521012767218053340911865234375, 41, 11);
+(597, "2017-11-29 00:25:32", 61.55, 167, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(598, '2019-12-12 05:50:09', 51.78451139105862921496736817061901092529296875, 78, 41);
+(598, "2019-12-12 05:50:09", 49.19, 41, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(599, '2019-02-11 05:16:52', 46.01803829791614219857365242205560207366943359375, 122, 103);
+(599, "2019-02-11 05:16:52", 41.52, 98, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(600, '2016-10-22 02:05:36', 62.60637463439454819535967544652521610260009765625, 116, 34);
+(600, "2016-10-22 02:05:36", 39.71, 240, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(601, '2018-02-24 23:23:27', 59.1829323615783806644685682840645313262939453125, 166, 105);
+(601, "2018-02-24 23:23:27", 13.15, 104, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(602, '2019-03-20 13:51:26', 16.1856453737260750358473160304129123687744140625, 136, 97);
+(602, "2019-03-20 13:51:26", 15.60, 177, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(603, '2016-03-23 15:17:46', 72.7218743686112958357625757344067096710205078125, 135, 95);
+(603, "2016-03-23 15:17:46", 52.77, 12, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(604, '2017-08-09 18:34:12', 5.6373716423280395559913813485763967037200927734375, 27, 28);
+(604, "2017-08-09 18:34:12", 67.62, 32, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(605, '2018-01-09 12:25:12', 69.684075904330967432542820461094379425048828125, 155, 78);
+(605, "2018-01-09 12:25:12", 11.55, 91, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(606, '2020-08-16 09:21:51', 12.0600528364560712901720762602053582668304443359375, 53, 48);
+(606, "2020-08-16 09:21:51", 70.88, 88, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(607, '2018-11-20 23:28:51', 46.6481095239353322767783538438379764556884765625, 247, 44);
+(607, "2018-11-20 23:28:51", 7.57, 89, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(608, '2020-11-25 07:59:05', 43.18114888168954479397143586538732051849365234375, 5, 70);
+(608, "2020-11-25 07:59:05", 66.76, 157, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(609, '2017-06-23 18:28:37', 26.0859183395097744551094365306198596954345703125, 191, 65);
+(609, "2017-06-23 18:28:37", 51.33, 184, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(610, '2019-01-31 00:23:17', 11.62564521005659656793795875273644924163818359375, 138, 72);
+(610, "2019-01-31 00:23:17", 65.79, 26, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(611, '2016-11-26 02:07:08', 63.3538159303194419180726981721818447113037109375, 124, 29);
+(611, "2016-11-26 02:07:08", 74.40, 34, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(612, '2017-09-16 08:01:56', 8.9282421536647493809368825168348848819732666015625, 230, 84);
+(612, "2017-09-16 08:01:56", 12.22, 114, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(613, '2017-05-10 07:44:08', 53.36743111509620263177566812373697757720947265625, 142, 62);
+(613, "2017-05-10 07:44:08", 31.48, 202, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(614, '2016-12-30 21:07:52', 52.16150521515208282608000445179641246795654296875, 32, 86);
+(614, "2016-12-30 21:07:52", 46.36, 207, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(615, '2019-08-24 09:34:37', 29.3477469538831741147077991627156734466552734375, 218, 6);
+(615, "2019-08-24 09:34:37", 66.95, 180, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(616, '2018-11-11 02:59:49', 50.56343076918911805250900215469300746917724609375, 154, 79);
+(616, "2018-11-11 02:59:49", 11.73, 234, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(617, '2020-07-30 12:57:48', 48.0782180415030637732343166135251522064208984375, 211, 66);
+(617, "2020-07-30 12:57:48", 62.66, 100, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(618, '2018-04-11 17:13:55', 60.98642445101284437214417266659438610076904296875, 216, 42);
+(618, "2018-04-11 17:13:55", 55.87, 102, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(619, '2019-08-30 13:20:10', 19.70943406339211634303865139372646808624267578125, 17, 13);
+(619, "2019-08-30 13:20:10", 36.94, 218, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(620, '2017-10-28 04:00:28', 55.19365758602869931337409070692956447601318359375, 119, 88);
+(620, "2017-10-28 04:00:28", 35.97, 31, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(621, '2018-01-31 22:13:52', 21.22342979834196086130759795196354389190673828125, 109, 13);
+(621, "2018-01-31 22:13:52", 45.91, 7, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(622, '2019-05-04 08:10:42', 47.6130837527333738989909761585295200347900390625, 35, 86);
+(622, "2019-05-04 08:10:42", 17.63, 217, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(623, '2017-08-30 09:58:13', 53.78428105977248918634359142743051052093505859375, 127, 56);
+(623, "2017-08-30 09:58:13", 25.89, 5, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(624, '2017-07-15 16:00:38', 26.179260611424805205160737386904656887054443359375, 63, 76);
+(624, "2017-07-15 16:00:38", 54.96, 148, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(625, '2019-03-23 04:54:41', 13.6491585976765268384269802481867372989654541015625, 109, 41);
+(625, "2019-03-23 04:54:41", 56.22, 187, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(626, '2016-02-15 20:16:02', 5.13954448912882444489014233113266527652740478515625, 114, 93);
+(626, "2016-02-15 20:16:02", 35.98, 154, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(627, '2016-10-09 22:26:58', 62.68491918997225553766838856972754001617431640625, 178, 33);
+(627, "2016-10-09 22:26:58", 67.22, 40, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(628, '2018-09-30 14:45:05', 17.123096002792596692643201095052063465118408203125, 96, 63);
+(628, "2018-09-30 14:45:05", 8.75, 202, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(629, '2018-08-12 07:48:50', 56.50298591891037602863434585742652416229248046875, 20, 57);
+(629, "2018-08-12 07:48:50", 50.50, 7, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(630, '2016-02-17 12:18:12', 43.95380022734715197429977706633508205413818359375, 101, 9);
+(630, "2016-02-17 12:18:12", 55.35, 227, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(631, '2019-11-27 00:15:37', 14.438974523817218909016446559689939022064208984375, 225, 59);
+(631, "2019-11-27 00:15:37", 58.05, 201, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(632, '2018-06-26 14:52:58', 13.6427957781610569298891277867369353771209716796875, 87, 32);
+(632, "2018-06-26 14:52:58", 22.40, 52, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(633, '2017-05-05 20:06:01', 65.49471687091244120892952196300029754638671875, 136, 47);
+(633, "2017-05-05 20:06:01", 55.24, 81, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(634, '2016-05-15 00:29:07', 63.14169003320921547128818929195404052734375, 16, 50);
+(634, "2016-05-15 00:29:07", 40.13, 129, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(635, '2020-03-01 04:06:27', 64.9159386522864991775350063107907772064208984375, 49, 55);
+(635, "2020-03-01 04:06:27", 48.93, 121, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(636, '2016-06-22 05:25:46', 21.296730799498273967174100107513368129730224609375, 75, 24);
+(636, "2016-06-22 05:25:46", 57.61, 166, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(637, '2019-08-23 16:05:40', 35.989381170208758931039483286440372467041015625, 204, 98);
+(637, "2019-08-23 16:05:40", 30.14, 236, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(638, '2017-02-06 06:08:53', 8.25975778985725384018223849125206470489501953125, 160, 8);
+(638, "2017-02-06 06:08:53", 28.98, 214, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(639, '2019-08-28 23:27:04', 14.4040216832793905865628403262235224246978759765625, 248, 6);
+(639, "2019-08-28 23:27:04", 19.14, 109, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(640, '2019-01-30 11:15:11', 74.59574563701744409627281129360198974609375, 61, 76);
+(640, "2019-01-30 11:15:11", 30.46, 25, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(641, '2017-06-11 16:34:31', 15.931290343278053711628672317601740360260009765625, 18, 23);
+(641, "2017-06-11 16:34:31", 54.79, 23, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(642, '2020-05-31 03:14:36', 68.781180092494963673743768595159053802490234375, 234, 72);
+(642, "2020-05-31 03:14:36", 12.12, 205, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(643, '2017-02-03 12:58:22', 51.83460464054777361297965398989617824554443359375, 137, 69);
+(643, "2017-02-03 12:58:22", 52.49, 39, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(644, '2017-01-19 01:20:57', 41.17882698473636793323748861439526081085205078125, 162, 3);
+(644, "2017-01-19 01:20:57", 44.09, 180, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(645, '2016-11-27 20:33:53', 27.677029548699596972483050194568932056427001953125, 112, 33);
+(645, "2016-11-27 20:33:53", 35.01, 25, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(646, '2017-11-22 10:59:41', 56.382410582274957278059446252882480621337890625, 245, 67);
+(646, "2017-11-22 10:59:41", 14.70, 100, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(647, '2017-01-05 22:59:14', 31.473249483626805300673368037678301334381103515625, 235, 15);
+(647, "2017-01-05 22:59:14", 62.98, 83, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(648, '2018-07-16 11:32:07', 43.06610297629709549482868169434368610382080078125, 90, 2);
+(648, "2018-07-16 11:32:07", 68.51, 38, 84);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(649, '2016-07-17 07:08:45', 61.60164698603974642310276976786553859710693359375, 85, 93);
+(649, "2016-07-17 07:08:45", 19.63, 224, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(650, '2016-08-30 05:47:00', 27.884038485193510581439113593660295009613037109375, 47, 71);
+(650, "2016-08-30 05:47:00", 11.58, 242, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(651, '2018-09-20 01:03:45', 68.8848470371525536393164657056331634521484375, 85, 63);
+(651, "2018-09-20 01:03:45", 52.70, 234, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(652, '2017-06-08 17:59:22', 13.081695534463289476434511016122996807098388671875, 97, 25);
+(652, "2017-06-08 17:59:22", 51.79, 155, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(653, '2016-10-05 19:04:51', 31.31979309298066027622553519904613494873046875, 104, 91);
+(653, "2016-10-05 19:04:51", 43.10, 188, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(654, '2020-11-28 11:41:49', 40.90872365698610479967101127840578556060791015625, 136, 55);
+(654, "2020-11-28 11:41:49", 23.10, 155, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(655, '2018-01-16 14:50:01', 49.11193232055057222851246478967368602752685546875, 91, 35);
+(655, "2018-01-16 14:50:01", 35.26, 19, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(656, '2016-03-03 05:40:28', 46.30832409007776817588819540105760097503662109375, 232, 95);
+(656, "2016-03-03 05:40:28", 19.83, 191, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(657, '2016-05-16 17:57:25', 16.846022301424245171119764563627541065216064453125, 176, 4);
+(657, "2016-05-16 17:57:25", 5.86, 128, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(658, '2019-08-10 08:32:43', 41.25879464938669372031654347665607929229736328125, 58, 19);
+(658, "2019-08-10 08:32:43", 28.28, 136, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(659, '2019-12-28 22:20:51', 11.6323121553079875667435771902091801166534423828125, 176, 65);
+(659, "2019-12-28 22:20:51", 65.10, 77, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(660, '2016-12-14 13:34:20', 36.9724685763511189406926860101521015167236328125, 12, 52);
+(660, "2016-12-14 13:34:20", 38.11, 3, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(661, '2020-12-02 05:31:03', 40.38695303682185766547263483516871929168701171875, 20, 42);
+(661, "2020-12-02 05:31:03", 51.71, 194, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(662, '2018-12-28 07:09:34', 22.28011911119462951091918512247502803802490234375, 189, 5);
+(662, "2018-12-28 07:09:34", 33.95, 170, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(663, '2016-05-24 01:33:02', 51.78771754672789029427804052829742431640625, 40, 71);
+(663, "2016-05-24 01:33:02", 40.13, NULL, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(664, '2020-02-20 15:02:16', 61.64341160088408599904141738079488277435302734375, 12, 18);
+(664, "2020-02-20 15:02:16", 43.13, 15, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(665, '2020-07-01 15:33:52', 36.5752840599688653355769929476082324981689453125, 146, 16);
+(665, "2020-07-01 15:33:52", 28.76, 142, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(666, '2020-09-18 06:10:33', 31.438428891182606861320891766808927059173583984375, 1, 99);
+(666, "2020-09-18 06:10:33", 11.71, 42, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(667, '2017-08-21 19:18:16', 6.31656456181178516118279731017537415027618408203125, 71, 90);
+(667, "2017-08-21 19:18:16", 66.01, 38, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(668, '2017-07-15 18:09:12', 45.364001424683692675898782908916473388671875, 205, 65);
+(668, "2017-07-15 18:09:12", 70.89, 29, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(669, '2018-07-11 17:08:44', 54.786175371211101037260959856212139129638671875, 98, 78);
+(669, "2018-07-11 17:08:44", 62.06, 46, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(670, '2017-02-20 14:55:27', 71.2150499375478460706290206871926784515380859375, 97, 56);
+(670, "2017-02-20 14:55:27", 63.25, 64, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(671, '2016-10-10 02:41:47', 9.3778423519214353376582948840223252773284912109375, 233, 42);
+(671, "2016-10-10 02:41:47", 5.60, 211, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(672, '2020-03-18 23:23:55', 73.417612637604406700120307505130767822265625, 104, 34);
+(672, "2020-03-18 23:23:55", 20.12, 1, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(673, '2018-06-14 00:34:14', 65.312712365544683734697173349559307098388671875, 62, 78);
+(673, "2018-06-14 00:34:14", 26.79, 11, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(674, '2017-03-19 12:56:46', 35.3749184414917152707857894711196422576904296875, 52, 104);
+(674, "2017-03-19 12:56:46", 22.51, 179, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(675, '2016-02-16 15:39:11', 72.397952403214134164954884909093379974365234375, 196, 6);
+(675, "2016-02-16 15:39:11", 49.98, 151, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(676, '2019-02-24 01:13:03', 67.060398022746625201762071810662746429443359375, 26, 82);
+(676, "2019-02-24 01:13:03", 52.34, 109, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(677, '2019-12-02 13:32:22', 71.811243931290533737410441972315311431884765625, 173, 51);
+(677, "2019-12-02 13:32:22", 68.34, 232, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(678, '2017-05-19 01:16:33', 29.1533018246458510702723287977278232574462890625, 105, 39);
+(678, "2017-05-19 01:16:33", 40.46, 213, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(679, '2020-06-07 10:54:52', 7.216785987565902615870072622783482074737548828125, 233, 18);
+(679, "2020-06-07 10:54:52", 35.23, 168, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(680, '2016-04-11 19:27:18', 19.443707370967569403319430421106517314910888671875, 169, 12);
+(680, "2016-04-11 19:27:18", 65.69, 200, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(681, '2019-12-26 16:24:19', 29.41776390065766833004090585745871067047119140625, 24, 71);
+(681, "2019-12-26 16:24:19", 12.49, 187, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(682, '2019-03-19 15:07:19', 47.87452025018479417894923244602978229522705078125, 130, 21);
+(682, "2019-03-19 15:07:19", 48.29, 25, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(683, '2019-01-25 17:06:29', 67.10660303630669432095601223409175872802734375, 162, 32);
+(683, "2019-01-25 17:06:29", 54.24, 169, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(684, '2019-06-08 03:34:34', 71.463884500021293888494255952537059783935546875, 11, 89);
+(684, "2019-06-08 03:34:34", 45.09, 215, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(685, '2018-05-25 14:57:57', 46.8287361456548723026571678929030895233154296875, 15, 102);
+(685, "2018-05-25 14:57:57", 59.70, 53, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(686, '2018-11-23 22:23:09', 52.6102883936986387425349676050245761871337890625, 212, 88);
+(686, "2018-11-23 22:23:09", 60.84, 229, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(687, '2016-10-26 10:28:27', 49.32177419203316759421795723028481006622314453125, 228, 86);
+(687, "2016-10-26 10:28:27", 23.62, 11, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(688, '2020-01-18 01:50:50', 65.087648767506919966763234697282314300537109375, 197, 32);
+(688, "2020-01-18 01:50:50", 61.82, 221, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(689, '2016-06-04 20:29:03', 9.46430432647455432970673427917063236236572265625, 143, 73);
+(689, "2016-06-04 20:29:03", 68.13, 54, 31);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(690, '2019-04-21 12:58:32', 68.779185406990194451282150112092494964599609375, 216, 42);
+(690, "2019-04-21 12:58:32", 45.36, 16, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(691, '2019-12-13 11:52:46', 49.0290510432952402197770425118505954742431640625, 110, 38);
+(691, "2019-12-13 11:52:46", 19.77, 163, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(692, '2018-03-23 21:05:02', 60.62955080814372621489383163861930370330810546875, 43, 88);
+(692, "2018-03-23 21:05:02", 45.62, 48, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(693, '2016-12-16 03:00:51', 35.301390001308988075834349729120731353759765625, 132, 22);
+(693, "2016-12-16 03:00:51", 23.30, 244, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(694, '2016-09-15 18:56:17', 30.7004095054953296539679286070168018341064453125, 46, 51);
+(694, "2016-09-15 18:56:17", 19.98, 215, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(695, '2019-01-28 20:53:57', 40.9818363160960501545559964142739772796630859375, 105, 23);
+(695, "2019-01-28 20:53:57", 27.41, 123, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(696, '2016-05-24 05:15:19', 55.65125969690610219231530209071934223175048828125, 66, 79);
+(696, "2016-05-24 05:15:19", 46.43, 98, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(697, '2018-12-08 21:49:33', 50.36900885727822441140233422629535198211669921875, 141, 105);
+(697, "2018-12-08 21:49:33", 52.66, 91, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(698, '2020-12-15 14:48:18', 24.60484485842948032541244174353778362274169921875, 1, 45);
+(698, "2020-12-15 14:48:18", 18.67, 172, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(699, '2019-09-26 02:53:58', 57.11397439619870652904864982701838016510009765625, 71, 65);
+(699, "2019-09-26 02:53:58", 24.90, 67, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(700, '2020-10-12 23:57:37', 16.84100693233209966592767159454524517059326171875, 242, 96);
+(700, "2020-10-12 23:57:37", 48.45, 178, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(701, '2020-06-11 00:26:39', 43.03042941867710169390193186700344085693359375, 59, 45);
+(701, "2020-06-11 00:26:39", 20.90, 178, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(702, '2016-05-03 22:08:23', 46.38545907472700235985030303709208965301513671875, 109, 97);
+(702, "2016-05-03 22:08:23", 59.60, 34, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(703, '2019-01-10 08:39:44', 56.5734447594919629409560002386569976806640625, 228, 24);
+(703, "2019-01-10 08:39:44", 71.21, 235, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(704, '2017-05-26 10:00:33', 31.758467050381735674591254792176187038421630859375, 185, 50);
+(704, "2017-05-26 10:00:33", 10.19, 192, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(705, '2017-10-06 12:50:15', 52.31180494444680562082794494926929473876953125, 164, 73);
+(705, "2017-10-06 12:50:15", 31.79, 144, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(706, '2017-08-04 19:56:31', 65.734128883771546725256484933197498321533203125, 60, 39);
+(706, "2017-08-04 19:56:31", 23.06, 46, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(707, '2019-07-28 04:38:21', 7.2263763979363861977844862849451601505279541015625, 53, 83);
+(707, "2019-07-28 04:38:21", 69.38, 243, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(708, '2017-04-22 02:14:55', 6.0396040612269956682212068699300289154052734375, 112, 2);
+(708, "2017-04-22 02:14:55", 57.92, 211, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(709, '2016-04-27 15:05:22', 43.89921775502133272084392956458032131195068359375, 243, 19);
+(709, "2016-04-27 15:05:22", 55.03, 59, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(710, '2016-09-18 20:44:08', 14.374885754313350361144330236129462718963623046875, 215, 17);
+(710, "2016-09-18 20:44:08", 36.08, 51, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(711, '2018-01-23 00:01:22', 32.895881209320833704623510129749774932861328125, 66, 20);
+(711, "2018-01-23 00:01:22", 35.68, 166, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(712, '2019-03-17 09:01:08', 39.70388756556940279551781713962554931640625, 183, 94);
+(712, "2019-03-17 09:01:08", 37.63, 160, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(713, '2018-04-15 01:00:15', 49.61239142691724879341563791967928409576416015625, 4, 22);
+(713, "2018-04-15 01:00:15", 46.06, 118, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(714, '2020-04-14 19:05:28', 56.27148587227591036707963212393224239349365234375, 58, 4);
+(714, "2020-04-14 19:05:28", 65.00, 95, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(715, '2018-07-22 04:34:26', 37.11356379701417296246290788985788822174072265625, 245, 59);
+(715, "2018-07-22 04:34:26", 54.17, 233, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(716, '2017-04-03 03:12:56', 60.75723669710212249128744588233530521392822265625, 151, 61);
+(716, "2017-04-03 03:12:56", 42.82, 49, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(717, '2017-04-28 14:55:35', 10.61893268064532236394370556809008121490478515625, 102, 62);
+(717, "2017-04-28 14:55:35", 17.86, 44, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(718, '2017-10-02 04:13:12', 30.00334479953712474298299639485776424407958984375, 21, 73);
+(718, "2017-10-02 04:13:12", 32.11, 248, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(719, '2018-07-21 01:11:19', 37.870184499766338603876647539436817169189453125, 64, 20);
+(719, "2018-07-21 01:11:19", 48.54, 192, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(720, '2020-04-25 02:44:02', 63.268816111076802144452813081443309783935546875, 75, 20);
+(720, "2020-04-25 02:44:02", 23.04, 150, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(721, '2019-07-26 07:04:27', 18.538342691498428393970243632793426513671875, 39, 96);
+(721, "2019-07-26 07:04:27", 54.32, 1, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(722, '2019-03-28 18:52:33', 32.10562367665437477626255713403224945068359375, 214, 67);
+(722, "2019-03-28 18:52:33", 59.94, 6, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(723, '2018-02-22 15:04:36', 12.1376503640123321048349680495448410511016845703125, 179, 30);
+(723, "2018-02-22 15:04:36", 47.20, 50, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(724, '2018-08-25 05:30:24', 52.81533998352959002886564121581614017486572265625, 17, 7);
+(724, "2018-08-25 05:30:24", 18.75, 190, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(725, '2020-06-30 06:05:48', 67.76963926758111256276606582105159759521484375, 106, 17);
+(725, "2020-06-30 06:05:48", 68.76, 16, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(726, '2016-10-10 09:09:08', 7.3078763028670348234072662307880818843841552734375, 7, 52);
+(726, "2016-10-10 09:09:08", 21.61, 155, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(727, '2018-01-08 09:12:23', 54.9411958995606113376197754405438899993896484375, 86, 51);
+(727, "2018-01-08 09:12:23", 15.43, 74, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(728, '2016-09-07 13:11:44', 55.567963850912065026932395994663238525390625, 192, 13);
+(728, "2016-09-07 13:11:44", 58.68, 174, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(729, '2019-09-12 09:46:20', 70.197934904134825728760915808379650115966796875, 4, 42);
+(729, "2019-09-12 09:46:20", 21.44, 1, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(730, '2016-06-24 03:34:50', 70.947178434181495276789064519107341766357421875, 206, 105);
+(730, "2016-06-24 03:34:50", 27.24, 165, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(731, '2018-11-22 04:51:47', 71.8661192305598461871340987272560596466064453125, 21, 70);
+(731, "2018-11-22 04:51:47", 18.30, 102, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(732, '2016-06-18 06:20:44', 71.839109085485461037023924291133880615234375, 80, 78);
+(732, "2016-06-18 06:20:44", 58.77, 214, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(733, '2016-05-27 11:07:40', 13.60933250145188111446259426884353160858154296875, 146, 102);
+(733, "2016-05-27 11:07:40", 34.11, 30, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(734, '2016-06-17 18:54:10', 72.1863441080000285410278593190014362335205078125, 54, 41);
+(734, "2016-06-17 18:54:10", 42.79, 191, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(735, '2016-08-29 03:26:12', 58.54760521589276578424687613733112812042236328125, 74, 71);
+(735, "2016-08-29 03:26:12", 6.43, 228, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(736, '2019-12-14 19:05:44', 29.561134910126241948091774247586727142333984375, 51, 19);
+(736, "2019-12-14 19:05:44", 71.79, 49, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(737, '2018-03-20 07:55:37', 15.5149934111640792622210938134230673313140869140625, 223, 42);
+(737, "2018-03-20 07:55:37", 74.11, 152, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(738, '2019-09-08 14:52:51', 38.77638253007851432130337343551218509674072265625, 193, 64);
+(738, "2019-09-08 14:52:51", 59.93, 88, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(739, '2018-06-09 08:58:01', 44.10206249587061932970755151472985744476318359375, 227, 82);
+(739, "2018-06-09 08:58:01", 15.99, 83, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(740, '2020-05-27 10:44:06', 61.61980114608576997170530376024544239044189453125, 171, 58);
+(740, "2020-05-27 10:44:06", 29.05, 188, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(741, '2016-11-19 13:01:48', 51.4868882104693312840026919730007648468017578125, 72, 80);
+(741, "2016-11-19 13:01:48", 11.63, 86, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(742, '2016-12-11 21:52:50', 36.81912705495506799024951760657131671905517578125, 235, 9);
+(742, "2016-12-11 21:52:50", 74.60, 55, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(743, '2020-06-06 01:37:47', 68.740398365462880292398040182888507843017578125, 191, 20);
+(743, "2020-06-06 01:37:47", 22.53, 104, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(744, '2020-03-25 11:51:52', 37.7421499954908910012818523682653903961181640625, 61, 44);
+(744, "2020-03-25 11:51:52", 7.43, 175, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(745, '2016-05-06 16:20:29', 19.62379143903853417896243627183139324188232421875, 189, 32);
+(745, "2016-05-06 16:20:29", 55.87, 33, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(746, '2016-07-10 07:34:33', 53.1578084621130670939237461425364017486572265625, 19, 15);
+(746, "2016-07-10 07:34:33", 11.08, 183, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(747, '2019-12-30 22:26:20', 47.2098290737362020763612235896289348602294921875, 119, 102);
+(747, "2019-12-30 22:26:20", 65.77, 243, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(748, '2019-11-08 20:52:04', 25.15881011945875656010684906505048274993896484375, 196, 25);
+(748, "2019-11-08 20:52:04", 48.19, 193, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(749, '2020-06-01 12:45:53', 74.891351514231843111701891757547855377197265625, 197, 0);
+(749, "2020-06-01 12:45:53", 5.81, 11, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(750, '2018-07-17 23:28:46', 46.8344761302009402470503118820488452911376953125, 140, 35);
+(750, "2018-07-17 23:28:46", 15.86, 140, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(751, '2019-07-18 01:17:14', 16.5707996266433355003755423240363597869873046875, 245, 104);
+(751, "2019-07-18 01:17:14", 72.22, 153, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(752, '2019-06-05 02:43:42', 43.6766639225540274082959513179957866668701171875, 148, 93);
+(752, "2019-06-05 02:43:42", 51.20, 224, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(753, '2019-02-03 19:21:24', 65.75824034721364341748994775116443634033203125, 117, 14);
+(753, "2019-02-03 19:21:24", 29.86, 1, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(754, '2016-07-16 12:26:49', 26.692827199107338032035841024480760097503662109375, 41, 61);
+(754, "2016-07-16 12:26:49", 21.88, 175, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(755, '2020-08-24 23:01:32', 32.71517254007154207329222117550671100616455078125, 147, 104);
+(755, "2020-08-24 23:01:32", 38.24, 2, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(756, '2019-07-31 10:33:30', 54.29627097534876867257480625994503498077392578125, 23, 19);
+(756, "2019-07-31 10:33:30", 62.73, 127, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(757, '2017-07-31 14:41:40', 45.08070225603042757711591548286378383636474609375, 238, 18);
+(757, "2017-07-31 14:41:40", 68.63, 179, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(758, '2019-10-12 06:17:57', 57.35937980809575975627012667246162891387939453125, 189, 42);
+(758, "2019-10-12 06:17:57", 71.72, 238, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(759, '2018-06-24 19:39:54', 25.7077926627494122158168465830385684967041015625, 238, 20);
+(759, "2018-06-24 19:39:54", 39.89, 212, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(760, '2020-04-14 00:41:19', 62.79787293095420608324275235645473003387451171875, 207, 79);
+(760, "2020-04-14 00:41:19", 72.44, 117, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(761, '2020-07-10 01:49:45', 16.11188460071633699044468812644481658935546875, 13, 75);
+(761, "2020-07-10 01:49:45", 74.73, 244, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(762, '2017-12-27 04:39:37', 25.2393972769970815761553240008652210235595703125, 109, 87);
+(762, "2017-12-27 04:39:37", 72.70, 146, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(763, '2017-08-08 09:41:17', 64.912576329223355742215062491595745086669921875, 90, 19);
+(763, "2017-08-08 09:41:17", 68.23, 166, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(764, '2019-10-27 22:20:32', 46.3488594385152481436307425610721111297607421875, 247, 88);
+(764, "2019-10-27 22:20:32", 73.12, 137, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(765, '2019-04-30 04:56:27', 53.4646188245089746260418905876576900482177734375, 23, 23);
+(765, "2019-04-30 04:56:27", 55.79, 26, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(766, '2018-11-25 18:55:42', 39.76092118103105121917906217277050018310546875, 67, 56);
+(766, "2018-11-25 18:55:42", 31.48, 43, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(767, '2019-09-02 01:20:08', 58.24865379889532590595990768633782863616943359375, 218, 64);
+(767, "2019-09-02 01:20:08", 59.38, 214, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(768, '2019-03-09 10:16:07', 67.630394231902073443052358925342559814453125, 70, 23);
+(768, "2019-03-09 10:16:07", 46.48, 58, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(769, '2020-12-10 23:08:43', 29.736605693922935955697539611719548702239990234375, 230, 82);
+(769, "2020-12-10 23:08:43", 62.94, 162, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(770, '2016-09-14 12:51:41', 28.69227833274198502522267517633736133575439453125, 66, 13);
+(770, "2016-09-14 12:51:41", 11.62, 68, 62);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(771, '2019-04-11 15:19:22', 35.82755584108582525004749186336994171142578125, 64, 64);
+(771, "2019-04-11 15:19:22", 59.20, 103, 104);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(772, '2016-11-21 20:34:49', 44.62785052549262587717748829163610935211181640625, 63, 99);
+(772, "2016-11-21 20:34:49", 67.74, 86, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(773, '2017-06-29 01:35:15', 11.48005363206332418712918297387659549713134765625, 52, 78);
+(773, "2017-06-29 01:35:15", 9.00, 95, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(774, '2017-06-14 18:14:33', 70.2923019947881613234130782075226306915283203125, 173, 27);
+(774, "2017-06-14 18:14:33", 53.68, 150, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(775, '2019-06-20 04:56:45', 5.283960402354384910950102494098246097564697265625, 67, 72);
+(775, "2019-06-20 04:56:45", 33.98, 98, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(776, '2017-06-29 17:15:07', 62.08602695855893927046054159291088581085205078125, 74, 4);
+(776, "2017-06-29 17:15:07", 69.97, 130, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(777, '2020-08-14 00:44:57', 22.991292915801107454853990930132567882537841796875, 48, 56);
+(777, "2020-08-14 00:44:57", 29.52, 66, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(778, '2019-05-04 05:59:46', 58.2472449313441558160775457508862018585205078125, 83, 63);
+(778, "2019-05-04 05:59:46", 24.18, 211, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(779, '2020-11-19 22:36:48', 17.150790982309228382973742554895579814910888671875, 52, 90);
+(779, "2020-11-19 22:36:48", 7.31, 141, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(780, '2018-05-08 06:03:46', 31.052048370824099521314565208740532398223876953125, 9, 81);
+(780, "2018-05-08 06:03:46", 48.51, 126, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(781, '2016-04-26 12:52:34', 11.6744680224441026439308188855648040771484375, 193, 50);
+(781, "2016-04-26 12:52:34", 17.09, 154, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(782, '2017-12-30 14:34:45', 50.24200340658543240124345174990594387054443359375, 202, 67);
+(782, "2017-12-30 14:34:45", 70.09, 131, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(783, '2017-11-12 19:45:08', 48.20087633899813539528622641228139400482177734375, 12, 87);
+(783, "2017-11-12 19:45:08", 64.58, 208, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(784, '2016-09-08 18:54:52', 47.02748789231197434901332599110901355743408203125, 120, 11);
+(784, "2016-09-08 18:54:52", 74.40, 223, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(785, '2020-06-30 12:35:47', 36.465134240302887747020577080547809600830078125, 112, 3);
+(785, "2020-06-30 12:35:47", 49.56, 79, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(786, '2019-03-11 23:47:02', 8.646233695321114964826847426593303680419921875, 25, 52);
+(786, "2019-03-11 23:47:02", 47.52, 113, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(787, '2020-12-28 17:59:34', 14.043489819831254550308585749007761478424072265625, 111, 17);
+(787, "2020-12-28 17:59:34", 17.86, 228, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(788, '2018-04-06 09:51:23', 52.86063121011120102821223554201424121856689453125, 231, 39);
+(788, "2018-04-06 09:51:23", 51.16, 47, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(789, '2020-06-10 20:49:09', 38.497222898201698626508004963397979736328125, 88, 57);
+(789, "2020-06-10 20:49:09", 6.69, 1, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(790, '2019-12-14 21:36:23', 5.1071229685367622863623182638548314571380615234375, 45, 56);
+(790, "2019-12-14 21:36:23", 30.79, 41, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(791, '2019-11-02 05:07:21', 46.7544058927971803996115340851247310638427734375, 221, 68);
+(791, "2019-11-02 05:07:21", 47.48, 11, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(792, '2017-05-07 08:52:47', 7.4614092188311342823681115987710654735565185546875, 48, 47);
+(792, "2017-05-07 08:52:47", 70.45, 34, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(793, '2016-04-07 05:37:14', 69.0347801238334426443543634377419948577880859375, 125, 92);
+(793, "2016-04-07 05:37:14", 27.35, 62, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(794, '2019-09-03 09:08:10', 41.74591756521358121290177223272621631622314453125, 104, 73);
+(794, "2019-09-03 09:08:10", 12.13, 122, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(795, '2016-02-09 14:39:26', 45.9546667815113920596559182740747928619384765625, 212, 91);
+(795, "2016-02-09 14:39:26", 52.30, 107, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(796, '2018-07-09 16:50:23', 20.0064850942635672481628716923296451568603515625, 148, 99);
+(796, "2018-07-09 16:50:23", 49.88, 44, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(797, '2020-05-20 10:52:45', 38.0865386510667320862921769730746746063232421875, 182, 4);
+(797, "2020-05-20 10:52:45", 58.88, 215, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(798, '2016-07-11 05:58:21', 31.5137319665171133920011925511062145233154296875, 201, 24);
+(798, "2016-07-11 05:58:21", 43.03, 176, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(799, '2020-02-19 02:55:58', 74.9059143015241346574839553795754909515380859375, 84, 83);
+(799, "2020-02-19 02:55:58", 39.71, 51, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(800, '2018-07-24 16:00:20', 34.6200477779514557141737896017730236053466796875, 44, 26);
+(800, "2018-07-24 16:00:20", 65.30, 42, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(801, '2016-05-16 14:46:11', 14.99004002494775278364613768644630908966064453125, 133, 89);
+(801, "2016-05-16 14:46:11", 31.59, 28, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(802, '2020-06-08 07:14:18', 67.45180520266012536012567579746246337890625, 136, 74);
+(802, "2020-06-08 07:14:18", 31.35, 87, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(803, '2018-05-12 06:06:27', 73.644906242969994991653948090970516204833984375, 242, 50);
+(803, "2018-05-12 06:06:27", 33.01, 212, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(804, '2016-11-12 19:58:21', 28.296671519007784212362821563147008419036865234375, 36, 101);
+(804, "2016-11-12 19:58:21", 62.99, 18, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(805, '2020-01-02 22:27:08', 36.08453449660428447032245458103716373443603515625, 13, 37);
+(805, "2020-01-02 22:27:08", 27.33, 97, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(806, '2020-07-15 08:34:00', 5.811385074945253137457257253117859363555908203125, 139, 35);
+(806, "2020-07-15 08:34:00", 5.30, 191, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(807, '2016-07-16 07:09:34', 58.77231304276396173236207687295973300933837890625, 244, 22);
+(807, "2016-07-16 07:09:34", 36.24, 24, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(808, '2016-03-12 20:39:23', 74.6022220518643877085196436382830142974853515625, 206, 17);
+(808, "2016-03-12 20:39:23", 5.32, 178, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(809, '2018-10-26 05:23:21', 13.021178717112359635166285443119704723358154296875, 85, 0);
+(809, "2018-10-26 05:23:21", 55.84, 61, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(810, '2017-03-31 02:57:37', 61.9780086677997559263531002216041088104248046875, 10, 2);
+(810, "2017-03-31 02:57:37", 54.86, 79, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(811, '2020-02-10 20:12:40', 43.37092330499037728941402747295796871185302734375, 160, 65);
+(811, "2020-02-10 20:12:40", 47.03, 28, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(812, '2016-12-04 21:24:43', 26.91158644374014130562500213272869586944580078125, 115, 5);
+(812, "2016-12-04 21:24:43", 5.83, 141, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(813, '2017-11-28 22:24:16', 69.3155606514575737264749477617442607879638671875, 53, 25);
+(813, "2017-11-28 22:24:16", 73.23, 145, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(814, '2020-11-12 22:05:37', 41.06690804564397012654808349907398223876953125, 69, 78);
+(814, "2020-11-12 22:05:37", 28.83, 179, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(815, '2018-06-22 07:41:36', 68.1199660187684230550075881183147430419921875, 116, 38);
+(815, "2018-06-22 07:41:36", 59.92, 235, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(816, '2018-09-10 21:01:46', 61.188526491217999137006700038909912109375, 216, 100);
+(816, "2018-09-10 21:01:46", 31.98, 112, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(817, '2018-01-01 19:56:59', 67.796202104724812897984520532190799713134765625, 216, 51);
+(817, "2018-01-01 19:56:59", 34.42, 121, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(818, '2018-01-03 20:39:54', 19.526470517312560559730627574026584625244140625, 177, 35);
+(818, "2018-01-03 20:39:54", 19.97, 194, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(819, '2019-01-25 01:53:41', 34.048298697110539023924502544105052947998046875, 75, 4);
+(819, "2019-01-25 01:53:41", 20.89, 221, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(820, '2017-12-01 15:57:31', 65.90227730613031553730252198874950408935546875, 220, 58);
+(820, "2017-12-01 15:57:31", 41.95, 126, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(821, '2020-06-21 06:43:40', 45.87685046772597985409447574056684970855712890625, 164, 39);
+(821, "2020-06-21 06:43:40", 56.95, 78, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(822, '2016-09-12 17:37:51', 29.834819050679779905976829468272626399993896484375, 3, 54);
+(822, "2016-09-12 17:37:51", 15.29, 147, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(823, '2016-11-13 09:01:23', 32.0215219345667065908855875022709369659423828125, 13, 30);
+(823, "2016-11-13 09:01:23", 16.28, 95, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(824, '2017-02-15 15:25:03', 37.3977102063886519545121700502932071685791015625, 188, 85);
+(824, "2017-02-15 15:25:03", 55.25, 65, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(825, '2019-08-09 18:56:31', 21.0210017829009672141182818450033664703369140625, 64, 98);
+(825, "2019-08-09 18:56:31", 14.80, 138, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(826, '2017-10-21 04:10:28', 48.92174445285117911907946108840405941009521484375, 151, 47);
+(826, "2017-10-21 04:10:28", 13.82, 220, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(827, '2016-06-23 21:16:12', 10.2014089052807293001023936085402965545654296875, 242, 71);
+(827, "2016-06-23 21:16:12", 8.52, 159, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(828, '2019-02-07 22:22:36', 54.04621959744546444426305242814123630523681640625, 44, 74);
+(828, "2019-02-07 22:22:36", 26.41, 128, 77);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(829, '2017-01-20 17:04:14', 26.219966929517926956805240479297935962677001953125, 165, 57);
+(829, "2017-01-20 17:04:14", 6.27, 77, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(830, '2018-08-30 23:00:20', 10.8253971971350519964971681474708020687103271484375, 146, 71);
+(830, "2018-08-30 23:00:20", 29.21, 148, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(831, '2020-11-28 00:13:42', 72.003901768683391537706484086811542510986328125, 1, 38);
+(831, "2020-11-28 00:13:42", 56.84, 184, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(832, '2017-09-11 14:10:47', 8.0242647396183368613264974555931985378265380859375, 52, 0);
+(832, "2017-09-11 14:10:47", 69.03, 26, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(833, '2018-01-23 03:28:53', 50.23842798469826220753020606935024261474609375, 20, 82);
+(833, "2018-01-23 03:28:53", 12.05, 233, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(834, '2019-10-20 12:59:03', 72.623717765750342323372024111449718475341796875, 98, 6);
+(834, "2019-10-20 12:59:03", 49.02, 172, 68);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(835, '2020-01-26 13:40:12', 69.942659744906592322877258993685245513916015625, 103, 0);
+(835, "2020-01-26 13:40:12", 50.98, 234, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(836, '2019-01-19 04:30:49', 7.984898103176501393818398355506360530853271484375, 94, 83);
+(836, "2019-01-19 04:30:49", 28.92, 76, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(837, '2020-12-03 21:05:09', 12.4993916422735527049781012465246021747589111328125, 75, 12);
+(837, "2020-12-03 21:05:09", 67.92, 33, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(838, '2020-03-15 06:34:42', 5.3568954580967638179345158278010785579681396484375, 156, 27);
+(838, "2020-03-15 06:34:42", 57.55, 129, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(839, '2018-02-27 22:08:12', 72.5509883388628935563247068785130977630615234375, 142, 57);
+(839, "2018-02-27 22:08:12", 8.96, 228, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(840, '2016-08-19 01:30:33', 41.2976199176069229679342242889106273651123046875, 65, 84);
+(840, "2016-08-19 01:30:33", 70.44, 205, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(841, '2017-01-07 20:15:14', 54.81358560989760775328250019811093807220458984375, 105, 1);
+(841, "2017-01-07 20:15:14", 54.03, 31, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(842, '2017-06-04 22:19:14', 67.17289256556711052326136268675327301025390625, 149, 57);
+(842, "2017-06-04 22:19:14", 41.60, 109, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(843, '2019-08-09 06:58:30', 8.857842800558675122601925977505743503570556640625, 135, 74);
+(843, "2019-08-09 06:58:30", 58.66, 39, 88);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(844, '2020-08-29 13:33:36', 5.4381189982429578577693973784334957599639892578125, 149, 15);
+(844, "2020-08-29 13:33:36", 55.70, 88, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(845, '2018-04-30 04:37:50', 35.0496405662511705259021255187690258026123046875, 173, 24);
+(845, "2018-04-30 04:37:50", 5.72, 60, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(846, '2019-05-08 03:37:47', 42.226142251962272666787612251937389373779296875, 72, 41);
+(846, "2019-05-08 03:37:47", 24.03, 98, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(847, '2017-09-07 03:37:12', 48.34818591397372955498212832026183605194091796875, 184, 68);
+(847, "2017-09-07 03:37:12", 26.29, 215, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(848, '2016-06-09 12:16:17', 59.4088126002109078171997680328786373138427734375, 62, 66);
+(848, "2016-06-09 12:16:17", 31.64, 161, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(849, '2016-09-13 01:21:46', 26.89417241068304775808428530581295490264892578125, 99, 13);
+(849, "2016-09-13 01:21:46", 36.45, 2, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(850, '2016-10-23 14:03:32', 31.992242207241648799254107871092855930328369140625, 191, 38);
+(850, "2016-10-23 14:03:32", 64.32, 141, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(851, '2020-12-01 01:33:29', 70.596040534310787961658206768333911895751953125, 1, 6);
+(851, "2020-12-01 01:33:29", 62.13, 210, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(852, '2018-04-23 20:42:14', 57.26384636098467950660051428712904453277587890625, 164, 87);
+(852, "2018-04-23 20:42:14", 43.74, 90, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(853, '2018-05-29 21:08:29', 23.736413271826560134059036499820649623870849609375, 53, 62);
+(853, "2018-05-29 21:08:29", 65.47, 214, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(854, '2020-12-02 23:58:18', 29.133153795548867748266275157220661640167236328125, 137, 5);
+(854, "2020-12-02 23:58:18", 65.45, 135, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(855, '2018-05-05 22:32:40', 53.3865113110306310773012228310108184814453125, 72, 69);
+(855, "2018-05-05 22:32:40", 54.58, 206, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(856, '2016-06-02 13:25:03', 71.1388200531613250632290146313607692718505859375, 87, 7);
+(856, "2016-06-02 13:25:03", 65.08, 73, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(857, '2016-09-20 06:15:22', 50.41481327524891042912713601253926753997802734375, 248, 9);
+(857, "2016-09-20 06:15:22", 65.78, 3, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(858, '2020-04-06 09:09:15', 47.50029544341393972217701957561075687408447265625, 18, 103);
+(858, "2020-04-06 09:09:15", 59.69, 161, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(859, '2016-07-17 20:42:53', 10.603870200372735865812501288019120693206787109375, 177, 106);
+(859, "2016-07-17 20:42:53", 39.81, 132, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(860, '2020-09-03 15:01:59', 56.77792576085611386815799050964415073394775390625, 226, 24);
+(860, "2020-09-03 15:01:59", 54.23, 151, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(861, '2016-12-03 05:33:43', 32.2249262813697470164697733707726001739501953125, 100, 94);
+(861, "2016-12-03 05:33:43", 38.15, 198, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(862, '2018-03-04 20:23:14', 8.9315198933087227572968913591466844081878662109375, 220, 92);
+(862, "2018-03-04 20:23:14", 55.91, 45, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(863, '2019-02-15 22:30:17', 53.271913572700810846072272397577762603759765625, 38, 58);
+(863, "2019-02-15 22:30:17", 53.19, 198, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(864, '2018-03-28 12:24:32', 58.0636740767161114717964665032923221588134765625, 75, 12);
+(864, "2018-03-28 12:24:32", 23.41, 10, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(865, '2017-09-24 20:03:50', 7.1310167766183223392317813704721629619598388671875, 73, 13);
+(865, "2017-09-24 20:03:50", 15.98, 192, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(866, '2018-10-18 19:02:13', 71.794573889854433446089387871325016021728515625, 207, 26);
+(866, "2018-10-18 19:02:13", 55.54, 207, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(867, '2018-03-11 23:34:42', 74.774979794303050084636197425425052642822265625, 172, 76);
+(867, "2018-03-11 23:34:42", 74.88, 185, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(868, '2019-11-18 21:13:28', 33.011782325054781495055067352950572967529296875, 157, 8);
+(868, "2019-11-18 21:13:28", 33.05, 69, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(869, '2019-10-16 10:27:20', 39.73604743591548782433164888061583042144775390625, 30, 19);
+(869, "2019-10-16 10:27:20", 25.58, 39, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(870, '2018-12-16 13:01:23', 32.928852873967485948014655150473117828369140625, 119, 21);
+(870, "2018-12-16 13:01:23", 9.10, 104, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(871, '2017-10-13 03:44:01', 69.750961114117814076962531544268131256103515625, 224, 19);
+(871, "2017-10-13 03:44:01", 9.78, 171, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(872, '2018-10-06 11:37:59', 19.53781584030812012997557758353650569915771484375, 147, 10);
+(872, "2018-10-06 11:37:59", 34.47, 169, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(873, '2020-07-25 03:21:32', 43.61586002080489521404160768724977970123291015625, 149, 51);
+(873, "2020-07-25 03:21:32", 9.41, 143, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(874, '2019-09-30 06:52:13', 45.84823003035268129679025150835514068603515625, 53, 74);
+(874, "2019-09-30 06:52:13", 24.38, 52, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(875, '2017-10-31 04:08:27', 20.6177789940189057915631565265357494354248046875, 33, 72);
+(875, "2017-10-31 04:08:27", 43.39, 164, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(876, '2017-11-10 11:32:44', 65.25127773065725023116101510822772979736328125, 190, 69);
+(876, "2017-11-10 11:32:44", 13.89, 239, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(877, '2017-01-12 00:39:23', 38.60528425960177401066175661981105804443359375, 102, 2);
+(877, "2017-01-12 00:39:23", 62.95, 134, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(878, '2019-08-01 18:57:59', 30.5814515536550999286191654391586780548095703125, 225, 85);
+(878, "2019-08-01 18:57:59", 7.30, 12, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(879, '2018-08-15 10:31:28', 70.57752773955286329510272480547428131103515625, 197, 42);
+(879, "2018-08-15 10:31:28", 73.36, 153, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(880, '2016-06-04 15:41:38', 46.68823775454152524844175786711275577545166015625, 244, 99);
+(880, "2016-06-04 15:41:38", 38.21, 227, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(881, '2017-10-26 15:55:21', 36.9745643283434759496230981312692165374755859375, 49, 64);
+(881, "2017-10-26 15:55:21", 53.43, 165, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(882, '2016-09-25 17:22:48', 31.247034776803698008507126360200345516204833984375, 13, 20);
+(882, "2016-09-25 17:22:48", 19.65, 23, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(883, '2019-11-21 02:40:20', 26.938260727121917881277113338001072406768798828125, 32, 96);
+(883, "2019-11-21 02:40:20", 48.43, 241, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(884, '2016-08-21 06:44:30', 23.82929971693568660384698887355625629425048828125, 43, 3);
+(884, "2016-08-21 06:44:30", 13.49, 190, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(885, '2020-04-03 12:16:20', 54.7037281340444252464294550009071826934814453125, 29, 88);
+(885, "2020-04-03 12:16:20", 27.54, 161, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(886, '2016-07-15 16:53:26', 70.4944886549040319323466974310576915740966796875, 115, 28);
+(886, "2016-07-15 16:53:26", 50.96, 156, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(887, '2016-01-07 08:31:39', 74.4136261803428027405971079133450984954833984375, 178, 77);
+(887, "2016-01-07 08:31:39", 72.85, 206, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(888, '2018-10-09 00:51:09', 21.079468362365137323877206654287874698638916015625, 121, 99);
+(888, "2018-10-09 00:51:09", 23.14, 186, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(889, '2016-06-26 16:54:57', 38.20311324307932210331273381598293781280517578125, 162, 25);
+(889, "2016-06-26 16:54:57", 38.34, 117, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(890, '2017-08-09 23:40:58', 24.809453076093216594699697452597320079803466796875, 184, 9);
+(890, "2017-08-09 23:40:58", 54.02, 238, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(891, '2020-12-17 08:55:36', 8.216308497209961814178313943557441234588623046875, 34, 2);
+(891, "2020-12-17 08:55:36", 43.34, 56, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(892, '2016-12-15 01:04:12', 28.831776383779892825032220571301877498626708984375, 84, 33);
+(892, "2016-12-15 01:04:12", 16.10, 92, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(893, '2020-09-18 00:07:54', 58.87182773368041210915180272422730922698974609375, 96, 105);
+(893, "2020-09-18 00:07:54", 56.39, 170, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(894, '2020-07-01 07:32:35', 60.73330613958037105248877196572721004486083984375, 3, 57);
+(894, "2020-07-01 07:32:35", 55.67, 47, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(895, '2016-02-01 06:27:31', 32.176924189227491979181650094687938690185546875, 76, 100);
+(895, "2016-02-01 06:27:31", 28.01, 236, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(896, '2017-11-23 03:23:00', 29.868863801908052124645109870471060276031494140625, 221, 92);
+(896, "2017-11-23 03:23:00", 31.95, 47, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(897, '2020-06-01 20:14:49', 5.18539948060600419665888693998567759990692138671875, 110, 30);
+(897, "2020-06-01 20:14:49", 15.69, 26, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(898, '2017-12-15 13:28:22', 44.07225218197962846033988171257078647613525390625, 37, 94);
+(898, "2017-12-15 13:28:22", 35.78, 87, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(899, '2018-09-25 21:21:07', 26.714470911730362701064223074354231357574462890625, 163, 95);
+(899, "2018-09-25 21:21:07", 5.61, 133, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(900, '2020-06-25 19:13:22', 7.841637648265173510253589483909308910369873046875, 6, 18);
+(900, "2020-06-25 19:13:22", 34.70, 173, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(901, '2019-01-07 08:47:00', 33.803367273360464650977519340813159942626953125, 162, 18);
+(901, "2019-01-07 08:47:00", 58.37, 148, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(902, '2016-08-16 12:03:50', 50.36274443660443722592390258796513080596923828125, 86, 50);
+(902, "2016-08-16 12:03:50", 46.25, 43, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(903, '2018-10-30 18:11:51', 36.53353971150432499825910781510174274444580078125, 35, 2);
+(903, "2018-10-30 18:11:51", 42.68, 75, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(904, '2019-09-02 01:35:47', 33.330897668798570521175861358642578125, 246, 15);
+(904, "2019-09-02 01:35:47", 40.49, 216, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(905, '2018-02-01 18:56:53', 33.79434550702772099839421571232378482818603515625, 154, 4);
+(905, "2018-02-01 18:56:53", 53.02, 67, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(906, '2020-09-15 14:33:37', 20.1238339017174752143546356819570064544677734375, 193, 90);
+(906, "2020-09-15 14:33:37", 40.22, 110, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(907, '2020-04-28 09:05:00', 69.8526964733944026875178678892552852630615234375, 45, 68);
+(907, "2020-04-28 09:05:00", 11.74, 218, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(908, '2017-12-05 12:59:48', 66.176603489861832940732710994780063629150390625, 52, 63);
+(908, "2017-12-05 12:59:48", 61.75, 64, 84);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(909, '2016-08-01 05:11:52', 20.03399450013722571384278126060962677001953125, 119, 69);
+(909, "2016-08-01 05:11:52", 59.08, 117, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(910, '2019-04-07 22:27:35', 48.637406884329806189271039329469203948974609375, 169, 43);
+(910, "2019-04-07 22:27:35", 23.21, 125, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(911, '2019-09-07 03:28:54', 22.138020695552512506765197031199932098388671875, 133, 102);
+(911, "2019-09-07 03:28:54", 50.82, 205, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(912, '2020-10-21 09:07:05', 9.72375154072377512193270376883447170257568359375, 243, 78);
+(912, "2020-10-21 09:07:05", 45.97, 76, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(913, '2018-11-24 21:08:51', 73.974425603829104147735051810741424560546875, 156, 72);
+(913, "2018-11-24 21:08:51", 25.21, 32, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(914, '2020-02-05 23:51:00', 43.56981129581305367537424899637699127197265625, 66, 80);
+(914, "2020-02-05 23:51:00", 68.12, 157, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(915, '2016-02-10 20:50:32', 61.945284651811192588866106234490871429443359375, 5, 58);
+(915, "2016-02-10 20:50:32", 33.06, 116, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(916, '2018-08-27 11:10:53', 30.415097798950821328389793052338063716888427734375, 92, 10);
+(916, "2018-08-27 11:10:53", 22.19, 106, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(917, '2018-08-07 21:07:05', 73.0086230870335981535390601493418216705322265625, 188, 27);
+(917, "2018-08-07 21:07:05", 39.85, 96, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(918, '2018-02-08 03:57:22', 67.6376079666788569966229260899126529693603515625, 207, 93);
+(918, "2018-02-08 03:57:22", 14.58, 114, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(919, '2018-08-11 07:02:19', 74.0155619584117943077217205427587032318115234375, 182, 38);
+(919, "2018-08-11 07:02:19", 25.93, 40, 51);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(920, '2019-06-16 05:11:22', 72.486886483491872468221117742359638214111328125, 94, 26);
+(920, "2019-06-16 05:11:22", 34.98, 20, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(921, '2017-02-19 07:33:11', 8.6371890909755411058768004295416176319122314453125, 45, 56);
+(921, "2017-02-19 07:33:11", 19.31, 141, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(922, '2020-04-27 19:31:16', 19.258966954248609937394576263613998889923095703125, 123, 74);
+(922, "2020-04-27 19:31:16", 17.48, 7, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(923, '2016-08-02 16:08:31', 54.5323030045741035110040684230625629425048828125, 191, 24);
+(923, "2016-08-02 16:08:31", 38.65, 60, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(924, '2019-10-15 08:21:02', 50.94578908485907930980829405598342418670654296875, 205, 29);
+(924, "2019-10-15 08:21:02", 35.95, 218, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(925, '2020-03-21 12:16:35', 27.733069052323141789884175523184239864349365234375, 235, 76);
+(925, "2020-03-21 12:16:35", 20.82, 3, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(926, '2018-09-10 06:57:15', 64.978600913852204712384263984858989715576171875, 145, 72);
+(926, "2018-09-10 06:57:15", 66.77, 85, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(927, '2017-11-14 00:00:54', 67.23294655371586259207106195390224456787109375, 4, 6);
+(927, "2017-11-14 00:00:54", 12.03, 52, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(928, '2019-05-22 21:48:36', 48.0327667538291507298708893358707427978515625, 36, 19);
+(928, "2019-05-22 21:48:36", 43.79, 80, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(929, '2017-11-20 23:57:53', 73.5724057565675622072376427240669727325439453125, 14, 8);
+(929, "2017-11-20 23:57:53", 39.59, 111, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(930, '2020-12-08 04:25:30', 48.0764717103925107721806853078305721282958984375, 156, 94);
+(930, "2020-12-08 04:25:30", 10.20, 92, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(931, '2016-12-24 17:55:49', 69.758292304053753696280182339251041412353515625, 215, 35);
+(931, "2016-12-24 17:55:49", 26.41, 210, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(932, '2016-03-01 18:44:54', 48.65763318831803729835883132182061672210693359375, 23, 65);
+(932, "2016-03-01 18:44:54", 54.79, 38, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(933, '2016-01-03 01:26:06', 35.158675134429728359464206732809543609619140625, 172, 39);
+(933, "2016-01-03 01:26:06", 18.77, 73, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(934, '2016-12-15 23:37:58', 8.63599561737890297763442504219710826873779296875, 215, 5);
+(934, "2016-12-15 23:37:58", 72.07, 166, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(935, '2016-09-16 05:52:32', 59.406504872448607557089417241513729095458984375, 70, 97);
+(935, "2016-09-16 05:52:32", 10.21, 150, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(936, '2018-07-25 09:35:16', 14.8502460906279214469805083354003727436065673828125, 86, 20);
+(936, "2018-07-25 09:35:16", 51.44, 33, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(937, '2018-05-07 23:55:23', 50.245382258610106873675249516963958740234375, 3, 66);
+(937, "2018-05-07 23:55:23", 41.90, 44, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(938, '2019-02-01 01:16:38', 65.1103858314700119080953299999237060546875, 157, 55);
+(938, "2019-02-01 01:16:38", 5.48, 220, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(939, '2016-08-24 04:28:44', 20.1877475810629363195403129793703556060791015625, 113, 18);
+(939, "2016-08-24 04:28:44", 64.58, 105, 20);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(940, '2016-03-20 14:26:09', 18.09705914761428147130573051981627941131591796875, 204, 68);
+(940, "2016-03-20 14:26:09", 72.72, 87, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(941, '2017-03-03 18:47:03', 46.72777427589945631325463182292878627777099609375, 216, 73);
+(941, "2017-03-03 18:47:03", 71.49, 165, 95);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(942, '2017-03-23 15:12:38', 49.7370906465073829849643516354262828826904296875, 165, 66);
+(942, "2017-03-23 15:12:38", 20.15, 201, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(943, '2017-02-17 20:43:49', 44.4560027126657359985983930528163909912109375, 164, 76);
+(943, "2017-02-17 20:43:49", 6.57, 90, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(944, '2018-02-24 17:01:19', 29.604426918155997583426142227835953235626220703125, 75, 106);
+(944, "2018-02-24 17:01:19", 32.74, 129, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(945, '2018-09-09 10:25:30', 55.63587224224448846143786795437335968017578125, 200, 25);
+(945, "2018-09-09 10:25:30", 16.71, NULL, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(946, '2017-12-08 05:29:53', 5.76147653603484766193787436350248754024505615234375, 32, 55);
+(946, "2017-12-08 05:29:53", 5.17, 6, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(947, '2016-07-22 06:00:44', 58.71238873732324492493717116303741931915283203125, 81, 7);
+(947, "2016-07-22 06:00:44", 40.21, 181, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(948, '2016-11-06 13:48:35', 27.33109638609613512016949243843555450439453125, 54, 103);
+(948, "2016-11-06 13:48:35", 50.12, 93, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(949, '2019-09-22 04:34:16', 5.06277087243656609416575520299375057220458984375, 227, 60);
+(949, "2019-09-22 04:34:16", 19.83, 162, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(950, '2019-12-29 01:47:26', 69.46830104157760388261522166430950164794921875, 161, 67);
+(950, "2019-12-29 01:47:26", 19.48, 86, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(951, '2019-04-19 13:16:48', 22.3133684349396190782499616034328937530517578125, 18, 53);
+(951, "2019-04-19 13:16:48", 37.96, 37, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(952, '2016-03-18 12:06:28', 72.1088277007968798670844989828765392303466796875, 77, 38);
+(952, "2016-03-18 12:06:28", 45.73, 64, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(953, '2016-07-10 13:38:46', 64.46021575525611524426494725048542022705078125, 239, 30);
+(953, "2016-07-10 13:38:46", 29.69, 138, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(954, '2019-08-12 11:16:47', 9.2924387739790237361603431054390966892242431640625, 246, 43);
+(954, "2019-08-12 11:16:47", 47.66, 123, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(955, '2017-01-26 00:58:51', 33.1292030149864871191311976872384548187255859375, 240, 22);
+(955, "2017-01-26 00:58:51", 46.63, 74, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(956, '2017-07-07 06:32:13', 6.3110080371852763647666506585665047168731689453125, 189, 85);
+(956, "2017-07-07 06:32:13", 70.77, 184, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(957, '2020-02-20 23:51:52', 51.77887311815830884142997092567384243011474609375, 42, 90);
+(957, "2020-02-20 23:51:52", 70.59, 181, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(958, '2019-05-02 19:35:26', 29.410907002141687627272403915412724018096923828125, 24, 74);
+(958, "2019-05-02 19:35:26", 7.23, 84, 61);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(959, '2016-02-09 06:45:43', 49.00987028288079017102063517086207866668701171875, 4, 100);
+(959, "2016-02-09 06:45:43", 67.21, 211, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(960, '2016-10-05 18:30:33', 43.4718427780393739112696493975818157196044921875, 0, 102);
+(960, "2016-10-05 18:30:33", 49.72, 72, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(961, '2020-01-19 07:35:57', 12.319606187291565646546587231568992137908935546875, 56, 46);
+(961, "2020-01-19 07:35:57", 28.17, 141, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(962, '2019-01-10 00:18:59', 12.834912045860818352593923918902873992919921875, 131, 99);
+(962, "2019-01-10 00:18:59", 13.51, 15, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(963, '2020-01-13 19:56:45', 50.767793596826862767557031475007534027099609375, 178, 83);
+(963, "2020-01-13 19:56:45", 59.82, 149, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(964, '2016-11-01 10:23:37', 16.16695791564819018049092846922576427459716796875, 99, 15);
+(964, "2016-11-01 10:23:37", 41.28, 201, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(965, '2016-08-10 02:11:17', 42.02035094620030264422894106246531009674072265625, 27, 52);
+(965, "2016-08-10 02:11:17", 37.00, 204, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(966, '2018-10-29 18:04:35', 69.4963361238887529225394246168434619903564453125, 23, 56);
+(966, "2018-10-29 18:04:35", 56.48, 31, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(967, '2016-06-19 16:50:50', 36.9743740157562825743298162706196308135986328125, 242, 96);
+(967, "2016-06-19 16:50:50", 47.42, 45, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(968, '2020-01-23 23:42:05', 46.0499875250035159979233867488801479339599609375, 181, 18);
+(968, "2020-01-23 23:42:05", 33.08, 192, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(969, '2016-03-27 11:42:39', 12.0244635343223880141749759786762297153472900390625, 217, 41);
+(969, "2016-03-27 11:42:39", 44.45, 169, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(970, '2018-05-07 18:18:21', 35.83025513876017242864691070280969142913818359375, 120, 28);
+(970, "2018-05-07 18:18:21", 29.99, 3, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(971, '2019-06-15 17:01:06', 45.4744299315664335381370619870722293853759765625, 171, 22);
+(971, "2019-06-15 17:01:06", 51.59, 17, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(972, '2019-04-25 12:27:47', 8.144877522195724139919548179022967815399169921875, 94, 59);
+(972, "2019-04-25 12:27:47", 47.75, 75, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(973, '2019-02-13 10:15:27', 69.919549677139315235763206146657466888427734375, 99, 23);
+(973, "2019-02-13 10:15:27", 11.19, 226, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(974, '2020-09-17 00:03:01', 23.1889808511869404128447058610618114471435546875, 188, 15);
+(974, "2020-09-17 00:03:01", 43.41, 201, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(975, '2016-06-20 22:58:06', 48.17046199462555478021386079490184783935546875, 100, 52);
+(975, "2016-06-20 22:58:06", 17.82, 219, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(976, '2017-10-01 11:30:01', 10.367032322515779441118866088800132274627685546875, 240, 76);
+(976, "2017-10-01 11:30:01", 48.21, 184, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(977, '2016-08-31 10:39:09', 8.26194834246897613638793700374662876129150390625, 246, 42);
+(977, "2016-08-31 10:39:09", 27.69, 82, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(978, '2017-12-22 18:25:47', 12.75496261887352744679446914233267307281494140625, 142, 85);
+(978, "2017-12-22 18:25:47", 68.28, 112, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(979, '2018-05-02 13:22:10', 69.3908632671068090758126345463097095489501953125, 103, 105);
+(979, "2018-05-02 13:22:10", 62.28, 248, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(980, '2018-12-12 19:57:41', 31.92331019741019559887718060053884983062744140625, 30, 18);
+(980, "2018-12-12 19:57:41", 32.29, 213, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(981, '2017-12-12 02:34:56', 66.67429351486333644061232917010784149169921875, 189, 76);
+(981, "2017-12-12 02:34:56", 15.04, 66, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(982, '2016-10-06 15:38:44', 26.46181745907396276606959872879087924957275390625, 121, 4);
+(982, "2016-10-06 15:38:44", 9.14, 171, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(983, '2018-09-02 20:28:00', 13.21292047500519828417964163236320018768310546875, 52, 39);
+(983, "2018-09-02 20:28:00", 40.69, 233, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(984, '2017-06-29 18:40:28', 12.2879589144182457260967566980980336666107177734375, 78, 95);
+(984, "2017-06-29 18:40:28", 26.18, 181, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(985, '2018-06-24 17:49:04', 11.742922193259975216506063588894903659820556640625, 205, 20);
+(985, "2018-06-24 17:49:04", 52.76, 202, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(986, '2019-01-15 13:46:49', 72.9145454320652817159498226828873157501220703125, 226, 65);
+(986, "2019-01-15 13:46:49", 67.25, 156, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(987, '2020-03-24 23:40:24', 34.242394623797252961594494991004467010498046875, 153, 46);
+(987, "2020-03-24 23:40:24", 20.31, 184, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(988, '2017-06-01 21:07:38', 18.9427149040688078684979700483381748199462890625, 123, 63);
+(988, "2017-06-01 21:07:38", 58.21, 143, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(989, '2017-06-21 04:49:20', 46.87741248647194680643224273808300495147705078125, 39, 12);
+(989, "2017-06-21 04:49:20", 59.79, 247, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(990, '2017-08-28 07:19:48', 60.68973514722645035135428770445287227630615234375, 149, 37);
+(990, "2017-08-28 07:19:48", 37.08, 67, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(991, '2016-07-04 15:00:59', 71.4226050485005856671705259941518306732177734375, 66, 16);
+(991, "2016-07-04 15:00:59", 63.37, 96, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(992, '2016-02-26 21:52:11', 69.6386865513446053910229238681495189666748046875, 7, 75);
+(992, "2016-02-26 21:52:11", 60.27, 54, 29);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(993, '2018-09-03 21:00:12', 17.0187604580921316710373503156006336212158203125, 165, 101);
+(993, "2018-09-03 21:00:12", 43.15, 53, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(994, '2018-08-06 20:10:01', 73.5998811209022534285395522601902484893798828125, 40, 37);
+(994, "2018-08-06 20:10:01", 21.79, 140, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(995, '2020-04-19 01:00:25', 7.4656144555011536567690200172364711761474609375, 149, 43);
+(995, "2020-04-19 01:00:25", 70.09, NULL, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(996, '2017-08-04 13:12:06', 50.9908056907767814891485613770782947540283203125, 149, 41);
+(996, "2017-08-04 13:12:06", 65.20, 109, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(997, '2016-09-14 01:20:42', 44.2491904703504559392968076281249523162841796875, 61, 29);
+(997, "2016-09-14 01:20:42", 38.11, 60, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(998, '2019-06-14 21:29:43', 36.1561502380696566660844837315380573272705078125, 135, 46);
+(998, "2019-06-14 21:29:43", 64.91, 108, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(999, '2017-04-01 13:33:03', 69.5609846372964142346972948871552944183349609375, 201, 95);
+(999, "2017-04-01 13:33:03", 43.63, 183, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1000, '2016-08-11 14:29:33', 21.9160843022433340365751064382493495941162109375, 15, 13);
+(1000, "2016-08-11 14:29:33", 74.77, 218, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1001, '2016-11-02 22:42:22', 58.5076058089588144639492384158074855804443359375, 229, 43);
+(1001, "2016-11-02 22:42:22", 14.00, 233, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1002, '2019-01-21 05:27:54', 20.7198697141258207921055145561695098876953125, 161, 25);
+(1002, "2019-01-21 05:27:54", 13.59, 125, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1003, '2018-04-05 16:48:06', 7.08107049347882711032298175268806517124176025390625, 152, 15);
+(1003, "2018-04-05 16:48:06", 16.35, 38, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1004, '2018-06-25 06:43:44', 6.8146346835331588209783149068243801593780517578125, 178, 66);
+(1004, "2018-06-25 06:43:44", 18.33, 132, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1005, '2017-06-17 07:04:28', 56.75788386617654879273686674423515796661376953125, 176, 99);
+(1005, "2017-06-17 07:04:28", 12.52, 103, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1006, '2017-09-30 03:54:53', 25.32196501952152090098024928011000156402587890625, 192, 45);
+(1006, "2017-09-30 03:54:53", 60.83, 183, 70);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1007, '2016-03-25 16:11:12', 24.958684553411163875580314197577536106109619140625, 148, 102);
+(1007, "2016-03-25 16:11:12", 58.42, 56, 84);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1008, '2019-03-10 06:00:34', 58.02181262650760373844605055637657642364501953125, 197, 9);
+(1008, "2019-03-10 06:00:34", 48.49, 181, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1009, '2019-03-02 09:09:02', 40.24104092383922903763959766365587711334228515625, 204, 6);
+(1009, "2019-03-02 09:09:02", 61.37, 215, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1010, '2019-11-05 08:08:51', 41.1113878743729941334095201455056667327880859375, 176, 45);
+(1010, "2019-11-05 08:08:51", 20.59, 110, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1011, '2019-03-05 18:07:03', 23.26195546796851232329572667367756366729736328125, 104, 41);
+(1011, "2019-03-05 18:07:03", 13.08, 107, 102);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1012, '2016-06-22 22:05:20', 30.129132453837286220732494257390499114990234375, 69, 96);
+(1012, "2016-06-22 22:05:20", 73.95, 36, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1013, '2020-03-11 16:42:23', 55.45276146204258793659391812980175018310546875, 14, 82);
+(1013, "2020-03-11 16:42:23", 8.53, 25, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1014, '2019-07-21 16:14:29', 24.519404312073302065755342482589185237884521484375, 229, 28);
+(1014, "2019-07-21 16:14:29", 32.39, 215, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1015, '2017-08-29 22:54:28', 43.85940967062234818740762420929968357086181640625, 118, 47);
+(1015, "2017-08-29 22:54:28", 32.26, 247, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1016, '2017-01-07 06:02:18', 51.12258561911738752314704470336437225341796875, 199, 69);
+(1016, "2017-01-07 06:02:18", 36.19, 70, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1017, '2016-01-05 16:46:27', 15.1394059547846655533476223354227840900421142578125, 21, 46);
+(1017, "2016-01-05 16:46:27", 40.17, 198, 27);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1018, '2020-02-27 09:12:14', 18.50654867002882753013182082213461399078369140625, 145, 97);
+(1018, "2020-02-27 09:12:14", 7.41, 185, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1019, '2019-06-02 00:57:20', 19.59712969911058877414689050056040287017822265625, 75, 38);
+(1019, "2019-06-02 00:57:20", 57.42, 141, 22);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1020, '2020-02-15 14:46:46', 47.287005320625695503622409887611865997314453125, 84, 1);
+(1020, "2020-02-15 14:46:46", 44.75, 78, 71);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1021, '2018-02-08 01:06:28', 32.60607865469165744798374362289905548095703125, 67, 93);
+(1021, "2018-02-08 01:06:28", 31.74, 27, 48);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1022, '2017-07-17 07:12:57', 68.18061221805209015656146220862865447998046875, 14, 19);
+(1022, "2017-07-17 07:12:57", 40.30, 42, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1023, '2020-08-24 10:03:14', 38.15209089243297313487346400506794452667236328125, 133, 27);
+(1023, "2020-08-24 10:03:14", 58.01, 135, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1024, '2017-05-19 07:37:34', 50.33155320855983205774464295245707035064697265625, 173, 15);
+(1024, "2017-05-19 07:37:34", 21.03, 129, 92);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1025, '2017-03-19 00:52:32', 72.4210070961739376116383937187492847442626953125, 137, 27);
+(1025, "2017-03-19 00:52:32", 68.03, 137, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1026, '2016-05-06 16:41:22', 30.798973038504730226350147859193384647369384765625, 117, 95);
+(1026, "2016-05-06 16:41:22", 68.09, 239, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1027, '2016-04-03 12:46:15', 32.96472127394631712604677886702120304107666015625, 26, 3);
+(1027, "2016-04-03 12:46:15", 74.24, 179, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1028, '2016-12-22 15:52:34', 65.58756234557284869879367761313915252685546875, 167, 102);
+(1028, "2016-12-22 15:52:34", 34.35, 204, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1029, '2016-05-25 15:04:47', 38.89011949760318742619347176514565944671630859375, 39, 89);
+(1029, "2016-05-25 15:04:47", 70.21, 88, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1030, '2016-01-21 04:08:24', 44.65943817761094436491475789807736873626708984375, 56, 105);
+(1030, "2016-01-21 04:08:24", 31.24, 143, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1031, '2016-03-27 01:13:49', 5.40491184215296271986517240293323993682861328125, 110, 85);
+(1031, "2016-03-27 01:13:49", 60.63, 47, 33);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1032, '2019-03-21 05:41:33', 31.067425813265227674264679080806672573089599609375, 13, 98);
+(1032, "2019-03-21 05:41:33", 23.32, 93, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1033, '2019-10-09 21:18:59', 38.42191978437288213399369851686060428619384765625, 140, 105);
+(1033, "2019-10-09 21:18:59", 32.52, 37, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1034, '2016-07-18 11:55:23', 62.58545675940292341010717791505157947540283203125, 115, 56);
+(1034, "2016-07-18 11:55:23", 68.16, 157, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1035, '2016-02-17 11:21:01', 7.26354207943598506602711495361290872097015380859375, 63, 99);
+(1035, "2016-02-17 11:21:01", 54.82, 47, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1036, '2018-05-23 15:13:29', 14.0098512474864360655146811041049659252166748046875, 172, 102);
+(1036, "2018-05-23 15:13:29", 43.89, 174, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1037, '2019-12-23 23:48:38', 27.567284182443241746796047664247453212738037109375, 30, 98);
+(1037, "2019-12-23 23:48:38", 44.63, 147, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1038, '2016-08-18 09:07:10', 56.6256954452380369957609218545258045196533203125, 210, 64);
+(1038, "2016-08-18 09:07:10", 17.57, 210, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1039, '2020-01-21 21:00:03', 56.6489171945402318897322402335703372955322265625, 172, 12);
+(1039, "2020-01-21 21:00:03", 20.45, 145, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1040, '2016-04-17 14:44:32', 31.9202589536220528998455847613513469696044921875, 142, 45);
+(1040, "2016-04-17 14:44:32", 39.30, 92, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1041, '2019-12-12 04:09:52', 51.0732744566152661036539939232170581817626953125, 44, 51);
+(1041, "2019-12-12 04:09:52", 50.04, 132, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1042, '2017-12-23 14:47:50', 39.67537474004665654092605109326541423797607421875, 36, 51);
+(1042, "2017-12-23 14:47:50", 18.86, 110, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1043, '2016-09-28 07:54:18', 13.251020063279494110020095831714570522308349609375, 102, 22);
+(1043, "2016-09-28 07:54:18", 68.01, 215, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1044, '2017-10-11 00:33:51', 6.60298244630029973478713145595975220203399658203125, 84, 46);
+(1044, "2017-10-11 00:33:51", 9.14, 194, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1045, '2020-11-13 01:15:38', 68.99125906226555571265635080635547637939453125, 178, 19);
+(1045, "2020-11-13 01:15:38", 64.24, 138, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1046, '2018-03-23 10:23:54', 41.78451626786114303513386403210461139678955078125, 244, 101);
+(1046, "2018-03-23 10:23:54", 66.34, 58, 46);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1047, '2020-01-15 02:19:11', 7.03273814801080288106049920315854251384735107421875, 240, 46);
+(1047, "2020-01-15 02:19:11", 38.41, 78, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1048, '2020-12-17 03:51:37', 74.6731422110714220252702943980693817138671875, 223, 94);
+(1048, "2020-12-17 03:51:37", 43.54, 159, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1049, '2020-12-18 03:22:25', 61.715404204000066101798438467085361480712890625, 18, 13);
+(1049, "2020-12-18 03:22:25", 10.18, 32, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1050, '2020-01-10 15:01:30', 14.2768182122022011526496498845517635345458984375, 56, 30);
+(1050, "2020-01-10 15:01:30", 51.43, 182, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1051, '2017-01-06 06:47:30', 51.99224605009252542231479310430586338043212890625, 232, 2);
+(1051, "2017-01-06 06:47:30", 21.91, 39, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1052, '2016-02-07 12:48:26', 63.838162874370794952483265660703182220458984375, 7, 67);
+(1052, "2016-02-07 12:48:26", 12.51, 186, 16);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1053, '2018-03-09 07:23:17', 70.5809947985734851272354717366397380828857421875, 112, 36);
+(1053, "2018-03-09 07:23:17", 30.61, 220, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1054, '2020-08-15 22:45:00', 44.42638292779427189316265867091715335845947265625, 239, 23);
+(1054, "2020-08-15 22:45:00", 40.61, 243, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1055, '2020-03-02 13:17:31', 8.05524260297266181396480533294379711151123046875, 66, 54);
+(1055, "2020-03-02 13:17:31", 24.83, 148, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1056, '2019-06-11 20:02:37', 44.21512638593917898788276943378150463104248046875, 228, 101);
+(1056, "2019-06-11 20:02:37", 22.09, 179, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1057, '2020-03-06 22:36:23', 60.2250035922430271284611080773174762725830078125, 243, 36);
+(1057, "2020-03-06 22:36:23", 37.35, 249, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1058, '2017-11-26 09:08:16', 40.45124757373553592287862556986510753631591796875, 170, 100);
+(1058, "2017-11-26 09:08:16", 12.18, 237, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1059, '2019-05-30 01:08:01', 36.5319147747815833326967549510300159454345703125, 231, 68);
+(1059, "2019-05-30 01:08:01", 68.65, 50, 28);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1060, '2020-12-29 17:42:49', 73.625430978103821644253912381827831268310546875, 188, 82);
+(1060, "2020-12-29 17:42:49", 28.53, 135, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1061, '2017-09-24 10:35:01', 59.1855325366908999740189756266772747039794921875, 73, 17);
+(1061, "2017-09-24 10:35:01", 8.02, 141, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1062, '2016-07-08 09:22:47', 9.718196831689425607692101038992404937744140625, 196, 106);
+(1062, "2016-07-08 09:22:47", 39.56, 26, 23);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1063, '2017-05-10 13:59:49', 50.9045811043215650215643108822405338287353515625, 4, 8);
+(1063, "2017-05-10 13:59:49", 20.73, 38, 74);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1064, '2020-12-29 22:52:17', 15.157471313438378501814440824091434478759765625, 48, 4);
+(1064, "2020-12-29 22:52:17", 28.41, 17, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1065, '2017-02-21 17:51:21', 65.1302976773918800290630315430462360382080078125, 244, 6);
+(1065, "2017-02-21 17:51:21", 21.04, 242, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1066, '2019-05-19 00:37:28', 63.1265719934256566148178535513579845428466796875, 50, 40);
+(1066, "2019-05-19 00:37:28", 5.59, 121, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1067, '2017-05-06 06:51:00', 29.32781252372127056560202618129551410675048828125, 11, 20);
+(1067, "2017-05-06 06:51:00", 67.87, 108, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1068, '2019-08-10 08:20:12', 55.96613040678078476730661350302398204803466796875, 0, 14);
+(1068, "2019-08-10 08:20:12", 40.15, 192, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1069, '2016-05-01 13:13:01', 70.264958215585892276067170314490795135498046875, 199, 85);
+(1069, "2016-05-01 13:13:01", 56.81, 22, 10);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1070, '2017-09-19 07:10:59', 50.32100640687973935882837395183742046356201171875, 51, 98);
+(1070, "2017-09-19 07:10:59", 28.65, 151, 87);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1071, '2016-09-25 03:53:00', 15.81203274798291857905496726743876934051513671875, 128, 32);
+(1071, "2016-09-25 03:53:00", 69.26, 62, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1072, '2017-12-28 13:41:36', 43.33473491794963905476834042929112911224365234375, 143, 51);
+(1072, "2017-12-28 13:41:36", 34.99, 198, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1073, '2019-04-12 09:20:26', 42.39196997866421412481940933503210544586181640625, 49, 71);
+(1073, "2019-04-12 09:20:26", 54.48, 74, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1074, '2019-04-07 00:56:17', 38.41462237372214616470955661498010158538818359375, 142, 57);
+(1074, "2019-04-07 00:56:17", 12.57, 38, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1075, '2016-08-19 05:16:25', 73.5355128653571910035680048167705535888671875, 226, 8);
+(1075, "2016-08-19 05:16:25", 62.84, 178, 32);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1076, '2017-09-23 19:25:03', 51.07895852372518419315383653156459331512451171875, 66, 31);
+(1076, "2017-09-23 19:25:03", 47.31, 39, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1077, '2020-07-29 15:23:49', 55.80699533891834818177812849171459674835205078125, 138, 65);
+(1077, "2020-07-29 15:23:49", 57.47, 237, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1078, '2018-12-11 13:34:07', 40.8516147556273239160873345099389553070068359375, 221, 85);
+(1078, "2018-12-11 13:34:07", 39.94, 44, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1079, '2016-10-07 03:34:03', 36.114607365077745271264575421810150146484375, 172, 18);
+(1079, "2016-10-07 03:34:03", 64.68, 106, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1080, '2017-11-15 13:47:22', 19.2805927412515103469559107907116413116455078125, 121, 21);
+(1080, "2017-11-15 13:47:22", 6.23, 10, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1081, '2018-12-04 00:22:35', 25.428032912650675001486888504587113857269287109375, 41, 103);
+(1081, "2018-12-04 00:22:35", 30.63, 138, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1082, '2019-10-09 12:58:03', 70.3418094773351896265012328512966632843017578125, 20, 48);
+(1082, "2019-10-09 12:58:03", 25.50, 90, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1083, '2020-08-23 17:25:51', 51.78078049909057511968057951889932155609130859375, 84, 9);
+(1083, "2020-08-23 17:25:51", 60.85, 184, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1084, '2019-11-10 06:34:36', 37.09109522225828214914145064540207386016845703125, 214, 40);
+(1084, "2019-11-10 06:34:36", 70.26, 216, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1085, '2016-05-17 13:55:18', 49.971360319280876183256623335182666778564453125, 236, 49);
+(1085, "2016-05-17 13:55:18", 43.49, 248, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1086, '2017-12-23 15:17:44', 32.16359671035186096332836314104497432708740234375, 169, 22);
+(1086, "2017-12-23 15:17:44", 25.36, 83, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1087, '2016-04-08 17:01:17', 27.338714469709788801310423878021538257598876953125, 129, 75);
+(1087, "2016-04-08 17:01:17", 30.84, 100, 40);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1088, '2017-01-18 00:35:03', 72.5044291459064282889812602661550045013427734375, 177, 29);
+(1088, "2017-01-18 00:35:03", 38.01, 221, 12);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1089, '2016-10-03 14:56:24', 44.26820518361096645776342484168708324432373046875, 118, 23);
+(1089, "2016-10-03 14:56:24", 9.19, 93, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1090, '2017-08-01 06:00:07', 10.8990416620274483960884026600979268550872802734375, 160, 38);
+(1090, "2017-08-01 06:00:07", 24.49, 188, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1091, '2017-12-06 21:32:01', 17.83414183265946206802254891954362392425537109375, 235, 26);
+(1091, "2017-12-06 21:32:01", 38.71, 178, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1092, '2018-11-22 03:21:27', 7.9253544075817199399125456693582236766815185546875, 227, 18);
+(1092, "2018-11-22 03:21:27", 49.46, 176, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1093, '2018-08-06 12:04:44', 12.890483571190120670735268504358828067779541015625, 235, 18);
+(1093, "2018-08-06 12:04:44", 16.82, 20, 66);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1094, '2020-09-06 11:20:02', 54.7130883138756161088167573325335979461669921875, 54, 6);
+(1094, "2020-09-06 11:20:02", 6.87, 109, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1095, '2020-06-03 23:23:27', 41.2090933821655340807410539127886295318603515625, 185, 48);
+(1095, "2020-06-03 23:23:27", 72.98, 166, 69);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1096, '2019-05-23 09:26:22', 14.541412765334381873572056065313518047332763671875, 73, 5);
+(1096, "2019-05-23 09:26:22", 25.62, 190, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1097, '2020-05-26 08:47:46', 63.12996386917964031226802035234868526458740234375, 83, 24);
+(1097, "2020-05-26 08:47:46", 33.59, 116, 82);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1098, '2016-06-20 08:13:42', 14.342230953490314959708484821021556854248046875, 214, 5);
+(1098, "2016-06-20 08:13:42", 24.15, 201, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1099, '2016-09-04 23:14:59', 39.01516943881906485103172599337995052337646484375, 175, 40);
+(1099, "2016-09-04 23:14:59", 61.25, 105, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1100, '2017-10-30 05:40:17', 19.9000715204588090045945136807858943939208984375, 89, 47);
+(1100, "2017-10-30 05:40:17", 9.14, 73, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1101, '2016-11-19 05:51:39', 13.7321415341009807065120185143314301967620849609375, 137, 85);
+(1101, "2016-11-19 05:51:39", 36.28, 45, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1102, '2016-12-05 15:54:34', 53.0308645352337890699345734901726245880126953125, 174, 46);
+(1102, "2016-12-05 15:54:34", 45.21, 95, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1103, '2020-05-29 06:08:08', 53.07676683139144557799227186478674411773681640625, 46, 75);
+(1103, "2020-05-29 06:08:08", 14.43, 2, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1104, '2020-11-20 12:47:21', 33.3959138961352977048591128550469875335693359375, 157, 2);
+(1104, "2020-11-20 12:47:21", 37.69, 90, 56);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1105, '2016-06-03 04:10:18', 42.3409039209171993434210889972746372222900390625, 189, 76);
+(1105, "2016-06-03 04:10:18", 9.91, 78, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1106, '2016-04-11 20:36:48', 33.18527469251375805470161139965057373046875, 169, 18);
+(1106, "2016-04-11 20:36:48", 58.69, 225, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1107, '2020-10-13 00:06:26', 36.1501215677839127238257788121700286865234375, 67, 67);
+(1107, "2020-10-13 00:06:26", 71.72, 45, 68);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1108, '2019-11-12 08:38:51', 74.55576899935158508014865219593048095703125, 216, 10);
+(1108, "2019-11-12 08:38:51", 34.39, 133, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1109, '2019-12-03 07:47:36', 14.66486662966357101822723052464425563812255859375, 74, 102);
+(1109, "2019-12-03 07:47:36", 59.25, 236, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1110, '2019-01-08 15:09:37', 51.02740205642405868502464727498590946197509765625, 247, 28);
+(1110, "2019-01-08 15:09:37", 17.53, 195, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1111, '2016-01-17 06:54:46', 74.70206326486476200443576090037822723388671875, 205, 26);
+(1111, "2016-01-17 06:54:46", 33.66, 173, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1112, '2016-01-16 17:18:04', 6.675008550528101380905354744754731655120849609375, 164, 70);
+(1112, "2016-01-16 17:18:04", 42.22, 241, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1113, '2018-06-02 04:31:03', 12.3735862391145037264550410327501595020294189453125, 82, 32);
+(1113, "2018-06-02 04:31:03", 50.05, 73, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1114, '2020-06-24 15:00:41', 61.08790917897149341797558008693158626556396484375, 173, 1);
+(1114, "2020-06-24 15:00:41", 44.78, 212, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1115, '2017-12-06 16:36:48', 13.24728658125626878927505458705127239227294921875, 230, 61);
+(1115, "2017-12-06 16:36:48", 29.62, 106, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1116, '2016-11-15 06:14:25', 61.453015802552528157320921309292316436767578125, 7, 72);
+(1116, "2016-11-15 06:14:25", 69.14, 73, 50);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1117, '2017-05-19 16:33:50', 36.13881535881711215552059002220630645751953125, 95, 3);
+(1117, "2017-05-19 16:33:50", 38.05, 91, 96);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1118, '2018-12-06 17:19:45', 42.88327097554853395422469475306570529937744140625, 44, 63);
+(1118, "2018-12-06 17:19:45", 73.67, 151, 67);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1119, '2017-10-23 16:09:35', 66.1559433229850100133262458257377147674560546875, 17, 4);
+(1119, "2017-10-23 16:09:35", 29.50, 28, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1120, '2020-06-13 08:54:15', 25.319665982042327101453338400460779666900634765625, 109, 35);
+(1120, "2020-06-13 08:54:15", 28.30, 100, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1121, '2017-10-20 06:49:43', 58.74713867259612243287847377359867095947265625, 198, 100);
+(1121, "2017-10-20 06:49:43", 18.23, 138, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1122, '2017-12-13 07:37:12', 56.12523215661494901951300562359392642974853515625, 229, 43);
+(1122, "2017-12-13 07:37:12", 27.34, 215, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1123, '2017-06-13 13:04:28', 6.8263275097735860441616750904358923435211181640625, 19, 77);
+(1123, "2017-06-13 13:04:28", 28.36, 3, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1124, '2016-01-21 10:16:03', 23.172529266891075394596555270254611968994140625, 238, 48);
+(1124, "2016-01-21 10:16:03", 7.78, 171, 79);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1125, '2017-05-10 06:35:50', 21.26456024159357838243522564880549907684326171875, 79, 100);
+(1125, "2017-05-10 06:35:50", 54.95, 177, 97);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1126, '2018-12-03 18:32:32', 29.7595443055430024514862452633678913116455078125, 27, 98);
+(1126, "2018-12-03 18:32:32", 59.44, 193, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1127, '2020-02-15 02:12:54', 33.55912973444912239529003272764384746551513671875, 30, 15);
+(1127, "2020-02-15 02:12:54", 54.14, 144, 75);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1128, '2016-07-04 08:07:57', 15.77710709263617872011309373192489147186279296875, 47, 83);
+(1128, "2016-07-04 08:07:57", 17.59, 214, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1129, '2020-12-03 19:32:53', 32.4889499406600208430972998030483722686767578125, 177, 88);
+(1129, "2020-12-03 19:32:53", 48.36, 29, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1130, '2016-04-03 22:38:34', 56.8859993681644624530235887505114078521728515625, 202, 46);
+(1130, "2016-04-03 22:38:34", 69.47, 184, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1131, '2017-10-08 17:38:16', 15.4843586974871438854961525066755712032318115234375, 188, 84);
+(1131, "2017-10-08 17:38:16", 12.75, 134, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1132, '2018-06-01 15:38:05', 6.126698397445647259473844314925372600555419921875, 83, 27);
+(1132, "2018-06-01 15:38:05", 36.62, 186, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1133, '2016-05-11 20:55:33', 11.672435846131786973955968278460204601287841796875, 76, 15);
+(1133, "2016-05-11 20:55:33", 57.29, 7, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1134, '2016-08-31 16:30:22', 31.610516632060619457433858769945800304412841796875, 218, 38);
+(1134, "2016-08-31 16:30:22", 36.26, 75, 94);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1135, '2020-04-02 04:01:59', 29.782927858125109565889943041838705539703369140625, 155, 53);
+(1135, "2020-04-02 04:01:59", 30.65, 165, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1136, '2020-08-25 14:06:57', 13.4921307488378001693263286142610013484954833984375, 192, 93);
+(1136, "2020-08-25 14:06:57", 46.84, 220, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1137, '2016-06-09 16:15:17', 10.2363334532449954394905944354832172393798828125, 184, 85);
+(1137, "2016-06-09 16:15:17", 26.37, 24, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1138, '2020-10-03 03:25:40', 68.015463895228975843565422110259532928466796875, 30, 5);
+(1138, "2020-10-03 03:25:40", 65.85, 87, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1139, '2019-01-28 18:43:33', 10.6512059319661407386092832894064486026763916015625, 94, 3);
+(1139, "2019-01-28 18:43:33", 6.30, 98, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1140, '2018-01-10 20:15:25', 71.640637249658112750694272108376026153564453125, 16, 104);
+(1140, "2018-01-10 20:15:25", 24.05, 77, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1141, '2019-09-04 16:43:19', 70.3535520987936564552001073025166988372802734375, 231, 34);
+(1141, "2019-09-04 16:43:19", 54.66, 170, 25);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1142, '2019-04-12 19:44:14', 12.362415312229099839669288485310971736907958984375, 216, 68);
+(1142, "2019-04-12 19:44:14", 45.57, 186, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1143, '2018-09-18 02:47:03', 34.0557310507923176601252635009586811065673828125, 166, 101);
+(1143, "2018-09-18 02:47:03", 30.10, 193, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1144, '2020-04-14 12:49:18', 52.26722085627475422597854048945009708404541015625, 137, 57);
+(1144, "2020-04-14 12:49:18", 42.19, 22, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1145, '2018-10-17 00:12:15', 57.34740367204584998717109556309878826141357421875, 217, 35);
+(1145, "2018-10-17 00:12:15", 34.53, 64, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1146, '2020-02-23 17:22:10', 15.44405868115686786268270225264132022857666015625, 116, 81);
+(1146, "2020-02-23 17:22:10", 57.13, 90, 35);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1147, '2018-12-04 22:34:19', 39.1476240459605975274826050736010074615478515625, 178, 92);
+(1147, "2018-12-04 22:34:19", 36.53, 197, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1148, '2018-09-06 23:20:51', 20.240520942814413274390972219407558441162109375, 64, 104);
+(1148, "2018-09-06 23:20:51", 38.95, 13, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1149, '2016-06-06 08:12:38', 38.52020551986930030352596077136695384979248046875, 98, 36);
+(1149, "2016-06-06 08:12:38", 57.69, 29, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1150, '2017-01-15 15:18:05', 41.58664860616485015043508610688149929046630859375, 240, 18);
+(1150, "2017-01-15 15:18:05", 30.04, 127, 73);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1151, '2016-04-18 01:45:28', 23.046536186668905799024287262000143527984619140625, 100, 68);
+(1151, "2016-04-18 01:45:28", 18.16, 98, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1152, '2018-02-13 22:58:32', 59.62530684009515624666164512746036052703857421875, 52, 38);
+(1152, "2018-02-13 22:58:32", 32.07, 3, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1153, '2017-04-12 08:18:43', 12.811279212381606384951737709343433380126953125, 31, 42);
+(1153, "2017-04-12 08:18:43", 68.22, 44, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1154, '2017-08-26 00:57:41', 53.17348045050012927958960062824189662933349609375, 81, 61);
+(1154, "2017-08-26 00:57:41", 31.26, 151, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1155, '2016-02-19 18:35:15', 33.8558423545867981374613009393215179443359375, 193, 72);
+(1155, "2016-02-19 18:35:15", 40.61, 229, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1156, '2016-11-21 13:58:31', 45.6531184797917148898704908788204193115234375, 245, 27);
+(1156, "2016-11-21 13:58:31", 35.24, 62, 44);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1157, '2016-01-16 13:51:53', 60.5057897004876252822214155457913875579833984375, 119, 59);
+(1157, "2016-01-16 13:51:53", 66.15, 117, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1158, '2016-12-24 02:23:56', 53.11061751851435275284529780037701129913330078125, 117, 49);
+(1158, "2016-12-24 02:23:56", 23.39, 40, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1159, '2016-04-01 05:53:12', 35.4302229593607620472539565525949001312255859375, 221, 28);
+(1159, "2016-04-01 05:53:12", 27.18, 122, 19);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1160, '2019-10-08 18:12:13', 60.2750423349239810022481833584606647491455078125, 101, 97);
+(1160, "2019-10-08 18:12:13", 17.61, 163, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1161, '2020-09-19 17:56:18', 68.7596667210898004896080237813293933868408203125, 74, 29);
+(1161, "2020-09-19 17:56:18", 5.36, 81, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1162, '2016-04-23 08:30:31', 36.2461501294474288670244277454912662506103515625, 72, 80);
+(1162, "2016-04-23 08:30:31", 21.15, 138, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1163, '2016-07-05 17:41:53', 50.9400577419756785957360989414155483245849609375, 185, 106);
+(1163, "2016-07-05 17:41:53", 20.72, 145, 17);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1164, '2017-02-25 20:45:04', 37.5314207623953990378140588290989398956298828125, 14, 73);
+(1164, "2017-02-25 20:45:04", 9.55, 240, 14);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1165, '2018-07-08 23:23:40', 72.567497461352019172409200109541416168212890625, 41, 16);
+(1165, "2018-07-08 23:23:40", 13.76, 94, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1166, '2017-04-17 09:08:25', 30.5105542657490360625160974450409412384033203125, 205, 74);
+(1166, "2017-04-17 09:08:25", 40.66, 159, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1167, '2020-04-18 19:35:31', 63.96659400502227299512014724314212799072265625, 152, 29);
+(1167, "2020-04-18 19:35:31", 42.86, 138, 60);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1168, '2018-05-30 11:22:40', 67.272897335338853963548899628221988677978515625, 232, 20);
+(1168, "2018-05-30 11:22:40", 73.59, 23, 53);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1169, '2017-11-04 21:46:50', 10.96623532519847543653668253682553768157958984375, 230, 102);
+(1169, "2017-11-04 21:46:50", 54.68, 121, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1170, '2016-11-19 10:21:40', 33.317106265568526168863172642886638641357421875, 10, 28);
+(1170, "2016-11-19 10:21:40", 30.83, 216, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1171, '2020-12-28 08:58:29', 59.38404884393646199214344960637390613555908203125, 246, 79);
+(1171, "2020-12-28 08:58:29", 58.78, 16, 103);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1172, '2020-08-19 17:36:23', 49.89510156799514817294038948602974414825439453125, 161, 45);
+(1172, "2020-08-19 17:36:23", 54.07, 218, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1173, '2020-04-08 23:57:26', 51.5077467667611443857822450809180736541748046875, 75, 10);
+(1173, "2020-04-08 23:57:26", 6.25, 11, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1174, '2019-03-24 01:45:59', 52.09554075624749458484075148589909076690673828125, 156, 35);
+(1174, "2019-03-24 01:45:59", 49.68, 24, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1175, '2017-03-13 13:07:51', 39.83474951777315453682604129426181316375732421875, 101, 82);
+(1175, "2017-03-13 13:07:51", 74.97, 162, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1176, '2017-11-04 15:04:12', 32.2272566231730621666429215110838413238525390625, 141, 45);
+(1176, "2017-11-04 15:04:12", 12.58, 84, 42);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1177, '2017-01-04 19:27:16', 17.794141861857472264318857924081385135650634765625, 7, 45);
+(1177, "2017-01-04 19:27:16", 5.30, 210, 100);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1178, '2018-11-10 08:32:28', 68.4336370556582238577902899123728275299072265625, 131, 44);
+(1178, "2018-11-10 08:32:28", 26.29, 219, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1179, '2017-02-03 22:29:03', 50.18413798750459164921267074532806873321533203125, 36, 20);
+(1179, "2017-02-03 22:29:03", 31.11, 219, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1180, '2017-06-06 02:34:52', 36.239014823001042486794176511466503143310546875, 205, 48);
+(1180, "2017-06-06 02:34:52", 65.57, 91, 72);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1181, '2020-02-15 03:25:31', 28.27259510367090200588791049085557460784912109375, 230, 63);
+(1181, "2020-02-15 03:25:31", 25.98, 57, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1182, '2016-07-20 09:41:25', 52.22424510549399201408959925174713134765625, 174, 2);
+(1182, "2016-07-20 09:41:25", 57.60, 20, 104);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1183, '2017-10-02 19:56:37', 53.28534298688214931871698354370892047882080078125, 174, 16);
+(1183, "2017-10-02 19:56:37", 68.49, 232, 93);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1184, '2019-07-25 22:47:49', 32.464448262708827996902982704341411590576171875, 21, 15);
+(1184, "2019-07-25 22:47:49", 14.27, 71, 37);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1185, '2017-06-12 01:37:37', 46.80408150239505715717314160428941249847412109375, 130, 52);
+(1185, "2017-06-12 01:37:37", 9.62, 211, 9);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1186, '2019-07-26 01:55:28', 34.38792030982205716327371192164719104766845703125, 121, 78);
+(1186, "2019-07-26 01:55:28", 42.23, 39, 21);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1187, '2019-06-26 01:41:17', 35.2144570813071453585507697425782680511474609375, 104, 15);
+(1187, "2019-06-26 01:41:17", 19.34, 124, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1188, '2017-06-10 04:08:00', 7.4660165675844414323591990978457033634185791015625, 141, 16);
+(1188, "2017-06-10 04:08:00", 8.26, 49, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1189, '2019-01-16 21:30:49', 61.65655815937353878553039976395666599273681640625, 243, 30);
+(1189, "2019-01-16 21:30:49", 55.02, 110, 54);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1190, '2016-04-13 08:46:56', 13.627050605956693374309907085262238979339599609375, 48, 64);
+(1190, "2016-04-13 08:46:56", 66.80, 70, 86);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1191, '2016-06-02 09:47:36', 21.9158395102231224882416427135467529296875, 18, 50);
+(1191, "2016-06-02 09:47:36", 6.24, 8, 4);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1192, '2017-03-03 05:31:02', 35.6313034279069853482724283821880817413330078125, 140, 71);
+(1192, "2017-03-03 05:31:02", 70.82, 25, 47);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1193, '2020-05-30 23:44:33', 20.76815194350309212723004748113453388214111328125, 73, 53);
+(1193, "2020-05-30 23:44:33", 48.47, 165, 90);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1194, '2017-05-01 17:01:12', 55.990920304668406970449723303318023681640625, 70, 101);
+(1194, "2017-05-01 17:01:12", 22.12, 210, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1195, '2020-07-15 16:16:15', 66.261346688961367590309237129986286163330078125, 218, 6);
+(1195, "2020-07-15 16:16:15", 55.17, 24, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1196, '2018-11-05 12:51:59', 40.24884972772377267347110318951308727264404296875, 189, 33);
+(1196, "2018-11-05 12:51:59", 24.24, 113, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1197, '2020-04-27 23:24:00', 24.48356405363742993586129159666597843170166015625, 156, 97);
+(1197, "2020-04-27 23:24:00", 23.88, 35, NULL);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1198, '2017-09-14 19:06:27', 25.514238552023666528612011461518704891204833984375, 40, 100);
+(1198, "2017-09-14 19:06:27", 49.62, 131, 11);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1199, '2016-07-18 16:30:34', 43.98085387749970465165461064316332340240478515625, 53, 14);
+(1199, "2016-07-18 16:30:34", 59.15, 143, 8);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1200, '2018-08-05 03:49:47', 11.069527482917834504405618645250797271728515625, 36, 45);
+(1200, "2018-08-05 03:49:47", 62.00, 232, 39);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1201, '2019-03-25 11:21:08', 45.50880240354610606345886480994522571563720703125, 244, 84);
+(1201, "2019-03-25 11:21:08", 20.73, 224, 80);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1202, '2017-05-08 14:05:16', 48.775856936960877874298603273928165435791015625, 29, 66);
+(1202, "2017-05-08 14:05:16", 5.79, 137, 105);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1203, '2016-01-21 23:34:56', 40.69827892003689839839353226125240325927734375, 92, 38);
+(1203, "2016-01-21 23:34:56", 19.58, 167, 36);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1204, '2020-02-15 19:56:35', 10.999229080007324910184252075850963592529296875, 117, 28);
+(1204, "2020-02-15 19:56:35", 26.42, 7, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1205, '2016-05-09 22:01:17', 40.91808822933062828042238834314048290252685546875, 16, 37);
+(1205, "2016-05-09 22:01:17", 26.37, 29, 78);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1206, '2019-05-17 20:29:30', 9.641316739915563260865383199416100978851318359375, 244, 71);
+(1206, "2019-05-17 20:29:30", 42.71, 75, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1207, '2018-11-05 12:18:38', 17.612401665124831851017006556503474712371826171875, 222, 34);
+(1207, "2018-11-05 12:18:38", 66.43, 230, 106);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1208, '2018-03-05 20:07:48', 42.6301821111227781102570588700473308563232421875, 224, 91);
+(1208, "2018-03-05 20:07:48", 25.49, 191, 6);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1209, '2016-08-10 05:20:23', 73.0210008111026667165788239799439907073974609375, 88, 80);
+(1209, "2016-08-10 05:20:23", 20.50, 213, 3);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1210, '2020-08-14 22:07:34', 28.652720187523602390911037218756973743438720703125, 133, 64);
+(1210, "2020-08-14 22:07:34", 15.99, 81, 85);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1211, '2020-06-23 19:36:10', 21.806676861043644777282679569907486438751220703125, 51, 85);
+(1211, "2020-06-23 19:36:10", 44.01, 50, 45);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1212, '2018-05-06 06:35:41', 18.30445962382813007707227370701730251312255859375, 18, 24);
+(1212, "2018-05-06 06:35:41", 20.72, 121, 2);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1213, '2020-03-13 14:29:14', 48.65426914066912189582581049762666225433349609375, 183, 81);
+(1213, "2020-03-13 14:29:14", 67.88, 157, 76);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1214, '2018-06-24 01:18:48', 6.0832556843097638221706802141852676868438720703125, 184, 105);
+(1214, "2018-06-24 01:18:48", 51.25, 133, 43);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1215, '2020-06-19 16:21:45', 32.251693437586567370090051554143428802490234375, 188, 98);
+(1215, "2020-06-19 16:21:45", 19.84, 220, 89);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1216, '2017-05-03 10:09:43', 49.365455557390561125430394895374774932861328125, 152, 91);
+(1216, "2017-05-03 10:09:43", 61.11, 174, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1217, '2016-12-03 15:41:11', 22.7854649773725697059489903040230274200439453125, 49, 70);
+(1217, "2016-12-03 15:41:11", 61.86, 34, 1);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1218, '2019-10-08 16:26:26', 64.914241606701153841640916652977466583251953125, 126, 17);
+(1218, "2019-10-08 16:26:26", 9.53, 86, 52);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1219, '2019-02-15 09:05:44', 47.7070785401182178020462743006646633148193359375, 80, 42);
+(1219, "2019-02-15 09:05:44", 64.39, 118, 15);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1220, '2019-10-29 15:55:56', 39.78082243323934363843363826163113117218017578125, 214, 102);
+(1220, "2019-10-29 15:55:56", 21.21, 37, 49);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1221, '2017-01-14 07:48:15', 39.99278612192711079842410981655120849609375, 222, 86);
+(1221, "2017-01-14 07:48:15", 64.12, 131, 64);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1222, '2018-08-16 02:14:57', 37.6171852024632897837363998405635356903076171875, 72, 87);
+(1222, "2018-08-16 02:14:57", 11.51, 167, 24);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1223, '2019-06-29 10:23:45', 69.3090247647730990365744219161570072174072265625, 94, 39);
+(1223, "2019-06-29 10:23:45", 27.40, 131, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1224, '2020-07-01 18:22:41', 9.521940570566034267585564521141350269317626953125, 190, 103);
+(1224, "2020-07-01 18:22:41", 47.95, 20, 63);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1225, '2018-10-26 13:31:50', 43.7478148853780766103227506391704082489013671875, 40, 28);
+(1225, "2018-10-26 13:31:50", 41.69, 4, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1226, '2019-10-14 13:38:09', 55.47193474565229820427703089080750942230224609375, 142, 59);
+(1226, "2019-10-14 13:38:09", 46.86, 199, 98);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1227, '2018-01-28 22:50:04', 30.52526595865250413908142945729196071624755859375, 177, 70);
+(1227, "2018-01-28 22:50:04", 38.49, 67, 38);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1228, '2016-06-05 04:46:54', 59.14867927824293047933679190464317798614501953125, 74, 30);
+(1228, "2016-06-05 04:46:54", 11.61, 206, 31);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1229, '2017-10-19 23:22:37', 20.091096674280809253332336083985865116119384765625, 121, 47);
+(1229, "2017-10-19 23:22:37", 66.49, 96, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1230, '2016-03-06 03:46:10', 60.938863948192732777897617779672145843505859375, 17, 25);
+(1230, "2016-03-06 03:46:10", 27.16, 210, 59);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1231, '2019-05-02 07:47:50', 51.3512386272928580410734866745769977569580078125, 139, 59);
+(1231, "2019-05-02 07:47:50", 46.15, 142, 58);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1232, '2020-12-27 08:37:58', 21.07174435103514298361915280111134052276611328125, 60, 96);
+(1232, "2020-12-27 08:37:58", 55.76, 32, 57);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1233, '2016-07-10 04:10:03', 22.17908207356530425613527768291532993316650390625, 246, 34);
+(1233, "2016-07-10 04:10:03", 30.16, 61, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1234, '2020-12-18 17:49:28', 5.45859007572988730316865257918834686279296875, 92, 51);
+(1234, "2020-12-18 17:49:28", 13.49, 35, 83);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1235, '2018-09-15 21:53:46', 60.78304303249095852379468851722776889801025390625, 166, 62);
+(1235, "2018-09-15 21:53:46", 45.90, 63, 68);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1236, '2016-06-02 20:16:37', 48.61138395040573101368863717652857303619384765625, 231, 54);
+(1236, "2016-06-02 20:16:37", 57.48, 186, 30);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1237, '2017-06-17 10:20:23', 57.968949780141684868794982321560382843017578125, 82, 98);
+(1237, "2017-06-17 10:20:23", 13.91, 46, 41);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1238, '2019-11-04 10:11:08', 53.9348451250922522604014375247061252593994140625, 179, 82);
+(1238, "2019-11-04 10:11:08", 15.13, 206, 13);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1239, '2019-05-29 10:37:21', 35.8840691153127551160650909878313541412353515625, 222, 70);
+(1239, "2019-05-29 10:37:21", 46.68, 216, 101);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1240, '2019-11-15 13:07:20', 68.8788355920484036687412299215793609619140625, 231, 17);
+(1240, "2019-11-15 13:07:20", 30.70, 106, 65);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1241, '2020-05-18 06:27:39', 13.19441063981721384834600030444562435150146484375, 90, 99);
+(1241, "2020-05-18 06:27:39", 7.17, 227, 34);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1242, '2016-09-01 20:03:55', 21.96216919758555974340197280980646610260009765625, 158, 89);
+(1242, "2016-09-01 20:03:55", 26.33, 9, 7);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1243, '2019-01-06 18:22:08', 68.51307158452874546128441579639911651611328125, 89, 17);
+(1243, "2019-01-06 18:22:08", 32.95, 191, 5);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1244, '2019-07-03 11:57:18', 69.023768063166329511659569106996059417724609375, 113, 58);
+(1244, "2019-07-03 11:57:18", 65.08, 182, 99);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1245, '2018-06-22 10:44:44', 43.54703560655932648160160169936716556549072265625, 134, 88);
+(1245, "2018-06-22 10:44:44", 17.30, 23, 81);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1246, '2017-04-12 12:20:46', 51.06901174385436803504489944316446781158447265625, 222, 44);
+(1246, "2017-04-12 12:20:46", 19.97, 152, 55);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1247, '2019-04-08 17:52:40', 36.777125641422713897554785944521427154541015625, 28, 4);
+(1247, "2019-04-08 17:52:40", 61.03, 195, 26);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1248, '2016-10-08 00:42:54', 70.74366061123060944737517274916172027587890625, 108, 30);
+(1248, "2016-10-08 00:42:54", 73.00, 106, 91);
+
 INSERT INTO occurence
-(occurenceID, dateEtHeure, prix, evenementID, emplacementID)
+(noOccurence, dateEtHeure, prix, noEvenement, noEmplacment)
 VALUES
-(1249, '2019-08-29 18:45:12', 20.06664372434445198223329498432576656341552734375, 182, 83);
+(1249, "2019-08-29 18:45:12", 49.07, 71, 94);
+
