@@ -20,10 +20,6 @@ api = eventful.API('NGGMrssxfJT52ZSP')
 fake = Factory.create('en_CA')
 fake.seed('12345')
 
-# Constants
-nb_clients = 1000
-nb_occurences_alea = 1000
-
 # Global variables
 client_list = []
 event_list = [] 
@@ -32,6 +28,7 @@ empl_list = []
 occurence_list = []
 transaction_list = []
 rabais_list = []
+amtAdressCreated = 0
 
 def general_INSERT_str(tableName, columnNames, values):
     assert(len(columnNames) == len(values)),"Error inserting into '{}':\nColumn (size {}):\t{}\nValues (size {}):\t{}".format(
@@ -55,6 +52,10 @@ def general_INSERT_str(tableName, columnNames, values):
 class Client():
     def __init__(self, id):
         global fake
+        global amtAdressCreated
+        amtAdressCreated += 1
+        self.adressID = amtAdressCreated
+
         self.clientID = id
         self.nom = fake.last_name()
         self.prenom = fake.first_name()
@@ -68,33 +69,39 @@ class Client():
         self.numTel = fake.phone_number()
 
     def INSERT_str(self, tableName):
-        columnNames = ['clientID','nom','prenom','couriel','password','numCivique','rue','codePostal','ville','province','numTel']
-        values = [self.clientID,self.nom,self.prenom,self.couriel,self.password,self.numCivique,self.rue,self.codePostal,self.ville,self.province,self.numTel]
-        return general_INSERT_str(tableName, columnNames, values)
+        # Table Addresse
+        columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
+        values = [self.adressID, self.numCivique,self.rue,self.codePostal,self.ville,self.province]
+        insertString = general_INSERT_str('Adresse', columnNames, values)
+
+        # Table client -> tableName
+        columnNames = ['NoClient','nomUtilisateur','nom','prenom','courriel','motDePasse','NoAdresse','numTel']
+        values = [self.clientID, self.nom+'.'+self.prenom, self.nom, self.prenom, self.couriel, self.password, self.adressID, self.numTel]
+        return insertString + general_INSERT_str(tableName, columnNames, values)
         
-# TODO SQL Interval syntax for 'duree'
 class Evenement():
     def __init__(self, e, id):
         self.evenementID = id
         self.titre = e['title']
         self.description = e['description']
         self.siteWeb = e['url']
-        self.duree = random.choice([1,1.5,2,2.5,3,4,6,10,24,48])
+        self.duree = "INTERVAL '" + random.choice(['01:00','01:30','02:00','02:30','03:00','04:00','06:00','10:00','24:00','48:00']) + ":00' HOUR TO MINUTE" 
         global categ_list
         for c in categ_list:
             if (c.APIname == e['categories']['category'][0]['name']):
-                self.categorie = c.categorie
+                self.noCategorie = c.id
                 return
         assert(true), "Categorie '{}' inexistante".format(e['categories']['category'][0]['name']) 
 
     def INSERT_str(self, tableName):
-        columnNames = ['evenementID', 'titre', 'description', 'siteWeb', 'duree']
-        values = [self.evenementID, self.titre, self.description, self.siteWeb, self.duree] 
+        columnNames = ['noEvenement', 'titre', 'description', 'siteWeb', 'duree','imageAffiche', 'noCategorie']
+        values = [self.evenementID, self.titre, self.description, self.siteWeb, self.duree,None,self.noCategorie] 
         return general_INSERT_str(tableName, columnNames, values)
 
-# TODO nom de categorie meme que le nom de la table, pas bon!
 class Categorie():
     def __init__(self, cat):
+        global categ_list
+        self.id = len(categ_list)
         self.APIname = cat
         cat = cat.replace('&amp;','and').split(': ',1)
         if(len(cat) == 2):
@@ -105,8 +112,8 @@ class Categorie():
             self.surCategorie = None
 
     def INSERT_str(self, tableName):
-        columnNames = ['surCategorie', 'categorie']
-        values = [self.surCategorie, self.categorie] 
+        columnNames = ['noCategorie','parent', 'nom']
+        values = [self.id, self.surCategorie, self.categorie] 
         return general_INSERT_str(tableName, columnNames, values)
 
 class Occurence():
@@ -114,7 +121,7 @@ class Occurence():
         global fake
         self.occurenceID = id
         if (start_time == None):
-            '''2003-01-01 2:00:00'''
+            # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
             self.dateEtHeure = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
         else:
             self.dateEtHeure = start_time
@@ -123,17 +130,22 @@ class Occurence():
         self.emplacementID = emplacementID
 
     def INSERT_str(self, tableName):
-        columnNames = ['occurenceID', 'dateEtHeure', 'prix', 'evenementID', 'emplacementID']
+        columnNames = ['noOccurence', 'dateEtHeure', 'prix', 'noEvenement', 'noEmplacment']
         values = [self.occurenceID, self.dateEtHeure, self.prix, self.evenementID, self.emplacementID] 
         return general_INSERT_str(tableName, columnNames, values)
 
 class Emplacement():
     def __init__(self, e, id):
         global fake
+        global amtAdressCreated
+        amtAdressCreated += 1
+        self.adressID = amtAdressCreated
+
         self.emplacementID = id
         self.siteID = e['id'] 
         self.nom = e['venue_name']
         self.siteWeb = e['url']
+        self.courriel = fake.free_email()
         self.capacite = random.choice([50,100,200,300,500,1000,2000,5000,10000,15000])
         if (e['address'] != None):
             address = e['address'].split(' ',1)
@@ -156,9 +168,15 @@ class Emplacement():
         self.numTel = fake.phone_number()
 
     def INSERT_str(self, tableName):
-        columnNames = ['emplacementID', 'siteID', 'nom', 'siteWeb', 'capacite', 'numCivique', 'rue', 'codePostal', 'ville', 'province', 'numTel']
-        values = [self.emplacementID, self.siteID, self.nom, self.siteWeb, self.capacite, self.numCivique, self.rue, self.codePostal, self.ville, self.province, self.numTel] 
-        return general_INSERT_str(tableName, columnNames, values)
+        # Table Addresse
+        columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
+        values = [self.adressID, self.numCivique,self.rue,self.codePostal,self.ville,self.province]
+        insertString = general_INSERT_str('Adresse', columnNames, values)
+
+        # Table occurrence -> tableName
+        columnNames = ['noEmplacement', 'nom', 'siteWeb', 'capacite','NoAdresse', 'numTel','courriel']
+        values = [self.emplacementID, self.nom, self.siteWeb, self.capacite, self.adressID, self.numTel,self.courriel] 
+        return insertString + general_INSERT_str(tableName, columnNames, values)
 
 class Transaction():
     def __init__(self, transactionID, clientID, occurenceID, prix, codeRabais=None):
@@ -166,22 +184,25 @@ class Transaction():
         self.transactionID = transactionID 
         self.clientID = clientID
         self.occurenceID = occurenceID
+        self.nbBillets = Decimal(str(random.randint(1,8)))
         self.statut = random.choice(["en attente","payee","approuvee","annulee"])
         self.codeRabais = codeRabais
+        self.cout = prix*self.nbBillets
         if (codeRabais == None):
-            self.cout = prix
+            self.montantPayee = prix*self.nbBillets
         else:
-            tauxRabais = 1.0
+            tauxRabais = Decimal('1')
             for c in rabais_list:
                 if (c.code == codeRabais):
-                    tauxRabais = c.tauxRabais
-            self.cout = prix*tauxRabais
+                    tauxRabais = float2decimal(c.tauxRabais)
+            self.montantPayee = self.cout*tauxRabais
+        # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
         self.dateEtHeure = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
         self.modePaiement = random.choice(['mastercard','visa','debit','paypal'])
 
     def INSERT_str(self, tableName):
-        columnNames = ['transactionID', 'clientID', 'occurenceID', 'statut', 'codeRabais', 'cout', 'dateEtHeure', 'modePaiement']
-        values = [self.transactionID, self.clientID, self.occurenceID, self.statut, self.codeRabais, self.cout, self.dateEtHeure, self.modePaiement] 
+        columnNames = ['noTransaction', 'noClient', 'noOccurence', 'statut', 'codeCoupon', 'cout','montantPaye', 'dateEtHeure', 'modePaiement','nbBillets']
+        values = [self.transactionID, self.clientID, self.occurenceID, self.statut, self.codeRabais, self.cout, self.montantPayee, self.dateEtHeure, self.modePaiement,self.nbBillets]
         return general_INSERT_str(tableName, columnNames, values)
 
 class Rabais():
@@ -192,8 +213,8 @@ class Rabais():
         self.expiration = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
 
     def INSERT_str(self, tableName):
-        columnNames = ['code', 'tauxRabais', 'expiration']
-        values = [self.code, self.tauxRabais, self.expiration] 
+        columnNames = ['code', 'Rabais', 'expiration','nom']
+        values = [self.code, self.tauxRabais, self.expiration,self.nom] 
         return general_INSERT_str(tableName, columnNames, values)
 
 def fetchEventsVenues(page=1):
@@ -259,14 +280,16 @@ def createRandomOccurrence():
 def createRabais():
     global rabais_list
     for i in range(6):
-        rabais_list.append(Rabais(i+1))
+        rab = Rabais(i+1)
+        rab.nom = 'Rabais numero ' + str(i+1)
+        rabais_list.append(rab)
 
 def getTauxRabaisFromID(rabaisID):
     global rabais_list
     for r in rabais_list:
         if (r.code == rabaisID):
-            return r.tauxRabais
-    return 1.0;
+            return float2decimal(r.tauxRabais)
+    return Decimal('1')
 
 def createRandomTransaction():
     global event_list 
@@ -294,9 +317,12 @@ def createRandomTransaction():
 
     transaction_list.append(t)
 
+# Date string format test
+print fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
+
 # Remplissage de clients
-print 'Creation de {} clients'.format(nb_clients)
-for id in range(nb_clients):
+print 'Creation de {} clients'.format(1000)
+for id in range(1000):
     cur = 20* id/(nb_clients-1)
     progress = "\r[{}{}]".format('#'*cur, '-'*(20-cur))
     sys.stdout.write(progress)
@@ -317,12 +343,12 @@ for page in range(1,10):
     fetchEventsVenues(page)
 print ''
 
-for i in range(nb_occurences_alea):
+for i in range(2000):
     createRandomOccurrence()
 
 createRabais()
 
-for i in range(1000):
+for i in range(2000):
     createRandomTransaction()
 
 print "\nCategories: " + str(len(categ_list))
@@ -333,38 +359,53 @@ print "Rabais: " + str(len(rabais_list))
 print "Transactions: " + str(len(transaction_list))
 
 # Files printing
-print "\nImpression dans fichier 'output/clients.sql'"
-with open('output/clients.sql', 'w+') as f:
-    for e in client_list:
-        print >>f, e.INSERT_str('client')
+with open ('output/peuplement.sql', 'w+') as p:
+    s =""
+    print "\nImpression dans fichier 'output/clients.sql'"
+    with open('output/clients.sql', 'w+') as f:
+        for e in client_list:
+            s = e.INSERT_str('client')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/evenements.sql'"
-with open('output/evenements.sql', 'w+') as f:
-    for e in event_list:
-        print >>f, e.INSERT_str('evenement')
+    print "Impression dans fichier 'output/evenements.sql'"
+    with open('output/evenements.sql', 'w+') as f:
+        for e in event_list:
+            s = e.INSERT_str('evenement')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/categories.sql'"
-with open('output/categories.sql', 'w+') as f:
-    for e in categ_list:
-        print >>f, e.INSERT_str('categorie')
+    print "Impression dans fichier 'output/categories.sql'"
+    with open('output/categories.sql', 'w+') as f:
+        for e in categ_list:
+            s = e.INSERT_str('categorie')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/emplacements.sql'"
-with open('output/emplacements.sql', 'w+') as f:
-    for e in empl_list:
-        print >>f, e.INSERT_str('emplacement')
+    print "Impression dans fichier 'output/emplacements.sql'"
+    with open('output/emplacements.sql', 'w+') as f:
+        for e in empl_list:
+            s = e.INSERT_str('emplacement')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/occurences.sql'"
-with open('output/occurences.sql', 'w+') as f:
-    for e in occurence_list:
-        print >>f, e.INSERT_str('occurence')
+    print "Impression dans fichier 'output/occurences.sql'"
+    with open('output/occurences.sql', 'w+') as f:
+        for e in occurence_list:
+            s = e.INSERT_str('occurence')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/transactions.sql'"
-with open('output/transactions.sql', 'w+') as f:
-    for e in transaction_list:
-        print >>f, e.INSERT_str('transaction')
+    print "Impression dans fichier 'output/transactions.sql'"
+    with open('output/transactions.sql', 'w+') as f:
+        for e in transaction_list:
+            s = e.INSERT_str('transaction')
+            print >>f,s
+            print >>p,s
 
-print "Impression dans fichier 'output/rabais.sql'"
-with open('output/rabais.sql', 'w+') as f:
-    for e in rabais_list:
-        print >>f, e.INSERT_str('rabais')
-
+    print "Impression dans fichier 'output/rabais.sql'"
+    with open('output/rabais.sql', 'w+') as f:
+        for e in rabais_list:
+            s = e.INSERT_str('rabais')
+            print >>f,s
+            print >>p,s

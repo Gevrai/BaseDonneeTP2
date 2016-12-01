@@ -1,615 +1,615 @@
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Concerts and Tour Dates");
+(NULL, NULL, "Concerts and Tour Dates");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Blues");
+(1, "Concerts and Tour Dates", "Blues");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Classical");
+(2, "Concerts and Tour Dates", "Classical");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Country");
+(3, "Concerts and Tour Dates", "Country");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Dance");
+(4, "Concerts and Tour Dates", "Dance");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Easy Listening");
+(5, "Concerts and Tour Dates", "Easy Listening");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Electronic");
+(6, "Concerts and Tour Dates", "Electronic");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Folk");
+(7, "Concerts and Tour Dates", "Folk");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Jazz");
+(8, "Concerts and Tour Dates", "Jazz");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Latin");
+(9, "Concerts and Tour Dates", "Latin");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "New Age");
+(10, "Concerts and Tour Dates", "New Age");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Opera");
+(11, "Concerts and Tour Dates", "Opera");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "R&B/Soul");
+(12, "Concerts and Tour Dates", "R&B/Soul");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Reggae");
+(13, "Concerts and Tour Dates", "Reggae");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Vocal");
+(14, "Concerts and Tour Dates", "Vocal");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Hip Hop/Rap");
+(15, "Concerts and Tour Dates", "Hip Hop/Rap");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Heavy Metal");
+(16, "Concerts and Tour Dates", "Heavy Metal");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Inspirational");
+(17, "Concerts and Tour Dates", "Inspirational");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Rock");
+(18, "Concerts and Tour Dates", "Rock");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Pop");
+(19, "Concerts and Tour Dates", "Pop");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "World");
+(20, "Concerts and Tour Dates", "World");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Alternative");
+(21, "Concerts and Tour Dates", "Alternative");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Concerts and Tour Dates", "Children's");
+(22, "Concerts and Tour Dates", "Children's");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Conferences and Tradeshows");
+(23, NULL, "Conferences and Tradeshows");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Conferences and Tradeshows", "Career");
+(24, "Conferences and Tradeshows", "Career");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Conferences and Tradeshows", "Convention");
+(25, "Conferences and Tradeshows", "Convention");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Conferences and Tradeshows", "Seminar");
+(26, "Conferences and Tradeshows", "Seminar");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Conferences and Tradeshows", "Talks/Lectures");
+(27, "Conferences and Tradeshows", "Talks/Lectures");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Comedy");
+(28, NULL, "Comedy");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Education");
+(29, NULL, "Education");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Education", "Class/Workshop");
+(30, "Education", "Class/Workshop");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Kids and Family");
+(31, NULL, "Kids and Family");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Festivals");
+(32, NULL, "Festivals");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Festivals", "Circus");
+(33, "Festivals", "Circus");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Festivals", "Festival");
+(34, "Festivals", "Festival");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Festivals", "Fairs");
+(35, "Festivals", "Fairs");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Festivals", "Parade");
+(36, "Festivals", "Parade");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Film");
+(37, NULL, "Film");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Film", "Film Festival");
+(38, "Film", "Film Festival");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Food and Wine");
+(39, NULL, "Food and Wine");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Food and Wine", "Beer");
+(40, "Food and Wine", "Beer");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Food and Wine", "Wine");
+(41, "Food and Wine", "Wine");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Food and Wine", "Farmer’s Market");
+(42, "Food and Wine", "Farmer’s Market");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Food and Wine", "Tastings");
+(43, "Food and Wine", "Tastings");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Fundraising and Charity");
+(44, NULL, "Fundraising and Charity");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Fundraising and Charity", "Blood Drive");
+(45, "Fundraising and Charity", "Blood Drive");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Fundraising and Charity", "Volunteer");
+(46, "Fundraising and Charity", "Volunteer");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Art Galleries and Exhibits");
+(47, NULL, "Art Galleries and Exhibits");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Antiques");
+(48, "Art Galleries and Exhibits", "Antiques");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Painting");
+(49, "Art Galleries and Exhibits", "Painting");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Photography");
+(50, "Art Galleries and Exhibits", "Photography");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Art Exhibits");
+(51, "Art Galleries and Exhibits", "Art Exhibits");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Arts and Crafts");
+(52, "Art Galleries and Exhibits", "Arts and Crafts");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Art Galleries and Exhibits", "Fashion");
+(53, "Art Galleries and Exhibits", "Fashion");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Health and Wellness");
+(54, NULL, "Health and Wellness");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Health and Wellness", "Fitness");
+(55, "Health and Wellness", "Fitness");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Health and Wellness", "Senior Health");
+(56, "Health and Wellness", "Senior Health");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Health and Wellness", "Support");
+(57, "Health and Wellness", "Support");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Health and Wellness", "Yoga");
+(58, "Health and Wellness", "Yoga");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Holiday");
+(59, NULL, "Holiday");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Literary and Books");
+(60, NULL, "Literary and Books");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Literary and Books", "Poetry");
+(61, "Literary and Books", "Poetry");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Museums and Attractions");
+(62, NULL, "Museums and Attractions");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Neighborhood");
+(63, NULL, "Neighborhood");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Neighborhood", "Library");
+(64, "Neighborhood", "Library");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Neighborhood", "Holiday");
+(65, "Neighborhood", "Holiday");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Neighborhood", "Seasonal");
+(66, "Neighborhood", "Seasonal");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Business and Networking");
+(67, NULL, "Business and Networking");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Nightlife and Singles");
+(68, NULL, "Nightlife and Singles");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Trivia Night");
+(69, "Nightlife and Singles", "Trivia Night");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Comedy");
+(70, "Nightlife and Singles", "Comedy");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Bars");
+(71, "Nightlife and Singles", "Bars");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Dating");
+(72, "Nightlife and Singles", "Dating");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Karaoke");
+(73, "Nightlife and Singles", "Karaoke");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Nightlife and Singles", "Open Mic");
+(74, "Nightlife and Singles", "Open Mic");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "University and Alumni");
+(75, NULL, "University and Alumni");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Organizations and Meetups");
+(76, NULL, "Organizations and Meetups");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Outdoors and Recreation");
+(77, NULL, "Outdoors and Recreation");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Outdoors and Recreation", "Cycling");
+(78, "Outdoors and Recreation", "Cycling");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Outdoors and Recreation", "Hiking");
+(79, "Outdoors and Recreation", "Hiking");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Outdoors and Recreation", "Nature");
+(80, "Outdoors and Recreation", "Nature");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Outdoors and Recreation", "Running");
+(81, "Outdoors and Recreation", "Running");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Performing Arts");
+(82, NULL, "Performing Arts");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Cabaret");
+(83, "Performing Arts", "Cabaret");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Opera");
+(84, "Performing Arts", "Opera");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Dance");
+(85, "Performing Arts", "Dance");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Musical");
+(86, "Performing Arts", "Musical");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Ballet");
+(87, "Performing Arts", "Ballet");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Comedy");
+(88, "Performing Arts", "Comedy");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Performing Arts", "Theatre");
+(89, "Performing Arts", "Theatre");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Pets");
+(90, NULL, "Pets");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Pets", "Cats");
+(91, "Pets", "Cats");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Pets", "Dogs");
+(92, "Pets", "Dogs");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Politics and Activism");
+(93, NULL, "Politics and Activism");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Sales and Retail");
+(94, NULL, "Sales and Retail");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sales and Retail", "Auction");
+(95, "Sales and Retail", "Auction");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sales and Retail", "Craft Show");
+(96, "Sales and Retail", "Craft Show");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sales and Retail", "Flea Market");
+(97, "Sales and Retail", "Flea Market");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sales and Retail", "Yard Sale");
+(98, "Sales and Retail", "Yard Sale");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sales and Retail", "Retail");
+(99, "Sales and Retail", "Retail");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Science");
+(100, NULL, "Science");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Religion and Spirituality");
+(101, NULL, "Religion and Spirituality");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Sports");
+(102, NULL, "Sports");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Auto Racing");
+(103, "Sports", "Auto Racing");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Dance");
+(104, "Sports", "Dance");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Gymnastics");
+(105, "Sports", "Gymnastics");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Ice Skating/Skiing");
+(106, "Sports", "Ice Skating/Skiing");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Softball");
+(107, "Sports", "Softball");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Swimming/Diving");
+(108, "Sports", "Swimming/Diving");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Volleyball");
+(109, "Sports", "Volleyball");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Baseball");
+(110, "Sports", "Baseball");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Basketball");
+(111, "Sports", "Basketball");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Cricket");
+(112, "Sports", "Cricket");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Football");
+(113, "Sports", "Football");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Golf");
+(114, "Sports", "Golf");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Hockey");
+(115, "Sports", "Hockey");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Rugby");
+(116, "Sports", "Rugby");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Soccer");
+(117, "Sports", "Soccer");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Tennis");
+(118, "Sports", "Tennis");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Sports", "Wrestling");
+(119, "Sports", "Wrestling");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Technology");
+(120, NULL, "Technology");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-("Technology", "Computer");
+(121, "Technology", "Computer");
 
 INSERT INTO categorie
-(parent, nom)
+(noCategorie, parent, nom)
 VALUES
-(NULL, "Other and Miscellaneous");
+(122, NULL, "Other and Miscellaneous");
 
