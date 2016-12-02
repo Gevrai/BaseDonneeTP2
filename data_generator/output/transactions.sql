@@ -1,10000 +1,10000 @@
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(NULL, 80, 893, "payee", NULL, 534.88, 534.88, "2020-12-03 17:04:01", "paypal", 8);
+(NULL, 271, 3846, 'en attente', NULL, 273.28, 273.28, '2020-01-24 23:16:11', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1, 16, 1863, "approuvee", NULL, 288.00, 288.00, "2016-04-27 10:44:01", "mastercard", 8);
+(1, 270, 2536, 'approuvee', 1, 96.0480, 57.628800, '2016-09-29 01:01:33', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(2, 42, 3445, "annulee", NULL, 33.64, 33.64, "2018-11-05 05:33:07", "visa", 2);
+(2, 480, 1725, 'annulee', NULL, 19.09, 19.09, '2019-01-10 08:21:30', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(3, 61, 2926, "payee", NULL, 48.19, 48.19, "2019-02-16 19:47:21", "mastercard", 1);
+(3, 559, 2291, 'en attente', NULL, 21.16, 21.16, '2017-10-04 16:57:44', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(4, 57, 1763, "approuvee", 1, 237.8980, 202.213300, "2016-01-02 02:21:00", "paypal", 4);
+(4, 19, 3985, 'payee', NULL, 101.70, 101.70, '2019-12-29 01:10:57', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(5, 50, 3818, "approuvee", NULL, 109.84, 109.84, "2019-11-25 16:36:10", "paypal", 4);
+(5, 92, 1580, 'annulee', NULL, 416.64, 416.64, '2017-11-29 21:54:31', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(6, 65, 217, "en attente", NULL, 346.30, 346.30, "2020-06-23 02:58:11", "paypal", 5);
+(6, 218, 2628, 'annulee', NULL, 56.55, 56.55, '2017-10-08 03:03:45', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(7, 63, 3321, "annulee", 3, 17.7940, 12.455800, "2017-04-25 23:39:21", "mastercard", 1);
+(7, 413, 3331, 'payee', NULL, 474.00, 474.00, '2016-12-18 01:18:58', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(8, 38, 2244, "payee", NULL, 189.91, 189.91, "2017-04-17 20:26:47", "visa", 7);
+(8, 720, 477, 'annulee', NULL, 210.42, 210.42, '2019-07-28 16:11:57', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(9, 84, 2606, "en attente", NULL, 9.89, 9.89, "2017-04-15 00:03:48", "paypal", 1);
+(9, 722, 2063, 'payee', 1, 181.8180, 109.090800, '2016-09-04 13:58:17', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(10, 68, 514, "payee", NULL, 280.00, 280.00, "2020-12-23 08:15:49", "visa", 5);
+(10, 93, 672, 'approuvee', NULL, 28.95, 28.95, '2018-06-09 17:10:50', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(11, 14, 2651, "payee", 6, 98.6085, 83.817225, "2017-09-19 03:16:08", "mastercard", 3);
+(11, 976, 144, 'en attente', NULL, 229.12, 229.12, '2019-07-10 22:03:09', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(12, 79, 1694, "en attente", NULL, 323.10, 323.10, "2017-02-05 23:21:13", "visa", 5);
+(12, 963, 3380, 'en attente', NULL, 48.45, 48.45, '2019-03-20 18:13:41', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(13, 82, 2369, "en attente", NULL, 46.35, 46.35, "2020-03-30 14:48:06", "paypal", 3);
+(13, 169, 642, 'annulee', NULL, 326.34, 326.34, '2016-03-07 15:44:36', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(14, 6, 2422, "en attente", NULL, 116.24, 116.24, "2017-08-27 05:28:20", "paypal", 2);
+(14, 588, 1416, 'annulee', NULL, 25.68, 25.68, '2016-05-14 23:51:45', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(15, 12, 1263, "approuvee", NULL, 117.00, 117.00, "2019-10-15 15:23:53", "visa", 2);
+(15, 377, 2908, 'payee', 5, 84.8750, 42.437500, '2019-10-11 05:29:38', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(16, 76, 1918, "payee", NULL, 33.80, 33.80, "2016-05-15 19:25:14", "mastercard", 2);
+(16, 245, 953, 'en attente', NULL, 329.77, 329.77, '2016-01-17 01:05:31', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(17, NULL, 649, "payee", NULL, 243.06, 243.06, "2018-06-01 09:08:38", "debit", 6);
+(17, 273, 2894, 'approuvee', NULL, 83.26, 83.26, '2018-09-17 10:48:22', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(18, 48, 2301, "annulee", NULL, 190.72, 190.72, "2020-09-14 07:15:43", "mastercard", 8);
+(18, 933, 1040, 'en attente', NULL, 444.90, 444.90, '2016-10-16 08:38:42', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(19, 45, 3139, "approuvee", NULL, 12.60, 12.60, "2020-07-28 05:40:56", "debit", 1);
+(19, 989, 903, 'payee', NULL, 99.14, 99.14, '2016-09-22 11:00:43', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(20, 83, 3395, "approuvee", NULL, 77.32, 77.32, "2017-08-03 21:27:59", "paypal", 4);
+(20, 751, 1866, 'en attente', NULL, 216.75, 216.75, '2019-07-16 23:01:56', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(21, 52, 885, "approuvee", NULL, 123.88, 123.88, "2018-04-22 03:38:13", "debit", 2);
+(21, 16, 1307, 'en attente', NULL, 16.72, 16.72, '2018-08-22 03:07:09', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(22, 60, 3348, "en attente", NULL, 58.68, 58.68, "2017-11-23 09:42:33", "mastercard", 1);
+(22, 583, 4121, 'en attente', NULL, 366.59, 366.59, '2017-01-13 03:55:04', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(23, 60, 2050, "payee", NULL, 36.76, 36.76, "2017-08-26 09:13:27", "visa", 4);
+(23, 802, 2691, 'payee', NULL, 12.72, 12.72, '2017-12-10 20:21:30', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(24, 85, 1774, "annulee", 6, 30.6340, 26.038900, "2018-07-06 19:44:00", "paypal", 2);
+(24, 639, 3749, 'en attente', NULL, 345.20, 345.20, '2019-01-28 04:01:07', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(25, 48, 1307, "approuvee", NULL, 263.55, 263.55, "2020-05-22 23:51:52", "visa", 7);
+(25, 138, 3540, 'annulee', NULL, 430.20, 430.20, '2017-03-16 06:08:30', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(26, 96, 3050, "payee", NULL, 145.86, 145.86, "2016-11-18 11:40:19", "visa", 6);
+(26, 809, 224, 'annulee', NULL, 456.19, 456.19, '2018-03-02 01:08:01', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(27, 58, 2989, "payee", NULL, 76.37, 76.37, "2019-08-01 08:11:20", "visa", 7);
+(27, 856, 1815, 'payee', NULL, 439.04, 439.04, '2016-04-15 07:08:00', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(28, 28, 722, "en attente", 5, 33.3700, 16.685000, "2019-11-01 07:33:53", "debit", 1);
+(28, 957, 2576, 'payee', NULL, 195.36, 195.36, '2019-05-17 04:38:48', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(29, 45, 4145, "approuvee", 5, 58.2000, 29.100000, "2016-12-13 07:26:29", "mastercard", 8);
+(29, 107, 3214, 'annulee', NULL, 329.28, 329.28, '2017-01-07 21:40:38', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(30, 68, 1678, "annulee", NULL, 66.62, 66.62, "2020-02-25 12:26:43", "mastercard", 2);
+(30, 502, 3894, 'en attente', NULL, 199.04, 199.04, '2018-10-05 23:41:40', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(31, 75, 2761, "annulee", NULL, 153.80, 153.80, "2019-02-16 02:29:15", "paypal", 5);
+(31, 60, 290, 'en attente', NULL, 302.58, 302.58, '2019-09-10 11:01:35', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(32, 81, 155, "annulee", 2, 36.1098, 29.248938, "2016-01-06 07:38:24", "mastercard", 3);
+(32, 531, 2098, 'en attente', 4, 98.2775, 93.363625, '2018-10-19 04:35:59', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(33, 53, 297, "en attente", NULL, 256.65, 256.65, "2018-08-03 08:45:31", "debit", 5);
+(33, 315, 4218, 'payee', NULL, 178.41, 178.41, '2016-07-27 09:43:24', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(34, 81, 3156, "en attente", 6, 178.2025, 151.472125, "2018-12-24 01:11:15", "mastercard", 7);
+(34, 535, 1343, 'en attente', 2, 146.9013, 133.680183, '2017-07-07 09:46:47', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(35, 88, 613, "en attente", 5, 38.8800, 19.440000, "2016-10-31 15:53:26", "debit", 4);
+(35, 826, 2721, 'approuvee', 3, 9.2502, 7.492662, '2017-05-09 09:44:04', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(36, 5, 3024, "en attente", 1, 61.3020, 52.106700, "2018-06-24 07:31:18", "paypal", 2);
+(36, 120, 1119, 'en attente', 4, 56.5060, 53.680700, '2019-03-29 06:42:25', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(37, 28, 1733, "annulee", 6, 65.5860, 55.748100, "2016-06-25 12:08:49", "paypal", 3);
+(37, 944, 2144, 'annulee', NULL, 142.95, 142.95, '2019-09-16 00:55:28', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(38, NULL, 1182, "payee", 3, 265.2160, 185.651200, "2018-03-22 07:00:17", "debit", 8);
+(38, 807, 784, 'annulee', NULL, 544.96, 544.96, '2016-06-02 10:29:53', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(39, 82, 3630, "approuvee", NULL, 192.96, 192.96, "2018-01-03 16:53:58", "paypal", 8);
+(39, 708, 2431, 'annulee', NULL, 58.94, 58.94, '2018-05-10 22:12:10', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(40, 72, 2677, "en attente", NULL, 125.97, 125.97, "2020-09-29 05:02:28", "mastercard", 3);
+(40, 657, 760, 'approuvee', NULL, 96.72, 96.72, '2016-07-17 23:01:47', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(41, 8, 3997, "en attente", NULL, 481.60, 481.60, "2017-08-06 22:42:35", "mastercard", 7);
+(41, 256, 2174, 'payee', 6, 93.6360, 75.845160, '2020-04-16 04:37:38', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(42, 10, 3689, "approuvee", NULL, 166.98, 166.98, "2016-03-23 20:54:53", "debit", 3);
+(42, 368, 580, 'payee', NULL, 18.22, 18.22, '2019-10-26 17:46:16', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(43, 6, 3936, "payee", NULL, 101.20, 101.20, "2017-11-18 03:56:52", "visa", 8);
+(43, 466, 1048, 'en attente', NULL, 259.48, 259.48, '2017-01-13 03:05:02', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(44, 29, 1944, "payee", NULL, 64.00, 64.00, "2020-12-04 16:30:26", "visa", 1);
+(44, 657, 2205, 'en attente', NULL, 185.22, 185.22, '2018-01-30 18:50:11', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(45, 36, 2550, "en attente", NULL, 134.52, 134.52, "2016-06-24 00:25:12", "paypal", 6);
+(45, 744, 2374, 'payee', 5, 24.1700, 12.085000, '2017-07-10 09:24:38', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(46, 17, 226, "approuvee", NULL, 519.04, 519.04, "2020-07-05 09:25:08", "debit", 8);
+(46, 282, 4095, 'approuvee', NULL, 220.92, 220.92, '2017-12-31 09:05:47', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(47, 73, 1750, "en attente", NULL, 183.96, 183.96, "2016-12-08 12:08:32", "visa", 7);
+(47, 738, 2199, 'annulee', 5, 32.8000, 16.400000, '2020-09-16 15:22:28', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(48, 62, 3411, "approuvee", 2, 112.5900, 91.197900, "2020-06-04 07:35:12", "debit", 2);
+(48, 375, 3935, 'en attente', NULL, 362.11, 362.11, '2016-07-12 19:22:02', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(49, 15, 1712, "annulee", NULL, 65.68, 65.68, "2018-03-06 17:06:23", "mastercard", 4);
+(49, 84, 1209, 'en attente', NULL, 334.18, 334.18, '2017-12-27 04:05:06', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(50, 68, 4009, "en attente", NULL, 402.56, 402.56, "2020-01-10 04:11:04", "debit", 8);
+(50, 506, 3625, 'annulee', 6, 24.3081, 19.689561, '2017-06-04 16:17:39', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(51, 36, 2535, "payee", 5, 54.1350, 27.067500, "2020-04-20 14:35:22", "paypal", 3);
+(51, 582, 4163, 'payee', 5, 136.1400, 68.070000, '2019-01-15 15:37:50', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(52, 68, 3591, "payee", NULL, 335.90, 335.90, "2018-12-22 02:43:34", "paypal", 5);
+(52, 844, 975, 'en attente', 5, 11.8200, 5.910000, '2019-03-02 05:46:17', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(53, 66, 2201, "annulee", NULL, 103.26, 103.26, "2020-05-29 03:32:24", "mastercard", 6);
+(53, 48, 1392, 'annulee', 4, 291.4600, 276.887000, '2018-04-23 16:13:17', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(54, 33, 3901, "approuvee", NULL, 57.64, 57.64, "2018-06-13 13:38:58", "visa", 1);
+(54, 81, 679, 'approuvee', NULL, 287.05, 287.05, '2020-10-22 08:04:05', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(55, 55, 2369, "en attente", NULL, 61.80, 61.80, "2019-01-19 09:50:30", "mastercard", 4);
+(55, 74, 1663, 'annulee', NULL, 440.70, 440.70, '2016-06-10 12:19:28', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(56, 97, 351, "en attente", NULL, 358.00, 358.00, "2018-11-08 12:10:08", "mastercard", 5);
+(56, 36, 2140, 'payee', 2, 108.2536, 98.510776, '2018-05-14 06:56:09', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(57, 2, 771, "annulee", 2, 30.4479, 24.662799, "2020-04-07 13:35:25", "debit", 7);
+(57, 868, 2147, 'approuvee', 4, 217.5880, 206.708600, '2019-03-04 06:21:18', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(58, 26, 4200, "approuvee", NULL, 548.96, 548.96, "2019-08-02 16:24:02", "debit", 8);
+(58, 255, 1258, 'annulee', NULL, 55.97, 55.97, '2016-02-09 05:48:05', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(59, 78, 572, "approuvee", 5, 38.3000, 19.150000, "2017-03-04 01:53:47", "debit", 5);
+(59, 344, 4055, 'annulee', NULL, 198.85, 198.85, '2019-05-13 02:41:18', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(60, 37, 2281, "en attente", NULL, 17.16, 17.16, "2019-11-07 06:49:39", "paypal", 3);
+(60, 444, 2315, 'annulee', NULL, 365.12, 365.12, '2017-11-29 04:10:15', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(61, 50, 3172, "annulee", 1, 35.2750, 29.983750, "2018-01-05 05:40:35", "paypal", 1);
+(61, 111, 2098, 'payee', NULL, 124.14, 124.14, '2019-08-25 19:33:13', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(62, 68, 12, "en attente", NULL, 472.48, 472.48, "2019-09-15 13:09:02", "visa", 8);
+(62, 360, 1914, 'approuvee', NULL, 92.54, 92.54, '2016-10-05 01:37:33', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(63, 39, 4037, "payee", NULL, 151.80, 151.80, "2018-12-12 03:00:40", "mastercard", 4);
+(63, 820, 1098, 'en attente', NULL, 102.54, 102.54, '2020-06-23 19:32:18', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(64, 48, 926, "payee", 1, 43.9450, 37.353250, "2020-04-27 08:01:45", "visa", 2);
+(64, 969, 431, 'approuvee', NULL, 111.12, 111.12, '2019-07-20 04:46:16', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(65, 1, 3707, "en attente", NULL, 157.92, 157.92, "2016-01-25 06:47:21", "debit", 6);
+(65, 39, 2120, 'approuvee', NULL, 40.44, 40.44, '2018-11-08 10:25:20', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(66, 13, 3623, "annulee", NULL, 428.47, 428.47, "2020-04-25 09:25:16", "debit", 7);
+(66, 987, 2864, 'en attente', NULL, 92.28, 92.28, '2020-10-17 05:38:58', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(67, 14, 1342, "en attente", 3, 91.8120, 64.268400, "2017-07-14 02:26:42", "paypal", 6);
+(67, 874, 2176, 'payee', NULL, 86.68, 86.68, '2019-06-20 18:12:41', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(68, 83, 1523, "approuvee", NULL, 114.63, 114.63, "2020-06-11 06:33:35", "paypal", 3);
+(68, 841, 3405, 'en attente', NULL, 169.83, 169.83, '2020-09-24 23:43:16', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(69, 51, 2314, "annulee", NULL, 465.76, 465.76, "2020-06-27 00:18:52", "visa", 8);
+(69, 165, 713, 'en attente', NULL, 33.60, 33.60, '2020-09-24 15:06:12', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(70, 67, 3597, "approuvee", NULL, 139.56, 139.56, "2020-09-25 23:01:05", "visa", 2);
+(70, 193, 3837, 'annulee', NULL, 218.70, 218.70, '2017-08-02 10:05:14', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(71, 96, 1644, "payee", NULL, 123.45, 123.45, "2016-11-22 02:05:26", "paypal", 5);
+(71, 161, 978, 'annulee', NULL, 232.26, 232.26, '2018-11-11 02:48:27', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(72, 92, 4087, "annulee", 5, 49.9200, 24.960000, "2017-03-29 02:38:51", "paypal", 8);
+(72, 898, 3197, 'approuvee', 6, 141.6204, 114.712524, '2019-10-16 16:37:56', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(73, 26, 1971, "en attente", 1, 70.8645, 60.234825, "2020-02-29 05:49:21", "visa", 7);
+(73, 496, 710, 'approuvee', NULL, 215.76, 215.76, '2018-08-03 13:52:34', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(74, 83, 1357, "annulee", NULL, 151.62, 151.62, "2016-11-01 21:24:05", "debit", 7);
+(74, 516, 1774, 'approuvee', NULL, 267.36, 267.36, '2018-01-22 17:53:41', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(75, 11, 3121, "en attente", NULL, 113.12, 113.12, "2019-04-05 19:25:35", "mastercard", 4);
+(75, 842, 3685, 'payee', NULL, 217.38, 217.38, '2016-07-10 20:57:53', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(76, 34, 2636, "payee", 2, 322.1694, 260.957214, "2017-12-28 21:56:37", "paypal", 6);
+(76, 698, 1824, 'annulee', NULL, 208.64, 208.64, '2018-02-24 16:52:15', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(77, 27, 2996, "payee", NULL, 90.56, 90.56, "2018-03-06 16:05:07", "visa", 4);
+(77, 962, 3626, 'en attente', NULL, 270.36, 270.36, '2019-01-23 21:50:00', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(78, 85, 2483, "payee", NULL, 57.12, 57.12, "2016-11-10 00:31:26", "debit", 1);
+(78, 233, 3671, 'payee', 1, 45.9480, 27.568800, '2017-02-03 10:33:26', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(79, 57, 2208, "annulee", NULL, 412.56, 412.56, "2016-05-27 09:08:53", "paypal", 6);
+(79, 864, 360, 'payee', NULL, 291.76, 291.76, '2018-04-05 19:10:29', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(80, 76, 3179, "annulee", NULL, 43.44, 43.44, "2016-07-27 14:23:04", "debit", 1);
+(80, 311, 463, 'payee', 5, 44.2400, 22.120000, '2020-08-14 14:04:39', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(81, 27, 2286, "annulee", NULL, 168.54, 168.54, "2020-09-14 18:34:07", "debit", 3);
+(81, 973, 832, 'payee', NULL, 539.68, 539.68, '2018-06-28 02:34:55', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(82, 55, 4201, "payee", 4, NULL, NULL, "2016-01-09 06:26:39", "mastercard", 4);
+(82, 987, 2579, 'en attente', 6, 180.7920, 146.441520, '2018-08-22 00:32:47', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(83, 92, 1629, "annulee", NULL, 567.28, 567.28, "2016-07-11 12:38:31", "mastercard", 8);
+(83, 762, 1257, 'annulee', 6, 173.5830, 140.602230, '2018-03-17 08:36:31', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(84, NULL, 132, "payee", NULL, 328.02, 328.02, "2017-03-25 21:34:38", "debit", 6);
+(84, 872, 1450, 'approuvee', NULL, 104.93, 104.93, '2018-10-07 02:43:44', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(85, 47, 3805, "en attente", NULL, 65.72, 65.72, "2017-03-25 09:37:51", "mastercard", 2);
+(85, 632, 3850, 'payee', NULL, 114.10, 114.10, '2020-01-24 04:36:50', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(86, 78, 3364, "en attente", 3, 97.7760, 68.443200, "2017-09-11 10:56:51", "paypal", 2);
+(86, 934, 3774, 'approuvee', NULL, 58.62, 58.62, '2018-03-25 17:06:15', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(87, 67, 1307, "payee", NULL, 37.65, 37.65, "2019-05-04 22:53:13", "debit", 1);
+(87, 682, 3691, 'approuvee', NULL, 334.14, 334.14, '2018-04-17 00:04:36', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(88, 26, 4104, "approuvee", NULL, 249.64, 249.64, "2016-05-12 11:23:59", "paypal", 4);
+(88, 112, 1906, 'approuvee', NULL, 72.68, 72.68, '2019-12-16 00:17:35', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(89, 95, 208, "payee", NULL, 31.72, 31.72, "2016-08-31 16:09:29", "debit", 1);
+(89, 596, 2292, 'annulee', 1, 177.8400, 106.704000, '2016-02-17 12:14:41', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(90, 5, 4034, "en attente", 4, NULL, NULL, "2018-07-15 01:35:08", "visa", 1);
+(90, 948, 497, 'payee', NULL, 150.06, 150.06, '2020-09-12 01:55:45', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(91, 90, 3070, "payee", NULL, 63.34, 63.34, "2020-10-10 23:50:57", "debit", 2);
+(91, 617, 1861, 'annulee', NULL, 139.70, 139.70, '2019-04-26 11:43:02', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(92, 65, 4205, "annulee", NULL, 303.35, 303.35, "2020-08-15 15:37:03", "debit", 5);
+(92, 80, 3628, 'approuvee', NULL, 429.66, 429.66, '2019-12-19 11:13:27', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(93, 28, 1336, "payee", NULL, 522.20, 522.20, "2017-12-04 03:38:02", "debit", 7);
+(93, 98, 2218, 'approuvee', NULL, 43.35, 43.35, '2017-01-28 06:47:43', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(94, 14, 2008, "en attente", NULL, 203.72, 203.72, "2019-01-15 11:04:20", "mastercard", 4);
+(94, 553, 1246, 'approuvee', NULL, 89.12, 89.12, '2018-03-19 07:47:56', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(95, 34, 533, "approuvee", 4, NULL, NULL, "2018-08-17 09:20:19", "paypal", 6);
+(95, 798, 1252, 'annulee', NULL, 65.18, 65.18, '2020-09-30 02:13:09', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(96, 76, 1056, "payee", NULL, 106.33, 106.33, "2017-12-18 08:20:40", "mastercard", 7);
+(96, 335, 1765, 'annulee', NULL, 51.82, 51.82, '2020-11-30 21:58:48', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(97, 40, 702, "en attente", 5, 77.1300, 38.565000, "2017-04-12 18:36:13", "mastercard", 6);
+(97, 90, 382, 'annulee', NULL, 163.38, 163.38, '2020-03-10 12:03:55', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(98, 70, 3537, "payee", 4, NULL, NULL, "2017-12-03 18:34:53", "mastercard", 1);
+(98, 707, 507, 'payee', NULL, 40.66, 40.66, '2018-09-07 00:01:28', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(99, 85, 1924, "approuvee", NULL, 337.89, 337.89, "2017-09-05 23:27:05", "debit", 7);
+(99, 301, 3134, 'en attente', NULL, 244.05, 244.05, '2018-05-02 03:18:41', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(100, 56, 4180, "annulee", NULL, 123.30, 123.30, "2016-10-07 05:40:29", "paypal", 3);
+(100, 573, 4212, 'en attente', NULL, 84.25, 84.25, '2018-01-23 19:10:11', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(101, 21, 1106, "payee", NULL, 42.16, 42.16, "2019-02-08 14:25:06", "visa", 8);
+(101, 919, 1725, 'approuvee', 6, 30.9258, 25.049898, '2017-09-07 07:26:51', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(102, 17, 42, "annulee", NULL, 211.32, 211.32, "2017-10-19 15:41:59", "paypal", 6);
+(102, 351, 3869, 'en attente', NULL, 271.84, 271.84, '2016-01-14 16:32:49', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(103, 16, 2442, "payee", NULL, 16.06, 16.06, "2016-01-23 15:22:39", "debit", 2);
+(103, 444, 1489, 'approuvee', 5, 74.2800, 37.140000, '2020-08-24 10:45:40', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(104, 25, 369, "approuvee", NULL, 13.78, 13.78, "2019-07-05 16:19:35", "paypal", 2);
+(104, 576, 3585, 'payee', NULL, 127.60, 127.60, '2020-01-21 10:24:28', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(105, 56, 2270, "en attente", 2, 42.0390, 34.051590, "2019-07-30 23:41:54", "mastercard", 2);
+(105, 857, 2967, 'annulee', NULL, 40.08, 40.08, '2016-10-18 16:26:06', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(106, 53, 2480, "annulee", NULL, 90.40, 90.40, "2020-07-09 18:25:30", "visa", 8);
+(106, 995, 1174, 'payee', NULL, 263.40, 263.40, '2016-03-02 08:00:59', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(107, 26, 1927, "en attente", NULL, 70.80, 70.80, "2020-08-26 08:42:29", "visa", 8);
+(107, 492, 3589, 'en attente', NULL, 110.70, 110.70, '2016-04-10 13:01:07', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(108, 42, 2335, "annulee", 6, 37.0260, 31.472100, "2019-01-02 15:40:38", "visa", 3);
+(108, 998, 2125, 'annulee', NULL, 537.52, 537.52, '2020-01-16 05:11:34', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(109, NULL, 4100, "approuvee", NULL, 146.34, 146.34, "2017-08-11 08:36:32", "visa", 2);
+(109, 259, 3206, 'approuvee', 5, 23.2750, 11.637500, '2016-10-26 03:30:24', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(110, 69, 1546, "en attente", NULL, 67.70, 67.70, "2020-12-19 19:22:10", "debit", 2);
+(110, 966, 1830, 'approuvee', 3, 135.0756, 109.411236, '2019-03-16 14:03:35', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(111, 41, 1446, "en attente", 5, 208.9850, 104.492500, "2018-01-10 18:44:41", "paypal", 7);
+(111, 293, 488, 'en attente', 1, 233.3760, 140.025600, '2018-01-17 23:28:27', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(112, 92, 2067, "annulee", NULL, 307.65, 307.65, "2017-05-08 00:14:23", "visa", 5);
+(112, 395, 867, 'payee', NULL, 173.22, 173.22, '2017-01-23 09:31:29', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(113, 9, 47, "payee", NULL, 133.84, 133.84, "2016-02-18 03:18:57", "visa", 4);
+(113, 258, 3349, 'en attente', NULL, 174.40, 174.40, '2017-12-24 23:54:49', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(114, 6, 1336, "payee", NULL, 596.80, 596.80, "2018-04-18 02:25:04", "debit", 8);
+(114, 495, 3054, 'en attente', NULL, 51.70, 51.70, '2016-01-06 05:06:58', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(115, 61, 4147, "approuvee", NULL, 179.12, 179.12, "2016-09-01 06:08:55", "mastercard", 8);
+(115, 47, 131, 'en attente', NULL, 568.64, 568.64, '2016-09-27 08:53:59', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(116, 39, 3935, "payee", NULL, 375.24, 375.24, "2019-05-18 04:42:54", "debit", 6);
+(116, 464, 1072, 'annulee', NULL, 118.72, 118.72, '2020-09-06 12:02:30', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(117, 66, 793, "payee", NULL, 138.24, 138.24, "2020-06-06 23:13:31", "paypal", 6);
+(117, 565, 3062, 'approuvee', NULL, 10.24, 10.24, '2017-04-05 14:43:48', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(118, 80, 1897, "payee", NULL, 63.96, 63.96, "2016-10-26 07:31:14", "visa", 3);
+(118, 291, 2578, 'approuvee', NULL, 357.63, 357.63, '2017-03-03 16:53:46', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(119, 31, 2658, "payee", NULL, 38.79, 38.79, "2020-05-29 11:43:20", "debit", 3);
+(119, 918, 414, 'annulee', 3, 125.6796, 101.800476, '2019-10-29 16:18:10', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(120, 5, 690, "en attente", NULL, 289.87, 289.87, "2018-07-12 10:18:07", "debit", 7);
+(120, 922, 3729, 'approuvee', NULL, 337.56, 337.56, '2020-06-20 01:41:10', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(121, 42, 2775, "approuvee", NULL, 90.74, 90.74, "2017-12-27 21:19:00", "paypal", 2);
+(121, 587, 1769, 'payee', NULL, 34.72, 34.72, '2018-03-08 11:24:11', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(122, 63, 1514, "approuvee", 6, 118.4900, 100.716500, "2018-08-13 19:48:07", "paypal", 5);
+(122, 604, 406, 'annulee', NULL, 161.20, 161.20, '2017-09-24 22:18:10', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(123, 5, 1544, "en attente", NULL, 237.96, 237.96, "2020-01-13 16:33:17", "mastercard", 4);
+(123, 303, 2049, 'payee', 3, 117.5796, 95.239476, '2016-03-25 15:51:44', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(124, 19, 861, "en attente", 2, 25.3206, 20.509686, "2019-07-20 05:07:45", "paypal", 1);
+(124, 291, 2062, 'en attente', 4, 65.5215, 62.245425, '2016-09-10 18:59:27', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(125, 4, 4214, "en attente", NULL, 66.28, 66.28, "2016-11-11 08:58:28", "visa", 2);
+(125, 838, 3697, 'annulee', NULL, 88.02, 88.02, '2020-07-29 09:49:50', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(126, 92, 480, "approuvee", 3, 271.7400, 190.218000, "2018-09-02 02:10:52", "paypal", 6);
+(126, 542, 989, 'en attente', NULL, 154.32, 154.32, '2018-12-13 08:43:17', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(127, 16, 1282, "en attente", 6, 52.3005, 44.455425, "2017-12-02 11:35:08", "debit", 1);
+(127, 440, 315, 'approuvee', 1, 37.0560, 22.233600, '2018-09-13 13:37:58', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(128, 75, 1882, "annulee", NULL, 179.82, 179.82, "2020-11-24 17:58:19", "visa", 6);
+(128, 57, 2174, 'annulee', NULL, 28.90, 28.90, '2016-06-12 07:09:54', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(129, 60, 4072, "annulee", NULL, 439.44, 439.44, "2017-04-05 19:27:25", "debit", 6);
+(129, 859, 3827, 'en attente', NULL, 12.22, 12.22, '2017-09-10 23:55:29', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(130, 16, 2388, "annulee", NULL, 192.80, 192.80, "2020-02-12 09:22:17", "paypal", 5);
+(130, 465, 2693, 'annulee', NULL, 85.48, 85.48, '2017-09-15 18:31:05', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(131, 38, 26, "approuvee", NULL, 292.32, 292.32, "2017-07-30 23:01:58", "visa", 7);
+(131, 666, 575, 'annulee', 5, 120.0500, 60.025000, '2016-10-21 21:27:02', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(132, 66, 280, "approuvee", NULL, 309.84, 309.84, "2020-10-13 08:35:59", "visa", 6);
+(132, 668, 3357, 'en attente', NULL, 145.14, 145.14, '2017-09-13 05:17:48', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(133, 5, 3805, "payee", 6, 55.8620, 47.482700, "2020-04-23 12:36:02", "visa", 2);
+(133, 982, 411, 'payee', 2, 42.4788, 38.655708, '2016-06-06 11:52:39', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(134, 19, 1093, "payee", 6, 85.5610, 72.726850, "2016-02-10 11:45:22", "visa", 7);
+(134, 410, 4090, 'en attente', NULL, 15.87, 15.87, '2017-10-02 21:24:22', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(135, 88, 3484, "en attente", NULL, 136.96, 136.96, "2018-09-26 07:10:03", "debit", 2);
+(135, 776, 4039, 'en attente', NULL, 61.41, 61.41, '2018-06-11 15:59:03', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(136, 90, 3161, "approuvee", NULL, 126.78, 126.78, "2016-11-12 23:00:27", "visa", 6);
+(136, 748, 809, 'en attente', 2, 193.3295, 175.929845, '2019-03-26 06:18:41', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(137, 63, 1742, "approuvee", NULL, 103.15, 103.15, "2020-10-23 22:57:52", "paypal", 5);
+(137, 772, 1436, 'payee', NULL, 96.54, 96.54, '2018-07-11 12:19:24', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(138, 27, 1878, "annulee", NULL, 106.24, 106.24, "2018-11-15 22:23:38", "paypal", 8);
+(138, 605, 2197, 'en attente', NULL, 23.14, 23.14, '2019-07-13 00:35:18', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(139, 58, 3529, "payee", 5, 14.5500, 7.275000, "2016-11-12 23:30:27", "mastercard", 3);
+(139, 332, 2656, 'payee', 5, 218.2400, 109.120000, '2017-07-06 16:28:28', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(140, 76, 34, "approuvee", NULL, 33.33, 33.33, "2016-08-14 01:31:14", "paypal", 3);
+(140, 127, 483, 'payee', NULL, 317.73, 317.73, '2018-04-21 09:40:18', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(141, 99, 2784, "annulee", 4, NULL, NULL, "2016-12-09 03:27:29", "visa", 1);
+(141, 959, 125, 'payee', NULL, 251.50, 251.50, '2018-06-30 01:26:01', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(142, 81, 2590, "en attente", NULL, 69.50, 69.50, "2018-02-01 08:19:53", "debit", 5);
+(142, 673, 3776, 'annulee', NULL, 58.80, 58.80, '2018-05-06 16:42:46', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(143, 19, 3537, "approuvee", 3, 122.2060, 85.544200, "2017-01-14 10:24:33", "paypal", 7);
+(143, 666, 1474, 'annulee', 3, 27.7830, 22.504230, '2020-03-04 08:45:22', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(144, 59, 3404, "annulee", 3, 287.1960, 201.037200, "2017-08-23 15:50:36", "debit", 6);
+(144, 572, 2945, 'payee', NULL, 357.28, 357.28, '2017-09-17 08:21:29', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(145, 26, 2599, "annulee", NULL, 321.52, 321.52, "2018-02-18 08:11:56", "debit", 8);
+(145, 942, 1901, 'annulee', 4, 330.1440, 313.636800, '2019-11-23 06:17:22', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(146, 12, 2482, "en attente", NULL, 58.12, 58.12, "2018-10-24 23:42:27", "debit", 1);
+(146, 344, 2140, 'annulee', 4, 70.6325, 67.100875, '2016-12-15 18:52:40', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(147, 27, 2682, "payee", NULL, 42.58, 42.58, "2016-02-25 01:53:34", "mastercard", 2);
+(147, 356, 1466, 'approuvee', NULL, 58.90, 58.90, '2017-04-28 19:22:03', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(148, 99, 3962, "annulee", NULL, 277.74, 277.74, "2018-11-23 21:20:14", "debit", 6);
+(148, 632, 3355, 'en attente', NULL, 138.18, 138.18, '2017-12-31 01:16:08', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(149, 45, 3859, "en attente", 1, 74.8935, 63.659475, "2020-08-07 19:07:16", "paypal", 3);
+(149, 697, 3611, 'annulee', NULL, 19.77, 19.77, '2019-04-01 20:20:45', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(150, 83, 2536, "annulee", NULL, 414.06, 414.06, "2016-12-02 21:05:47", "debit", 6);
+(150, 26, 4127, 'annulee', NULL, 389.69, 389.69, '2018-12-06 07:05:01', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(151, 55, 579, "payee", NULL, 74.40, 74.40, "2017-02-18 14:24:32", "visa", 1);
+(151, 232, 2871, 'en attente', NULL, 33.39, 33.39, '2016-02-21 13:46:16', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(152, 35, 2009, "annulee", 5, 22.6550, 11.327500, "2020-06-04 16:18:17", "mastercard", 1);
+(152, 127, 2455, 'approuvee', 6, 56.9916, 46.163196, '2019-03-15 04:28:50', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(153, 99, 3383, "approuvee", 3, 89.2080, 62.445600, "2016-12-11 00:22:15", "mastercard", 3);
+(153, 920, 2132, 'en attente', NULL, 508.08, 508.08, '2020-07-03 08:23:02', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(154, 84, 2230, "annulee", NULL, 128.78, 128.78, "2016-08-13 19:48:26", "debit", 2);
+(154, 841, 3090, 'en attente', NULL, 66.04, 66.04, '2018-06-30 07:14:46', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(155, 58, 2200, "en attente", NULL, 151.36, 151.36, "2016-07-11 14:07:46", "visa", 8);
+(155, 999, 120, 'en attente', NULL, 513.04, 513.04, '2017-12-02 19:52:45', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(156, 79, 142, "payee", NULL, 315.72, 315.72, "2017-12-23 06:31:01", "mastercard", 6);
+(156, 941, 1683, 'payee', NULL, 10.52, 10.52, '2020-02-22 12:27:12', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(157, 84, 1072, "en attente", NULL, 63.97, 63.97, "2016-08-10 13:09:39", "visa", 1);
+(157, 852, 2723, 'en attente', NULL, 342.00, 342.00, '2017-08-25 01:29:53', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(158, 72, 2366, "en attente", NULL, 121.41, 121.41, "2018-04-13 19:32:35", "mastercard", 3);
+(158, 307, 329, 'annulee', NULL, 87.84, 87.84, '2017-11-02 22:32:40', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(159, 31, 1658, "approuvee", NULL, 378.72, 378.72, "2020-09-05 00:25:13", "mastercard", 8);
+(159, 392, 1229, 'payee', 1, 163.5840, 98.150400, '2019-10-05 21:04:07', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(160, 86, 1990, "payee", NULL, 435.06, 435.06, "2017-05-24 12:42:30", "paypal", 6);
+(160, 953, 2791, 'approuvee', NULL, 61.82, 61.82, '2020-10-07 20:30:17', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(161, 56, 3752, "en attente", 4, NULL, NULL, "2017-09-15 12:33:46", "mastercard", 4);
+(161, 871, 3551, 'annulee', NULL, 282.96, 282.96, '2018-05-13 02:12:27', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(162, 45, 3406, "annulee", NULL, 131.04, 131.04, "2016-12-24 03:24:12", "visa", 3);
+(162, 156, 4117, 'en attente', NULL, 51.25, 51.25, '2020-10-23 08:38:33', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(163, 19, 2976, "en attente", NULL, 175.98, 175.98, "2016-03-16 14:06:41", "paypal", 7);
+(163, 706, 3179, 'approuvee', NULL, 93.10, 93.10, '2019-11-26 15:24:29', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(164, 16, 284, "payee", NULL, 281.85, 281.85, "2017-08-16 04:13:16", "mastercard", 5);
+(164, 112, 527, 'approuvee', NULL, 42.41, 42.41, '2019-07-10 16:51:51', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(165, 76, 3568, "approuvee", 3, 88.3680, 61.857600, "2017-05-02 06:31:11", "debit", 8);
+(165, 408, 2921, 'payee', NULL, 59.92, 59.92, '2019-02-22 09:41:07', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(166, 87, 918, "en attente", 1, 491.9120, 418.125200, "2018-01-21 03:53:04", "paypal", 8);
+(166, 808, 2559, 'annulee', NULL, 95.00, 95.00, '2018-11-21 09:26:41', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(167, 79, 1290, "payee", NULL, 25.20, 25.20, "2018-06-17 01:37:29", "paypal", 2);
+(167, 57, 3005, 'payee', NULL, 313.68, 313.68, '2016-09-18 10:39:00', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(168, 49, 3527, "payee", NULL, 247.12, 247.12, "2016-01-25 01:47:30", "visa", 4);
+(168, 809, 2055, 'annulee', NULL, 191.64, 191.64, '2020-04-29 00:42:06', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(169, 55, 2261, "annulee", NULL, 138.36, 138.36, "2017-03-05 20:10:17", "paypal", 2);
+(169, 909, 1701, 'payee', NULL, 137.37, 137.37, '2020-05-07 01:01:39', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(170, 78, 2710, "en attente", 3, 18.3750, 12.862500, "2018-05-20 17:15:48", "paypal", 1);
+(170, 737, 2186, 'en attente', NULL, 112.98, 112.98, '2018-03-27 06:36:01', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(171, 17, 3311, "en attente", NULL, 47.84, 47.84, "2017-03-24 11:09:16", "debit", 8);
+(171, 179, 3431, 'approuvee', 3, 161.3034, 130.655754, '2018-06-02 03:02:51', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(172, 23, 2596, "annulee", NULL, 387.84, 387.84, "2020-10-27 16:01:49", "mastercard", 8);
+(172, 916, 829, 'annulee', NULL, 27.02, 27.02, '2020-08-04 16:47:13', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(173, 95, 2105, "approuvee", 6, 432.6160, 367.723600, "2020-07-16 08:09:51", "mastercard", 8);
+(173, 506, 2645, 'annulee', NULL, 92.61, 92.61, '2020-04-27 20:21:15', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(174, 26, 4126, "annulee", NULL, 235.80, 235.80, "2018-09-26 07:30:51", "paypal", 6);
+(174, 640, 2964, 'annulee', NULL, 569.20, 569.20, '2017-04-25 05:33:49', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(175, 90, 3335, "en attente", NULL, 358.80, 358.80, "2018-08-08 05:11:09", "paypal", 6);
+(175, 520, 2018, 'en attente', NULL, 192.64, 192.64, '2020-08-13 12:30:20', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(176, 37, 42, "approuvee", NULL, 105.66, 105.66, "2016-12-30 20:38:53", "mastercard", 3);
+(176, 674, 1465, 'annulee', 1, 16.7640, 10.058400, '2017-02-28 20:30:36', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(177, 51, 409, "annulee", NULL, 197.60, 197.60, "2017-06-04 22:26:59", "debit", 4);
+(177, 401, 1211, 'approuvee', NULL, 153.44, 153.44, '2020-07-26 20:20:47', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(178, 9, 3896, "en attente", NULL, 75.32, 75.32, "2016-06-14 11:51:36", "paypal", 2);
+(178, 588, 3998, 'en attente', NULL, 174.02, 174.02, '2017-07-01 16:22:37', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(179, 64, 562, "approuvee", NULL, 37.64, 37.64, "2018-12-31 14:41:26", "paypal", 4);
+(179, 287, 3457, 'approuvee', 5, 235.3200, 117.660000, '2020-09-05 13:28:22', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(180, 78, 767, "approuvee", NULL, 106.75, 106.75, "2019-04-05 01:39:26", "visa", 5);
+(180, 389, 1689, 'en attente', NULL, 241.57, 241.57, '2019-12-27 19:19:48', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(181, 42, 1395, "en attente", NULL, 128.58, 128.58, "2019-04-06 02:08:59", "debit", 2);
+(181, 362, 2014, 'en attente', 1, 163.1040, 97.862400, '2020-01-04 07:07:02', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(182, 93, 2742, "payee", NULL, 287.98, 287.98, "2018-01-29 12:27:53", "paypal", 7);
+(182, 744, 2100, 'annulee', 1, 180.0540, 108.032400, '2017-04-19 08:06:00', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(183, 59, 3554, "approuvee", NULL, 223.76, 223.76, "2020-03-05 06:36:23", "debit", 8);
+(183, 665, 4174, 'en attente', 1, 72.9360, 43.761600, '2018-11-11 21:11:29', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(184, 13, 3057, "annulee", NULL, 278.88, 278.88, "2016-07-24 22:58:54", "visa", 6);
+(184, 349, 2935, 'payee', 4, 359.6320, 341.650400, '2020-09-03 06:10:17', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(185, 23, 477, "payee", NULL, 413.58, 413.58, "2018-09-29 00:58:54", "mastercard", 6);
+(185, 462, 63, 'annulee', 6, 171.4608, 138.883248, '2016-04-04 06:15:13', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(186, 65, 3616, "annulee", NULL, 367.62, 367.62, "2017-08-09 23:42:23", "mastercard", 6);
+(186, 423, 1422, 'annulee', 1, 132.1560, 79.293600, '2017-10-17 22:41:37', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(187, 50, 1685, "approuvee", 6, 316.7525, 269.239625, "2017-06-29 13:55:35", "paypal", 5);
+(187, 466, 3824, 'en attente', NULL, 303.36, 303.36, '2019-03-02 11:42:38', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(188, 7, 1572, "payee", NULL, 229.24, 229.24, "2018-12-08 20:35:28", "visa", 4);
+(188, 843, 4092, 'en attente', NULL, 206.49, 206.49, '2016-05-12 15:58:33', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(189, 54, 1995, "payee", NULL, 110.43, 110.43, "2019-11-21 13:23:50", "mastercard", 3);
+(189, 238, 1736, 'payee', NULL, 81.36, 81.36, '2016-07-06 20:59:47', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(190, 71, 1796, "annulee", NULL, 96.46, 96.46, "2019-12-02 07:02:47", "debit", 2);
+(190, 205, 2520, 'payee', 5, 96.7050, 48.352500, '2016-01-14 04:09:19', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(191, 85, 1732, "en attente", NULL, 41.61, 41.61, "2017-03-23 06:52:59", "paypal", 3);
+(191, 597, 1238, 'annulee', 5, 63.7500, 31.875000, '2019-07-20 16:29:21', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(192, 14, 3822, "approuvee", NULL, 86.55, 86.55, "2020-08-11 23:20:29", "debit", 3);
+(192, 429, 2380, 'payee', NULL, 365.12, 365.12, '2016-12-19 21:37:56', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(193, 89, 3123, "en attente", 6, 25.4065, 21.595525, "2018-06-13 08:39:41", "mastercard", 1);
+(193, 325, 3050, 'en attente', NULL, 128.78, 128.78, '2017-11-20 16:06:11', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(194, 78, 487, "approuvee", NULL, 172.65, 172.65, "2019-04-13 15:37:47", "debit", 5);
+(194, 595, 2838, 'approuvee', NULL, 120.10, 120.10, '2016-09-16 10:23:48', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(195, 80, 2372, "en attente", NULL, 30.92, 30.92, "2020-04-26 01:03:03", "mastercard", 4);
+(195, 695, 2862, 'annulee', NULL, 287.12, 287.12, '2020-01-15 16:42:21', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(196, 82, 1008, "annulee", NULL, 51.34, 51.34, "2017-10-10 12:11:01", "mastercard", 2);
+(196, 232, 3537, 'annulee', 2, 79.9344, 72.740304, '2019-03-13 15:53:23', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(197, 31, 1871, "approuvee", NULL, 138.12, 138.12, "2019-07-28 03:56:49", "visa", 4);
+(197, 19, 307, 'payee', 6, 33.0642, 26.782002, '2019-10-29 07:46:52', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(198, 20, 1290, "approuvee", NULL, 63.00, 63.00, "2016-04-08 16:19:47", "mastercard", 5);
+(198, 197, 3897, 'payee', NULL, 54.38, 54.38, '2016-08-16 01:54:34', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(199, 5, 28, "approuvee", NULL, 409.80, 409.80, "2017-04-29 16:54:39", "visa", 6);
+(199, 50, 938, 'payee', NULL, 69.76, 69.76, '2018-03-08 10:05:52', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(200, 19, 4154, "en attente", 3, 247.1560, 173.009200, "2017-07-24 04:27:12", "paypal", 7);
+(200, 703, 521, 'approuvee', NULL, 35.42, 35.42, '2018-12-17 20:40:38', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(201, 60, 1234, "approuvee", NULL, 146.32, 146.32, "2019-11-23 22:57:59", "paypal", 8);
+(201, 349, 2340, 'payee', NULL, 48.81, 48.81, '2016-04-01 18:23:01', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(202, 82, NULL, "approuvee", NULL, 27.56, 27.56, "2016-09-03 04:28:17", "mastercard", 2);
+(202, 601, 739, 'en attente', NULL, 279.09, 279.09, '2017-01-25 19:52:42', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(203, 55, 709, "approuvee", NULL, 336.98, 336.98, "2016-10-23 03:50:58", "paypal", 7);
+(203, 762, 2531, 'annulee', 4, 15.3045, 14.539275, '2020-07-30 12:59:39', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(204, 6, 2559, "payee", NULL, 145.44, 145.44, "2019-07-16 00:09:32", "mastercard", 8);
+(204, 424, 1505, 'payee', NULL, 62.75, 62.75, '2016-10-07 02:18:11', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(205, 57, 1733, "approuvee", NULL, 77.16, 77.16, "2018-07-28 08:46:13", "debit", 3);
+(205, 322, 3668, 'en attente', NULL, 107.70, 107.70, '2018-09-30 08:43:59', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(206, 3, 349, "approuvee", NULL, 120.98, 120.98, "2019-10-31 11:35:41", "visa", 2);
+(206, 227, 3642, 'annulee', 5, 69.2200, 34.610000, '2020-11-19 18:19:54', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(207, 67, 3862, "payee", NULL, 250.25, 250.25, "2020-08-17 15:45:30", "paypal", 7);
+(207, 749, 893, 'en attente', 1, 27.5040, 16.502400, '2016-08-31 19:10:30', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(208, 79, 4157, "en attente", NULL, 40.89, 40.89, "2016-09-08 19:19:27", "visa", 1);
+(208, 253, 2132, 'payee', NULL, 254.04, 254.04, '2018-02-05 15:56:36', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(209, 60, 3544, "payee", NULL, 339.12, 339.12, "2017-07-19 01:53:53", "mastercard", 8);
+(209, 733, 4176, 'en attente', NULL, 403.02, 403.02, '2019-12-20 09:03:51', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(210, 11, 2887, "approuvee", NULL, 30.96, 30.96, "2016-08-18 02:37:05", "paypal", 2);
+(210, 569, 501, 'approuvee', 4, 394.6775, 374.943625, '2016-02-28 12:04:18', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(211, 75, 1222, "en attente", NULL, 257.04, 257.04, "2018-05-13 22:12:10", "mastercard", 8);
+(211, 912, 2028, 'annulee', 5, 106.8250, 53.412500, '2018-03-19 17:57:51', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(212, 19, 3684, "payee", NULL, 150.88, 150.88, "2016-07-27 17:32:24", "debit", 4);
+(212, 342, 121, 'annulee', 6, 208.3482, 168.762042, '2016-04-21 03:45:03', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(213, 59, 3927, "approuvee", NULL, 44.28, 44.28, "2017-01-25 10:28:42", "mastercard", 6);
+(213, 230, 3023, 'approuvee', NULL, 133.92, 133.92, '2019-03-24 02:36:04', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(214, 38, 3490, "annulee", NULL, 27.25, 27.25, "2016-09-01 19:24:02", "debit", 1);
+(214, 329, 550, 'en attente', NULL, 34.06, 34.06, '2019-12-01 03:19:06', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(215, 96, 2868, "approuvee", 6, 251.1920, 213.513200, "2020-11-10 15:43:14", "paypal", 8);
+(215, 1, 1166, 'payee', NULL, 25.22, 25.22, '2016-04-04 20:08:30', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(216, 12, 183, "en attente", NULL, 36.90, 36.90, "2020-09-22 03:55:09", "paypal", 5);
+(216, 339, 574, 'payee', NULL, 173.16, 173.16, '2016-05-06 18:02:17', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(217, 8, 2562, "en attente", NULL, 50.48, 50.48, "2016-07-04 02:18:57", "debit", 2);
+(217, 503, 882, 'annulee', 1, 79.9500, 47.970000, '2017-12-15 10:55:40', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(218, 18, 2558, "approuvee", 6, 77.7750, 66.108750, "2017-05-06 10:55:18", "paypal", 2);
+(218, 769, 2365, 'en attente', NULL, 568.48, 568.48, '2016-10-08 00:34:53', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(219, 3, 3459, "en attente", NULL, 65.64, 65.64, "2018-01-18 07:31:39", "debit", 6);
+(219, 798, 2322, 'payee', 6, 74.3904, 60.256224, '2017-01-19 21:22:03', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(220, 19, 3711, "annulee", NULL, 292.74, 292.74, "2018-09-04 15:10:01", "debit", 6);
+(220, 868, 3174, 'payee', 4, 112.7080, 107.072600, '2019-08-26 14:15:49', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(221, 1, 3155, "payee", NULL, 455.56, 455.56, "2019-01-07 19:46:10", "visa", 7);
+(221, 31, 3009, 'en attente', NULL, 69.02, 69.02, '2019-11-22 06:33:35', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(222, NULL, 3860, "annulee", NULL, 88.40, 88.40, "2020-04-02 13:36:44", "debit", 5);
+(222, 98, 3592, 'payee', NULL, 123.90, 123.90, '2018-04-15 07:28:08', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(223, 51, 365, "en attente", NULL, 234.48, 234.48, "2020-11-15 03:00:12", "paypal", 8);
+(223, 266, 1047, 'annulee', NULL, 153.09, 153.09, '2018-11-13 14:30:54', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(224, 62, 3466, "en attente", NULL, 35.19, 35.19, "2019-06-25 06:37:22", "paypal", 1);
+(224, 320, 503, 'approuvee', 3, 113.9265, 92.280465, '2019-07-28 08:56:12', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(225, 4, 3716, "annulee", NULL, 298.36, 298.36, "2018-07-14 18:40:12", "paypal", 4);
+(225, 637, 2007, 'payee', NULL, 341.20, 341.20, '2019-12-24 11:25:30', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(226, 86, 2080, "payee", NULL, 178.68, 178.68, "2020-06-30 04:07:17", "debit", 3);
+(226, 56, 1676, 'en attente', NULL, 297.96, 297.96, '2020-12-10 07:39:40', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(227, 90, 518, "en attente", NULL, 47.51, 47.51, "2019-11-19 14:42:50", "visa", 1);
+(227, 465, 625, 'en attente', 4, 18.1830, 17.273850, '2017-04-13 16:46:04', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(228, 83, 124, "payee", NULL, 290.40, 290.40, "2016-10-05 16:40:19", "debit", 4);
+(228, 111, 3141, 'annulee', NULL, 242.95, 242.95, '2020-08-09 03:32:37', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(229, 28, 602, "approuvee", NULL, 158.76, 158.76, "2016-07-30 18:51:26", "paypal", 6);
+(229, 246, 3956, 'en attente', NULL, 240.24, 240.24, '2017-04-19 23:43:53', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(230, 93, 3703, "annulee", 5, 124.6000, 62.300000, "2018-12-11 01:16:51", "debit", 5);
+(230, 610, 3272, 'en attente', NULL, 96.40, 96.40, '2016-10-19 12:18:54', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(231, 5, 1716, "payee", NULL, 348.25, 348.25, "2016-07-30 12:27:12", "debit", 7);
+(231, 277, 3794, 'en attente', 4, 389.6520, 370.169400, '2017-12-10 19:27:01', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(232, 77, 2140, "en attente", 5, 216.2100, 108.105000, "2016-10-08 17:30:38", "mastercard", 6);
+(232, 428, 637, 'approuvee', NULL, 115.22, 115.22, '2020-04-17 16:49:22', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(233, 91, 2594, "en attente", NULL, 105.45, 105.45, "2017-04-18 10:44:59", "debit", 3);
+(233, 734, 3845, 'en attente', NULL, 64.80, 64.80, '2019-04-02 10:55:20', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(234, 37, 1425, "annulee", NULL, 241.84, 241.84, "2017-10-02 16:27:36", "paypal", 8);
+(234, 150, 60, 'en attente', NULL, 128.45, 128.45, '2018-02-05 19:57:58', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(235, 44, 1477, "approuvee", NULL, 37.20, 37.20, "2020-06-28 21:42:47", "paypal", 6);
+(235, 609, 3461, 'en attente', NULL, 7.94, 7.94, '2017-09-13 13:38:48', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(236, 47, 3434, "payee", NULL, 164.64, 164.64, "2016-10-26 09:38:12", "paypal", 4);
+(236, 366, 12, 'payee', NULL, 54.40, 54.40, '2020-10-19 22:00:08', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(237, 60, 508, "payee", NULL, 67.20, 67.20, "2019-08-14 05:02:46", "mastercard", 3);
+(237, 644, 3317, 'en attente', 4, 44.2130, 42.002350, '2019-06-19 04:37:13', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(238, 44, 3172, "en attente", 5, 103.7500, 51.875000, "2016-07-05 22:42:49", "visa", 5);
+(238, 649, 278, 'annulee', NULL, 70.51, 70.51, '2018-03-20 09:21:23', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(239, 89, 1517, "en attente", NULL, 53.49, 53.49, "2017-12-24 14:31:21", "visa", 1);
+(239, 343, 1476, 'approuvee', NULL, 260.76, 260.76, '2018-05-07 18:20:37', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(240, 92, 2190, "annulee", NULL, 68.20, 68.20, "2017-06-11 03:32:39", "visa", 1);
+(240, 639, 2080, 'annulee', NULL, 191.00, 191.00, '2017-02-14 03:16:25', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(241, 63, 3099, "en attente", NULL, 54.83, 54.83, "2019-04-01 05:32:27", "mastercard", 1);
+(241, 573, 1608, 'payee', NULL, 406.28, 406.28, '2016-05-18 04:53:24', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(242, 88, 37, "en attente", NULL, 133.02, 133.02, "2019-04-29 21:33:23", "visa", 6);
+(242, 59, 1749, 'annulee', NULL, 30.45, 30.45, '2016-07-18 17:11:56', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(243, 38, 523, "payee", NULL, 361.52, 361.52, "2020-06-18 22:40:13", "paypal", 8);
+(243, 807, 1522, 'payee', NULL, 166.16, 166.16, '2018-12-20 07:04:22', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(244, 69, 1207, "approuvee", NULL, 76.45, 76.45, "2020-10-10 19:10:54", "mastercard", 5);
+(244, 46, 3638, 'approuvee', NULL, 53.35, 53.35, '2016-02-25 20:10:41', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(245, 7, 1807, "approuvee", NULL, 64.66, 64.66, "2019-09-10 00:56:46", "debit", 2);
+(245, 56, 1790, 'payee', NULL, 68.04, 68.04, '2019-02-18 10:50:42', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(246, 83, 3212, "payee", 5, 8.5250, 4.262500, "2017-09-03 18:05:54", "visa", 1);
+(246, 360, 2282, 'approuvee', NULL, 44.40, 44.40, '2020-05-20 13:16:33', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(247, 15, 730, "en attente", NULL, 177.94, 177.94, "2019-10-09 05:31:59", "debit", 7);
+(247, 146, 1679, 'approuvee', NULL, 35.44, 35.44, '2017-10-15 20:51:06', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(248, 96, 3519, "approuvee", 5, 85.7800, 42.890000, "2020-06-27 09:11:24", "paypal", 4);
+(248, 48, 3515, 'approuvee', 1, 13.6980, 8.218800, '2017-04-30 06:36:28', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(249, 26, 3871, "approuvee", 5, 161.1500, 80.575000, "2018-01-19 03:34:16", "visa", 5);
+(249, 812, 164, 'annulee', NULL, 118.00, 118.00, '2020-09-01 15:26:49', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(250, 78, 2378, "en attente", 2, 25.6446, 20.772126, "2017-12-19 10:41:33", "debit", 2);
+(250, 695, 2799, 'payee', NULL, 129.52, 129.52, '2016-12-29 19:40:40', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(251, 42, 1596, "en attente", 1, 47.6510, 40.503350, "2019-10-17 16:07:46", "mastercard", 1);
+(251, 460, 1028, 'annulee', NULL, 66.68, 66.68, '2018-07-03 08:45:14', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(252, 76, 942, "en attente", NULL, 180.84, 180.84, "2016-08-28 19:24:15", "mastercard", 4);
+(252, 766, 2639, 'payee', NULL, 466.88, 466.88, '2018-03-15 19:02:04', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(253, 29, 3971, "annulee", 2, 197.9235, 160.318035, "2017-03-31 03:16:02", "mastercard", 5);
+(253, 221, 902, 'en attente', NULL, 292.39, 292.39, '2019-06-06 10:28:35', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(254, 22, 4221, "approuvee", 5, 72.5550, 36.277500, "2019-05-26 01:07:57", "debit", 7);
+(254, 203, 126, 'approuvee', NULL, 61.20, 61.20, '2018-07-13 13:58:53', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(255, 97, 1884, "approuvee", NULL, 435.54, 435.54, "2020-10-29 12:18:51", "mastercard", 6);
+(255, 535, 2210, 'annulee', 1, 15.4200, 9.252000, '2019-05-06 19:05:32', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(256, 41, 3290, "payee", NULL, 149.30, 149.30, "2018-12-27 10:08:26", "debit", 5);
+(256, 490, 778, 'annulee', NULL, 363.36, 363.36, '2017-12-27 21:37:40', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(257, 21, 1341, "en attente", 6, 14.1780, 12.051300, "2018-03-26 23:48:26", "debit", 2);
+(257, 64, 3981, 'payee', NULL, 176.37, 176.37, '2016-07-01 23:16:54', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(258, 14, 2880, "annulee", 3, 282.4920, 197.744400, "2020-02-24 15:34:09", "visa", 6);
+(258, 955, 1583, 'annulee', NULL, 192.42, 192.42, '2016-04-29 08:54:39', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(259, 40, 509, "en attente", NULL, 65.96, 65.96, "2018-02-27 23:41:33", "visa", 2);
+(259, 62, 888, 'annulee', NULL, 226.59, 226.59, '2016-02-27 12:18:51', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(260, 39, 1305, "en attente", NULL, 183.75, 183.75, "2020-01-21 00:45:06", "mastercard", 5);
+(260, 4, 1462, 'en attente', NULL, 177.92, 177.92, '2016-01-27 03:06:29', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(261, 90, 568, "annulee", 5, 211.5900, 105.795000, "2016-05-20 17:02:51", "mastercard", 6);
+(261, 279, 452, 'approuvee', 3, 99.0630, 80.241030, '2019-04-17 13:36:25', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(262, 99, 3, "annulee", NULL, 324.96, 324.96, "2018-12-10 13:44:35", "visa", 8);
+(262, 277, 890, 'annulee', NULL, 535.20, 535.20, '2020-12-14 04:23:39', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(263, 6, 2502, "en attente", 3, 77.3920, 54.174400, "2017-12-17 11:07:31", "visa", 4);
+(263, 731, 608, 'annulee', NULL, 85.56, 85.56, '2020-08-20 23:59:49', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(264, 72, 1220, "payee", 5, 34.7600, 17.380000, "2018-03-04 01:47:45", "mastercard", 1);
+(264, 246, 76, 'payee', NULL, 338.59, 338.59, '2020-12-03 02:57:23', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(265, 34, 3037, "payee", NULL, 6.12, 6.12, "2019-09-27 14:37:49", "visa", 1);
+(265, 999, 381, 'en attente', NULL, 8.46, 8.46, '2020-05-10 11:25:34', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(266, 9, 1073, "approuvee", 3, 47.6000, 33.320000, "2016-04-24 09:42:17", "mastercard", 2);
+(266, 656, 3329, 'payee', NULL, 181.44, 181.44, '2018-02-03 13:05:45', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(267, 51, 883, "approuvee", 1, 120.5470, 102.464950, "2016-10-21 16:39:35", "mastercard", 2);
+(267, 682, 2871, 'annulee', NULL, 33.39, 33.39, '2016-11-27 19:24:15', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(268, 43, 1993, "en attente", NULL, 131.42, 131.42, "2020-04-08 23:37:50", "mastercard", 2);
+(268, 745, 1754, 'payee', NULL, 36.42, 36.42, '2020-09-08 20:50:38', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(269, 32, 2416, "annulee", NULL, 330.55, 330.55, "2019-10-05 06:33:11", "debit", 5);
+(269, 34, 1659, 'approuvee', 6, 255.1500, 206.671500, '2017-01-28 23:03:10', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(270, 48, 3552, "payee", 3, 67.0320, 46.922400, "2019-05-20 02:09:29", "mastercard", 6);
+(270, 740, 2, 'payee', NULL, 37.38, 37.38, '2016-05-09 06:10:13', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(271, 38, 1862, "payee", NULL, 231.48, 231.48, "2016-02-09 01:40:09", "mastercard", 6);
+(271, 180, 1291, 'en attente', NULL, 256.16, 256.16, '2020-11-09 22:07:04', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(272, 11, 1061, "approuvee", 5, 33.9850, 16.992500, "2020-01-17 13:00:11", "debit", 7);
+(272, 68, 1123, 'approuvee', NULL, 61.26, 61.26, '2018-07-25 05:05:50', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(273, 62, 3313, "en attente", NULL, 115.68, 115.68, "2018-03-05 16:34:16", "paypal", 8);
+(273, 961, 3711, 'en attente', NULL, 383.16, 383.16, '2016-08-30 02:39:43', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(274, 37, 3893, "annulee", NULL, 47.35, 47.35, "2018-06-21 15:16:09", "debit", 1);
+(274, 350, 1549, 'payee', NULL, 229.40, 229.40, '2017-12-18 11:02:08', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(275, 15, 3758, "en attente", NULL, 405.12, 405.12, "2018-07-08 22:13:54", "paypal", 6);
+(275, 308, 1260, 'approuvee', 1, 78.6960, 47.217600, '2018-11-20 22:38:14', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(276, 14, 3549, "annulee", NULL, 223.50, 223.50, "2019-06-19 15:09:33", "debit", 5);
+(276, 173, 2883, 'payee', NULL, 106.68, 106.68, '2020-03-17 09:23:16', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(277, 42, 97, "payee", NULL, 72.84, 72.84, "2020-04-19 15:49:40", "visa", 3);
+(277, 183, 1741, 'en attente', NULL, 109.34, 109.34, '2020-04-21 18:09:01', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(278, 15, 930, "payee", NULL, 217.17, 217.17, "2018-04-25 11:25:47", "mastercard", 3);
+(278, 277, 2453, 'annulee', 6, 280.6083, 227.292723, '2016-07-11 06:41:49', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(279, 54, 2230, "annulee", NULL, 128.78, 128.78, "2016-03-23 18:21:43", "debit", 2);
+(279, 529, 918, 'en attente', NULL, 372.00, 372.00, '2018-11-08 19:52:43', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(280, 99, 4229, "payee", NULL, 155.56, 155.56, "2019-08-20 12:58:33", "visa", 4);
+(280, 708, 1058, 'en attente', NULL, 219.52, 219.52, '2018-11-07 08:15:24', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(281, 15, 1685, "annulee", 2, 181.1079, 146.697399, "2019-01-28 01:04:03", "mastercard", 3);
+(281, 113, 1390, 'en attente', NULL, 30.70, 30.70, '2017-12-06 13:33:00', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(282, 81, 2001, "en attente", NULL, 146.62, 146.62, "2016-08-04 04:25:25", "mastercard", 2);
+(282, 928, 930, 'approuvee', NULL, 181.12, 181.12, '2019-02-05 12:51:09', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(283, 74, 882, "annulee", 1, 127.9080, 108.721800, "2017-06-15 14:40:31", "visa", 6);
+(283, 555, 2542, 'en attente', NULL, 99.61, 99.61, '2020-11-15 18:17:28', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(284, 9, 2562, "approuvee", NULL, 100.96, 100.96, "2019-06-08 03:12:16", "mastercard", 4);
+(284, 866, 1283, 'en attente', 6, 39.0744, 31.650264, '2020-04-25 02:30:48', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(285, 51, 2055, "en attente", NULL, 48.08, 48.08, "2018-03-19 04:06:20", "paypal", 2);
+(285, 588, 658, 'annulee', NULL, 124.96, 124.96, '2018-04-04 16:06:13', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(286, 2, 1180, "payee", NULL, 376.24, 376.24, "2019-05-14 14:41:19", "debit", 8);
+(286, 113, 3766, 'en attente', NULL, 58.32, 58.32, '2018-05-24 13:41:23', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(287, 71, 4176, "approuvee", 1, 103.6320, 88.087200, "2016-03-14 20:10:24", "mastercard", 6);
+(287, 73, 1725, 'approuvee', 1, 57.2700, 34.362000, '2020-03-08 11:06:41', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(288, 28, 3562, "payee", NULL, 284.10, 284.10, "2018-12-04 12:49:12", "mastercard", 5);
+(288, 870, 3360, 'approuvee', NULL, 121.29, 121.29, '2018-09-09 17:47:18', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(289, 94, 809, "payee", NULL, 190.68, 190.68, "2019-10-10 01:05:32", "mastercard", 4);
+(289, 867, 2879, 'approuvee', NULL, 175.35, 175.35, '2017-06-24 11:42:45', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(290, 59, 3109, "approuvee", NULL, 16.14, 16.14, "2016-03-11 01:12:00", "debit", 1);
+(290, 638, 1781, 'payee', NULL, 455.44, 455.44, '2019-07-11 07:33:14', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(291, 22, 3131, "payee", NULL, 130.08, 130.08, "2016-01-18 05:03:10", "visa", 2);
+(291, 596, 4248, 'en attente', NULL, 279.28, 279.28, '2020-02-21 14:11:41', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(292, 61, 966, "annulee", NULL, 90.32, 90.32, "2019-10-08 06:43:37", "visa", 4);
+(292, 302, 2553, 'annulee', NULL, 208.68, 208.68, '2019-07-23 18:58:07', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(293, 29, 965, "approuvee", NULL, 35.53, 35.53, "2019-12-01 01:16:44", "paypal", 1);
+(293, 530, 2108, 'annulee', NULL, 218.70, 218.70, '2016-08-16 18:20:37', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(294, 97, 648, "en attente", NULL, 135.30, 135.30, "2016-05-10 06:31:03", "visa", 6);
+(294, 458, 1211, 'payee', NULL, 131.52, 131.52, '2019-04-07 23:42:40', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(295, 27, 997, "annulee", NULL, 330.25, 330.25, "2019-02-24 13:19:13", "visa", 5);
+(295, 376, 1164, 'en attente', NULL, 8.99, 8.99, '2017-12-22 07:32:42', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(296, 55, 4057, "en attente", 2, 140.5512, 113.846472, "2017-02-22 00:05:06", "debit", 3);
+(296, 650, 2380, 'en attente', 5, 68.4600, 34.230000, '2016-01-16 14:21:02', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(297, 68, 1693, "approuvee", 5, 208.8900, 104.445000, "2020-07-30 06:36:23", "paypal", 6);
+(297, 556, 2033, 'en attente', NULL, 161.63, 161.63, '2017-09-20 01:04:52', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(298, 93, 69, "en attente", NULL, 115.76, 115.76, "2018-12-06 08:08:11", "paypal", 4);
+(298, 607, 3504, 'payee', NULL, 65.88, 65.88, '2020-05-25 20:41:52', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(299, 99, 2948, "approuvee", 2, 38.5965, 31.263165, "2020-04-15 05:38:33", "debit", 5);
+(299, 358, 3067, 'annulee', NULL, 107.44, 107.44, '2018-03-02 06:14:18', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(300, 88, 90, "annulee", NULL, 54.37, 54.37, "2019-01-11 03:02:05", "debit", 1);
+(300, 615, 2572, 'annulee', NULL, 360.71, 360.71, '2020-06-15 13:34:38', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(301, 13, 1545, "en attente", NULL, 496.40, 496.40, "2018-07-12 02:32:26", "paypal", 8);
+(301, 628, 61, 'payee', NULL, 319.52, 319.52, '2016-08-03 10:52:56', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(302, 33, 396, "approuvee", 1, 12.0870, 10.273950, "2018-06-25 05:20:29", "visa", 2);
+(302, 473, 1136, 'annulee', NULL, 133.92, 133.92, '2018-08-09 08:31:13', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(303, 65, 319, "en attente", 5, 16.9600, 8.480000, "2017-10-23 08:54:53", "mastercard", 1);
+(303, 390, 3370, 'payee', NULL, 424.48, 424.48, '2018-05-04 15:51:30', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(304, 15, 1337, "approuvee", 6, 67.4900, 57.366500, "2017-04-03 20:40:40", "debit", 4);
+(304, 346, 1201, 'approuvee', 5, 134.8750, 67.437500, '2019-10-06 17:16:13', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(305, 66, 2132, "approuvee", 3, 51.3450, 35.941500, "2016-09-16 21:33:59", "paypal", 5);
+(305, 420, 2610, 'annulee', NULL, 106.24, 106.24, '2017-03-20 19:28:03', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(306, 97, 4183, "annulee", NULL, 364.21, 364.21, "2016-07-19 06:36:04", "paypal", 7);
+(306, 632, 1973, 'en attente', 1, 150.9900, 90.594000, '2018-05-15 01:06:10', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(307, 26, 1902, "approuvee", NULL, 97.85, 97.85, "2020-04-05 10:13:38", "mastercard", 5);
+(307, 528, 830, 'annulee', NULL, 414.60, 414.60, '2017-11-18 18:27:26', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(308, 38, 4080, "payee", NULL, 60.94, 60.94, "2017-09-17 13:13:58", "debit", 1);
+(308, 968, 3364, 'annulee', 2, 126.1260, 114.774660, '2020-04-20 13:57:56', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(309, 5, 506, "approuvee", NULL, 108.62, 108.62, "2017-02-05 16:31:49", "debit", 2);
+(309, 881, 3253, 'payee', NULL, 440.94, 440.94, '2019-02-26 19:56:37', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(310, 90, 1603, "approuvee", 3, 66.0240, 46.216800, "2017-06-27 19:24:16", "paypal", 2);
+(310, 563, 501, 'payee', 1, 71.2200, 42.732000, '2016-10-25 15:03:18', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(311, 53, 81, "payee", NULL, 359.36, 359.36, "2019-03-08 01:48:40", "visa", 8);
+(311, 298, 647, 'en attente', NULL, 78.40, 78.40, '2016-05-09 04:30:59', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(312, 5, 274, "en attente", NULL, 131.24, 131.24, "2017-09-02 16:47:45", "debit", 2);
+(312, 685, 2473, 'annulee', NULL, 50.84, 50.84, '2019-12-16 10:38:26', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(313, 19, 3163, "payee", 2, 233.0856, 188.799336, "2019-06-07 19:42:03", "debit", 4);
+(313, 412, 3267, 'approuvee', 5, 163.6000, 81.800000, '2019-01-07 07:48:47', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(314, 15, 1131, "approuvee", 2, 178.1190, 144.276390, "2020-09-29 00:18:29", "visa", 5);
+(314, 820, 4205, 'approuvee', NULL, 334.70, 334.70, '2019-04-28 04:24:57', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(315, 40, 1840, "approuvee", 4, NULL, NULL, "2017-05-24 00:34:47", "visa", 4);
+(315, 918, 3348, 'approuvee', NULL, 333.18, 333.18, '2017-08-08 04:09:06', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(316, 81, 3901, "payee", 6, 342.9580, 291.514300, "2019-09-14 21:24:20", "visa", 7);
+(316, 334, 1058, 'annulee', NULL, 54.88, 54.88, '2020-12-08 23:30:19', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(317, 13, 2402, "payee", NULL, 319.84, 319.84, "2017-06-30 01:59:46", "mastercard", 8);
+(317, 438, 373, 'annulee', NULL, 360.80, 360.80, '2016-09-10 00:25:14', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(318, 43, 4208, "en attente", NULL, 238.77, 238.77, "2020-02-07 11:49:12", "debit", 7);
+(318, 126, 2781, 'approuvee', NULL, 101.44, 101.44, '2017-10-12 08:22:54', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(319, 78, 1640, "annulee", 2, 147.9060, 119.803860, "2020-09-07 19:31:15", "mastercard", 4);
+(319, 303, 587, 'payee', NULL, 252.52, 252.52, '2019-04-19 19:45:55', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(320, 86, 858, "approuvee", 3, 36.0990, 25.269300, "2018-01-28 08:42:43", "visa", 3);
+(320, 849, 1299, 'payee', NULL, 130.29, 130.29, '2019-05-11 22:03:25', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(321, 96, 3847, "payee", NULL, 127.38, 127.38, "2019-07-23 02:38:40", "debit", 2);
+(321, 572, 1281, 'annulee', NULL, 9.19, 9.19, '2018-03-27 16:35:00', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(322, 8, 605, "payee", 1, 292.8760, 248.944600, "2018-03-31 06:03:45", "mastercard", 8);
+(322, 164, 1198, 'payee', NULL, 17.35, 17.35, '2020-03-02 09:25:46', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(323, 29, 953, "approuvee", 6, 62.5600, 53.176000, "2016-06-23 14:39:34", "paypal", 5);
+(323, 840, 827, 'payee', NULL, 152.88, 152.88, '2017-02-17 12:27:13', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(324, 56, 2508, "annulee", NULL, 170.56, 170.56, "2019-03-25 10:58:35", "paypal", 8);
+(324, 506, 730, 'approuvee', NULL, 269.40, 269.40, '2017-10-08 18:33:16', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(325, 61, 795, "annulee", NULL, 178.08, 178.08, "2020-02-26 21:32:36", "visa", 4);
+(325, 77, 2775, 'payee', 1, 22.4700, 13.482000, '2017-01-01 01:49:02', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(326, 81, 1816, "annulee", 3, 256.9980, 179.898600, "2018-05-04 09:48:19", "paypal", 6);
+(326, 827, 770, 'approuvee', NULL, 266.48, 266.48, '2020-01-04 08:06:59', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(327, 22, 2271, "approuvee", NULL, 64.38, 64.38, "2020-04-14 19:30:32", "visa", 6);
+(327, 258, 3467, 'approuvee', NULL, 90.16, 90.16, '2019-01-15 20:27:54', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(328, 46, 2464, "en attente", 6, 191.0460, 162.389100, "2016-02-04 06:14:48", "paypal", 3);
+(328, 408, 3817, 'approuvee', NULL, 119.10, 119.10, '2020-03-04 08:43:10', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(329, 72, 3692, "payee", NULL, 56.88, 56.88, "2018-11-21 00:16:06", "debit", 3);
+(329, 913, 1294, 'en attente', NULL, 126.12, 126.12, '2016-12-25 14:50:05', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(330, 93, 443, "annulee", NULL, 165.52, 165.52, "2016-11-20 09:03:45", "debit", 8);
+(330, 687, 4149, 'annulee', NULL, 70.46, 70.46, '2020-03-07 16:27:35', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(331, 86, 372, "approuvee", 3, 86.6320, 60.642400, "2019-12-15 23:20:02", "paypal", 8);
+(331, 75, 2460, 'approuvee', NULL, 221.92, 221.92, '2016-11-22 01:13:22', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(332, 14, 3897, "en attente", 6, 26.4180, 22.455300, "2020-05-06 05:01:30", "mastercard", 4);
+(332, 806, 311, 'payee', NULL, 238.24, 238.24, '2020-12-07 15:03:57', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(333, 25, 1077, "en attente", NULL, 286.00, 286.00, "2016-04-26 10:28:21", "visa", 5);
+(333, 860, 2402, 'en attente', NULL, 536.08, 536.08, '2020-05-08 09:18:39', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(334, 10, 3855, "approuvee", NULL, 191.72, 191.72, "2017-07-22 17:57:03", "paypal", 4);
+(334, 321, 34, 'en attente', NULL, 52.56, 52.56, '2018-09-22 01:18:27', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(335, 87, 3676, "payee", NULL, 271.72, 271.72, "2019-01-23 20:23:34", "paypal", 4);
+(335, 24, 3412, 'en attente', NULL, 45.66, 45.66, '2016-09-27 14:42:11', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(336, 98, 662, "en attente", NULL, 362.81, 362.81, "2019-09-27 21:08:34", "mastercard", 7);
+(336, 927, 3087, 'annulee', NULL, 104.70, 104.70, '2016-12-12 11:51:12', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(337, 98, 2736, "en attente", NULL, 128.80, 128.80, "2017-07-13 18:12:37", "visa", 8);
+(337, 317, 1434, 'approuvee', 5, 104.6400, 52.320000, '2018-02-26 11:34:59', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(338, 1, 3498, "annulee", NULL, 246.75, 246.75, "2016-08-20 15:58:41", "debit", 7);
+(338, 298, 3744, 'annulee', 2, 196.8330, 179.118030, '2020-02-26 11:37:49', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(339, 66, 3110, "annulee", NULL, 32.34, 32.34, "2018-01-21 08:28:17", "debit", 2);
+(339, 74, 2435, 'en attente', NULL, 112.16, 112.16, '2020-01-09 01:08:16', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(340, 69, 690, "payee", NULL, 82.82, 82.82, "2019-11-10 18:05:51", "mastercard", 2);
+(340, 895, 1966, 'payee', NULL, 14.86, 14.86, '2020-11-20 19:14:12', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(341, 99, 1212, "en attente", NULL, 34.02, 34.02, "2018-05-26 07:46:16", "visa", 3);
+(341, 282, 1118, 'en attente', 1, 31.0320, 18.619200, '2018-03-11 18:11:40', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(342, 52, 2702, "payee", NULL, 69.63, 69.63, "2020-04-23 06:19:47", "debit", 1);
+(342, 375, 4025, 'approuvee', NULL, 288.12, 288.12, '2020-11-05 19:01:35', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(343, 54, 3507, "en attente", NULL, 189.30, 189.30, "2019-06-19 13:21:21", "debit", 5);
+(343, 617, 3674, 'en attente', NULL, 163.95, 163.95, '2020-02-21 09:13:16', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(344, 75, 1301, "payee", NULL, 157.01, 157.01, "2017-08-08 09:10:52", "mastercard", 7);
+(344, 959, 2444, 'annulee', 6, 128.2716, 103.899996, '2018-06-27 17:18:11', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(345, 50, 1256, "annulee", NULL, 11.62, 11.62, "2017-01-22 17:04:02", "paypal", 2);
+(345, 559, 2702, 'annulee', NULL, 132.64, 132.64, '2020-02-26 02:02:40', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(346, 32, 3997, "approuvee", 6, 350.8800, 298.248000, "2020-11-14 19:24:08", "paypal", 6);
+(346, 906, 55, 'en attente', 5, 180.9200, 90.460000, '2016-02-10 00:38:48', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(347, 13, 2332, "approuvee", NULL, 279.02, 279.02, "2020-03-12 02:23:28", "visa", 7);
+(347, 971, 1174, 'payee', NULL, 526.80, 526.80, '2020-04-04 15:08:21', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(348, 9, 3546, "approuvee", NULL, 77.58, 77.58, "2018-01-20 07:30:44", "paypal", 3);
+(348, 440, 225, 'en attente', NULL, 325.44, 325.44, '2016-08-15 01:22:46', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(349, 74, 2761, "annulee", 6, 156.8760, 133.344600, "2019-12-28 20:14:43", "visa", 6);
+(349, 328, 792, 'approuvee', 3, 321.8859, 260.727579, '2018-11-05 21:51:37', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(350, 22, 3332, "approuvee", NULL, 61.56, 61.56, "2019-06-26 05:33:53", "visa", 2);
+(350, 512, 3425, 'annulee', NULL, 218.19, 218.19, '2016-08-28 22:02:25', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(351, 58, 353, "approuvee", NULL, 194.68, 194.68, "2020-03-28 14:39:16", "paypal", 4);
+(351, 69, 3301, 'annulee', NULL, 511.21, 511.21, '2020-01-30 13:51:48', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(352, 11, 1748, "annulee", NULL, 206.72, 206.72, "2016-12-06 10:43:51", "mastercard", 4);
+(352, 729, 2607, 'payee', NULL, 84.58, 84.58, '2017-10-29 04:41:07', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(353, 68, 22, "en attente", 3, 17.0590, 11.941300, "2016-08-15 11:24:05", "mastercard", 1);
+(353, 564, 868, 'en attente', NULL, 160.16, 160.16, '2016-11-11 15:23:09', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(354, 15, 412, "annulee", NULL, 218.28, 218.28, "2018-04-17 03:31:06", "visa", 3);
+(354, 486, 1892, 'annulee', 4, 273.7140, 260.028300, '2016-07-30 07:26:41', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(355, 30, 477, "payee", 1, 58.5905, 49.801925, "2020-08-13 13:08:23", "mastercard", 1);
+(355, 973, 3450, 'en attente', NULL, 290.25, 290.25, '2019-06-30 17:07:27', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(356, 44, 546, "approuvee", NULL, 489.52, 489.52, "2016-06-26 05:58:52", "paypal", 8);
+(356, 722, 1303, 'approuvee', NULL, 164.28, 164.28, '2020-02-06 21:41:07', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(357, 97, 3615, "payee", NULL, 76.25, 76.25, "2016-03-15 21:05:50", "mastercard", 5);
+(357, 98, 930, 'payee', 5, 56.6000, 28.300000, '2020-02-23 10:02:31', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(358, 67, 3689, "en attente", NULL, 389.62, 389.62, "2019-11-25 23:56:23", "paypal", 7);
+(358, 27, 2677, 'annulee', NULL, 62.16, 62.16, '2019-11-12 20:31:18', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(359, 29, 2574, "approuvee", 6, 114.1890, 97.060650, "2020-04-21 16:59:25", "debit", 2);
+(359, 385, 1124, 'payee', NULL, 117.96, 117.96, '2017-09-09 15:39:05', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(360, 90, 4066, "approuvee", NULL, 309.52, 309.52, "2019-03-06 03:34:03", "debit", 8);
+(360, 886, 2469, 'approuvee', NULL, 328.40, 328.40, '2016-11-20 07:41:40', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(361, 14, 2490, "payee", NULL, 210.80, 210.80, "2019-10-22 14:41:28", "paypal", 8);
+(361, 390, 208, 'approuvee', 2, 35.3262, 32.146842, '2018-01-30 06:11:21', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(362, 6, 1618, "approuvee", NULL, 223.68, 223.68, "2017-09-05 13:06:35", "visa", 3);
+(362, 853, 2919, 'payee', 2, 82.3095, 74.901645, '2016-11-24 01:27:26', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(363, 82, 3417, "approuvee", 6, 223.4480, 189.930800, "2018-09-16 13:17:07", "mastercard", 8);
+(363, 604, 3177, 'en attente', NULL, 142.87, 142.87, '2019-09-10 19:38:24', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(364, 5, 1278, "en attente", NULL, 286.50, 286.50, "2016-06-08 07:45:33", "debit", 6);
+(364, 107, 4227, 'en attente', NULL, 109.84, 109.84, '2019-11-14 01:42:26', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(365, NULL, 2939, "approuvee", 2, 173.7450, 140.733450, "2020-12-04 21:20:43", "debit", 3);
+(365, 449, 1051, 'approuvee', NULL, 184.80, 184.80, '2020-07-22 22:51:45', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(366, 90, 1058, "en attente", NULL, 384.48, 384.48, "2020-09-09 04:52:27", "visa", 8);
+(366, 87, 2123, 'en attente', NULL, 219.21, 219.21, '2018-08-06 08:00:48', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(367, 14, 3470, "payee", NULL, 259.20, 259.20, "2020-06-20 15:49:09", "mastercard", 4);
+(367, 643, 3684, 'payee', 2, 194.3032, 176.815912, '2020-03-20 10:56:07', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(368, 34, 447, "annulee", NULL, 25.56, 25.56, "2019-08-02 17:04:06", "visa", 4);
+(368, 806, 4066, 'annulee', NULL, 226.62, 226.62, '2019-02-16 21:50:33', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(369, 6, 1943, "approuvee", NULL, 226.56, 226.56, "2017-01-03 09:11:11", "paypal", 8);
+(369, 109, 796, 'en attente', NULL, 278.16, 278.16, '2016-02-03 11:10:12', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(370, 27, 3599, "approuvee", NULL, 269.70, 269.70, "2018-10-17 04:31:35", "paypal", 5);
+(370, 383, 1423, 'payee', NULL, 93.30, 93.30, '2016-04-03 15:17:55', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(371, 73, 533, "en attente", NULL, 381.52, 381.52, "2016-12-02 10:52:01", "paypal", 8);
+(371, 109, 1687, 'approuvee', NULL, 21.21, 21.21, '2018-12-23 04:51:18', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(372, 60, 3450, "annulee", NULL, 260.89, 260.89, "2018-08-20 16:00:29", "visa", 7);
+(372, 576, 2917, 'payee', NULL, 97.10, 97.10, '2016-07-09 17:51:08', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(373, 61, 1937, "payee", 3, 95.9700, 67.179000, "2017-11-10 14:25:13", "paypal", 3);
+(373, 934, 2140, 'en attente', NULL, 44.61, 44.61, '2017-09-09 18:07:53', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(374, 43, 1580, "annulee", NULL, 32.82, 32.82, "2017-08-01 23:25:00", "paypal", 1);
+(374, 635, 4186, 'en attente', 6, 17.0100, 13.778100, '2017-11-19 22:37:37', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(375, 7, 2611, "en attente", 1, 273.7000, 232.645000, "2016-02-04 16:55:42", "paypal", 5);
+(375, 740, 3720, 'payee', 4, 196.3080, 186.492600, '2018-10-30 14:52:41', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(376, 78, 827, "approuvee", 2, 310.0194, 251.115714, "2019-03-15 13:03:07", "paypal", 6);
+(376, 903, 665, 'en attente', NULL, 19.62, 19.62, '2016-02-01 07:51:51', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(377, 32, 163, "payee", NULL, 357.42, 357.42, "2017-10-24 15:40:03", "debit", 6);
+(377, 447, 305, 'approuvee', NULL, 455.52, 455.52, '2019-05-14 12:30:42', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(378, 27, 3777, "en attente", NULL, 5.41, 5.41, "2020-12-13 11:00:43", "debit", 1);
+(378, 94, 1326, 'payee', 3, 41.5692, 33.671052, '2016-03-16 10:29:26', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(379, 94, 1426, "en attente", NULL, 65.67, 65.67, "2019-05-07 20:12:38", "mastercard", 1);
+(379, 742, 4038, 'payee', 2, 208.8632, 190.065512, '2018-06-20 02:20:56', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(380, 59, 2278, "approuvee", NULL, 42.56, 42.56, "2019-09-06 13:31:42", "mastercard", 1);
+(380, 758, 258, 'annulee', NULL, 311.85, 311.85, '2020-02-10 13:13:21', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(381, 67, 2394, "payee", NULL, 219.24, 219.24, "2019-02-17 06:53:19", "paypal", 7);
+(381, 480, 4186, 'en attente', NULL, 21.00, 21.00, '2020-04-20 09:03:55', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(382, 83, 3520, "annulee", NULL, 56.07, 56.07, "2017-06-25 21:02:43", "paypal", 1);
+(382, 500, 1583, 'approuvee', NULL, 64.14, 64.14, '2019-04-08 15:41:11', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(383, 80, 479, "en attente", NULL, 259.70, 259.70, "2016-06-23 00:36:33", "visa", 5);
+(383, 130, 4099, 'payee', 6, 72.0495, 58.360095, '2020-01-09 07:59:12', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(384, 89, 1853, "payee", NULL, 331.10, 331.10, "2019-07-27 07:15:16", "mastercard", 7);
+(384, 28, 417, 'annulee', NULL, 34.60, 34.60, '2017-02-28 18:51:32', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(385, 57, 2680, "en attente", 1, 71.0685, 60.408225, "2017-10-04 14:34:32", "mastercard", 3);
+(385, 225, 1868, 'approuvee', 2, 338.4472, 307.986952, '2017-04-12 00:29:38', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(386, 17, 1486, "payee", NULL, 181.86, 181.86, "2018-02-07 19:08:56", "mastercard", 7);
+(386, 851, 3145, 'en attente', 4, 171.7410, 163.153950, '2016-01-26 02:04:41', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(387, 8, 3700, "en attente", 6, 287.7675, 244.602375, "2016-10-06 01:32:49", "debit", 5);
+(387, 967, 3477, 'annulee', NULL, 299.84, 299.84, '2018-01-02 02:26:38', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(388, 63, 153, "approuvee", NULL, 186.48, 186.48, "2019-01-04 14:46:48", "paypal", 3);
+(388, 749, 2376, 'approuvee', NULL, 152.35, 152.35, '2018-04-28 06:40:19', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(389, 31, 781, "payee", NULL, 74.24, 74.24, "2016-10-05 10:29:29", "debit", 1);
+(389, 460, 800, 'en attente', NULL, 150.90, 150.90, '2016-09-20 08:14:30', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(390, 93, 4054, "approuvee", NULL, 152.04, 152.04, "2019-05-03 03:52:05", "paypal", 4);
+(390, 168, 2371, 'annulee', NULL, 38.22, 38.22, '2020-10-12 15:44:06', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(391, 69, 1627, "approuvee", 3, 44.7230, 31.306100, "2020-10-30 10:36:36", "debit", 1);
+(391, 188, 3846, 'annulee', NULL, 117.12, 117.12, '2020-04-28 01:56:38', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(392, 33, 476, "approuvee", NULL, 223.85, 223.85, "2019-02-15 11:24:42", "visa", 5);
+(392, 812, 3158, 'en attente', NULL, 59.97, 59.97, '2020-01-17 14:47:43', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(393, 87, 3384, "en attente", NULL, 209.04, 209.04, "2020-02-14 17:02:38", "mastercard", 3);
+(393, 414, 498, 'payee', NULL, 291.27, 291.27, '2019-07-05 04:01:58', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(394, 11, 3823, "payee", NULL, 140.28, 140.28, "2019-06-18 00:54:59", "mastercard", 6);
+(394, 10, 23, 'approuvee', NULL, 241.25, 241.25, '2017-07-21 00:36:13', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(395, 98, 3106, "en attente", 5, 17.8200, 8.910000, "2020-07-19 07:52:55", "debit", 4);
+(395, 459, 2662, 'payee', 6, 53.4600, 43.302600, '2017-04-02 14:28:35', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(396, 22, 3455, "approuvee", NULL, 324.95, 324.95, "2018-09-21 23:57:12", "debit", 5);
+(396, 641, 1993, 'payee', NULL, 28.02, 28.02, '2018-09-02 13:36:04', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(397, 63, 4139, "payee", 6, 294.7800, 250.563000, "2018-01-29 03:59:08", "paypal", 6);
+(397, 756, 583, 'en attente', NULL, 306.66, 306.66, '2016-04-09 08:04:16', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(398, 34, 3352, "approuvee", NULL, 30.19, 30.19, "2016-11-26 03:08:33", "mastercard", 1);
+(398, 913, 3434, 'annulee', NULL, 70.15, 70.15, '2016-08-18 04:39:41', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(399, 6, 1815, "en attente", NULL, 235.36, 235.36, "2017-03-14 23:16:18", "debit", 8);
+(399, 971, 2262, 'annulee', 3, 115.6113, 93.645153, '2018-02-06 23:27:09', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(400, 39, 4126, "payee", NULL, 314.40, 314.40, "2019-04-10 12:36:14", "visa", 8);
+(400, 997, 1065, 'payee', NULL, 148.00, 148.00, '2016-02-09 13:08:33', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(401, 69, 3857, "approuvee", NULL, 371.70, 371.70, "2018-06-17 10:00:13", "mastercard", 5);
+(401, 914, 421, 'annulee', NULL, 94.01, 94.01, '2018-02-19 14:58:18', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(402, 31, 589, "approuvee", NULL, 262.43, 262.43, "2016-02-23 11:37:37", "paypal", 7);
+(402, 622, 1249, 'annulee', 6, 53.2170, 43.105770, '2019-05-24 14:28:35', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(403, 44, 1469, "payee", NULL, 355.95, 355.95, "2017-07-29 10:53:37", "paypal", 7);
+(403, 368, 1393, 'approuvee', NULL, 415.52, 415.52, '2019-04-16 08:36:22', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(404, 47, 2114, "en attente", NULL, 74.74, 74.74, "2018-06-16 18:12:45", "visa", 1);
+(404, 192, 2403, 'approuvee', NULL, 36.15, 36.15, '2019-06-10 04:39:22', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(405, 92, 2430, "approuvee", NULL, 446.40, 446.40, "2018-02-17 06:19:30", "visa", 6);
+(405, 711, 2623, 'en attente', NULL, 566.48, 566.48, '2020-07-17 12:13:04', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(406, 25, 2257, "payee", 6, 186.7025, 158.697125, "2018-10-10 09:58:14", "visa", 5);
+(406, 21, 181, 'en attente', NULL, 232.68, 232.68, '2020-02-12 23:58:08', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(407, 67, 1220, "approuvee", 4, NULL, NULL, "2016-08-02 14:19:03", "visa", 5);
+(407, 469, 2378, 'annulee', NULL, 12.04, 12.04, '2016-11-26 05:43:15', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(408, 72, 123, "payee", NULL, 42.42, 42.42, "2018-12-17 14:52:26", "paypal", 1);
+(408, 116, 3056, 'en attente', 6, 31.1040, 25.194240, '2017-08-22 12:27:31', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(409, 69, 930, "payee", 4, NULL, NULL, "2016-01-07 20:02:35", "visa", 7);
+(409, 60, 796, 'approuvee', NULL, 139.08, 139.08, '2018-05-15 04:10:44', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(410, 86, 1320, "payee", NULL, 186.40, 186.40, "2016-09-27 05:28:08", "visa", 5);
+(410, 969, 1145, 'en attente', NULL, 125.00, 125.00, '2020-05-30 07:13:46', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(411, 73, 2554, "annulee", NULL, 132.44, 132.44, "2018-05-02 22:28:15", "mastercard", 2);
+(411, 283, 2297, 'en attente', NULL, 115.52, 115.52, '2018-08-09 01:09:28', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(412, 98, 638, "approuvee", 1, 85.0510, 72.293350, "2018-09-30 00:49:16", "debit", 2);
+(412, 506, 2879, 'en attente', 2, 95.7411, 87.124401, '2018-01-23 08:39:45', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(413, 24, 3561, "approuvee", NULL, 313.40, 313.40, "2019-03-30 05:11:35", "paypal", 5);
+(413, 594, 786, 'approuvee', NULL, 138.46, 138.46, '2020-06-24 23:38:49', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(414, 70, 1814, "approuvee", NULL, 45.60, 45.60, "2016-09-14 14:22:09", "paypal", 2);
+(414, 613, 1021, 'en attente', 1, 40.6260, 24.375600, '2017-01-05 20:10:22', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(415, NULL, 798, "payee", NULL, 247.05, 247.05, "2017-09-27 02:13:50", "debit", 5);
+(415, 66, 722, 'approuvee', 5, 41.8300, 20.915000, '2016-12-07 10:41:47', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(416, 35, 3384, "annulee", NULL, 487.76, 487.76, "2020-08-20 20:50:45", "debit", 7);
+(416, 960, 1722, 'annulee', NULL, 45.84, 45.84, '2017-08-11 14:17:22', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(417, 96, 3956, "en attente", NULL, 250.40, 250.40, "2017-06-11 03:43:53", "visa", 4);
+(417, 303, 3393, 'payee', NULL, 187.53, 187.53, '2019-11-12 12:31:17', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(418, 18, 2001, "approuvee", NULL, 73.31, 73.31, "2019-05-06 11:32:46", "paypal", 1);
+(418, 971, 599, 'payee', 2, 247.5928, 225.309448, '2016-07-05 13:50:30', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(419, 42, 624, "approuvee", NULL, 77.56, 77.56, "2016-06-13 17:39:58", "paypal", 2);
+(419, 227, 2312, 'payee', 4, 92.2260, 87.614700, '2016-12-28 16:54:15', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(420, 57, 3242, "approuvee", 5, 113.1800, 56.590000, "2019-02-16 22:44:37", "visa", 4);
+(420, 501, 563, 'annulee', NULL, 248.20, 248.20, '2017-04-22 13:14:42', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(421, 17, 2617, "annulee", 3, 31.8500, 22.295000, "2018-07-12 11:05:18", "mastercard", 5);
+(421, 313, 540, 'en attente', NULL, 134.48, 134.48, '2016-01-08 01:25:25', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(422, 82, 635, "approuvee", 4, NULL, NULL, "2020-09-22 23:31:32", "mastercard", 3);
+(422, 156, 741, 'en attente', NULL, 32.12, 32.12, '2019-11-26 10:43:27', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(423, 35, 1375, "en attente", NULL, 273.28, 273.28, "2019-09-14 23:48:46", "paypal", 4);
+(423, 306, 1938, 'en attente', NULL, 72.08, 72.08, '2020-02-23 09:58:36', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(424, 70, 2413, "approuvee", NULL, 275.88, 275.88, "2018-03-10 05:38:16", "mastercard", 6);
+(424, 193, 917, 'annulee', 1, 68.2800, 40.968000, '2019-02-22 12:52:57', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(425, 97, 661, "en attente", NULL, 112.56, 112.56, "2016-10-27 03:19:14", "paypal", 2);
+(425, 619, 235, 'approuvee', NULL, 183.16, 183.16, '2019-07-30 04:08:56', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(426, 33, 2249, "en attente", 5, 91.6500, 45.825000, "2017-12-01 20:56:06", "debit", 6);
+(426, 489, 2138, 'en attente', 3, 71.0775, 57.572775, '2019-01-20 13:41:13', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(427, 81, 2028, "approuvee", NULL, 562.32, 562.32, "2019-12-21 18:47:45", "visa", 8);
+(427, 727, 2279, 'payee', NULL, 149.20, 149.20, '2020-08-23 09:51:09', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(428, NULL, 2099, "en attente", NULL, 111.12, 111.12, "2017-10-16 07:40:49", "debit", 8);
+(428, 241, 2682, 'payee', NULL, 62.30, 62.30, '2020-07-16 23:32:01', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(429, 76, 1792, "approuvee", NULL, 271.90, 271.90, "2020-10-27 11:58:08", "mastercard", 5);
+(429, 721, 2445, 'annulee', NULL, 239.92, 239.92, '2020-05-29 16:27:38', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(430, 82, 512, "annulee", 4, NULL, NULL, "2017-09-27 19:54:57", "paypal", 2);
+(430, 779, 3599, 'payee', NULL, 501.20, 501.20, '2020-06-02 17:02:06', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(431, 22, 2395, "annulee", NULL, 260.46, 260.46, "2017-07-07 04:22:23", "mastercard", 6);
+(431, 266, 1045, 'approuvee', NULL, 238.50, 238.50, '2018-02-19 07:26:22', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(432, 98, 3620, "annulee", 6, 153.9180, 130.830300, "2019-10-10 03:01:38", "mastercard", 6);
+(432, 975, 2847, 'en attente', 2, 262.4440, 238.824040, '2016-05-13 13:20:19', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(433, 51, 1773, "payee", NULL, 71.16, 71.16, "2017-06-20 22:05:27", "paypal", 6);
+(433, 764, 3695, 'annulee', NULL, 81.16, 81.16, '2016-04-30 19:13:33', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(434, 10, 928, "approuvee", NULL, 293.92, 293.92, "2017-07-29 18:16:20", "debit", 8);
+(434, 470, 372, 'annulee', NULL, 568.16, 568.16, '2020-06-07 15:32:15', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(435, 30, 545, "en attente", NULL, 50.60, 50.60, "2019-10-25 22:47:04", "visa", 5);
+(435, 469, 1822, 'approuvee', NULL, 81.63, 81.63, '2019-07-22 16:57:08', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(436, 86, 1569, "payee", NULL, 372.00, 372.00, "2017-11-26 21:59:53", "visa", 6);
+(436, 416, 1393, 'annulee', NULL, 207.76, 207.76, '2020-01-26 03:42:15', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(437, 68, 2521, "annulee", 2, 47.0124, 38.080044, "2020-06-20 08:04:29", "debit", 2);
+(437, 256, 3061, 'en attente', NULL, 226.24, 226.24, '2019-01-07 08:52:03', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(438, 33, 4111, "approuvee", NULL, 130.50, 130.50, "2016-11-25 07:09:51", "paypal", 3);
+(438, 271, 588, 'approuvee', NULL, 196.08, 196.08, '2017-02-26 06:08:57', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(439, 92, 2534, "payee", NULL, 125.52, 125.52, "2020-04-21 14:11:28", "mastercard", 4);
+(439, 704, 3548, 'payee', 6, 38.1591, 30.908871, '2019-10-14 06:39:30', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(440, 82, 2006, "payee", NULL, 43.54, 43.54, "2020-04-29 16:55:56", "mastercard", 2);
+(440, 718, 256, 'annulee', 5, 28.2400, 14.120000, '2017-05-02 09:32:27', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(441, 35, 353, "en attente", NULL, 146.01, 146.01, "2018-03-30 12:09:08", "visa", 3);
+(441, 689, 3404, 'annulee', NULL, 241.60, 241.60, '2019-05-24 23:41:40', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(442, 65, 1845, "approuvee", 3, 38.9340, 27.253800, "2020-07-14 19:32:00", "paypal", 6);
+(442, 890, 161, 'approuvee', NULL, 227.12, 227.12, '2017-04-28 07:31:56', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(443, 62, 1062, "payee", NULL, 457.31, 457.31, "2020-06-30 19:41:50", "debit", 7);
+(443, 737, 1509, 'en attente', 2, 31.4769, 28.643979, '2019-08-23 12:53:38', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(444, 56, 2306, "approuvee", NULL, 133.92, 133.92, "2019-11-22 15:40:22", "debit", 3);
+(444, 270, 4147, 'annulee', 5, 23.1800, 11.590000, '2019-02-14 05:00:25', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(445, 69, 1445, "approuvee", NULL, 185.70, 185.70, "2016-07-28 10:12:20", "paypal", 6);
+(445, 8, 543, 'en attente', NULL, 36.36, 36.36, '2019-10-06 02:26:21', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(446, 80, 2068, "approuvee", NULL, 54.64, 54.64, "2020-10-23 06:22:37", "mastercard", 2);
+(446, 506, 3956, 'approuvee', NULL, 171.60, 171.60, '2019-05-27 19:04:57', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(447, 64, 1293, "annulee", NULL, 186.00, 186.00, "2017-05-17 20:26:18", "paypal", 5);
+(447, 95, 2148, 'en attente', NULL, 189.36, 189.36, '2019-01-24 01:00:50', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(448, 68, 997, "payee", 5, 99.0750, 49.537500, "2019-12-24 09:36:50", "paypal", 3);
+(448, 206, 573, 'en attente', 3, 57.0240, 46.189440, '2017-09-18 08:05:30', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(449, 9, 962, "annulee", NULL, 108.56, 108.56, "2020-06-19 03:01:21", "visa", 4);
+(449, 95, 3135, 'en attente', 3, 57.2508, 46.373148, '2019-07-15 08:02:50', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(450, 34, 3846, "annulee", NULL, 191.43, 191.43, "2016-12-01 15:38:44", "mastercard", 3);
+(450, 459, 2529, 'payee', 3, 49.6206, 40.192686, '2016-09-06 23:02:28', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(451, 69, 2302, "en attente", NULL, 143.60, 143.60, "2019-02-23 00:32:40", "debit", 5);
+(451, 477, 3099, 'approuvee', NULL, 83.05, 83.05, '2019-05-09 07:51:11', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(452, 22, 3941, "approuvee", NULL, 424.83, 424.83, "2017-06-20 12:17:46", "visa", 7);
+(452, 968, 1795, 'approuvee', NULL, 368.72, 368.72, '2016-03-29 19:22:45', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(453, 94, 944, "approuvee", NULL, 100.80, 100.80, "2016-05-23 23:37:01", "mastercard", 7);
+(453, 947, 3738, 'approuvee', NULL, 69.35, 69.35, '2020-11-24 14:14:44', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(454, 46, 621, "en attente", 6, 278.9700, 237.124500, "2017-01-06 10:45:49", "debit", 6);
+(454, 546, 3184, 'payee', 4, 195.2250, 185.463750, '2018-06-23 18:40:40', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(455, 92, 227, "annulee", NULL, 427.49, 427.49, "2019-03-31 17:39:16", "debit", 7);
+(455, 894, 1713, 'en attente', NULL, 59.22, 59.22, '2018-10-11 08:26:52', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(456, 95, 3116, "payee", 6, 30.7020, 26.096700, "2016-10-04 10:19:59", "visa", 1);
+(456, 33, 224, 'en attente', NULL, 260.68, 260.68, '2018-06-21 16:15:51', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(457, 72, 2049, "approuvee", NULL, 47.60, 47.60, "2019-05-12 04:09:36", "mastercard", 7);
+(457, 75, 1924, 'approuvee', NULL, 135.56, 135.56, '2017-10-01 15:25:07', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(458, 66, 2525, "approuvee", 4, NULL, NULL, "2018-04-26 17:35:54", "visa", 6);
+(458, 825, 3141, 'approuvee', 3, 78.7158, 63.759798, '2019-01-25 15:35:05', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(459, 79, 3369, "en attente", NULL, 152.00, 152.00, "2017-08-30 03:48:42", "debit", 5);
+(459, 325, 1599, 'approuvee', NULL, 140.52, 140.52, '2016-03-02 11:23:37', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(460, 25, 1540, "en attente", 3, 196.0000, 137.200000, "2017-02-26 18:30:11", "mastercard", 7);
+(460, 702, 1484, 'approuvee', NULL, 41.44, 41.44, '2016-11-06 01:22:04', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(461, 53, 1677, "payee", 6, 182.6055, 155.214675, "2016-01-03 23:22:50", "paypal", 3);
+(461, 735, 431, 'annulee', NULL, 37.04, 37.04, '2018-04-22 15:46:39', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(462, 55, 3252, "approuvee", NULL, 153.65, 153.65, "2020-12-06 03:30:42", "paypal", 7);
+(462, 551, 2562, 'annulee', 5, 36.6800, 18.340000, '2016-12-19 17:06:17', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(463, 51, 689, "en attente", NULL, 91.44, 91.44, "2017-11-12 08:27:57", "mastercard", 6);
+(463, 926, 625, 'annulee', NULL, 133.98, 133.98, '2016-03-01 08:36:43', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(464, 79, 483, "payee", NULL, 68.87, 68.87, "2020-04-13 14:31:44", "mastercard", 1);
+(464, 878, 4011, 'en attente', NULL, 18.90, 18.90, '2019-02-24 23:16:32', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(465, 17, 602, "approuvee", NULL, 211.68, 211.68, "2019-11-12 20:53:43", "debit", 8);
+(465, 747, 1754, 'en attente', 4, 34.5990, 32.869050, '2020-02-22 19:31:46', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(466, 71, 2438, "annulee", NULL, 244.44, 244.44, "2016-12-20 09:27:01", "paypal", 4);
+(466, 759, 1314, 'payee', 5, 20.9300, 10.465000, '2019-03-16 15:13:22', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(467, 90, 753, "en attente", 5, 42.4650, 21.232500, "2020-04-20 14:46:30", "mastercard", 3);
+(467, 948, 1959, 'annulee', NULL, 111.81, 111.81, '2016-05-12 19:52:40', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(468, 49, 1181, "approuvee", NULL, 36.27, 36.27, "2020-05-26 17:21:17", "debit", 3);
+(468, 909, 3876, 'en attente', 4, 78.1280, 74.221600, '2020-06-06 09:37:30', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(469, 63, 2733, "en attente", 5, 10.5200, 5.260000, "2016-11-14 00:38:50", "paypal", 2);
+(469, 27, 1754, 'en attente', NULL, 36.42, 36.42, '2020-09-16 18:59:43', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(470, 12, 3080, "annulee", NULL, 61.60, 61.60, "2016-05-02 22:49:32", "visa", 4);
+(470, 694, 4063, 'payee', NULL, 126.00, 126.00, '2020-08-22 10:35:04', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(471, 58, 1945, "annulee", NULL, 66.90, 66.90, "2020-05-23 03:30:17", "visa", 5);
+(471, 190, 4161, 'approuvee', NULL, 30.00, 30.00, '2017-11-16 00:25:54', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(472, 25, 2418, "en attente", 3, 213.8640, 149.704800, "2019-09-07 22:33:28", "mastercard", 6);
+(472, 32, 901, 'annulee', NULL, 41.86, 41.86, '2017-11-03 12:01:55', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(473, 88, 2755, "approuvee", 3, 83.2160, 58.251200, "2017-05-26 17:15:18", "paypal", 4);
+(473, 158, 1973, 'annulee', 2, 45.8003, 41.678273, '2016-11-15 18:15:00', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(474, 28, 422, "en attente", NULL, 258.44, 258.44, "2018-03-07 03:44:48", "visa", 7);
+(474, 528, 4089, 'en attente', 4, 237.8040, 225.913800, '2017-05-08 19:23:35', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(475, 80, 2418, "approuvee", 6, 259.6920, 220.738200, "2016-04-01 17:57:56", "debit", 6);
+(475, 251, 3488, 'approuvee', NULL, 171.52, 171.52, '2018-07-28 01:28:59', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(476, 28, 1763, "approuvee", NULL, 69.97, 69.97, "2016-08-04 06:08:02", "debit", 1);
+(476, 143, 1345, 'en attente', 3, 67.3110, 54.521910, '2018-03-11 19:09:00', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(477, 51, 1567, "payee", NULL, 56.48, 56.48, "2018-05-01 22:39:40", "debit", 8);
+(477, 729, 1241, 'approuvee', 4, 278.8060, 264.865700, '2018-04-23 19:42:30', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(478, 23, 492, "annulee", 4, NULL, NULL, "2018-03-31 13:13:21", "paypal", 4);
+(478, 348, 3926, 'approuvee', NULL, 259.35, 259.35, '2020-10-31 02:49:16', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(479, 30, 1071, "approuvee", NULL, 159.60, 159.60, "2016-08-09 15:44:43", "debit", 6);
+(479, 795, 2925, 'payee', NULL, 95.84, 95.84, '2020-11-22 09:37:01', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(480, 27, 2425, "approuvee", NULL, 53.44, 53.44, "2019-04-04 09:13:09", "mastercard", 8);
+(480, 223, 2648, 'payee', NULL, 190.64, 190.64, '2019-09-27 06:48:22', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(481, 92, 2849, "annulee", NULL, 61.42, 61.42, "2016-05-13 11:32:43", "visa", 1);
+(481, 659, 672, 'annulee', NULL, 19.30, 19.30, '2020-06-03 08:38:14', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(482, 89, 3872, "en attente", NULL, 505.89, 505.89, "2019-11-30 16:18:45", "visa", 7);
+(482, 859, 1000, 'annulee', 5, 74.8650, 37.432500, '2016-02-10 08:08:12', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(483, 28, 502, "payee", NULL, 80.88, 80.88, "2018-01-27 08:42:32", "visa", 6);
+(483, 75, 1590, 'annulee', NULL, 124.52, 124.52, '2019-05-10 17:29:30', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(484, 37, 3419, "payee", NULL, 71.66, 71.66, "2020-12-26 13:53:38", "debit", 2);
+(484, 477, 2889, 'annulee', NULL, 181.23, 181.23, '2016-02-09 02:22:47', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(485, 73, 4050, "payee", NULL, 30.42, 30.42, "2017-10-10 08:24:56", "mastercard", 2);
+(485, 80, 996, 'payee', 3, 155.6658, 126.089298, '2019-01-31 22:37:43', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(486, 75, 1546, "en attente", NULL, 135.40, 135.40, "2020-08-08 12:11:01", "mastercard", 4);
+(486, 898, 1049, 'annulee', NULL, 219.94, 219.94, '2017-05-22 05:46:51', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(487, 41, 1056, "en attente", NULL, 15.19, 15.19, "2017-01-05 19:55:57", "visa", 1);
+(487, 208, 3294, 'approuvee', NULL, 27.25, 27.25, '2017-08-07 20:26:58', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(488, 10, 605, "en attente", NULL, 344.56, 344.56, "2017-02-13 15:59:07", "paypal", 8);
+(488, 742, 342, 'annulee', NULL, 97.24, 97.24, '2018-07-14 05:03:31', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(489, 96, 2111, "en attente", NULL, 128.34, 128.34, "2018-08-03 04:11:59", "debit", 2);
+(489, 518, 1922, 'en attente', 4, 352.8680, 335.224600, '2019-01-29 17:29:44', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(490, 9, 2064, "payee", NULL, 10.47, 10.47, "2018-10-25 18:55:12", "visa", 1);
+(490, 566, 1906, 'annulee', 3, 147.1770, 119.213370, '2016-07-18 09:19:12', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(491, 87, 484, "payee", NULL, 427.91, 427.91, "2016-02-27 04:52:09", "visa", 7);
+(491, 31, 2490, 'payee', 1, 35.0640, 21.038400, '2019-05-21 21:48:26', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(492, 79, 1696, "payee", 2, 321.5376, 260.445456, "2016-12-24 05:08:04", "debit", 6);
+(492, 624, 1274, 'en attente', NULL, 184.44, 184.44, '2016-12-17 10:30:24', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(493, 47, 1543, "annulee", 3, 108.6750, 76.072500, "2020-07-14 15:35:34", "paypal", 3);
+(493, 992, 3316, 'approuvee', 3, 47.7090, 38.644290, '2017-08-29 14:21:38', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(494, 87, 2870, "payee", NULL, 386.40, 386.40, "2017-10-07 19:43:37", "mastercard", 8);
+(494, 823, 833, 'approuvee', NULL, 254.64, 254.64, '2018-04-30 23:05:55', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(495, 5, 3727, "payee", NULL, 113.46, 113.46, "2020-10-02 23:58:21", "paypal", 6);
+(495, 39, 191, 'approuvee', NULL, 96.96, 96.96, '2017-07-07 11:05:23', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(496, 72, 603, "approuvee", NULL, 107.08, 107.08, "2019-12-12 19:55:00", "paypal", 2);
+(496, 298, 2257, 'approuvee', NULL, 101.16, 101.16, '2016-01-09 10:28:49', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(497, 61, 1799, "en attente", 5, 40.9800, 20.490000, "2017-08-20 20:58:50", "mastercard", 4);
+(497, 921, 642, 'approuvee', NULL, 186.48, 186.48, '2017-09-07 18:23:19', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(498, 92, 838, "en attente", NULL, 57.79, 57.79, "2016-02-20 23:29:47", "debit", 1);
+(498, 245, 1180, 'approuvee', NULL, 219.93, 219.93, '2020-10-26 19:18:27', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(499, 56, 2676, "en attente", 3, 285.4740, 199.831800, "2017-12-31 02:11:21", "debit", 7);
+(499, 960, 2964, 'annulee', 6, 172.8945, 140.044545, '2018-02-02 00:14:07', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(500, 52, 383, "en attente", NULL, 417.41, 417.41, "2020-06-04 10:38:01", "paypal", 7);
+(500, 267, 4083, 'payee', NULL, 420.14, 420.14, '2019-03-29 21:18:53', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(501, 32, 1220, "annulee", NULL, 208.56, 208.56, "2020-01-23 21:40:48", "mastercard", 3);
+(501, 914, 1467, 'annulee', 5, 16.3200, 8.160000, '2018-06-30 11:51:55', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(502, 78, 1166, "payee", 2, 256.6566, 207.891846, "2019-09-17 18:55:02", "paypal", 6);
+(502, 544, 2789, 'annulee', NULL, 6.18, 6.18, '2019-04-15 04:21:36', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(503, 88, 2797, "en attente", NULL, 231.12, 231.12, "2017-01-17 07:38:31", "mastercard", 8);
+(503, 249, 1892, 'en attente', NULL, 82.32, 82.32, '2016-01-03 07:31:29', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(504, 36, 2097, "approuvee", NULL, 265.72, 265.72, "2016-11-29 09:03:23", "visa", 7);
+(504, 755, 142, 'annulee', NULL, 55.57, 55.57, '2016-10-23 13:26:23', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(505, 34, 1208, "annulee", NULL, 39.54, 39.54, "2017-01-17 03:22:30", "visa", 3);
+(505, 62, 4230, 'payee', NULL, 13.52, 13.52, '2020-04-22 01:09:13', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(506, 13, 4008, "en attente", NULL, 197.40, 197.40, "2016-11-23 14:48:22", "paypal", 5);
+(506, 216, 2463, 'annulee', NULL, 20.88, 20.88, '2019-05-20 15:20:00', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(507, 89, 3680, "annulee", NULL, 438.20, 438.20, "2016-02-01 19:11:04", "mastercard", 7);
+(507, 17, 2696, 'payee', NULL, 114.31, 114.31, '2019-10-25 04:02:58', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(508, 31, 908, "payee", NULL, 37.11, 37.11, "2016-06-06 04:37:27", "mastercard", 3);
+(508, 280, 80, 'approuvee', NULL, 147.32, 147.32, '2016-05-28 05:20:36', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(509, 85, 262, "payee", NULL, 107.40, 107.40, "2017-12-02 05:26:46", "visa", 2);
+(509, 724, 3901, 'en attente', NULL, 279.28, 279.28, '2020-04-25 03:14:09', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(510, 35, 2813, "payee", NULL, 179.79, 179.79, "2016-02-16 22:23:16", "visa", 3);
+(510, 108, 1969, 'approuvee', 6, 24.3486, 19.722366, '2019-05-02 18:15:36', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(511, 19, 753, "approuvee", NULL, 169.86, 169.86, "2018-02-12 20:29:12", "debit", 6);
+(511, 310, 2509, 'annulee', NULL, 138.78, 138.78, '2019-03-01 04:24:36', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(512, 55, 16, "payee", 1, 20.5360, 17.455600, "2020-01-14 23:45:17", "paypal", 4);
+(512, 749, 1691, 'payee', NULL, 362.82, 362.82, '2016-08-04 17:54:44', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(513, 51, 3346, "approuvee", 6, 162.0780, 137.766300, "2018-01-26 17:08:34", "visa", 7);
+(513, 952, 2895, 'payee', NULL, 59.52, 59.52, '2016-04-16 15:42:51', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(514, 86, 2656, "payee", NULL, 294.56, 294.56, "2018-08-31 08:32:17", "visa", 7);
+(514, 428, 4233, 'en attente', NULL, 159.95, 159.95, '2018-07-23 17:01:18', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(515, 1, 2054, "approuvee", NULL, 517.37, 517.37, "2019-04-02 23:12:45", "mastercard", 7);
+(515, 640, 1184, 'approuvee', NULL, 119.21, 119.21, '2020-09-30 04:46:01', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(516, 94, 728, "annulee", 1, 229.8060, 195.335100, "2016-11-18 03:41:29", "debit", 4);
+(516, 223, 3472, 'en attente', NULL, 229.80, 229.80, '2020-02-27 18:18:21', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(517, 72, 389, "approuvee", NULL, 109.00, 109.00, "2020-09-03 11:27:36", "visa", 5);
+(517, 281, 805, 'payee', 3, 155.9736, 126.338616, '2018-12-30 22:15:11', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(518, 96, 14, "annulee", 3, 151.0530, 105.737100, "2019-09-06 08:57:44", "visa", 3);
+(518, 126, 3014, 'annulee', NULL, 130.68, 130.68, '2019-12-23 04:17:36', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(519, 21, 3841, "en attente", NULL, 183.51, 183.51, "2018-03-17 17:50:22", "visa", 3);
+(519, 115, 554, 'annulee', NULL, 44.85, 44.85, '2016-12-26 22:58:46', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(520, 94, 777, "payee", NULL, 78.48, 78.48, "2017-06-05 23:18:38", "mastercard", 4);
+(520, 717, 1855, 'payee', NULL, 529.20, 529.20, '2016-04-01 20:37:54', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(521, 77, 3390, "en attente", NULL, 287.52, 287.52, "2017-03-09 06:23:53", "paypal", 6);
+(521, 187, 779, 'payee', NULL, 432.39, 432.39, '2019-10-28 22:02:45', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(522, 90, 2549, "annulee", NULL, 184.44, 184.44, "2019-04-20 06:52:31", "paypal", 3);
+(522, 640, 3878, 'annulee', NULL, 247.28, 247.28, '2020-06-23 02:21:23', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(523, 60, 88, "annulee", NULL, 179.90, 179.90, "2020-06-26 12:04:43", "debit", 7);
+(523, 454, 685, 'en attente', 6, 46.7775, 37.889775, '2020-10-09 19:04:51', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(524, 41, 3533, "approuvee", 4, NULL, NULL, "2020-06-18 22:11:55", "visa", 7);
+(524, 17, 947, 'approuvee', NULL, 46.94, 46.94, '2018-10-09 12:40:08', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(525, 61, 3473, "en attente", NULL, 74.36, 74.36, "2019-03-21 16:15:12", "paypal", 2);
+(525, 1, 3831, 'payee', NULL, 228.05, 228.05, '2017-01-08 03:37:20', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(526, 4, 2362, "annulee", 5, 11.7800, 5.890000, "2020-04-16 22:46:14", "debit", 4);
+(526, 923, 1091, 'en attente', NULL, 291.68, 291.68, '2016-12-27 14:40:26', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(527, 9, 1893, "approuvee", NULL, 104.44, 104.44, "2017-06-09 04:20:49", "mastercard", 4);
+(527, 164, 3833, 'payee', NULL, 165.99, 165.99, '2018-12-02 15:46:31', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(528, 7, 732, "approuvee", 1, 52.7000, 44.795000, "2019-08-07 14:31:57", "paypal", 1);
+(528, 278, 949, 'payee', NULL, 139.35, 139.35, '2020-10-03 16:33:13', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(529, 9, 1150, "en attente", NULL, 396.13, 396.13, "2018-08-04 20:01:34", "paypal", 7);
+(529, 105, 281, 'payee', NULL, 186.13, 186.13, '2018-10-19 18:00:23', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(530, 78, 2875, "annulee", 3, 90.2580, 63.180600, "2019-02-22 23:17:22", "debit", 2);
+(530, 756, 2688, 'payee', NULL, 204.12, 204.12, '2016-02-27 11:38:53', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(531, 6, 3755, "annulee", NULL, 274.68, 274.68, "2016-05-06 03:52:06", "debit", 6);
+(531, 23, 2846, 'en attente', 4, 159.8280, 151.836600, '2019-11-03 11:44:45', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(532, 68, 3514, "payee", 4, NULL, NULL, "2020-05-07 12:59:50", "paypal", 4);
+(532, 710, 1152, 'payee', NULL, 166.48, 166.48, '2019-09-30 09:13:51', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(533, 80, 1255, "annulee", 1, 29.8350, 25.359750, "2017-07-20 07:09:56", "mastercard", 1);
+(533, 189, 317, 'approuvee', NULL, 289.92, 289.92, '2017-04-29 19:49:36', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(534, 55, 216, "approuvee", 4, NULL, NULL, "2016-11-07 17:10:59", "mastercard", 1);
+(534, 603, 652, 'annulee', NULL, 8.29, 8.29, '2018-11-18 06:26:47', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(535, 39, 1163, "approuvee", NULL, 142.96, 142.96, "2020-01-02 09:29:23", "visa", 2);
+(535, 313, 4163, 'en attente', NULL, 363.04, 363.04, '2017-08-04 23:27:36', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(536, 66, 2200, "annulee", NULL, 56.76, 56.76, "2016-03-15 11:50:58", "debit", 3);
+(536, 754, 4162, 'payee', 4, 40.2420, 38.229900, '2017-04-05 18:21:47', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(537, 45, 3614, "payee", NULL, 135.12, 135.12, "2019-01-26 07:48:17", "paypal", 6);
+(537, 782, 3241, 'approuvee', NULL, 189.00, 189.00, '2020-06-25 04:58:01', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(538, 25, 486, "payee", 2, 452.8224, 366.786144, "2018-12-27 11:01:44", "visa", 8);
+(538, 797, 3542, 'approuvee', NULL, 330.84, 330.84, '2016-05-27 10:14:25', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(539, 43, 1955, "payee", NULL, 210.91, 210.91, "2017-04-05 23:57:07", "visa", 7);
+(539, 872, 435, 'annulee', 6, 54.8289, 44.411409, '2017-07-24 22:33:32', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(540, 91, 826, "en attente", NULL, 549.04, 549.04, "2016-01-10 11:51:21", "paypal", 8);
+(540, 783, 4133, 'payee', NULL, 167.76, 167.76, '2016-06-19 16:34:09', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(541, 31, 4019, "annulee", NULL, 154.86, 154.86, "2017-01-15 09:29:02", "visa", 3);
+(541, 838, 1324, 'en attente', NULL, 280.96, 280.96, '2017-01-08 00:59:39', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(542, 58, 2013, "en attente", NULL, 439.25, 439.25, "2020-02-21 00:25:36", "debit", 7);
+(542, 777, 4065, 'approuvee', NULL, 263.04, 263.04, '2020-11-12 00:28:12', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(543, 55, 321, "annulee", NULL, 250.67, 250.67, "2019-09-13 18:48:30", "debit", 7);
+(543, 156, 1838, 'payee', 6, 71.0532, 57.553092, '2019-10-01 12:44:48', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(544, 50, 1317, "approuvee", 6, 220.4900, 187.416500, "2020-08-31 18:48:13", "visa", 4);
+(544, 133, 4220, 'approuvee', 6, 116.8506, 94.648986, '2020-05-25 20:36:27', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(545, 68, 490, "annulee", NULL, 257.58, 257.58, "2020-10-11 23:22:57", "mastercard", 6);
+(545, 221, 2069, 'payee', NULL, 165.60, 165.60, '2018-10-16 05:51:56', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(546, 22, 2447, "annulee", 5, 4.8800, 2.440000, "2020-12-15 23:15:30", "debit", 1);
+(546, 887, 632, 'annulee', NULL, 520.88, 520.88, '2020-12-28 05:23:40', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(547, 54, 2505, "annulee", 4, NULL, NULL, "2020-01-20 10:55:04", "visa", 4);
+(547, 754, 2162, 'payee', NULL, 18.22, 18.22, '2020-08-10 08:29:49', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(548, 40, 1087, "en attente", NULL, 378.91, 378.91, "2016-08-22 17:16:42", "visa", 7);
+(548, 648, 4192, 'approuvee', NULL, 156.03, 156.03, '2020-11-11 06:33:15', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(549, 94, 1778, "approuvee", NULL, 96.39, 96.39, "2017-04-07 17:24:28", "mastercard", 3);
+(549, 351, 952, 'en attente', NULL, 440.93, 440.93, '2018-04-18 18:27:20', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(550, 45, 2731, "en attente", 3, 18.8440, 13.190800, "2019-08-21 06:33:58", "debit", 2);
+(550, 544, 3809, 'approuvee', 4, 126.2550, 119.942250, '2017-07-05 20:42:57', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(551, 32, 3444, "en attente", NULL, 86.72, 86.72, "2019-12-01 11:09:36", "mastercard", 8);
+(551, 305, 1424, 'annulee', NULL, 43.08, 43.08, '2020-05-25 02:32:30', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(552, 30, 2357, "approuvee", NULL, 90.94, 90.94, "2017-07-04 15:29:28", "visa", 2);
+(552, 219, 3700, 'annulee', NULL, 105.28, 105.28, '2018-02-11 18:10:09', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(553, 90, 1904, "en attente", NULL, 116.68, 116.68, "2020-12-19 07:27:38", "mastercard", 4);
+(553, 472, 1456, 'en attente', 3, 229.9185, 186.233985, '2019-04-20 01:24:10', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(554, 68, 2890, "payee", NULL, 125.61, 125.61, "2020-12-02 06:53:01", "debit", 3);
+(554, 370, 3002, 'payee', NULL, 138.88, 138.88, '2020-09-19 01:53:58', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(555, 76, 1135, "approuvee", NULL, 113.52, 113.52, "2019-05-15 17:48:38", "visa", 3);
+(555, 649, 2385, 'approuvee', 5, 63.0000, 31.500000, '2020-05-17 19:54:41', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(556, 78, 2397, "annulee", 4, NULL, NULL, "2019-01-02 00:02:31", "mastercard", 7);
+(556, 506, 2474, 'approuvee', 6, 67.1166, 54.364446, '2018-11-03 21:22:40', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(557, NULL, 1861, "payee", NULL, 279.65, 279.65, "2020-03-25 15:37:37", "mastercard", 5);
+(557, 366, 2339, 'payee', 2, 50.1956, 45.677996, '2017-01-02 03:07:32', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(558, 63, 4044, "annulee", NULL, 186.20, 186.20, "2016-02-23 17:03:18", "debit", 7);
+(558, 753, 2973, 'approuvee', NULL, 262.20, 262.20, '2020-04-10 18:22:46', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(559, 32, 2505, "approuvee", 4, NULL, NULL, "2016-06-12 17:54:53", "debit", 6);
+(559, 854, 3378, 'en attente', 2, 39.5304, 35.972664, '2020-06-08 16:29:34', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(560, 16, 2229, "annulee", NULL, 73.96, 73.96, "2016-06-02 14:28:45", "visa", 4);
+(560, 420, 3930, 'approuvee', NULL, 38.52, 38.52, '2016-02-09 03:51:44', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(561, 5, 2300, "en attente", NULL, 325.20, 325.20, "2020-03-24 05:49:58", "visa", 5);
+(561, 548, 2909, 'approuvee', NULL, 162.51, 162.51, '2017-04-25 13:06:17', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(562, 68, 2004, "en attente", NULL, 451.85, 451.85, "2016-03-08 04:11:50", "paypal", 7);
+(562, 619, 1015, 'en attente', NULL, 261.84, 261.84, '2016-03-08 03:52:26', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(563, 83, 2281, "payee", NULL, 40.04, 40.04, "2017-06-26 23:03:35", "mastercard", 7);
+(563, 873, 3070, 'payee', NULL, 164.92, 164.92, '2016-04-11 03:10:45', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(564, 84, 2755, "annulee", NULL, 208.04, 208.04, "2017-06-29 13:11:51", "mastercard", 7);
+(564, 814, 3495, 'payee', NULL, 346.02, 346.02, '2017-02-13 07:07:37', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(565, 36, 3223, "en attente", NULL, 340.98, 340.98, "2020-12-09 08:25:15", "mastercard", 6);
+(565, 888, 1791, 'approuvee', 2, 100.2729, 91.248339, '2018-01-08 05:54:28', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(566, 30, 567, "approuvee", 1, 319.7530, 271.790050, "2019-03-30 11:09:17", "debit", 7);
+(566, 822, 1154, 'payee', 2, 180.1800, 163.963800, '2017-09-29 04:58:17', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(567, 85, 2113, "en attente", NULL, 251.84, 251.84, "2017-01-21 05:32:05", "debit", 4);
+(567, 199, 3249, 'en attente', 5, 33.7750, 16.887500, '2016-11-14 12:14:01', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(568, 94, 2730, "annulee", NULL, 126.84, 126.84, "2020-04-06 00:07:22", "debit", 6);
+(568, 624, 575, 'payee', NULL, 68.60, 68.60, '2016-04-25 02:31:47', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(569, 41, 3197, "annulee", NULL, 250.04, 250.04, "2019-03-09 10:39:09", "debit", 4);
+(569, 656, 2130, 'approuvee', NULL, 299.81, 299.81, '2020-07-25 19:29:24', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(570, 92, 1164, "approuvee", NULL, 326.10, 326.10, "2017-07-22 12:18:20", "debit", 6);
+(570, 496, 2500, 'annulee', NULL, 22.68, 22.68, '2018-07-29 08:20:03', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(571, 60, 1972, "payee", NULL, 479.84, 479.84, "2017-04-12 01:26:26", "mastercard", 8);
+(571, 618, 4030, 'payee', NULL, 52.76, 52.76, '2020-02-28 15:22:08', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(572, 22, 305, "annulee", NULL, 56.97, 56.97, "2019-04-26 09:50:16", "mastercard", 3);
+(572, 237, 464, 'en attente', 4, 478.1920, 454.282400, '2020-11-02 17:39:46', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(573, 12, 1945, "annulee", NULL, 66.90, 66.90, "2019-03-03 16:35:53", "mastercard", 5);
+(573, 612, 1063, 'annulee', NULL, 389.64, 389.64, '2020-02-03 09:09:43', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(574, 37, 858, "annulee", NULL, 137.52, 137.52, "2016-10-19 10:48:36", "mastercard", 8);
+(574, 687, 849, 'annulee', NULL, 44.64, 44.64, '2016-11-24 15:50:33', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(575, 54, 1294, "en attente", NULL, 149.86, 149.86, "2016-12-18 10:44:54", "mastercard", 2);
+(575, 443, 2692, 'en attente', NULL, 40.50, 40.50, '2018-09-24 00:24:25', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(576, 49, 1960, "en attente", NULL, 199.84, 199.84, "2019-06-11 16:01:36", "visa", 8);
+(576, 431, 2438, 'en attente', NULL, 23.95, 23.95, '2018-01-04 01:03:04', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(577, 52, 3620, "en attente", 3, 84.5040, 59.152800, "2016-02-28 04:16:59", "paypal", 4);
+(577, 587, 2, 'approuvee', NULL, 43.61, 43.61, '2018-06-12 05:48:49', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(578, 87, 1044, "payee", NULL, 184.32, 184.32, "2019-12-24 15:35:22", "mastercard", 8);
+(578, 418, 1417, 'approuvee', NULL, 491.33, 491.33, '2018-04-07 03:56:05', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(579, 68, 80, "payee", NULL, 33.51, 33.51, "2020-07-10 10:12:58", "debit", 1);
+(579, 218, 630, 'approuvee', NULL, 208.35, 208.35, '2020-10-11 08:00:09', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(580, 84, 3553, "payee", NULL, 45.92, 45.92, "2017-03-28 02:31:27", "visa", 8);
+(580, 212, 1783, 'annulee', NULL, 444.64, 444.64, '2017-02-12 20:47:36', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(581, 22, 354, "payee", 2, 179.4960, 145.391760, "2020-03-13 03:02:34", "debit", 5);
+(581, 39, 2332, 'payee', NULL, 213.12, 213.12, '2018-11-24 10:11:28', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(582, 75, 2689, "payee", NULL, 407.10, 407.10, "2017-11-08 17:34:32", "visa", 6);
+(582, 822, 1219, 'annulee', 6, 251.4078, 203.640318, '2020-02-25 16:05:37', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(583, 1, 2210, "en attente", NULL, 214.62, 214.62, "2018-05-11 01:08:45", "debit", 3);
+(583, 656, 1253, 'en attente', NULL, 164.76, 164.76, '2017-02-02 11:34:18', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(584, 35, 497, "payee", NULL, 73.85, 73.85, "2016-05-04 06:02:00", "debit", 5);
+(584, 155, 3010, 'en attente', NULL, 85.42, 85.42, '2019-01-16 04:37:04', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(585, 43, 401, "approuvee", NULL, 266.45, 266.45, "2018-10-19 21:55:45", "debit", 5);
+(585, 760, 1801, 'annulee', 1, 204.0600, 122.436000, '2018-08-28 16:19:01', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(586, 48, 2930, "en attente", NULL, 87.06, 87.06, "2020-07-21 23:07:55", "paypal", 3);
+(586, 587, 3044, 'payee', NULL, 385.77, 385.77, '2016-02-29 11:34:19', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(587, 17, 3093, "en attente", 3, 126.1260, 88.288200, "2020-11-13 03:51:33", "debit", 6);
+(587, 938, 1233, 'en attente', 6, 120.4956, 97.601436, '2018-05-17 13:09:56', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(588, 74, 520, "en attente", 4, NULL, NULL, "2019-12-23 12:19:19", "mastercard", 8);
+(588, 165, 1493, 'approuvee', 2, 194.0302, 176.567482, '2018-05-19 22:48:50', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(589, 74, 103, "approuvee", 4, NULL, NULL, "2016-12-20 02:01:03", "debit", 3);
+(589, 702, 778, 'approuvee', 5, 22.7100, 11.355000, '2020-11-23 05:11:15', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(590, 83, 1296, "payee", NULL, 347.97, 347.97, "2016-05-16 21:57:44", "debit", 7);
+(590, 486, 1975, 'en attente', NULL, 124.00, 124.00, '2018-12-14 21:38:53', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(591, 43, 700, "approuvee", NULL, 48.62, 48.62, "2016-05-01 07:22:29", "mastercard", 2);
+(591, 403, 1543, 'en attente', NULL, 337.89, 337.89, '2018-03-06 17:40:58', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(592, 71, 1036, "approuvee", 1, 110.8995, 94.264575, "2020-09-10 05:56:58", "mastercard", 3);
+(592, 676, 823, 'payee', NULL, 38.12, 38.12, '2017-05-16 11:27:07', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(593, 37, 3041, "payee", NULL, 233.22, 233.22, "2018-03-05 10:33:28", "mastercard", 6);
+(593, 709, 1287, 'annulee', NULL, 203.60, 203.60, '2020-08-24 23:37:51', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(594, 23, 1003, "annulee", NULL, 126.44, 126.44, "2019-07-11 01:20:58", "visa", 2);
+(594, 704, 960, 'approuvee', NULL, 386.10, 386.10, '2018-08-02 17:45:33', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(595, 63, 1147, "annulee", NULL, 84.72, 84.72, "2019-04-06 10:55:19", "mastercard", 4);
+(595, 110, 1848, 'approuvee', NULL, 43.98, 43.98, '2020-06-27 07:40:14', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(596, 31, 564, "annulee", NULL, 315.00, 315.00, "2016-07-10 16:12:18", "paypal", 5);
+(596, 945, 1253, 'annulee', NULL, 164.76, 164.76, '2020-04-02 14:01:40', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(597, 1, 739, "approuvee", NULL, 298.56, 298.56, "2017-06-03 22:07:36", "debit", 6);
+(597, 630, 2617, 'approuvee', NULL, 44.30, 44.30, '2019-08-22 15:37:14', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(598, 35, 975, "annulee", NULL, 119.88, 119.88, "2019-07-26 15:01:48", "paypal", 4);
+(598, 886, 1048, 'payee', 1, 116.7660, 70.059600, '2019-06-19 01:06:20', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(599, 81, 1525, "approuvee", NULL, 103.96, 103.96, "2018-09-19 20:03:29", "paypal", 2);
+(599, 217, 4094, 'annulee', NULL, 331.03, 331.03, '2020-09-02 19:47:05', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(600, 80, 2765, "payee", 1, 193.8850, 164.802250, "2018-09-06 04:39:05", "visa", 5);
+(600, 906, 2985, 'en attente', 2, 460.3144, 418.886104, '2019-07-15 16:19:32', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(601, 6, 3346, "en attente", NULL, 54.48, 54.48, "2016-10-13 20:26:42", "visa", 2);
+(601, 801, 2875, 'en attente', NULL, 214.74, 214.74, '2018-03-28 03:25:54', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(602, 30, 3858, "annulee", NULL, 132.46, 132.46, "2019-01-13 03:58:35", "visa", 2);
+(602, 319, 57, 'payee', 5, 97.8750, 48.937500, '2018-10-11 12:47:28', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(603, 94, 2057, "annulee", NULL, 70.88, 70.88, "2019-03-01 10:58:30", "paypal", 8);
+(603, 271, 2657, 'approuvee', NULL, 134.80, 134.80, '2016-12-09 14:44:13', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(604, 15, 154, "annulee", NULL, 337.80, 337.80, "2016-05-17 02:27:25", "debit", 6);
+(604, 283, 1001, 'payee', 6, 130.3128, 105.553368, '2018-12-29 07:19:37', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(605, 46, 4026, "approuvee", NULL, 48.26, 48.26, "2020-11-22 23:35:33", "mastercard", 2);
+(605, 437, 1971, 'en attente', NULL, 185.29, 185.29, '2018-03-30 00:33:41', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(606, 89, 3087, "approuvee", NULL, 97.92, 97.92, "2019-11-02 22:27:36", "mastercard", 8);
+(606, 28, 626, 'en attente', NULL, 297.84, 297.84, '2017-02-02 13:53:02', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(607, 83, 1703, "payee", 3, 19.9080, 13.935600, "2020-10-08 01:58:58", "paypal", 2);
+(607, 752, 2376, 'annulee', NULL, 30.47, 30.47, '2017-03-17 21:34:34', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(608, 97, 1813, "payee", 5, 166.7400, 83.370000, "2018-03-03 22:55:19", "mastercard", 7);
+(608, 504, 1902, 'payee', NULL, 73.98, 73.98, '2017-02-12 03:44:24', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(609, 45, 3142, "en attente", NULL, 511.68, 511.68, "2017-09-02 22:31:50", "debit", 8);
+(609, 293, 2226, 'en attente', NULL, 193.08, 193.08, '2017-05-01 22:18:27', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(610, 40, 2535, "en attente", NULL, 288.72, 288.72, "2020-11-07 18:28:01", "paypal", 8);
+(610, 700, 1386, 'annulee', NULL, 49.42, 49.42, '2019-10-29 09:03:45', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(611, 40, 2946, "approuvee", NULL, 115.18, 115.18, "2020-07-24 21:13:06", "paypal", 2);
+(611, 897, 3151, 'annulee', NULL, 128.88, 128.88, '2018-10-21 22:45:45', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(612, 62, 3337, "en attente", 6, 141.6780, 120.426300, "2017-09-23 07:41:49", "visa", 3);
+(612, 867, 910, 'annulee', 6, 58.1904, 47.134224, '2018-03-29 04:33:53', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(613, 72, 4110, "approuvee", NULL, 281.10, 281.10, "2020-10-15 14:42:12", "mastercard", 5);
+(613, 659, 1490, 'annulee', NULL, 98.34, 98.34, '2019-07-30 03:15:39', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(614, 63, 2911, "annulee", NULL, 52.92, 52.92, "2016-10-27 19:57:28", "paypal", 7);
+(614, 267, 2242, 'payee', NULL, 397.32, 397.32, '2017-12-13 00:17:30', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(615, 66, 1992, "annulee", NULL, 281.16, 281.16, "2019-02-02 14:03:38", "debit", 4);
+(615, 847, 4029, 'en attente', NULL, 323.40, 323.40, '2016-10-05 19:38:03', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(616, 63, 1603, "annulee", 2, 267.3972, 216.591732, "2018-07-10 18:02:00", "debit", 7);
+(616, 781, 1604, 'payee', 3, 6.0669, 4.914189, '2018-05-21 21:04:02', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(617, 40, 2585, "annulee", NULL, 129.94, 129.94, "2020-03-18 10:34:16", "debit", 2);
+(617, 802, 2289, 'approuvee', NULL, 337.95, 337.95, '2017-01-19 20:11:51', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(618, 42, 3612, "annulee", NULL, 146.12, 146.12, "2016-12-20 15:08:32", "paypal", 2);
+(618, 681, 2332, 'en attente', NULL, 71.04, 71.04, '2018-05-26 02:37:42', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(619, 12, 3441, "approuvee", NULL, 294.00, 294.00, "2019-03-13 08:01:01", "debit", 4);
+(619, 345, 2159, 'en attente', NULL, 47.74, 47.74, '2017-10-10 00:29:44', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(620, 36, 1245, "en attente", NULL, 25.53, 25.53, "2016-04-12 22:03:51", "debit", 1);
+(620, 414, 1801, 'en attente', NULL, 340.10, 340.10, '2018-06-12 07:18:21', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(621, 21, 2820, "annulee", NULL, 134.94, 134.94, "2019-01-18 06:23:38", "paypal", 6);
+(621, 664, 639, 'approuvee', NULL, 69.04, 69.04, '2017-08-16 04:23:54', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(622, 28, 1927, "payee", NULL, 70.80, 70.80, "2019-04-22 09:32:36", "debit", 8);
+(622, 215, 3011, 'payee', NULL, 57.53, 57.53, '2019-08-12 06:17:28', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(623, 74, 3011, "en attente", 1, 45.2625, 38.473125, "2017-10-20 16:51:41", "debit", 1);
+(623, 551, 518, 'payee', NULL, 21.96, 21.96, '2020-08-17 02:03:29', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(624, 56, 321, "en attente", NULL, 71.62, 71.62, "2017-08-19 09:57:51", "visa", 2);
+(624, 380, 2277, 'approuvee', NULL, 62.58, 62.58, '2017-10-10 08:42:15', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(625, 53, 2904, "en attente", NULL, 62.49, 62.49, "2018-07-21 01:43:11", "visa", 3);
+(625, 333, 1298, 'payee', NULL, 390.24, 390.24, '2017-04-13 04:37:11', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(626, 70, 10, "approuvee", 5, 254.0650, 127.032500, "2018-01-22 12:08:28", "debit", 7);
+(626, 383, 3833, 'payee', NULL, 331.98, 331.98, '2016-07-17 15:40:37', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(627, 98, 870, "en attente", NULL, 210.18, 210.18, "2020-10-05 11:21:06", "mastercard", 6);
+(627, 646, 3932, 'en attente', NULL, 175.56, 175.56, '2020-11-24 21:21:06', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(628, 47, 3106, "annulee", NULL, 71.28, 71.28, "2019-04-02 16:41:54", "mastercard", 8);
+(628, 801, 3936, 'en attente', 4, 241.5850, 229.505750, '2020-06-01 00:37:44', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(629, 7, 2967, "payee", 3, 93.9120, 65.738400, "2020-08-07 02:13:01", "paypal", 6);
+(629, 870, 473, 'payee', 6, 324.4374, 262.794294, '2020-08-25 17:10:39', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(630, 83, 2756, "approuvee", NULL, 93.40, 93.40, "2018-10-12 04:48:18", "debit", 4);
+(630, 110, 1365, 'en attente', NULL, 522.88, 522.88, '2018-11-10 14:53:47', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(631, 49, 1042, "annulee", 5, 150.3750, 75.187500, "2019-07-30 22:12:50", "mastercard", 5);
+(631, 598, 686, 'approuvee', 6, 28.2852, 22.911012, '2018-05-20 15:33:05', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(632, 55, 1301, "en attente", NULL, 22.43, 22.43, "2017-08-09 00:01:10", "debit", 1);
+(632, 157, 2759, 'en attente', NULL, 201.84, 201.84, '2016-07-13 22:20:58', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(633, 5, 587, "en attente", NULL, 121.96, 121.96, "2020-12-26 09:49:44", "mastercard", 2);
+(633, 427, 3578, 'en attente', 1, 16.4580, 9.874800, '2016-10-17 10:52:06', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(634, 54, 81, "annulee", NULL, 314.44, 314.44, "2017-10-24 21:22:31", "paypal", 7);
+(634, 611, 3273, 'annulee', NULL, 288.61, 288.61, '2020-02-26 03:53:17', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(635, 3, 1945, "annulee", 1, 68.2380, 58.002300, "2020-12-19 03:27:18", "mastercard", 6);
+(635, 347, 3087, 'annulee', NULL, 261.75, 261.75, '2018-07-01 05:42:12', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(636, NULL, 1150, "en attente", NULL, 396.13, 396.13, "2016-06-05 10:41:24", "debit", 7);
+(636, 837, 3385, 'en attente', 3, 220.2552, 178.406712, '2018-08-01 03:51:40', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(637, 96, 3039, "en attente", NULL, 343.90, 343.90, "2017-04-18 06:00:48", "debit", 5);
+(637, 314, 1074, 'en attente', 1, 21.1680, 12.700800, '2020-06-27 04:54:40', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(638, 33, 1841, "en attente", NULL, 132.02, 132.02, "2017-05-26 16:52:15", "visa", 7);
+(638, 249, 776, 'en attente', NULL, 204.66, 204.66, '2020-09-30 11:50:13', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(639, 17, 2198, "approuvee", 5, 26.5000, 13.250000, "2019-09-20 01:11:51", "visa", 4);
+(639, 460, 1200, 'payee', NULL, 94.23, 94.23, '2018-04-02 12:28:27', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(640, 16, 967, "annulee", 1, 207.6380, 176.492300, "2020-10-20 19:18:12", "visa", 4);
+(640, 877, 40, 'payee', NULL, 44.16, 44.16, '2020-02-09 12:01:49', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(641, 93, 4080, "annulee", 1, 310.7940, 264.174900, "2020-01-04 10:09:03", "mastercard", 6);
+(641, 351, 413, 'annulee', NULL, 371.88, 371.88, '2018-03-19 20:22:46', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(642, 82, 1062, "annulee", NULL, 261.32, 261.32, "2016-09-09 18:15:34", "mastercard", 4);
+(642, 201, 627, 'annulee', NULL, 77.36, 77.36, '2018-05-07 23:27:51', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(643, 98, 1329, "en attente", NULL, 304.08, 304.08, "2020-08-31 13:53:41", "visa", 7);
+(643, 629, 305, 'payee', NULL, 284.70, 284.70, '2018-06-06 14:36:34', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(644, 79, 3866, "approuvee", 3, 113.2950, 79.306500, "2020-10-08 21:15:15", "paypal", 3);
+(644, 886, 740, 'en attente', NULL, 448.08, 448.08, '2016-06-25 17:23:58', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(645, 62, 755, "en attente", NULL, 82.92, 82.92, "2020-08-30 22:28:05", "debit", 3);
+(645, 946, 2669, 'en attente', 1, 73.5840, 44.150400, '2017-10-04 12:41:40', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(646, 75, 1618, "annulee", 4, NULL, NULL, "2018-08-20 05:40:43", "paypal", 5);
+(646, 426, 2570, 'payee', NULL, 52.68, 52.68, '2020-04-20 03:10:00', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(647, 64, 1654, "en attente", NULL, 419.09, 419.09, "2016-01-22 07:35:25", "visa", 7);
+(647, 89, 4217, 'approuvee', 5, 8.9550, 4.477500, '2020-03-09 03:19:04', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(648, 20, 233, "payee", NULL, 6.29, 6.29, "2018-04-22 01:00:59", "visa", 1);
+(648, 290, 1296, 'en attente', NULL, 492.31, 492.31, '2018-11-07 02:09:24', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(649, 59, 3844, "en attente", NULL, 223.24, 223.24, "2019-06-04 03:11:37", "mastercard", 4);
+(649, 246, 1193, 'approuvee', 5, 13.5750, 6.787500, '2016-08-25 07:20:57', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(650, 38, 1280, "en attente", 1, 178.7805, 151.963425, "2018-04-28 16:00:40", "visa", 3);
+(650, 365, 1471, 'en attente', NULL, 68.36, 68.36, '2017-04-01 01:27:31', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(651, 64, 523, "approuvee", NULL, 271.14, 271.14, "2017-12-22 12:21:25", "paypal", 6);
+(651, 208, 547, 'payee', 3, 431.6976, 349.675056, '2017-02-07 13:45:28', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(652, 51, 234, "payee", NULL, 273.70, 273.70, "2019-09-15 02:54:15", "paypal", 5);
+(652, 604, 1424, 'en attente', 2, 19.6014, 17.837274, '2016-06-11 12:32:08', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(653, 39, 1965, "annulee", NULL, 143.90, 143.90, "2018-10-06 05:22:05", "paypal", 5);
+(653, 938, 3377, 'payee', 3, 230.5908, 186.778548, '2016-10-07 19:38:19', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(654, 2, 2304, "annulee", NULL, 222.04, 222.04, "2018-04-10 23:14:54", "debit", 7);
+(654, 352, 3246, 'annulee', NULL, 48.79, 48.79, '2018-08-08 14:33:00', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(655, 8, 112, "approuvee", NULL, 61.00, 61.00, "2019-04-18 04:33:44", "mastercard", 4);
+(655, 837, 3385, 'en attente', NULL, 407.88, 407.88, '2018-02-19 06:24:40', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(656, 60, 3844, "en attente", NULL, 446.48, 446.48, "2016-02-04 08:31:02", "paypal", 8);
+(656, 154, 3053, 'approuvee', 1, 139.6200, 83.772000, '2020-01-29 07:52:06', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(657, 14, 119, "payee", NULL, 110.80, 110.80, "2019-12-27 02:38:46", "debit", 5);
+(657, 532, 2604, 'payee', NULL, 185.40, 185.40, '2017-03-17 03:47:49', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(658, 15, 1244, "en attente", NULL, 414.30, 414.30, "2018-11-13 14:06:31", "debit", 6);
+(658, 677, 2357, 'approuvee', NULL, 68.84, 68.84, '2017-04-22 16:35:27', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(659, 78, 1992, "approuvee", NULL, 421.74, 421.74, "2018-10-24 02:30:58", "paypal", 6);
+(659, 552, 1817, 'approuvee', NULL, 433.68, 433.68, '2018-06-30 06:26:51', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(660, 48, 1906, "payee", NULL, 203.94, 203.94, "2018-08-29 12:51:03", "visa", 3);
+(660, 799, 3088, 'annulee', NULL, 40.53, 40.53, '2018-02-15 14:39:37', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(661, 12, 4014, "annulee", 4, NULL, NULL, "2020-05-22 03:22:39", "mastercard", 2);
+(661, 16, 540, 'approuvee', NULL, 134.48, 134.48, '2017-04-25 01:22:22', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(662, 60, 246, "annulee", 6, 270.9800, 230.333000, "2016-03-02 18:54:46", "paypal", 5);
+(662, 317, 1334, 'payee', 4, 24.9280, 23.681600, '2016-01-31 01:50:24', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(663, 87, 848, "en attente", 1, 45.4665, 38.646525, "2018-04-22 05:14:50", "debit", 1);
+(663, 113, 415, 'en attente', NULL, 69.79, 69.79, '2020-10-03 09:19:00', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(664, 31, 2348, "en attente", NULL, 57.35, 57.35, "2016-05-27 16:13:21", "paypal", 5);
+(664, 988, 1828, 'approuvee', 1, 95.0880, 57.052800, '2016-01-21 04:50:13', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(665, 25, 543, "annulee", 1, 229.4660, 195.046100, "2016-04-26 04:27:24", "visa", 4);
+(665, 66, 357, 'annulee', 5, 61.8100, 30.905000, '2020-07-18 18:50:21', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(666, 74, 1410, "en attente", 2, 96.1470, 77.879070, "2016-11-05 08:56:41", "mastercard", 2);
+(666, 27, 3814, 'approuvee', NULL, 69.57, 69.57, '2016-06-25 15:15:15', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(667, 1, 2433, "payee", NULL, 69.33, 69.33, "2019-06-28 00:39:34", "mastercard", 3);
+(667, 44, 4199, 'approuvee', NULL, 456.75, 456.75, '2018-06-02 03:03:22', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(668, 82, 2164, "annulee", NULL, 127.30, 127.30, "2019-04-12 07:11:45", "paypal", 5);
+(668, 497, 890, 'approuvee', NULL, 468.30, 468.30, '2016-02-07 22:56:51', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(669, 15, 1512, "annulee", NULL, 72.30, 72.30, "2017-12-06 03:50:00", "visa", 3);
+(669, 746, 906, 'approuvee', 2, 309.4728, 281.620248, '2020-11-23 20:25:33', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(670, 18, 1398, "en attente", NULL, 146.00, 146.00, "2020-05-07 15:46:11", "visa", 2);
+(670, 65, 3782, 'annulee', NULL, 524.88, 524.88, '2017-06-07 19:15:30', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(671, 69, 2614, "annulee", NULL, 265.56, 265.56, "2019-01-27 20:53:53", "debit", 4);
+(671, 603, 2000, 'payee', NULL, 106.23, 106.23, '2018-04-03 16:47:24', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(672, 93, 1260, "approuvee", NULL, 119.54, 119.54, "2016-11-27 00:56:15", "debit", 2);
+(672, 616, 189, 'payee', NULL, 188.25, 188.25, '2018-03-30 07:11:11', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(673, 69, 3362, "annulee", 3, 121.0860, 84.760200, "2019-10-23 00:48:12", "visa", 3);
+(673, 259, 107, 'approuvee', 6, 315.9000, 255.879000, '2019-08-31 09:37:51', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(674, 48, 4190, "approuvee", NULL, 410.41, 410.41, "2020-12-04 23:44:56", "debit", 7);
+(674, 53, 2168, 'en attente', 3, 11.3643, 9.205083, '2020-06-05 17:27:56', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(675, 48, 2203, "approuvee", NULL, 141.52, 141.52, "2017-07-19 18:49:39", "mastercard", 8);
+(675, 288, 253, 'annulee', 2, 59.2410, 53.909310, '2019-07-31 12:33:02', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(676, 4, 1618, "approuvee", NULL, 298.24, 298.24, "2016-04-20 15:38:22", "debit", 4);
+(676, 298, 1711, 'en attente', NULL, 52.00, 52.00, '2016-05-29 11:54:04', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(677, 72, 3067, "en attente", NULL, 294.42, 294.42, "2017-01-28 10:50:35", "debit", 6);
+(677, 982, 1898, 'en attente', NULL, 297.50, 297.50, '2017-08-29 13:05:42', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(678, 21, 3310, "en attente", 3, 29.3510, 20.545700, "2019-05-14 12:18:36", "debit", 7);
+(678, 578, 1368, 'approuvee', 6, 342.4032, 277.346592, '2019-08-13 11:08:47', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(679, 19, 3205, "annulee", 1, 187.4250, 159.311250, "2016-12-15 23:40:16", "paypal", 6);
+(679, 135, 1760, 'en attente', 2, 190.2992, 173.172272, '2019-02-04 01:20:39', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(680, 15, 3985, "en attente", NULL, 163.89, 163.89, "2020-12-17 21:13:08", "visa", 3);
+(680, 478, 715, 'annulee', NULL, 111.40, 111.40, '2018-03-02 01:50:00', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(681, 85, 4125, "approuvee", NULL, 196.35, 196.35, "2016-05-03 09:54:53", "paypal", 3);
+(681, 566, 4086, 'approuvee', NULL, 226.32, 226.32, '2017-07-22 15:40:12', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(682, 90, 672, "annulee", NULL, 237.30, 237.30, "2017-05-14 07:04:54", "mastercard", 6);
+(682, 465, 1037, 'annulee', 6, 49.1022, 39.772782, '2017-06-24 22:03:13', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(683, 63, 2050, "annulee", 5, 4.5950, 2.297500, "2017-02-26 04:54:59", "mastercard", 1);
+(683, 130, 2710, 'payee', NULL, 395.10, 395.10, '2016-12-01 05:33:46', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(684, 97, 1054, "en attente", NULL, 55.01, 55.01, "2020-08-30 16:20:36", "visa", 1);
+(684, 757, 2878, 'approuvee', 5, 54.2000, 27.100000, '2018-05-20 23:07:46', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(685, 21, 4194, "payee", NULL, 136.60, 136.60, "2019-08-12 01:32:01", "debit", 4);
+(685, 444, 341, 'approuvee', NULL, 29.75, 29.75, '2020-03-29 17:42:25', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(686, 4, 539, "annulee", NULL, 229.52, 229.52, "2020-04-02 20:44:08", "debit", 8);
+(686, 181, 3511, 'annulee', NULL, 50.78, 50.78, '2020-07-08 19:57:20', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(687, 36, 3768, "annulee", NULL, 82.64, 82.64, "2016-04-02 19:01:44", "paypal", 4);
+(687, 556, 4171, 'en attente', NULL, 74.41, 74.41, '2017-09-14 11:46:26', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(688, 87, 4188, "approuvee", NULL, 52.62, 52.62, "2018-05-25 21:53:08", "visa", 2);
+(688, 850, 802, 'approuvee', NULL, 221.12, 221.12, '2019-08-07 18:24:04', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(689, 45, 1363, "approuvee", NULL, 30.21, 30.21, "2018-03-23 10:39:13", "visa", 1);
+(689, 506, 1893, 'payee', NULL, 190.20, 190.20, '2019-05-19 23:50:51', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(690, 23, 2561, "annulee", 6, 68.8160, 58.493600, "2020-04-28 13:45:42", "mastercard", 2);
+(690, 234, 2231, 'annulee', NULL, 196.40, 196.40, '2017-11-23 21:43:36', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(691, 55, 4189, "en attente", NULL, 19.39, 19.39, "2019-12-11 01:03:59", "debit", 1);
+(691, 884, 3889, 'approuvee', NULL, 44.94, 44.94, '2016-02-15 16:43:58', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(692, 17, 503, "annulee", NULL, 267.12, 267.12, "2016-07-26 02:51:38", "paypal", 8);
+(692, 306, 2024, 'approuvee', NULL, 45.18, 45.18, '2019-01-26 00:05:21', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(693, 33, 1415, "payee", NULL, 63.21, 63.21, "2019-02-14 12:29:51", "mastercard", 3);
+(693, 531, 960, 'payee', NULL, 193.05, 193.05, '2018-07-10 22:26:01', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(694, 36, 3431, "payee", NULL, 132.24, 132.24, "2017-07-21 16:46:57", "mastercard", 2);
+(694, 374, 3324, 'en attente', 3, 110.8485, 89.787285, '2017-10-30 03:58:03', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(695, 14, 1893, "payee", NULL, 26.11, 26.11, "2020-07-26 13:37:22", "paypal", 1);
+(695, 93, 2322, 'annulee', NULL, 321.44, 321.44, '2017-07-14 03:19:34', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(696, 81, 3351, "approuvee", NULL, 145.32, 145.32, "2019-05-17 07:42:48", "visa", 4);
+(696, 957, 1887, 'approuvee', NULL, 276.72, 276.72, '2019-05-26 01:34:42', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(697, 88, 1178, "annulee", NULL, 205.86, 205.86, "2020-02-20 09:54:37", "visa", 3);
+(697, 112, 526, 'en attente', 3, 13.1544, 10.655064, '2020-02-14 00:43:10', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(698, 74, 3617, "payee", NULL, 232.80, 232.80, "2016-09-20 18:39:23", "mastercard", 5);
+(698, 717, 1832, 'payee', NULL, 30.30, 30.30, '2016-05-21 15:54:50', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(699, 40, 2180, "approuvee", 6, 370.4640, 314.894400, "2016-09-30 20:13:05", "debit", 8);
+(699, 611, 1473, 'payee', 6, 26.4060, 21.388860, '2018-06-28 02:37:04', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(700, 64, 1024, "annulee", 3, 206.4160, 144.491200, "2019-10-22 19:05:51", "debit", 8);
+(700, 598, 69, 'payee', 6, 458.6544, 371.510064, '2020-12-11 06:04:15', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(701, 8, 3085, "approuvee", NULL, 27.37, 27.37, "2016-05-24 18:58:22", "debit", 1);
+(701, 680, 1228, 'approuvee', NULL, 355.39, 355.39, '2020-10-22 21:51:08', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(702, 32, 830, "approuvee", NULL, 566.00, 566.00, "2018-04-02 15:26:52", "visa", 8);
+(702, 99, 3596, 'en attente', 1, 65.3040, 39.182400, '2020-12-27 20:06:14', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(703, 8, 3639, "annulee", 6, 5.4485, 4.631225, "2020-04-02 19:10:12", "visa", 1);
+(703, 931, 1331, 'payee', NULL, 68.91, 68.91, '2017-04-01 03:35:45', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(704, 58, 759, "en attente", 2, 96.8355, 78.436755, "2018-09-20 08:18:17", "debit", 3);
+(704, 692, 2984, 'approuvee', NULL, 88.56, 88.56, '2019-07-21 01:11:09', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(705, NULL, 2724, "annulee", NULL, 491.82, 491.82, "2018-07-21 21:17:49", "debit", 7);
+(705, 410, 721, 'annulee', NULL, 80.32, 80.32, '2018-12-06 02:55:00', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(706, 27, 2147, "approuvee", NULL, 66.76, 66.76, "2020-01-20 00:03:46", "mastercard", 2);
+(706, 48, 4074, 'en attente', 1, 48.7440, 29.246400, '2017-07-18 09:10:42', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(707, 73, 2358, "payee", 4, NULL, NULL, "2016-09-18 11:03:58", "visa", 3);
+(707, 157, 1883, 'approuvee', 5, 180.1800, 90.090000, '2017-11-30 01:56:37', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(708, 9, 371, "payee", NULL, 136.20, 136.20, "2020-06-02 00:22:41", "paypal", 4);
+(708, 506, 3885, 'payee', 6, 90.3555, 73.187955, '2019-04-03 17:32:39', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(709, 74, 1274, "approuvee", NULL, 40.45, 40.45, "2016-02-15 07:56:37", "mastercard", 1);
+(709, 507, 2102, 'annulee', NULL, 57.50, 57.50, '2018-05-30 21:15:36', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(710, 25, 3306, "annulee", NULL, 162.72, 162.72, "2020-07-01 20:34:38", "visa", 8);
+(710, 923, 3444, 'en attente', NULL, 62.94, 62.94, '2018-07-12 12:22:50', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(711, 1, 1005, "approuvee", NULL, 79.46, 79.46, "2019-04-05 09:41:24", "debit", 2);
+(711, 519, 1750, 'payee', 5, 145.2600, 72.630000, '2016-02-14 04:45:17', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(712, 87, 2163, "annulee", 3, 148.0640, 103.644800, "2016-05-05 06:18:23", "paypal", 8);
+(712, 296, 2438, 'annulee', NULL, 71.85, 71.85, '2020-03-31 09:34:54', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(713, 69, 3966, "approuvee", NULL, 91.52, 91.52, "2020-11-25 19:48:54", "paypal", 2);
+(713, 579, 840, 'payee', NULL, 208.08, 208.08, '2020-07-11 21:13:30', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(714, 99, 3551, "annulee", NULL, 134.04, 134.04, "2016-06-23 17:49:27", "visa", 6);
+(714, 776, 2641, 'approuvee', NULL, 27.30, 27.30, '2017-10-09 09:59:25', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(715, 54, 424, "approuvee", NULL, 331.75, 331.75, "2017-10-08 09:58:51", "visa", 5);
+(715, 713, 1257, 'en attente', NULL, 342.88, 342.88, '2017-07-30 18:00:15', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(716, 90, 3678, "payee", NULL, 116.72, 116.72, "2017-04-26 13:17:55", "paypal", 2);
+(716, 534, 2791, 'approuvee', NULL, 185.46, 185.46, '2020-05-03 06:25:06', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(717, 77, 3354, "en attente", NULL, 372.12, 372.12, "2016-10-27 05:48:41", "visa", 7);
+(717, 666, 3822, 'payee', NULL, 68.77, 68.77, '2019-01-11 19:41:25', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(718, NULL, 1907, "en attente", NULL, 454.37, 454.37, "2019-10-15 18:44:21", "visa", 7);
+(718, 316, 2667, 'approuvee', NULL, 206.56, 206.56, '2019-09-18 23:48:34', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(719, 96, 4186, "en attente", NULL, 68.07, 68.07, "2020-02-18 13:25:56", "debit", 1);
+(719, 224, 1273, 'en attente', 6, 298.5660, 241.838460, '2019-10-10 13:03:44', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(720, 69, 4094, "annulee", NULL, 39.57, 39.57, "2016-05-15 05:32:22", "debit", 3);
+(720, 611, 3599, 'payee', NULL, 501.20, 501.20, '2019-03-17 15:57:16', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(721, 97, 95, "en attente", 5, 142.7000, 71.350000, "2016-02-28 04:17:11", "debit", 5);
+(721, 841, 1828, 'annulee', NULL, 79.24, 79.24, '2017-05-21 17:18:23', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(722, 38, 2927, "approuvee", NULL, 69.92, 69.92, "2019-06-17 02:46:38", "mastercard", 1);
+(722, 978, 3521, 'annulee', NULL, 200.85, 200.85, '2017-10-31 19:58:49', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(723, 14, 329, "en attente", NULL, 399.04, 399.04, "2019-07-25 08:37:11", "mastercard", 8);
+(723, 795, 866, 'annulee', NULL, 223.55, 223.55, '2020-02-18 10:18:13', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(724, 8, 1872, "en attente", NULL, 379.68, 379.68, "2018-02-20 12:51:52", "visa", 7);
+(724, 479, 427, 'payee', 4, 62.0825, 58.978375, '2018-11-21 17:03:55', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(725, 94, 2801, "annulee", NULL, 123.56, 123.56, "2017-07-02 14:24:11", "visa", 4);
+(725, 704, 3184, 'payee', NULL, 205.50, 205.50, '2020-01-19 08:10:25', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(726, 46, 1303, "payee", NULL, 81.66, 81.66, "2020-09-08 21:31:36", "paypal", 3);
+(726, 562, 1829, 'payee', NULL, 365.68, 365.68, '2019-08-23 08:30:08', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(727, 77, 3197, "approuvee", NULL, 375.06, 375.06, "2019-02-18 05:54:21", "visa", 6);
+(727, 83, 39, 'payee', NULL, 21.42, 21.42, '2018-09-22 14:09:06', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(728, 84, 246, "en attente", 3, 357.0560, 249.939200, "2016-09-08 02:41:42", "paypal", 8);
+(728, 507, 2344, 'approuvee', NULL, 50.08, 50.08, '2020-05-26 08:13:24', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(729, 57, 281, "approuvee", NULL, 115.62, 115.62, "2020-08-21 16:20:53", "debit", 6);
+(729, 866, 4043, 'payee', NULL, 118.72, 118.72, '2020-04-19 15:57:34', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(730, 20, 3689, "payee", 4, NULL, NULL, "2019-01-19 07:18:01", "visa", 4);
+(730, 244, 1955, 'approuvee', 1, 159.0120, 95.407200, '2020-04-25 13:47:40', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(731, 54, 282, "annulee", NULL, 47.29, 47.29, "2019-07-09 17:10:45", "debit", 1);
+(731, 841, 56, 'payee', 4, 299.4400, 284.468000, '2017-10-01 17:43:18', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(732, 50, 968, "payee", NULL, 48.56, 48.56, "2017-06-13 09:06:15", "mastercard", 8);
+(732, 586, 213, 'annulee', NULL, 251.88, 251.88, '2020-04-05 09:38:07', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(733, 86, 2394, "payee", NULL, 31.32, 31.32, "2018-04-01 11:59:48", "paypal", 1);
+(733, 531, 2785, 'annulee', NULL, 152.73, 152.73, '2017-04-15 10:52:15', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(734, 81, 3053, "en attente", NULL, 348.06, 348.06, "2016-11-14 20:21:04", "visa", 6);
+(734, 928, 3410, 'payee', 1, 111.7800, 67.068000, '2016-02-25 03:38:08', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(735, 14, 3038, "payee", NULL, 145.65, 145.65, "2019-04-13 06:59:20", "mastercard", 3);
+(735, 477, 1201, 'en attente', NULL, 107.90, 107.90, '2016-04-22 08:41:05', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(736, 94, 1279, "approuvee", 6, 50.3200, 42.772000, "2018-02-02 16:57:20", "debit", 8);
+(736, 633, 1769, 'approuvee', NULL, 173.60, 173.60, '2016-08-30 07:18:30', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(737, 49, 1778, "en attente", NULL, 192.78, 192.78, "2019-01-01 21:37:30", "visa", 6);
+(737, 113, 3483, 'approuvee', NULL, 284.76, 284.76, '2018-03-12 07:03:25', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(738, 47, 2190, "approuvee", NULL, 272.80, 272.80, "2020-11-24 08:08:29", "paypal", 4);
+(738, 562, 3027, 'annulee', NULL, 353.95, 353.95, '2017-03-22 19:17:40', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(739, 37, 2383, "annulee", NULL, 49.36, 49.36, "2020-12-10 07:46:40", "visa", 2);
+(739, 369, 2638, 'annulee', NULL, 162.61, 162.61, '2016-09-07 11:31:22', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(740, 27, 1698, "approuvee", 4, NULL, NULL, "2020-11-10 22:01:09", "mastercard", 5);
+(740, 75, 586, 'approuvee', 6, 408.7503, 331.087743, '2016-08-26 02:55:12', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(741, 83, 212, "en attente", NULL, 156.50, 156.50, "2016-09-03 06:48:05", "visa", 5);
+(741, 650, 3879, 'en attente', NULL, 55.10, 55.10, '2018-01-10 21:04:47', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(742, 26, 1279, "approuvee", NULL, 29.60, 29.60, "2018-05-01 16:37:19", "paypal", 4);
+(742, 930, 2257, 'annulee', NULL, 118.02, 118.02, '2016-05-26 11:36:19', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(743, 93, 4212, "en attente", NULL, 520.08, 520.08, "2017-12-09 13:13:08", "debit", 8);
+(743, 805, 2593, 'approuvee', NULL, 221.61, 221.61, '2019-04-26 03:09:17', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(744, 81, 1314, "payee", 2, 40.2570, 32.608170, "2019-05-09 03:56:41", "paypal", 1);
+(744, 903, 2110, 'approuvee', 1, 265.4400, 159.264000, '2020-03-09 23:08:24', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(745, 19, 2898, "payee", 1, 147.0585, 124.999725, "2016-02-15 17:07:24", "visa", 3);
+(745, 524, 3131, 'annulee', NULL, 327.00, 327.00, '2019-07-04 18:02:51', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(746, 53, 136, "approuvee", 5, 28.3650, 14.182500, "2017-05-10 00:44:10", "debit", 1);
+(746, 989, 4083, 'payee', NULL, 420.14, 420.14, '2019-06-23 07:33:11', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(747, 50, 3525, "approuvee", NULL, 460.48, 460.48, "2020-10-16 01:22:54", "visa", 8);
+(747, 200, 489, 'payee', 5, 45.6050, 22.802500, '2018-02-21 00:48:04', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(748, 77, 3966, "annulee", NULL, 274.56, 274.56, "2019-12-20 17:45:48", "mastercard", 6);
+(748, 896, 1865, 'en attente', NULL, 445.38, 445.38, '2017-07-24 08:05:47', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(749, 27, 2286, "annulee", NULL, 112.36, 112.36, "2017-04-10 15:22:19", "debit", 2);
+(749, 168, 541, 'payee', NULL, 451.71, 451.71, '2020-11-06 01:16:47', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(750, 15, 3327, "annulee", NULL, 74.58, 74.58, "2019-06-28 13:57:55", "mastercard", 1);
+(750, 911, 3922, 'payee', NULL, 255.57, 255.57, '2019-05-30 03:40:52', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(751, 91, 1111, "en attente", 5, 29.4150, 14.707500, "2017-09-08 14:58:41", "mastercard", 1);
+(751, 263, 5, 'en attente', NULL, 204.00, 204.00, '2016-07-01 19:29:34', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(752, 79, 2188, "approuvee", NULL, 127.76, 127.76, "2018-01-05 09:24:53", "paypal", 8);
+(752, 865, 1300, 'approuvee', 1, 233.6880, 140.212800, '2016-12-28 10:45:32', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(753, 97, 2024, "annulee", NULL, 71.47, 71.47, "2020-04-10 16:40:14", "mastercard", 1);
+(753, 294, 2560, 'approuvee', NULL, 34.76, 34.76, '2018-04-13 22:07:56', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(754, 37, 1554, "payee", NULL, 284.10, 284.10, "2017-06-08 04:54:59", "mastercard", 6);
+(754, 186, 3540, 'approuvee', NULL, 71.70, 71.70, '2018-01-15 15:25:34', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(755, 63, 966, "annulee", 2, 73.1592, 59.258952, "2016-07-20 07:24:00", "mastercard", 4);
+(755, 346, 783, 'approuvee', NULL, 154.48, 154.48, '2016-03-26 19:48:10', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(756, 14, 1208, "payee", NULL, 26.36, 26.36, "2020-08-26 09:20:46", "paypal", 2);
+(756, 284, 2858, 'annulee', NULL, 44.31, 44.31, '2020-07-09 15:47:38', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(757, 82, 2555, "annulee", NULL, 92.58, 92.58, "2016-08-01 14:23:27", "visa", 3);
+(757, 645, 4212, 'payee', NULL, 16.85, 16.85, '2018-04-02 13:50:07', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(758, 7, 3125, "annulee", 5, 114.5400, 57.270000, "2020-03-22 17:06:52", "mastercard", 6);
+(758, 973, 2618, 'payee', NULL, 99.72, 99.72, '2016-06-24 08:27:18', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(759, 2, 2067, "approuvee", NULL, 184.59, 184.59, "2020-12-22 08:19:53", "visa", 3);
+(759, 2, 1385, 'annulee', NULL, 230.88, 230.88, '2018-11-02 03:46:25', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(760, 61, 78, "annulee", NULL, 324.12, 324.12, "2018-09-15 22:27:17", "paypal", 6);
+(760, 396, 1833, 'payee', 2, 320.2472, 291.424952, '2018-06-21 14:13:31', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(761, 95, 1075, "annulee", NULL, 13.20, 13.20, "2017-06-27 06:44:21", "mastercard", 1);
+(761, 102, 244, 'approuvee', NULL, 58.98, 58.98, '2019-06-09 17:30:08', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(762, 67, 2726, "payee", NULL, 38.08, 38.08, "2016-08-19 22:37:24", "mastercard", 7);
+(762, 354, 2790, 'en attente', NULL, 53.59, 53.59, '2016-09-22 15:56:08', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(763, 33, 1960, "approuvee", 1, 84.9320, 72.192200, "2019-01-27 15:54:30", "paypal", 4);
+(763, 88, 2236, 'approuvee', 5, 52.2600, 26.130000, '2019-11-05 06:21:29', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(764, 17, 3505, "approuvee", NULL, 74.92, 74.92, "2018-12-05 10:00:26", "paypal", 4);
+(764, 177, 2686, 'annulee', NULL, 577.52, 577.52, '2016-06-20 08:58:52', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(765, 58, 2155, "en attente", NULL, 481.44, 481.44, "2017-01-28 13:00:26", "visa", 8);
+(765, 414, 4003, 'annulee', NULL, 33.30, 33.30, '2019-09-26 14:48:31', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(766, 26, 2201, "payee", NULL, 51.63, 51.63, "2020-09-01 19:54:01", "debit", 3);
+(766, 412, 3214, 'en attente', NULL, 439.04, 439.04, '2018-10-09 08:47:37', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(767, 34, 3098, "annulee", NULL, 70.22, 70.22, "2020-05-01 23:40:31", "debit", 2);
+(767, 578, 1906, 'approuvee', NULL, 181.70, 181.70, '2017-10-25 04:53:33', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(768, 53, 735, "payee", 4, NULL, NULL, "2020-07-12 13:03:58", "visa", 1);
+(768, 380, 345, 'approuvee', NULL, 53.69, 53.69, '2019-08-10 11:22:19', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(769, 1, 4024, "en attente", NULL, 34.05, 34.05, "2020-04-06 21:35:19", "debit", 3);
+(769, 154, 4216, 'en attente', NULL, 211.96, 211.96, '2018-06-12 12:03:15', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(770, 74, 1391, "annulee", NULL, 97.44, 97.44, "2016-01-11 01:42:04", "paypal", 7);
+(770, 211, 1567, 'approuvee', NULL, 160.50, 160.50, '2017-02-04 07:05:05', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(771, 72, 2167, "annulee", NULL, 382.56, 382.56, "2016-04-09 22:01:13", "visa", 8);
+(771, 510, 3158, 'annulee', NULL, 359.82, 359.82, '2018-11-19 01:15:39', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(772, 29, 1270, "approuvee", NULL, 36.12, 36.12, "2019-04-17 14:00:19", "debit", 4);
+(772, 363, 756, 'approuvee', NULL, 137.20, 137.20, '2020-07-27 06:19:54', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(773, 45, 1814, "en attente", NULL, 159.60, 159.60, "2018-02-03 11:58:08", "mastercard", 7);
+(773, 870, 1777, 'approuvee', NULL, 50.40, 50.40, '2017-10-21 19:59:23', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(774, 25, 3255, "approuvee", 3, 24.0520, 16.836400, "2016-01-25 11:37:37", "visa", 2);
+(774, 986, 1124, 'payee', NULL, 39.32, 39.32, '2016-04-26 02:00:05', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(775, 56, 3420, "annulee", NULL, 388.99, 388.99, "2016-06-25 21:41:53", "mastercard", 7);
+(775, 418, 2770, 'payee', NULL, 509.28, 509.28, '2016-09-18 04:12:45', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(776, 8, 2892, "annulee", 4, NULL, NULL, "2017-05-13 21:50:00", "visa", 2);
+(776, 84, 2476, 'annulee', NULL, 103.92, 103.92, '2016-09-07 02:50:29', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(777, 75, 2145, "payee", NULL, 32.70, 32.70, "2019-04-05 02:40:04", "paypal", 2);
+(777, 116, 1033, 'payee', NULL, 68.50, 68.50, '2017-04-01 05:37:14', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(778, 22, 3376, "annulee", NULL, 60.39, 60.39, "2018-05-14 14:29:23", "paypal", 3);
+(778, 320, 2501, 'annulee', 1, 162.6720, 97.603200, '2016-04-16 10:39:08', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(779, 40, 258, "payee", 2, 38.6694, 31.322214, "2016-11-09 18:57:54", "debit", 1);
+(779, 507, 1268, 'en attente', 4, 316.9200, 301.074000, '2018-01-23 22:57:51', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(780, 47, 964, "approuvee", NULL, 530.80, 530.80, "2018-09-29 17:53:24", "debit", 8);
+(780, 332, 316, 'annulee', NULL, 353.76, 353.76, '2018-03-16 12:46:32', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(781, 24, 3306, "en attente", NULL, 81.36, 81.36, "2017-05-15 09:59:12", "debit", 4);
+(781, 836, 2613, 'annulee', 3, 67.6188, 54.771228, '2018-02-10 20:25:08', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(782, 22, 899, "annulee", NULL, 22.40, 22.40, "2019-05-16 03:41:35", "debit", 2);
+(782, 310, 533, 'payee', NULL, 188.16, 188.16, '2017-03-14 09:32:38', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(783, 78, 1119, "annulee", NULL, 145.74, 145.74, "2020-06-22 05:59:00", "visa", 6);
+(783, 132, 2425, 'approuvee', NULL, 221.34, 221.34, '2018-05-04 17:54:32', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(784, 75, 3077, "payee", NULL, 27.40, 27.40, "2020-09-17 05:37:21", "paypal", 5);
+(784, 320, 565, 'payee', NULL, 7.18, 7.18, '2016-01-13 19:25:29', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(785, 83, 1328, "en attente", NULL, 218.40, 218.40, "2017-01-05 07:56:11", "visa", 6);
+(785, 382, 3005, 'en attente', 4, 198.6640, 188.730800, '2018-08-24 17:15:12', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(786, 47, 2884, "payee", NULL, 513.24, 513.24, "2019-05-19 06:04:00", "paypal", 7);
+(786, 75, 3285, 'en attente', NULL, 195.12, 195.12, '2018-08-18 10:47:57', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(787, 57, 3807, "payee", NULL, 90.22, 90.22, "2020-07-04 07:14:01", "debit", 2);
+(787, 818, 613, 'approuvee', NULL, 267.12, 267.12, '2017-09-18 00:02:50', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(788, 85, 2209, "annulee", NULL, 115.23, 115.23, "2020-11-26 17:07:56", "debit", 3);
+(788, 773, 4145, 'annulee', NULL, 31.11, 31.11, '2018-02-12 12:57:38', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(789, 49, 3433, "en attente", 5, 28.9450, 14.472500, "2020-09-23 22:06:07", "mastercard", 7);
+(789, 707, 3461, 'payee', 3, 32.1570, 26.047170, '2017-10-08 05:33:15', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(790, 45, 3574, "annulee", NULL, 284.56, 284.56, "2020-02-22 04:17:55", "mastercard", 8);
+(790, 169, 2023, 'annulee', NULL, 107.00, 107.00, '2018-11-10 11:21:53', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(791, 22, 3972, "payee", 1, 189.9495, 161.457075, "2019-03-14 04:50:45", "visa", 3);
+(791, 76, 942, 'annulee', NULL, 65.08, 65.08, '2016-02-15 10:16:57', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(792, 98, 2543, "payee", 2, 124.9020, 101.170620, "2017-06-14 08:45:26", "visa", 4);
+(792, 133, 795, 'approuvee', 3, 27.9450, 22.635450, '2020-11-05 08:59:08', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(793, 50, 4164, "approuvee", NULL, 521.50, 521.50, "2020-12-17 15:36:42", "visa", 7);
+(793, 960, 3138, 'approuvee', NULL, 262.08, 262.08, '2018-03-23 21:48:02', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(794, 8, 2880, "annulee", NULL, 134.52, 134.52, "2017-05-28 04:12:17", "visa", 2);
+(794, 700, 3202, 'payee', NULL, 65.74, 65.74, '2019-03-04 19:25:16', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(795, 84, 3038, "payee", 1, 123.8025, 105.232125, "2018-04-29 12:02:40", "debit", 3);
+(795, 90, 2521, 'approuvee', 5, 52.2000, 26.100000, '2017-03-02 04:16:23', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(796, 77, 1463, "approuvee", NULL, 300.00, 300.00, "2018-06-15 03:59:39", "visa", 5);
+(796, 161, 3535, 'en attente', NULL, 505.44, 505.44, '2018-12-21 03:25:12', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(797, 42, 1550, "payee", 6, 134.3510, 114.198350, "2019-01-19 10:20:23", "debit", 7);
+(797, 878, 2751, 'en attente', NULL, 55.46, 55.46, '2016-01-20 17:01:48', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(798, 8, 22, "annulee", NULL, 194.96, 194.96, "2016-07-05 05:23:22", "debit", 8);
+(798, 685, 2936, 'en attente', 4, 41.2300, 39.168500, '2020-01-19 07:39:24', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(799, 71, 1857, "annulee", NULL, 158.06, 158.06, "2019-10-17 06:14:34", "mastercard", 7);
+(799, 417, 2231, 'approuvee', NULL, 98.20, 98.20, '2017-09-08 04:43:16', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(800, 9, 2862, "approuvee", 1, 336.1155, 285.698175, "2018-09-19 09:38:06", "paypal", 7);
+(800, 578, 36, 'en attente', NULL, 159.36, 159.36, '2018-08-04 16:20:26', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(801, 28, 3868, "approuvee", 3, 90.2790, 63.195300, "2018-03-27 23:56:03", "mastercard", 3);
+(801, 58, 4005, 'approuvee', NULL, 210.35, 210.35, '2020-07-11 07:12:02', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(802, 84, 1235, "approuvee", NULL, 112.32, 112.32, "2020-06-14 03:30:52", "debit", 6);
+(802, 64, 1649, 'annulee', NULL, 206.96, 206.96, '2020-02-23 16:48:25', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(803, 58, 942, "approuvee", NULL, 180.84, 180.84, "2019-09-26 16:45:31", "visa", 4);
+(803, 886, 9, 'approuvee', NULL, 187.67, 187.67, '2020-06-13 02:18:14', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(804, 47, 3272, "payee", NULL, 171.54, 171.54, "2017-11-11 12:16:13", "mastercard", 3);
+(804, 323, 340, 'approuvee', NULL, 228.72, 228.72, '2017-05-13 15:21:52', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(805, 50, 1166, "payee", 2, 213.8805, 173.243205, "2019-06-10 14:41:37", "visa", 5);
+(805, 539, 3591, 'payee', 3, 201.4632, 163.185192, '2017-01-22 01:24:16', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(806, 86, 2128, "approuvee", NULL, 68.36, 68.36, "2019-12-17 21:28:46", "mastercard", 4);
+(806, 571, 3877, 'annulee', 1, 202.7160, 121.629600, '2016-03-17 20:44:50', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(807, 58, 2990, "annulee", NULL, 56.94, 56.94, "2020-11-01 01:49:28", "debit", 6);
+(807, 754, 1901, 'approuvee', 1, 208.5120, 125.107200, '2019-09-17 19:54:11', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(808, 8, 1617, "approuvee", NULL, 236.95, 236.95, "2018-07-01 16:38:45", "visa", 5);
+(808, 402, 3024, 'approuvee', NULL, 221.68, 221.68, '2017-03-13 21:04:39', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(809, 54, 2249, "approuvee", NULL, 244.40, 244.40, "2016-08-13 01:37:49", "mastercard", 8);
+(809, 784, 1688, 'annulee', 5, 168.9500, 84.475000, '2019-07-30 01:43:50', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(810, 77, 2348, "annulee", NULL, 91.76, 91.76, "2016-06-19 04:53:03", "debit", 8);
+(810, 316, 1389, 'annulee', 5, 33.2100, 16.605000, '2016-10-07 08:33:48', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(811, 33, 2761, "payee", NULL, 92.28, 92.28, "2020-12-19 19:46:55", "visa", 3);
+(811, 886, 1568, 'annulee', NULL, 68.49, 68.49, '2018-12-15 03:48:54', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(812, 96, 1835, "approuvee", NULL, 54.14, 54.14, "2018-01-06 10:29:46", "mastercard", 1);
+(812, 920, 1211, 'payee', NULL, 109.60, 109.60, '2018-02-26 05:46:21', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(813, 79, 2688, "approuvee", NULL, 63.30, 63.30, "2018-08-16 17:30:27", "mastercard", 1);
+(813, 430, 2701, 'en attente', NULL, 270.18, 270.18, '2018-06-02 00:58:55', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(814, 32, 3425, "payee", NULL, 68.40, 68.40, "2018-03-25 19:27:49", "mastercard", 6);
+(814, 369, 566, 'approuvee', NULL, 45.56, 45.56, '2019-02-11 04:51:49', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(815, 38, 2181, "en attente", NULL, 359.50, 359.50, "2018-06-25 14:31:30", "debit", 5);
+(815, 854, 2530, 'payee', 3, 191.8728, 155.416968, '2017-09-29 17:57:28', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(816, 35, 1003, "annulee", NULL, 316.10, 316.10, "2016-05-03 11:50:01", "visa", 5);
+(816, 835, 808, 'payee', NULL, 40.42, 40.42, '2018-03-25 11:56:00', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(817, 6, 849, "annulee", 4, NULL, NULL, "2020-12-20 22:40:48", "paypal", 5);
+(817, 904, 4238, 'approuvee', NULL, 517.36, 517.36, '2020-12-13 16:46:33', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(818, 59, 2460, "approuvee", NULL, 193.32, 193.32, "2017-12-03 09:59:58", "paypal", 4);
+(818, 252, 620, 'payee', NULL, 17.73, 17.73, '2017-07-01 21:59:59', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(819, 80, 2555, "payee", NULL, 216.02, 216.02, "2020-10-22 01:54:39", "mastercard", 7);
+(819, 513, 2526, 'en attente', NULL, 20.12, 20.12, '2017-01-28 22:58:48', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(820, 18, 2258, "payee", NULL, 56.79, 56.79, "2019-01-22 17:32:37", "mastercard", 1);
+(820, 910, 2063, 'payee', NULL, 129.87, 129.87, '2016-02-13 06:49:04', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(821, 82, 1986, "annulee", NULL, 505.19, 505.19, "2016-01-14 16:48:32", "paypal", 7);
+(821, 96, 3315, 'annulee', NULL, 62.56, 62.56, '2020-05-16 05:02:39', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(822, 94, 489, "approuvee", 2, 91.6839, 74.263959, "2016-09-16 03:00:35", "mastercard", 7);
+(822, 564, 1620, 'approuvee', NULL, 36.33, 36.33, '2020-09-07 21:21:31', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(823, 17, 1313, "payee", NULL, 60.51, 60.51, "2016-09-17 19:25:54", "visa", 1);
+(823, 511, 1423, 'approuvee', NULL, 373.20, 373.20, '2017-06-12 14:05:32', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(824, 70, 539, "en attente", NULL, 28.69, 28.69, "2019-10-17 10:46:17", "paypal", 1);
+(824, 420, 1950, 'approuvee', 1, 74.1600, 44.496000, '2018-12-11 09:27:44', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(825, 72, 2046, "en attente", NULL, 260.10, 260.10, "2018-06-16 04:35:50", "visa", 6);
+(825, 389, 1967, 'en attente', 1, 110.9880, 66.592800, '2017-07-20 15:12:56', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(826, 93, 3820, "annulee", 3, 64.0920, 44.864400, "2017-05-06 04:10:06", "visa", 7);
+(826, 134, 2783, 'approuvee', NULL, 182.01, 182.01, '2017-02-10 06:23:31', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(827, 65, 3439, "annulee", NULL, 321.05, 321.05, "2016-11-09 23:13:56", "visa", 5);
+(827, 641, 1250, 'en attente', NULL, 9.42, 9.42, '2018-07-05 16:07:06', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(828, 58, 3631, "en attente", 5, 199.5600, 99.780000, "2019-06-05 22:52:04", "mastercard", 8);
+(828, 455, 1551, 'payee', NULL, 48.58, 48.58, '2017-06-08 06:51:52', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(829, 57, 3075, "en attente", 3, 43.4490, 30.414300, "2018-11-16 15:46:05", "debit", 1);
+(829, 293, 1477, 'annulee', NULL, 357.42, 357.42, '2020-05-28 19:00:18', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(830, 83, 3747, "approuvee", NULL, 95.61, 95.61, "2019-11-08 04:57:33", "debit", 3);
+(830, 857, 1724, 'approuvee', NULL, 51.88, 51.88, '2020-02-21 13:47:25', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(831, 60, 365, "payee", NULL, 87.93, 87.93, "2017-12-26 09:54:53", "debit", 3);
+(831, 304, 81, 'annulee', NULL, 142.84, 142.84, '2016-12-16 17:01:39', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(832, 21, 1793, "approuvee", NULL, 225.42, 225.42, "2017-08-15 04:46:06", "paypal", 6);
+(832, 575, 3298, 'approuvee', NULL, 382.13, 382.13, '2019-10-21 10:08:46', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(833, 25, 3564, "approuvee", NULL, 73.32, 73.32, "2019-09-08 15:31:00", "paypal", 1);
+(833, 903, 4134, 'payee', 5, 114.2100, 57.105000, '2019-10-13 11:30:10', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(834, 72, 130, "annulee", NULL, 423.20, 423.20, "2018-01-29 01:03:15", "visa", 8);
+(834, 271, 480, 'annulee', 5, 78.9800, 39.490000, '2019-01-26 22:52:03', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(835, 24, 1279, "approuvee", NULL, 29.60, 29.60, "2019-11-24 11:57:53", "paypal", 4);
+(835, 375, 3594, 'approuvee', 4, 45.4480, 43.175600, '2016-05-27 16:19:06', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(836, 86, 991, "en attente", 2, 357.8337, 289.845297, "2018-10-28 09:32:57", "mastercard", 7);
+(836, 508, 2628, 'annulee', NULL, 169.65, 169.65, '2016-05-23 04:16:18', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(837, 12, 1315, "annulee", 4, NULL, NULL, "2018-09-26 19:15:07", "debit", 2);
+(837, 340, 2564, 'annulee', NULL, 291.55, 291.55, '2018-01-02 00:09:17', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(838, 52, 2661, "annulee", NULL, 176.15, 176.15, "2017-09-15 12:51:07", "paypal", 5);
+(838, 119, 2327, 'payee', NULL, 30.65, 30.65, '2018-10-04 05:21:16', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(839, 17, 3531, "payee", 6, 102.9690, 87.523650, "2017-07-31 13:08:09", "mastercard", 6);
+(839, 453, 2278, 'annulee', NULL, 64.96, 64.96, '2017-08-14 18:20:03', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(840, 3, 922, "en attente", 6, 127.7040, 108.548400, "2017-09-17 18:35:18", "paypal", 8);
+(840, 799, 562, 'annulee', 5, 60.4300, 30.215000, '2019-03-08 04:11:56', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(841, 30, 1514, "en attente", NULL, 223.04, 223.04, "2020-10-02 01:08:26", "mastercard", 8);
+(841, 868, 620, 'en attente', NULL, 70.92, 70.92, '2019-07-07 23:46:41', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(842, 76, 2998, "annulee", NULL, 254.38, 254.38, "2017-04-24 21:29:22", "visa", 7);
+(842, 892, 1572, 'approuvee', 2, 333.9700, 303.912700, '2020-03-06 21:21:02', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(843, 62, 870, "payee", NULL, 70.06, 70.06, "2017-07-26 11:40:30", "paypal", 2);
+(843, 494, 2950, 'annulee', 4, 90.9340, 86.387300, '2017-06-02 08:54:25', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(844, 66, 1961, "en attente", NULL, 356.30, 356.30, "2018-04-17 04:12:11", "debit", 5);
+(844, 458, 350, 'annulee', NULL, 51.14, 51.14, '2017-04-10 20:42:52', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(845, 89, 1610, "payee", NULL, 145.76, 145.76, "2020-05-16 16:42:03", "mastercard", 8);
+(845, 221, 3103, 'approuvee', NULL, 115.84, 115.84, '2018-03-20 05:31:05', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(846, 38, 373, "annulee", NULL, 219.10, 219.10, "2018-05-17 20:16:32", "mastercard", 5);
+(846, 476, 3478, 'approuvee', 1, 14.2020, 8.521200, '2017-11-10 01:59:23', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(847, 93, 1675, "en attente", NULL, 297.42, 297.42, "2019-02-23 18:20:16", "paypal", 6);
+(847, 754, 3776, 'payee', NULL, 35.28, 35.28, '2016-08-07 22:52:00', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(848, 53, 4014, "en attente", NULL, 174.15, 174.15, "2016-04-26 08:47:50", "mastercard", 3);
+(848, 785, 4081, 'annulee', NULL, 112.14, 112.14, '2016-09-25 03:22:57', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(849, 61, 2600, "payee", 3, 81.4800, 57.036000, "2016-07-12 13:54:17", "debit", 5);
+(849, 553, 1215, 'annulee', NULL, 51.76, 51.76, '2017-03-08 23:37:18', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(850, 49, 2268, "annulee", 2, 358.8543, 290.671983, "2018-10-07 22:15:16", "paypal", 7);
+(850, 213, 1537, 'en attente', NULL, 75.48, 75.48, '2018-04-08 19:38:01', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(851, 96, 1547, "annulee", NULL, 28.54, 28.54, "2019-03-11 04:55:34", "paypal", 1);
+(851, 860, 2714, 'approuvee', NULL, 47.31, 47.31, '2017-11-04 01:06:16', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(852, 76, 1773, "payee", NULL, 71.16, 71.16, "2018-11-18 09:28:49", "paypal", 6);
+(852, 983, 2769, 'payee', NULL, 213.20, 213.20, '2019-10-24 04:13:22', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(853, 39, 1033, "annulee", NULL, 84.80, 84.80, "2017-09-19 07:07:43", "debit", 4);
+(853, 802, 310, 'payee', NULL, 235.80, 235.80, '2016-11-10 21:04:52', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(854, 4, 3119, "en attente", 6, 242.9640, 206.519400, "2017-04-05 08:37:25", "paypal", 6);
+(854, 459, 1604, 'annulee', NULL, 22.47, 22.47, '2018-05-20 17:50:54', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(855, 43, 1637, "annulee", NULL, 62.39, 62.39, "2019-10-07 23:05:59", "debit", 1);
+(855, 584, 387, 'en attente', NULL, 50.74, 50.74, '2017-05-25 20:35:52', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(856, 81, 1940, "annulee", NULL, 383.10, 383.10, "2018-02-02 16:50:21", "paypal", 6);
+(856, 544, 2865, 'annulee', 5, 91.7850, 45.892500, '2016-04-29 17:29:28', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(857, 44, 196, "approuvee", NULL, 37.20, 37.20, "2020-05-02 00:03:13", "paypal", 6);
+(857, 42, 1058, 'annulee', 3, 177.8112, 144.027072, '2017-01-31 04:57:42', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(858, 3, 2788, "payee", 5, 141.7500, 70.875000, "2017-02-28 03:40:55", "mastercard", 5);
+(858, 386, 1858, 'approuvee', 3, 353.2410, 286.125210, '2016-05-21 06:40:10', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(859, 62, 4149, "en attente", NULL, 226.56, 226.56, "2017-10-16 21:14:54", "paypal", 8);
+(859, 106, 3926, 'annulee', 1, 93.3660, 56.019600, '2016-08-04 15:16:46', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(860, 31, 3889, "payee", NULL, 72.08, 72.08, "2017-03-20 03:26:12", "paypal", 1);
+(860, 515, 52, 'annulee', NULL, 116.04, 116.04, '2019-07-21 07:38:24', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(861, 33, 307, "en attente", NULL, 152.60, 152.60, "2016-08-26 23:21:49", "visa", 4);
+(861, 306, 1256, 'payee', NULL, 263.34, 263.34, '2019-05-26 21:44:08', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(862, 85, 3888, "approuvee", NULL, 452.34, 452.34, "2020-09-24 13:38:10", "mastercard", 7);
+(862, 785, 2457, 'annulee', NULL, 88.72, 88.72, '2017-05-05 20:21:41', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(863, 33, 3089, "annulee", 3, 60.5430, 42.380100, "2020-02-20 23:27:36", "mastercard", 3);
+(863, 720, 880, 'en attente', NULL, 33.81, 33.81, '2016-10-08 06:49:56', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(864, 95, 1322, "en attente", 4, NULL, NULL, "2018-11-01 04:04:42", "debit", 8);
+(864, 840, 366, 'en attente', NULL, 108.63, 108.63, '2018-11-04 11:56:28', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(865, 41, 4192, "annulee", 1, 33.3795, 28.372575, "2017-11-23 21:06:04", "mastercard", 3);
+(865, 228, 2875, 'payee', NULL, 35.79, 35.79, '2018-09-10 10:42:10', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(866, 1, 2508, "annulee", NULL, 149.24, 149.24, "2016-11-19 15:57:23", "visa", 7);
+(866, 688, 2962, 'approuvee', NULL, 316.61, 316.61, '2018-11-02 06:20:15', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(867, 87, 2504, "annulee", NULL, 333.52, 333.52, "2018-10-14 05:27:06", "paypal", 8);
+(867, 291, 3997, 'approuvee', NULL, 308.85, 308.85, '2020-07-24 15:17:30', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(868, 15, 686, "en attente", NULL, 267.52, 267.52, "2018-09-01 12:35:24", "debit", 8);
+(868, 686, 1683, 'annulee', NULL, 42.08, 42.08, '2019-07-24 06:07:01', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(869, 15, 3762, "annulee", NULL, 199.72, 199.72, "2020-12-23 04:34:05", "mastercard", 4);
+(869, 358, 1733, 'approuvee', NULL, 363.75, 363.75, '2019-09-26 08:52:42', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(870, 60, 1709, "payee", 4, NULL, NULL, "2017-10-17 11:47:19", "paypal", 5);
+(870, 405, 2296, 'payee', 2, 65.8112, 59.888192, '2016-11-23 02:53:59', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(871, 14, 4054, "approuvee", 6, 161.5425, 137.311125, "2017-06-06 19:21:52", "visa", 5);
+(871, 676, 3589, 'approuvee', NULL, 221.40, 221.40, '2020-06-30 20:03:07', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(872, 44, 242, "annulee", NULL, 37.47, 37.47, "2017-11-30 18:32:52", "paypal", 3);
+(872, 805, 1937, 'approuvee', 5, 13.5400, 6.770000, '2016-06-05 13:34:19', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(873, 91, 2152, "annulee", 6, 275.0600, 233.801000, "2018-03-28 10:56:15", "paypal", 5);
+(873, 601, 1996, 'payee', NULL, 430.80, 430.80, '2017-10-15 22:33:08', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(874, 13, 1173, "approuvee", NULL, 54.45, 54.45, "2017-11-19 17:51:44", "debit", 5);
+(874, 60, 3396, 'approuvee', NULL, 171.44, 171.44, '2016-06-23 02:41:14', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(875, 98, 2347, "annulee", 3, 129.0450, 90.331500, "2017-08-10 14:29:38", "paypal", 3);
+(875, 510, 3432, 'payee', 1, 93.0300, 55.818000, '2016-01-22 23:48:09', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(876, 69, 1753, "annulee", 2, 85.0500, 68.890500, "2019-01-30 18:38:44", "mastercard", 3);
+(876, 224, 44, 'approuvee', NULL, 372.35, 372.35, '2019-12-16 14:22:40', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(877, 31, 427, "approuvee", NULL, 309.40, 309.40, "2020-10-05 23:07:37", "debit", 7);
+(877, 660, 3767, 'en attente', NULL, 251.76, 251.76, '2018-03-09 14:57:38', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(878, 5, 1927, "payee", NULL, 61.95, 61.95, "2016-01-06 13:02:32", "mastercard", 7);
+(878, 716, 1958, 'approuvee', 1, 107.9460, 64.767600, '2018-07-13 14:42:41', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(879, 26, 2827, "payee", NULL, 282.78, 282.78, "2018-08-02 07:27:46", "visa", 6);
+(879, 382, 2332, 'payee', NULL, 142.08, 142.08, '2016-05-17 19:05:07', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(880, 38, 873, "approuvee", 6, 53.9580, 45.864300, "2018-11-13 07:00:29", "paypal", 1);
+(880, 468, 3937, 'annulee', NULL, 527.52, 527.52, '2019-08-10 13:25:11', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(881, 9, 3363, "en attente", NULL, 237.15, 237.15, "2016-11-14 22:03:41", "mastercard", 5);
+(881, 478, 2469, 'approuvee', NULL, 82.10, 82.10, '2017-11-12 03:42:12', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(882, 80, 1151, "approuvee", NULL, 490.64, 490.64, "2017-05-06 23:23:28", "mastercard", 8);
+(882, 63, 3226, 'en attente', NULL, 210.27, 210.27, '2018-11-28 08:10:27', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(883, 21, 2582, "annulee", NULL, 147.40, 147.40, "2016-12-12 13:45:21", "mastercard", 2);
+(883, 549, 1181, 'annulee', NULL, 74.52, 74.52, '2020-07-12 13:14:16', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(884, 28, 3256, "en attente", NULL, 30.27, 30.27, "2018-02-19 19:15:50", "paypal", 3);
+(884, 903, 1959, 'approuvee', 5, 74.5400, 37.270000, '2017-12-04 08:24:19', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(885, 25, 1184, "en attente", NULL, 101.08, 101.08, "2019-07-12 05:21:11", "mastercard", 7);
+(885, 150, 1832, 'en attente', NULL, 80.80, 80.80, '2018-05-25 10:05:52', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(886, 44, 409, "payee", NULL, 148.20, 148.20, "2020-08-24 09:01:03", "mastercard", 3);
+(886, 823, 1367, 'approuvee', NULL, 81.35, 81.35, '2016-05-14 05:35:29', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(887, 95, 783, "en attente", NULL, 259.05, 259.05, "2017-03-29 09:24:15", "paypal", 5);
+(887, 634, 3644, 'annulee', 5, 277.2000, 138.600000, '2016-04-06 16:29:13', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(888, 96, 1279, "annulee", NULL, 7.40, 7.40, "2018-05-12 15:02:31", "mastercard", 1);
+(888, 537, 753, 'approuvee', 3, 143.8236, 116.497116, '2018-09-07 16:13:07', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(889, 59, 3814, "approuvee", NULL, 126.70, 126.70, "2016-08-03 00:09:05", "mastercard", 2);
+(889, 989, 3231, 'approuvee', NULL, 553.76, 553.76, '2018-09-05 23:10:53', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(890, 3, 3405, "annulee", NULL, 207.54, 207.54, "2017-12-17 09:54:29", "mastercard", 3);
+(890, 412, 3468, 'approuvee', 5, 134.7500, 67.375000, '2020-02-26 20:09:47', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(891, 50, 1349, "payee", 1, 94.7835, 80.565975, "2016-01-21 23:01:09", "paypal", 7);
+(891, 570, 635, 'en attente', NULL, 54.42, 54.42, '2019-12-11 12:13:30', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(892, 54, 3291, "en attente", NULL, 61.92, 61.92, "2020-09-11 14:33:02", "visa", 6);
+(892, 481, 3545, 'en attente', 4, 209.5320, 199.055400, '2019-03-26 13:28:11', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(893, 68, 4101, "en attente", NULL, 27.21, 27.21, "2017-09-03 13:05:03", "visa", 3);
+(893, 488, 2567, 'annulee', NULL, 158.16, 158.16, '2018-05-13 22:46:40', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(894, 86, 1264, "approuvee", NULL, 225.68, 225.68, "2017-12-10 03:29:59", "visa", 4);
+(894, 27, 2429, 'approuvee', NULL, 41.78, 41.78, '2020-05-10 15:38:28', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(895, 38, 2773, "annulee", NULL, 17.13, 17.13, "2018-04-12 20:59:14", "visa", 3);
+(895, 130, 2152, 'annulee', NULL, 116.76, 116.76, '2020-07-28 00:10:45', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(896, 61, 3636, "en attente", 5, 135.7650, 67.882500, "2016-11-19 00:20:36", "debit", 7);
+(896, 823, 3964, 'annulee', NULL, 10.65, 10.65, '2016-12-30 13:17:10', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(897, 84, 1283, "payee", 6, 421.0560, 357.897600, "2020-04-16 15:52:29", "visa", 8);
+(897, 470, 2722, 'en attente', 2, 112.8582, 102.700962, '2019-04-07 21:03:30', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(898, 1, 2956, "approuvee", NULL, 134.40, 134.40, "2019-07-01 15:00:40", "visa", 3);
+(898, 41, 501, 'annulee', NULL, 296.75, 296.75, '2018-07-21 03:44:25', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(899, 19, 1385, "payee", NULL, 24.24, 24.24, "2016-09-09 07:27:09", "visa", 2);
+(899, 76, 1613, 'en attente', NULL, 245.80, 245.80, '2018-01-29 01:07:32', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(900, 34, 2351, "payee", 3, 192.8640, 135.004800, "2019-04-15 11:22:46", "mastercard", 7);
+(900, 195, 3832, 'payee', NULL, 258.85, 258.85, '2018-06-27 22:19:51', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(901, 16, 2068, "approuvee", 4, NULL, NULL, "2018-07-21 16:11:00", "paypal", 6);
+(901, 843, 3108, 'approuvee', NULL, 424.32, 424.32, '2018-01-10 17:21:23', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(902, 76, 3420, "approuvee", 5, 111.1400, 55.570000, "2020-12-05 14:47:42", "mastercard", 4);
+(902, 256, 1621, 'approuvee', 2, 119.2464, 108.514224, '2019-08-12 10:24:44', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(903, 77, 1915, "approuvee", NULL, 321.37, 321.37, "2017-04-25 18:56:35", "paypal", 7);
+(903, 144, 2396, 'approuvee', 4, 208.0120, 197.611400, '2017-04-18 05:05:22', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(904, 76, 714, "approuvee", 1, 269.7050, 229.249250, "2016-08-05 13:03:50", "visa", 5);
+(904, 141, 3512, 'approuvee', 5, 153.0800, 76.540000, '2018-09-09 17:11:41', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(905, 53, 317, "payee", 3, 8.8970, 6.227900, "2018-12-18 02:32:47", "visa", 1);
+(905, 295, 981, 'payee', NULL, 164.10, 164.10, '2017-12-18 17:32:11', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(906, 66, 4107, "annulee", NULL, 283.65, 283.65, "2017-11-16 19:53:04", "debit", 5);
+(906, 843, 2896, 'annulee', NULL, 118.70, 118.70, '2018-11-12 11:08:26', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(907, 29, 159, "en attente", NULL, 338.90, 338.90, "2016-07-11 07:38:53", "mastercard", 5);
+(907, 996, 2182, 'payee', 5, 54.5600, 27.280000, '2017-03-12 08:00:25', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(908, 7, 3136, "payee", NULL, 51.81, 51.81, "2018-06-22 21:00:57", "visa", 1);
+(908, 992, 2454, 'annulee', NULL, 26.08, 26.08, '2016-04-29 15:21:52', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(909, 21, 3929, "approuvee", NULL, 22.88, 22.88, "2018-04-04 19:05:33", "visa", 4);
+(909, 75, 2479, 'payee', 4, 123.5000, 117.325000, '2017-08-17 06:12:23', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(910, 19, 2747, "approuvee", 6, 186.3625, 158.408125, "2018-12-09 03:41:06", "paypal", 5);
+(910, 23, 367, 'en attente', NULL, 382.06, 382.06, '2017-07-25 05:05:56', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(911, 27, 1289, "payee", 5, 9.8100, 4.905000, "2019-07-22 16:47:14", "visa", 3);
+(911, 742, 1925, 'approuvee', NULL, 11.80, 11.80, '2019-06-02 21:55:03', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(912, 3, 3877, "annulee", NULL, 22.50, 22.50, "2018-06-29 07:07:55", "visa", 1);
+(912, 175, 2099, 'annulee', 1, 141.6300, 84.978000, '2016-10-03 05:56:11', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(913, 92, 1439, "approuvee", NULL, 382.24, 382.24, "2016-02-09 15:29:52", "mastercard", 8);
+(913, 316, 1913, 'annulee', NULL, 149.55, 149.55, '2019-04-10 03:08:40', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(914, 29, 1887, "payee", NULL, 395.22, 395.22, "2018-09-25 08:01:33", "mastercard", 6);
+(914, 202, 655, 'approuvee', NULL, 169.68, 169.68, '2018-03-04 09:00:16', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(915, 68, 1406, "en attente", 6, 292.8930, 248.959050, "2020-02-17 01:30:49", "mastercard", 6);
+(915, 825, 1543, 'payee', 1, 57.9240, 34.754400, '2018-10-05 08:51:42', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(916, 11, 1726, "en attente", NULL, 472.64, 472.64, "2017-03-10 09:01:05", "mastercard", 8);
+(916, 494, 40, 'en attente', NULL, 44.16, 44.16, '2020-07-02 16:56:18', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(917, 47, 2111, "en attente", NULL, 449.19, 449.19, "2018-08-06 11:19:18", "visa", 7);
+(917, 396, 1594, 'en attente', NULL, 356.25, 356.25, '2018-06-19 15:14:51', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(918, 88, 2358, "approuvee", 2, 326.0736, 264.119616, "2017-08-12 06:53:05", "paypal", 8);
+(918, 505, 2933, 'en attente', NULL, 46.30, 46.30, '2018-03-30 10:14:17', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(919, 72, 1624, "en attente", NULL, 284.10, 284.10, "2018-02-12 23:26:17", "paypal", 6);
+(919, 223, 1647, 'annulee', NULL, 103.02, 103.02, '2016-12-20 19:59:59', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(920, 49, 166, "en attente", NULL, 7.51, 7.51, "2017-07-11 06:20:40", "mastercard", 1);
+(920, 936, 3751, 'approuvee', 3, 136.2258, 110.342898, '2020-04-23 00:55:58', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(921, 36, 2891, "payee", NULL, 151.80, 151.80, "2019-10-28 22:11:23", "paypal", 5);
+(921, 975, 1612, 'approuvee', NULL, 176.68, 176.68, '2020-11-13 21:49:06', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(922, 23, 2078, "en attente", NULL, 290.45, 290.45, "2020-09-02 13:13:58", "debit", 5);
+(922, 508, 125, 'en attente', NULL, 251.50, 251.50, '2020-05-12 13:52:22', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(923, 87, 3237, "approuvee", 6, 118.5920, 100.803200, "2016-04-23 00:12:11", "visa", 8);
+(923, 276, 2729, 'approuvee', NULL, 23.30, 23.30, '2019-01-03 22:09:49', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(924, 86, 3617, "payee", 4, NULL, NULL, "2018-08-28 03:19:14", "visa", 5);
+(924, 355, 969, 'payee', NULL, 452.20, 452.20, '2019-02-01 14:07:25', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(925, 68, 3563, "annulee", NULL, 68.56, 68.56, "2020-06-25 03:03:49", "debit", 4);
+(925, 836, 868, 'en attente', NULL, 240.24, 240.24, '2017-01-13 09:03:18', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(926, 20, 201, "en attente", 6, 56.7375, 48.226875, "2019-06-26 21:28:18", "paypal", 1);
+(926, 319, 1339, 'payee', NULL, 159.66, 159.66, '2019-07-29 00:33:56', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(927, 7, 239, "payee", NULL, 98.28, 98.28, "2020-08-12 10:36:27", "paypal", 4);
+(927, 677, 4092, 'payee', NULL, 412.98, 412.98, '2018-09-08 18:23:50', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(928, 32, 2049, "payee", 1, 5.7800, 4.913000, "2016-07-13 09:56:49", "paypal", 1);
+(928, 309, 1113, 'en attente', NULL, 360.60, 360.60, '2019-09-25 04:03:08', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(929, 64, 2749, "annulee", NULL, 268.85, 268.85, "2020-09-13 13:32:21", "paypal", 5);
+(929, 641, 1509, 'en attente', 3, 56.0358, 45.388998, '2016-04-17 02:40:08', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(930, 65, 2462, "annulee", NULL, 147.84, 147.84, "2020-03-03 23:10:28", "debit", 2);
+(930, 841, 1444, 'approuvee', NULL, 237.76, 237.76, '2018-12-09 09:36:25', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(931, 74, 1019, "en attente", NULL, 111.70, 111.70, "2020-08-17 04:54:50", "paypal", 2);
+(931, 151, 3746, 'en attente', NULL, 416.70, 416.70, '2020-11-18 20:01:30', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(932, 84, 382, "approuvee", NULL, 381.36, 381.36, "2018-06-23 02:51:55", "mastercard", 6);
+(932, 401, 1553, 'approuvee', 3, 269.8353, 218.566593, '2018-04-16 04:38:16', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(933, 2, 1993, "approuvee", NULL, 459.97, 459.97, "2017-09-17 23:10:26", "debit", 7);
+(933, 223, 2643, 'payee', NULL, 14.43, 14.43, '2017-04-23 15:33:08', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(934, NULL, 3139, "approuvee", NULL, 88.20, 88.20, "2019-01-17 03:24:40", "mastercard", 7);
+(934, 888, 730, 'payee', NULL, 224.50, 224.50, '2020-03-07 22:54:06', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(935, 79, 405, "payee", NULL, 477.92, 477.92, "2016-10-23 15:58:57", "debit", 8);
+(935, 831, 4119, 'annulee', NULL, 76.94, 76.94, '2019-03-13 03:00:23', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(936, 50, 1556, "en attente", 6, 165.3420, 140.540700, "2017-09-14 06:29:09", "mastercard", 4);
+(936, 833, 230, 'approuvee', NULL, 47.94, 47.94, '2019-01-10 22:51:58', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(937, 25, 1840, "approuvee", NULL, 357.42, 357.42, "2020-12-24 06:46:35", "visa", 6);
+(937, 781, 2485, 'approuvee', NULL, 179.76, 179.76, '2017-01-01 05:43:25', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(938, NULL, 2891, "annulee", NULL, 30.36, 30.36, "2020-09-21 01:46:35", "visa", 1);
+(938, 390, 2218, 'approuvee', NULL, 86.70, 86.70, '2018-12-13 04:25:28', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(939, 21, 3679, "payee", NULL, 349.90, 349.90, "2016-12-17 11:59:03", "mastercard", 5);
+(939, 272, 200, 'annulee', NULL, 188.36, 188.36, '2016-12-02 05:50:53', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(940, 9, 1129, "annulee", 2, 49.4424, 40.048344, "2019-11-20 16:47:12", "paypal", 8);
+(940, 350, 2098, 'approuvee', NULL, 165.52, 165.52, '2017-08-05 03:06:22', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(941, 45, 3592, "annulee", NULL, 181.08, 181.08, "2018-01-09 04:51:35", "mastercard", 3);
+(941, 490, 1385, 'payee', NULL, 230.88, 230.88, '2016-10-15 05:43:57', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(942, 6, 2658, "approuvee", NULL, 77.58, 77.58, "2020-07-08 11:49:08", "paypal", 6);
+(942, 767, 1858, 'en attente', NULL, 249.20, 249.20, '2020-03-14 09:23:21', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(943, 17, 3085, "annulee", 4, NULL, NULL, "2017-09-25 03:17:51", "debit", 6);
+(943, 635, 1427, 'approuvee', NULL, 140.04, 140.04, '2016-07-18 01:53:48', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(944, 37, 796, "payee", NULL, 170.10, 170.10, "2018-09-06 19:28:10", "paypal", 6);
+(944, 862, 703, 'approuvee', NULL, 324.18, 324.18, '2019-03-23 07:49:19', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(945, 77, 3346, "payee", NULL, 54.48, 54.48, "2018-08-28 22:35:22", "debit", 2);
+(945, 710, 1851, 'en attente', NULL, 366.45, 366.45, '2016-05-27 04:54:27', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(946, 50, 603, "approuvee", NULL, 267.70, 267.70, "2019-01-16 20:01:14", "debit", 5);
+(946, 568, 939, 'annulee', NULL, 460.48, 460.48, '2018-06-13 07:03:00', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(947, 81, 1977, "en attente", NULL, 53.01, 53.01, "2020-11-12 16:35:56", "visa", 3);
+(947, 102, 132, 'payee', NULL, 25.75, 25.75, '2018-06-21 02:35:59', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(948, 55, 1973, "annulee", 6, 40.2050, 34.174250, "2017-01-16 23:46:02", "mastercard", 2);
+(948, 970, 1289, 'en attente', 3, 73.4265, 59.475465, '2019-10-18 00:19:01', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(949, 21, 4138, "annulee", NULL, 192.52, 192.52, "2020-12-03 13:41:37", "visa", 4);
+(949, 34, 121, 'approuvee', 3, 34.7247, 28.127007, '2016-02-02 07:44:32', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(950, 18, 3824, "annulee", 1, 98.7615, 83.947275, "2018-04-15 02:55:29", "debit", 3);
+(950, 836, 336, 'annulee', NULL, 100.40, 100.40, '2020-06-06 04:21:37', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(951, 93, 2932, "payee", NULL, 97.84, 97.84, "2016-10-23 04:55:56", "mastercard", 2);
+(951, 760, 1847, 'annulee', NULL, 150.48, 150.48, '2020-01-29 12:41:26', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(952, 60, 1700, "payee", NULL, 207.68, 207.68, "2019-01-30 04:38:41", "visa", 8);
+(952, 568, 3173, 'payee', NULL, 105.56, 105.56, '2018-09-27 14:05:17', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(953, 84, 3617, "en attente", NULL, 372.48, 372.48, "2016-06-24 15:48:24", "debit", 8);
+(953, 992, 3747, 'payee', NULL, 42.72, 42.72, '2017-11-20 04:41:26', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(954, 60, 2134, "en attente", NULL, 24.82, 24.82, "2016-07-12 02:22:15", "debit", 2);
+(954, 873, 3437, 'approuvee', NULL, 5.51, 5.51, '2017-05-01 19:54:09', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(955, 49, 1712, "payee", NULL, 98.52, 98.52, "2020-10-18 15:34:03", "mastercard", 6);
+(955, 480, 674, 'en attente', NULL, 60.96, 60.96, '2019-03-04 17:36:35', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(956, 72, 3113, "en attente", 5, 184.4400, 92.220000, "2017-08-06 22:35:15", "debit", 8);
+(956, 584, 2559, 'approuvee', NULL, 23.75, 23.75, '2016-11-06 15:20:28', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(957, 58, 2118, "annulee", NULL, 27.00, 27.00, "2016-03-24 20:17:03", "debit", 4);
+(957, 354, 3629, 'en attente', NULL, 546.16, 546.16, '2019-01-22 18:02:19', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(958, 56, 1148, "payee", 1, 261.5960, 222.356600, "2020-05-22 00:11:45", "mastercard", 8);
+(958, 51, 3410, 'approuvee', 6, 60.3612, 48.892572, '2020-03-19 22:20:18', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(959, 88, 2979, "annulee", NULL, 117.48, 117.48, "2019-05-25 09:47:11", "debit", 4);
+(959, 291, 2860, 'payee', NULL, 73.33, 73.33, '2017-10-26 06:32:17', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(960, 94, 3001, "annulee", NULL, 343.84, 343.84, "2017-07-19 10:44:58", "mastercard", 7);
+(960, 485, 1386, 'payee', NULL, 296.52, 296.52, '2017-04-06 17:07:00', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(961, 41, 2116, "approuvee", 5, 109.4400, 54.720000, "2019-02-28 16:04:21", "debit", 3);
+(961, 749, 2680, 'en attente', NULL, 92.56, 92.56, '2019-10-22 23:32:30', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(962, 44, 3892, "annulee", 5, 97.8600, 48.930000, "2016-01-12 12:46:31", "paypal", 4);
+(962, 369, 3784, 'payee', 1, 16.9200, 10.152000, '2016-11-30 06:52:39', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(963, 68, 3615, "en attente", 4, NULL, NULL, "2020-02-19 22:18:46", "visa", 3);
+(963, 126, 296, 'payee', NULL, 246.40, 246.40, '2020-07-28 14:58:28', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(964, 97, 3151, "payee", NULL, 23.53, 23.53, "2018-12-26 02:52:05", "visa", 1);
+(964, 534, 1091, 'payee', 2, 331.7860, 301.925260, '2017-08-19 21:53:50', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(965, 84, 1441, "annulee", NULL, 229.80, 229.80, "2020-08-08 11:44:27", "mastercard", 5);
+(965, 920, 2158, 'approuvee', 4, 150.1380, 142.631100, '2017-02-07 08:10:53', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(966, 78, 905, "payee", NULL, 264.15, 264.15, "2020-06-27 11:55:40", "mastercard", 5);
+(966, 338, 2557, 'payee', NULL, 190.14, 190.14, '2017-03-29 12:27:03', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(967, 68, 3826, "approuvee", NULL, 244.96, 244.96, "2018-04-16 05:12:10", "visa", 8);
+(967, 723, 750, 'payee', NULL, 550.24, 550.24, '2019-01-18 06:11:30', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(968, 83, 2110, "approuvee", 2, 200.4264, 162.345384, "2019-08-14 17:13:41", "mastercard", 4);
+(968, 860, 136, 'annulee', NULL, 77.19, 77.19, '2017-04-21 06:20:32', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(969, NULL, 1869, "annulee", NULL, 50.40, 50.40, "2017-12-10 09:56:34", "visa", 6);
+(969, 620, 2044, 'approuvee', NULL, 129.32, 129.32, '2018-09-22 02:09:13', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(970, 63, 179, "annulee", 4, NULL, NULL, "2018-12-22 22:47:29", "debit", 1);
+(970, 983, 3572, 'en attente', NULL, 62.23, 62.23, '2017-03-20 00:00:04', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(971, 25, 3231, "approuvee", NULL, 74.70, 74.70, "2019-09-21 01:29:41", "paypal", 3);
+(971, 614, 297, 'annulee', NULL, 295.52, 295.52, '2017-12-10 19:12:33', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(972, 98, 3828, "en attente", NULL, 262.72, 262.72, "2017-10-30 19:56:52", "visa", 4);
+(972, 889, 4022, 'annulee', 1, 71.7840, 43.070400, '2019-01-17 21:57:50', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(973, 53, 3122, "annulee", NULL, 215.40, 215.40, "2020-04-03 13:19:08", "paypal", 4);
+(973, 797, 3226, 'en attente', NULL, 210.27, 210.27, '2020-07-17 13:55:11', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(974, 97, 2445, "payee", NULL, 397.74, 397.74, "2016-10-12 12:11:42", "paypal", 6);
+(974, 712, 3864, 'payee', NULL, 264.70, 264.70, '2019-04-02 02:56:51', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(975, 46, 3311, "approuvee", NULL, 35.88, 35.88, "2017-05-27 05:44:10", "paypal", 6);
+(975, 590, 1314, 'approuvee', NULL, 167.44, 167.44, '2016-09-15 00:19:07', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(976, 84, 1796, "annulee", 3, 236.3270, 165.428900, "2018-07-22 04:26:08", "debit", 7);
+(976, 406, 3263, 'en attente', NULL, 340.62, 340.62, '2020-08-15 09:47:50', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(977, 16, 1506, "en attente", NULL, 212.04, 212.04, "2016-07-13 12:45:08", "debit", 3);
+(977, 891, 1714, 'en attente', NULL, 157.36, 157.36, '2019-12-17 11:40:12', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(978, 90, 263, "approuvee", NULL, 44.52, 44.52, "2020-12-14 13:08:10", "visa", 2);
+(978, 865, 1769, 'approuvee', 1, 166.6560, 99.993600, '2016-10-07 18:30:34', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(979, 65, 188, "annulee", NULL, 103.46, 103.46, "2017-06-13 05:37:34", "paypal", 7);
+(979, 968, 1841, 'annulee', NULL, 522.32, 522.32, '2019-02-26 01:11:16', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(980, 50, 1953, "annulee", 1, 20.8080, 17.686800, "2016-02-15 01:52:55", "debit", 3);
+(980, 249, 1126, 'payee', NULL, 22.62, 22.62, '2019-01-10 07:17:49', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(981, 8, 563, "annulee", 1, 211.9220, 180.133700, "2016-08-09 23:27:14", "paypal", 4);
+(981, 817, 2336, 'en attente', NULL, 172.20, 172.20, '2018-05-07 05:12:57', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(982, 88, 2218, "annulee", NULL, 257.46, 257.46, "2020-09-30 03:55:07", "debit", 7);
+(982, 602, 903, 'en attente', 6, 321.2136, 260.183016, '2016-06-03 20:25:37', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(983, 10, 1836, "payee", NULL, 99.60, 99.60, "2017-07-11 02:18:35", "paypal", 5);
+(983, 625, 3533, 'annulee', NULL, 52.88, 52.88, '2017-08-23 09:34:08', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(984, 30, 664, "approuvee", 4, NULL, NULL, "2020-11-24 04:56:53", "debit", 2);
+(984, 286, 2196, 'payee', NULL, 54.68, 54.68, '2016-12-25 22:11:50', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(985, 70, 505, "en attente", NULL, 167.88, 167.88, "2017-05-17 10:05:23", "paypal", 4);
+(985, 357, 23, 'payee', NULL, 289.50, 289.50, '2019-12-31 22:16:25', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(986, 55, 1492, "approuvee", NULL, 193.44, 193.44, "2019-08-26 07:32:33", "paypal", 6);
+(986, 547, 4198, 'payee', NULL, 23.36, 23.36, '2018-08-29 06:07:32', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(987, 60, 137, "en attente", 2, 80.1900, 64.953900, "2018-05-06 05:41:43", "visa", 3);
+(987, 331, 3937, 'approuvee', NULL, 131.88, 131.88, '2019-09-04 01:19:08', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(988, 63, 3218, "payee", NULL, 213.92, 213.92, "2018-03-26 04:52:10", "debit", 4);
+(988, 205, 1057, 'payee', NULL, 272.10, 272.10, '2019-03-30 07:33:24', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(989, 62, 2152, "annulee", NULL, 129.44, 129.44, "2018-08-12 04:52:36", "visa", 2);
+(989, 828, 1727, 'en attente', NULL, 169.54, 169.54, '2016-11-23 19:01:10', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(990, 41, 2806, "annulee", NULL, 84.32, 84.32, "2017-11-29 13:57:31", "mastercard", 8);
+(990, 666, 1276, 'approuvee', NULL, 127.28, 127.28, '2017-07-03 03:50:31', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(991, 70, 2290, "payee", NULL, 516.60, 516.60, "2019-02-25 02:46:02", "debit", 7);
+(991, 227, 2720, 'en attente', NULL, 259.90, 259.90, '2020-03-07 18:28:05', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(992, 89, 3565, "annulee", NULL, 339.28, 339.28, "2017-12-17 15:38:30", "mastercard", 8);
+(992, 300, 968, 'approuvee', NULL, 56.00, 56.00, '2019-09-03 10:40:38', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(993, 95, 2597, "payee", NULL, 51.73, 51.73, "2020-06-20 04:13:09", "visa", 7);
+(993, 586, 1775, 'annulee', NULL, 182.73, 182.73, '2016-08-17 14:18:10', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(994, 82, 348, "approuvee", NULL, 346.00, 346.00, "2019-10-23 09:01:39", "debit", 8);
+(994, 397, 1618, 'en attente', NULL, 109.36, 109.36, '2017-07-27 12:42:31', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(995, 70, 4107, "approuvee", NULL, 170.19, 170.19, "2016-06-17 18:29:17", "paypal", 3);
+(995, 425, 2216, 'en attente', NULL, 511.60, 511.60, '2019-05-06 04:18:55', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(996, 33, 358, "en attente", 1, 479.0600, 407.201000, "2018-06-23 16:20:15", "visa", 8);
+(996, 39, 293, 'annulee', NULL, 363.60, 363.60, '2019-03-07 11:21:10', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(997, 79, 4173, "payee", NULL, 291.88, 291.88, "2016-08-02 12:15:07", "debit", 4);
+(997, 509, 1052, 'en attente', NULL, 148.65, 148.65, '2019-06-27 15:21:43', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(998, 70, 3629, "approuvee", NULL, 348.32, 348.32, "2017-11-16 23:40:44", "mastercard", 7);
+(998, 186, 2941, 'approuvee', NULL, 142.40, 142.40, '2020-04-08 00:10:53', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(999, 49, 1796, "annulee", NULL, 289.38, 289.38, "2019-08-06 12:21:37", "paypal", 6);
+(999, 563, 526, 'payee', NULL, 129.92, 129.92, '2018-08-28 17:21:26', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1000, 34, 1896, "annulee", NULL, 288.68, 288.68, "2019-08-21 07:12:51", "paypal", 4);
+(1000, 415, 2730, 'annulee', NULL, 164.48, 164.48, '2020-12-11 02:41:09', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1001, 11, 1307, "approuvee", NULL, 301.20, 301.20, "2016-03-09 16:23:33", "visa", 8);
+(1001, 760, 1028, 'approuvee', NULL, 100.02, 100.02, '2020-01-29 07:33:13', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1002, 19, 1276, "annulee", 6, 34.1445, 29.022825, "2017-11-08 20:41:02", "paypal", 1);
+(1002, 371, 2912, 'en attente', 2, 71.4350, 65.005850, '2017-03-20 21:29:35', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1003, 13, 1871, "annulee", NULL, 69.06, 69.06, "2017-05-14 07:46:32", "mastercard", 2);
+(1003, 928, 772, 'en attente', NULL, 76.16, 76.16, '2019-02-17 05:21:58', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1004, 65, 1709, "payee", NULL, 294.16, 294.16, "2018-12-10 16:21:56", "mastercard", 8);
+(1004, 151, 970, 'approuvee', NULL, 14.30, 14.30, '2020-03-11 01:31:39', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1005, 49, 413, "annulee", 4, NULL, NULL, "2018-09-09 04:50:00", "paypal", 3);
+(1005, 871, 3918, 'annulee', 5, 106.5750, 53.287500, '2020-01-13 18:56:49', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1006, 88, 2142, "annulee", NULL, 75.52, 75.52, "2018-11-23 17:30:27", "paypal", 8);
+(1006, 57, 1554, 'en attente', 3, 258.3090, 209.230290, '2020-11-05 17:14:24', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1007, 44, 848, "payee", NULL, 160.47, 160.47, "2018-12-22 19:54:42", "mastercard", 3);
+(1007, 57, 132, 'payee', NULL, 206.00, 206.00, '2018-07-19 18:03:29', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1008, 74, 2384, "en attente", NULL, 259.48, 259.48, "2019-03-23 17:27:19", "debit", 4);
+(1008, 445, 1107, 'approuvee', NULL, 202.26, 202.26, '2020-06-18 10:47:16', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1009, 81, 2798, "approuvee", 1, 80.1465, 68.124525, "2016-01-30 05:32:05", "visa", 7);
+(1009, 806, 3068, 'approuvee', NULL, 281.00, 281.00, '2016-10-08 16:13:51', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1010, 78, 1265, "approuvee", NULL, 250.60, 250.60, "2017-07-14 04:25:34", "debit", 4);
+(1010, 712, 65, 'payee', 5, 257.2000, 128.600000, '2018-01-08 12:50:15', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1011, 76, 1585, "approuvee", NULL, 258.96, 258.96, "2019-06-07 07:09:50", "mastercard", 8);
+(1011, 228, 1101, 'payee', NULL, 299.58, 299.58, '2020-06-17 17:08:41', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1012, 79, 2361, "approuvee", NULL, 247.00, 247.00, "2018-07-21 13:05:46", "mastercard", 4);
+(1012, 529, 63, 'en attente', NULL, 158.76, 158.76, '2019-02-06 09:52:04', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1013, 21, 1238, "payee", NULL, 33.93, 33.93, "2019-12-03 11:21:06", "paypal", 3);
+(1013, 451, 32, 'approuvee', 6, 210.0168, 170.113608, '2017-12-20 09:29:19', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1014, 88, 3794, "approuvee", 3, 116.3190, 81.423300, "2016-02-26 00:07:06", "paypal", 3);
+(1014, 735, 4181, 'en attente', 6, 275.4648, 223.126488, '2017-09-22 16:24:45', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1015, 66, 1423, "annulee", NULL, 325.95, 325.95, "2020-12-28 12:06:36", "paypal", 5);
+(1015, 889, 1106, 'payee', NULL, 35.60, 35.60, '2020-11-03 01:46:40', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1016, 53, 3822, "payee", NULL, 144.25, 144.25, "2017-01-21 04:52:04", "mastercard", 5);
+(1016, 868, 442, 'payee', NULL, 22.64, 22.64, '2019-06-28 13:27:11', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1017, 84, 1576, "annulee", 3, 80.4510, 56.315700, "2018-03-30 14:10:30", "mastercard", 3);
+(1017, 363, 1231, 'annulee', NULL, 334.25, 334.25, '2018-11-17 15:15:37', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1018, 49, 2513, "payee", NULL, 331.84, 331.84, "2020-03-05 00:45:52", "paypal", 8);
+(1018, 845, 1664, 'approuvee', NULL, 37.64, 37.64, '2018-08-12 05:29:06', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1019, 39, 487, "approuvee", NULL, 103.59, 103.59, "2019-08-12 01:25:05", "mastercard", 3);
+(1019, 671, 3361, 'payee', 6, 21.1815, 17.157015, '2018-05-02 20:57:05', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1020, 2, 1700, "en attente", NULL, 207.68, 207.68, "2017-08-31 18:11:14", "debit", 8);
+(1020, 209, 4245, 'payee', NULL, 594.24, 594.24, '2017-04-23 00:31:18', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1021, 67, 3867, "payee", NULL, 80.54, 80.54, "2018-07-18 21:25:41", "visa", 2);
+(1021, 431, 1679, 'approuvee', NULL, 26.58, 26.58, '2020-03-25 10:09:32', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1022, 48, 3456, "approuvee", NULL, 12.58, 12.58, "2017-04-16 02:14:31", "debit", 2);
+(1022, 898, 2081, 'approuvee', NULL, 57.48, 57.48, '2020-11-21 13:10:53', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1023, 65, 752, "en attente", NULL, 65.84, 65.84, "2017-08-08 02:05:30", "mastercard", 2);
+(1023, 244, 2202, 'annulee', 1, 103.5720, 62.143200, '2020-10-17 02:06:19', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1024, 53, 413, "payee", NULL, 30.94, 30.94, "2020-03-01 15:36:44", "paypal", 1);
+(1024, 150, 3393, 'payee', NULL, 107.16, 107.16, '2019-05-28 03:57:01', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1025, 88, 1838, "approuvee", NULL, 65.00, 65.00, "2016-02-18 09:22:37", "mastercard", 2);
+(1025, 820, 883, 'en attente', NULL, 5.92, 5.92, '2019-07-10 02:40:56', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1026, 60, 1215, "annulee", NULL, 200.62, 200.62, "2020-04-26 03:55:42", "mastercard", 7);
+(1026, 109, 3456, 'en attente', 3, 55.8090, 45.205290, '2017-11-02 23:52:36', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1027, 21, 3635, "payee", NULL, 105.50, 105.50, "2020-06-16 18:27:37", "paypal", 5);
+(1027, 53, 2454, 'en attente', NULL, 13.04, 13.04, '2017-02-21 09:18:21', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1028, 40, 1701, "annulee", NULL, 219.24, 219.24, "2016-09-23 18:11:54", "visa", 4);
+(1028, 923, 1788, 'payee', 6, 317.5767, 257.237127, '2018-03-24 14:51:14', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1029, 20, 2058, "approuvee", NULL, 305.15, 305.15, "2019-10-14 18:56:52", "paypal", 5);
+(1029, 333, 1229, 'en attente', NULL, 272.64, 272.64, '2016-12-10 12:29:57', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1030, 53, 3473, "annulee", 3, 182.1820, 127.527400, "2016-02-27 08:49:26", "debit", 7);
+(1030, 138, 2495, 'payee', NULL, 104.60, 104.60, '2020-02-07 07:19:55', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1031, 39, 1767, "en attente", NULL, 141.92, 141.92, "2019-01-31 07:54:30", "debit", 8);
+(1031, 937, 2064, 'approuvee', NULL, 296.80, 296.80, '2016-12-30 00:46:20', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1032, 37, 1870, "payee", NULL, 288.92, 288.92, "2017-12-14 00:42:09", "visa", 4);
+(1032, 334, 130, 'en attente', NULL, 43.61, 43.61, '2020-04-18 16:51:32', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1033, 69, 4173, "approuvee", NULL, 145.94, 145.94, "2018-01-27 13:57:11", "mastercard", 2);
+(1033, 847, 1298, 'payee', NULL, 195.12, 195.12, '2020-05-25 00:40:11', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1034, 37, 2856, "approuvee", NULL, 296.80, 296.80, "2018-01-31 12:00:03", "mastercard", 7);
+(1034, 106, 1725, 'payee', NULL, 19.09, 19.09, '2019-03-26 09:30:06', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1035, 11, 1936, "annulee", NULL, 165.30, 165.30, "2018-06-01 04:27:11", "mastercard", 6);
+(1035, 827, 2694, 'annulee', NULL, 70.00, 70.00, '2019-04-06 16:20:37', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1036, 23, 3253, "approuvee", NULL, 94.02, 94.02, "2016-07-19 18:14:19", "paypal", 6);
+(1036, 567, 601, 'payee', NULL, 373.05, 373.05, '2016-05-30 00:46:56', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1037, 93, 2122, "approuvee", 5, 12.3000, 6.150000, "2017-07-08 21:00:39", "debit", 3);
+(1037, 793, 4050, 'approuvee', NULL, 59.64, 59.64, '2018-07-09 16:58:18', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1038, 83, 2276, "approuvee", NULL, 93.75, 93.75, "2018-09-18 09:49:22", "paypal", 5);
+(1038, 836, 998, 'en attente', NULL, 390.39, 390.39, '2016-03-15 07:17:07', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1039, 14, 2870, "en attente", 2, 195.6150, 158.448150, "2018-10-29 12:33:18", "paypal", 5);
+(1039, 792, 934, 'approuvee', NULL, 59.20, 59.20, '2019-09-25 13:45:24', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1040, 43, 3699, "en attente", NULL, 134.28, 134.28, "2019-06-24 10:21:51", "mastercard", 3);
+(1040, 63, 327, 'approuvee', NULL, 263.92, 263.92, '2019-06-05 19:22:50', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1041, 27, 3396, "payee", NULL, 37.26, 37.26, "2016-10-13 10:35:57", "debit", 1);
+(1041, 224, 2151, 'approuvee', NULL, 390.60, 390.60, '2017-05-28 07:51:36', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1042, 91, 3326, "approuvee", NULL, 214.05, 214.05, "2020-01-14 21:47:46", "visa", 5);
+(1042, 252, 2947, 'en attente', 1, 20.0640, 12.038400, '2020-05-20 02:11:08', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1043, 98, 3087, "approuvee", 3, 42.8400, 29.988000, "2017-07-02 14:30:36", "mastercard", 5);
+(1043, 234, 2292, 'payee', NULL, 177.84, 177.84, '2018-07-10 05:42:55', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1044, 6, 2927, "payee", NULL, 559.36, 559.36, "2019-10-16 01:55:27", "debit", 8);
+(1044, 647, 1132, 'en attente', NULL, 153.48, 153.48, '2020-10-20 02:28:54', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1045, 37, 527, "en attente", NULL, 66.74, 66.74, "2020-03-21 04:25:49", "visa", 2);
+(1045, 558, 906, 'en attente', NULL, 283.40, 283.40, '2019-06-23 08:34:15', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1046, 16, 642, "approuvee", NULL, 115.32, 115.32, "2017-09-27 22:09:35", "visa", 4);
+(1046, 674, 1508, 'annulee', NULL, 75.99, 75.99, '2018-10-13 13:46:52', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1047, 93, 1804, "payee", NULL, 136.80, 136.80, "2016-09-20 02:48:38", "paypal", 3);
+(1047, 696, 1917, 'annulee', NULL, 54.76, 54.76, '2020-11-26 02:45:02', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1048, 95, 1371, "approuvee", NULL, 111.86, 111.86, "2016-08-03 02:15:44", "debit", 7);
+(1048, 122, 729, 'approuvee', NULL, 151.53, 151.53, '2018-12-04 03:20:40', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1049, 51, 3654, "payee", 3, 366.7160, 256.701200, "2017-02-12 22:07:10", "debit", 7);
+(1049, 571, 1117, 'en attente', 6, 243.9720, 197.617320, '2018-04-23 10:45:30', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1050, 76, 1783, "en attente", 6, 64.5320, 54.852200, "2018-07-15 17:47:28", "debit", 8);
+(1050, 532, 111, 'approuvee', NULL, 215.48, 215.48, '2019-05-10 19:12:02', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1051, 63, 3141, "annulee", 3, 49.4130, 34.589100, "2017-09-30 23:27:53", "debit", 3);
+(1051, 377, 1210, 'approuvee', NULL, 163.12, 163.12, '2018-07-05 05:53:10', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1052, 21, 1469, "approuvee", NULL, 101.70, 101.70, "2020-03-20 00:55:18", "visa", 2);
+(1052, 933, 427, 'en attente', NULL, 39.21, 39.21, '2016-12-20 09:00:07', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1053, 38, 3571, "payee", NULL, 47.13, 47.13, "2020-06-04 12:46:14", "mastercard", 1);
+(1053, 35, 63, 'annulee', NULL, 370.44, 370.44, '2020-01-07 20:18:19', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1054, 53, 2551, "approuvee", NULL, 116.78, 116.78, "2018-06-13 23:26:21", "paypal", 2);
+(1054, 543, 3288, 'en attente', NULL, 84.60, 84.60, '2017-09-24 16:03:49', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1055, 90, 4202, "en attente", NULL, 44.40, 44.40, "2020-08-04 16:14:58", "debit", 5);
+(1055, 573, 3618, 'payee', NULL, 90.99, 90.99, '2016-03-13 15:45:29', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1056, 93, 3080, "payee", NULL, 46.20, 46.20, "2019-02-24 16:54:36", "paypal", 3);
+(1056, 356, 3264, 'approuvee', NULL, 166.20, 166.20, '2016-04-09 12:03:54', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1057, 43, 115, "payee", 2, 189.6372, 153.606132, "2018-01-20 04:17:41", "mastercard", 6);
+(1057, 24, 1010, 'approuvee', NULL, 122.00, 122.00, '2018-11-11 18:02:07', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1058, 35, 495, "approuvee", NULL, 16.39, 16.39, "2018-01-14 21:32:44", "paypal", 1);
+(1058, 447, 580, 'annulee', NULL, 36.44, 36.44, '2018-06-10 01:24:13', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1059, 32, 530, "approuvee", NULL, 156.90, 156.90, "2020-11-22 07:56:57", "mastercard", 5);
+(1059, 734, 1257, 'annulee', NULL, 128.58, 128.58, '2017-10-13 00:45:11', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1060, 27, 1697, "annulee", 1, 106.7940, 90.774900, "2016-09-06 16:08:50", "debit", 4);
+(1060, 567, 2843, 'payee', NULL, 192.08, 192.08, '2018-02-03 03:13:02', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1061, 66, 1360, "annulee", NULL, 121.68, 121.68, "2020-12-15 03:36:03", "mastercard", 3);
+(1061, 608, 1892, 'en attente', 5, 164.6400, 82.320000, '2018-11-14 02:43:41', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1062, 49, 2249, "en attente", NULL, 30.55, 30.55, "2019-03-19 23:53:48", "visa", 1);
+(1062, 446, 1946, 'approuvee', NULL, 152.39, 152.39, '2020-09-06 07:41:35', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1063, NULL, 1942, "approuvee", 1, 119.2040, 101.323400, "2020-12-11 04:23:15", "debit", 4);
+(1063, 655, 4148, 'approuvee', 2, 69.7060, 63.432460, '2019-02-01 09:41:08', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1064, 22, 1809, "en attente", 5, 215.5650, 107.782500, "2020-10-14 03:44:05", "paypal", 7);
+(1064, NULL, 3685, 'payee', NULL, 579.68, 579.68, '2017-09-17 04:32:05', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1065, 81, 3219, "en attente", 2, 143.8560, 116.523360, "2017-02-12 15:30:25", "visa", 3);
+(1065, 850, 878, 'annulee', NULL, 97.24, 97.24, '2020-05-15 05:21:02', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1066, 82, 3501, "en attente", NULL, 159.96, 159.96, "2016-06-22 22:55:53", "debit", 6);
+(1066, 274, 2388, 'en attente', NULL, 36.95, 36.95, '2018-03-17 10:58:43', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1067, 8, 2492, "annulee", NULL, 136.74, 136.74, "2016-06-17 14:27:26", "paypal", 6);
+(1067, 869, 2279, 'payee', 5, 55.9500, 27.975000, '2020-04-27 21:40:02', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1068, 25, 3636, "annulee", NULL, 232.74, 232.74, "2019-10-10 03:25:03", "paypal", 6);
+(1068, 185, 2054, 'en attente', NULL, 288.82, 288.82, '2016-02-13 06:59:53', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1069, 16, 2006, "annulee", 2, 70.5348, 57.133188, "2016-05-30 08:52:23", "paypal", 4);
+(1069, 445, 2941, 'approuvee', NULL, 56.96, 56.96, '2017-07-22 02:57:05', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1070, 98, 1121, "annulee", NULL, 39.97, 39.97, "2016-03-04 21:45:38", "mastercard", 1);
+(1070, 581, 1802, 'payee', NULL, 224.07, 224.07, '2019-04-20 10:33:45', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1071, 5, 1516, "approuvee", NULL, 187.70, 187.70, "2019-09-20 21:17:55", "visa", 5);
+(1071, 95, 2604, 'approuvee', NULL, 123.60, 123.60, '2019-01-29 23:58:23', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1072, 24, 3364, "annulee", NULL, 139.68, 139.68, "2018-12-12 20:09:33", "visa", 2);
+(1072, 218, 590, 'annulee', NULL, 57.36, 57.36, '2018-07-28 00:07:01', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1073, 42, 716, "payee", NULL, 97.36, 97.36, "2020-03-07 05:49:51", "mastercard", 8);
+(1073, 448, 483, 'en attente', NULL, 45.39, 45.39, '2020-02-27 19:45:28', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1074, 68, 2257, "payee", 2, 106.7499, 86.467419, "2018-05-30 14:21:01", "visa", 3);
+(1074, 668, 885, 'en attente', NULL, 147.90, 147.90, '2020-12-12 08:42:30', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1075, 80, 1085, "payee", NULL, 284.80, 284.80, "2020-09-29 05:47:16", "visa", 4);
+(1075, 934, 4182, 'en attente', NULL, 264.42, 264.42, '2020-07-29 22:24:41', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1076, 65, 209, "payee", NULL, 137.24, 137.24, "2017-04-10 23:45:31", "paypal", 4);
+(1076, 258, 3298, 'annulee', NULL, 272.95, 272.95, '2016-12-23 18:52:46', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1077, 22, 4224, "payee", 1, 450.2280, 382.693800, "2016-01-28 21:54:20", "debit", 8);
+(1077, 953, 2564, 'payee', NULL, 58.31, 58.31, '2019-08-18 10:17:17', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1078, 12, 4230, "approuvee", 5, 9.2400, 4.620000, "2020-07-03 02:12:31", "paypal", 1);
+(1078, 31, 3448, 'payee', 1, 22.2000, 13.320000, '2017-06-18 04:28:39', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1079, 69, 364, "en attente", NULL, 297.57, 297.57, "2020-07-21 15:57:44", "debit", 7);
+(1079, 122, 1998, 'payee', NULL, 32.60, 32.60, '2019-09-03 11:42:37', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1080, 10, 2030, "payee", NULL, 142.75, 142.75, "2020-06-10 00:46:21", "paypal", 5);
+(1080, 432, 1157, 'en attente', NULL, 183.68, 183.68, '2018-07-02 08:51:10', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1081, 60, 1212, "annulee", 2, 27.5562, 22.320522, "2020-08-04 18:10:56", "paypal", 3);
+(1081, 459, 3436, 'payee', NULL, 196.80, 196.80, '2017-03-21 21:01:15', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1082, 23, 2094, "payee", NULL, 136.88, 136.88, "2018-05-23 01:21:20", "paypal", 4);
+(1082, 136, 3355, 'approuvee', NULL, 115.15, 115.15, '2017-07-26 08:09:56', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1083, 96, 3677, "en attente", 5, 27.3150, 13.657500, "2016-08-14 04:27:10", "visa", 1);
+(1083, 918, 3447, 'annulee', NULL, 469.91, 469.91, '2017-02-13 06:46:49', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1084, 16, 238, "payee", NULL, 163.36, 163.36, "2018-06-28 01:00:45", "visa", 8);
+(1084, 230, 683, 'annulee', NULL, 182.75, 182.75, '2019-12-16 08:41:33', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1085, 82, 122, "annulee", NULL, 281.12, 281.12, "2016-12-06 18:53:28", "paypal", 4);
+(1085, 446, 3147, 'payee', NULL, 166.38, 166.38, '2020-09-22 22:30:31', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1086, 82, 1083, "annulee", NULL, 493.52, 493.52, "2019-10-16 05:54:49", "mastercard", 8);
+(1086, 978, 2944, 'payee', NULL, 445.02, 445.02, '2016-08-09 04:21:26', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1087, 19, 2593, "approuvee", NULL, 74.31, 74.31, "2020-05-21 22:57:22", "debit", 1);
+(1087, 313, 1647, 'payee', NULL, 309.06, 309.06, '2017-08-04 04:49:14', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1088, 14, 1046, "annulee", 1, 307.2750, 261.183750, "2018-10-28 01:34:29", "visa", 5);
+(1088, 884, 1009, 'en attente', NULL, 275.87, 275.87, '2019-01-09 14:31:36', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1089, 42, 3355, "approuvee", 4, NULL, NULL, "2016-05-09 12:24:48", "mastercard", 4);
+(1089, 792, 595, 'approuvee', NULL, 218.61, 218.61, '2019-01-06 07:12:25', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1090, 40, 2781, "en attente", NULL, 63.50, 63.50, "2017-12-20 18:53:38", "visa", 5);
+(1090, 872, 2691, 'en attente', 6, 82.4256, 66.764736, '2017-04-11 01:32:07', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1091, 87, 500, "payee", NULL, 222.00, 222.00, "2020-12-21 02:01:47", "paypal", 4);
+(1091, 591, 1389, 'approuvee', NULL, 22.14, 22.14, '2017-01-02 23:57:15', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1092, 99, 1482, "annulee", 5, 78.5250, 39.262500, "2020-07-26 04:10:12", "debit", 5);
+(1092, 789, 1575, 'payee', NULL, 22.80, 22.80, '2019-01-26 01:36:29', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1093, 31, 752, "approuvee", 2, 53.3304, 43.197624, "2020-01-14 04:22:26", "debit", 2);
+(1093, 811, 671, 'payee', 6, 82.1826, 66.567906, '2020-04-24 08:52:21', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1094, 28, 3098, "approuvee", NULL, 140.44, 140.44, "2017-07-09 00:37:48", "visa", 4);
+(1094, 521, 3343, 'payee', NULL, 385.62, 385.62, '2019-02-26 12:59:24', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1095, 9, 397, "annulee", NULL, 83.66, 83.66, "2019-12-31 20:01:45", "visa", 2);
+(1095, 72, 3642, 'approuvee', NULL, 276.88, 276.88, '2016-10-19 02:49:51', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1096, 36, 2501, "en attente", NULL, 122.92, 122.92, "2018-01-01 06:50:41", "debit", 7);
+(1096, 538, 4197, 'payee', NULL, 435.36, 435.36, '2017-08-19 06:02:37', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1097, 54, 3112, "annulee", NULL, 442.02, 442.02, "2019-03-31 03:48:46", "mastercard", 6);
+(1097, 62, 2371, 'annulee', NULL, 38.22, 38.22, '2020-03-28 23:58:21', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1098, 42, 784, "payee", 3, 239.2670, 167.486900, "2018-03-08 11:57:01", "debit", 7);
+(1098, 78, 1717, 'annulee', NULL, 90.40, 90.40, '2020-10-26 17:38:35', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1099, 78, 3094, "approuvee", NULL, 515.44, 515.44, "2018-08-26 05:00:07", "debit", 8);
+(1099, 408, 1630, 'approuvee', NULL, 266.24, 266.24, '2018-07-21 07:30:19', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1100, 63, 4086, "approuvee", NULL, 257.60, 257.60, "2020-09-09 07:45:32", "mastercard", 4);
+(1100, 565, 1267, 'approuvee', 5, 24.5250, 12.262500, '2019-03-04 03:19:37', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1101, 61, 815, "annulee", 6, 297.5000, 252.875000, "2019-11-03 19:37:49", "mastercard", 5);
+(1101, 258, 1502, 'approuvee', NULL, 15.42, 15.42, '2018-01-14 15:05:38', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1102, 52, 2294, "payee", NULL, 69.93, 69.93, "2018-11-16 03:58:10", "visa", 1);
+(1102, 931, 559, 'annulee', NULL, 24.48, 24.48, '2018-09-23 07:06:48', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1103, 70, 4097, "payee", NULL, 125.68, 125.68, "2020-11-06 07:30:36", "mastercard", 4);
+(1103, 657, 515, 'en attente', 1, 180.6120, 108.367200, '2016-10-14 10:17:03', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1104, 71, 2641, "annulee", 3, 202.1740, 141.521800, "2016-07-29 14:20:16", "paypal", 7);
+(1104, 183, 3004, 'approuvee', NULL, 300.95, 300.95, '2019-08-04 08:13:53', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1105, 59, 3925, "approuvee", NULL, 98.15, 98.15, "2016-03-12 03:22:55", "mastercard", 5);
+(1105, 305, 1813, 'approuvee', NULL, 425.76, 425.76, '2016-06-23 02:24:36', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1106, 69, 2981, "annulee", NULL, 130.83, 130.83, "2017-03-20 07:14:45", "mastercard", 3);
+(1106, 197, 389, 'annulee', 1, 30.6540, 18.392400, '2017-04-02 05:28:08', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1107, 14, 2725, "en attente", 5, 21.1400, 10.570000, "2019-04-02 16:04:25", "visa", 2);
+(1107, 714, 1375, 'en attente', 6, 30.2049, 24.465969, '2020-04-02 18:23:05', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1108, 2, 1047, "annulee", NULL, 212.13, 212.13, "2018-11-14 06:37:28", "paypal", 3);
+(1108, 718, 1753, 'annulee', NULL, 294.56, 294.56, '2018-02-21 19:52:46', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1109, 85, 2718, "approuvee", 4, NULL, NULL, "2017-02-13 06:31:38", "visa", 5);
+(1109, 273, 892, 'annulee', 3, 97.0056, 78.574536, '2017-08-26 17:54:07', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1110, 82, 1805, "payee", NULL, 260.82, 260.82, "2020-02-06 10:20:52", "debit", 6);
+(1110, 880, 4134, 'approuvee', NULL, 76.14, 76.14, '2018-03-22 07:13:54', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1111, 77, 102, "payee", NULL, 59.85, 59.85, "2019-06-29 15:38:04", "mastercard", 5);
+(1111, 97, 2806, 'approuvee', NULL, 76.38, 76.38, '2017-05-07 07:12:39', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1112, 29, 1753, "en attente", NULL, 210.00, 210.00, "2020-05-12 17:37:30", "debit", 6);
+(1112, 985, 3713, 'approuvee', 4, 225.6630, 214.379850, '2020-07-21 20:01:13', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1113, 86, 2576, "en attente", NULL, 169.60, 169.60, "2018-04-04 11:54:58", "mastercard", 5);
+(1113, 542, 3562, 'payee', NULL, 34.88, 34.88, '2017-11-11 08:10:38', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1114, 69, 248, "en attente", 1, 275.5275, 234.198375, "2020-12-16 04:46:58", "paypal", 5);
+(1114, 272, 3257, 'payee', NULL, 77.46, 77.46, '2016-01-02 19:28:35', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1115, 99, 953, "payee", NULL, 88.32, 88.32, "2017-02-16 15:40:58", "visa", 6);
+(1115, 709, 647, 'en attente', 4, 37.2400, 35.378000, '2020-09-05 22:52:43', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1116, 82, 1130, "payee", NULL, 210.99, 210.99, "2019-09-15 08:37:50", "mastercard", 3);
+(1116, 32, 3537, 'approuvee', 6, 53.3628, 43.223868, '2019-11-28 07:59:13', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1117, 69, 1319, "annulee", NULL, 91.20, 91.20, "2018-05-08 11:55:05", "debit", 6);
+(1117, 574, 1812, 'en attente', 2, 137.9196, 125.506836, '2017-05-26 11:29:40', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1118, 96, 2286, "annulee", 3, 196.6300, 137.641000, "2020-09-13 05:44:40", "paypal", 5);
+(1118, 640, 2420, 'annulee', NULL, 364.70, 364.70, '2018-11-13 10:11:04', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1119, 75, 3507, "payee", NULL, 151.44, 151.44, "2020-08-09 10:25:15", "visa", 4);
+(1119, 945, 973, 'approuvee', NULL, 75.88, 75.88, '2016-05-04 13:01:06', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1120, 39, 2405, "payee", NULL, 295.36, 295.36, "2017-05-21 05:34:56", "debit", 8);
+(1120, 478, 408, 'payee', NULL, 58.44, 58.44, '2016-09-03 14:43:01', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1121, 37, 2023, "payee", NULL, 225.12, 225.12, "2018-03-26 06:07:55", "visa", 7);
+(1121, 433, 3145, 'annulee', 3, 292.8636, 237.219516, '2018-07-26 17:07:59', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1122, NULL, 1695, "approuvee", NULL, 204.36, 204.36, "2018-07-12 14:07:40", "mastercard", 6);
+(1122, 511, 1440, 'approuvee', NULL, 10.85, 10.85, '2016-10-02 14:29:26', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1123, 22, 583, "approuvee", NULL, 137.40, 137.40, "2020-09-20 09:29:00", "paypal", 5);
+(1123, 614, 3095, 'en attente', NULL, 230.86, 230.86, '2019-12-04 05:25:43', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1124, 33, 4209, "approuvee", NULL, 175.85, 175.85, "2020-07-13 04:16:23", "visa", 5);
+(1124, 725, 2097, 'en attente', NULL, 145.86, 145.86, '2019-01-08 21:36:16', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1125, 83, 207, "approuvee", NULL, 33.96, 33.96, "2019-05-28 02:25:29", "debit", 2);
+(1125, 54, 784, 'annulee', NULL, 340.60, 340.60, '2016-12-31 23:33:08', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1126, 30, 3854, "annulee", NULL, 100.24, 100.24, "2019-10-08 19:16:27", "paypal", 4);
+(1126, 189, 2884, 'approuvee', NULL, 282.00, 282.00, '2020-04-05 12:35:56', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1127, 41, 1599, "payee", NULL, 266.60, 266.60, "2016-12-27 03:14:06", "debit", 5);
+(1127, 57, 309, 'en attente', NULL, 238.04, 238.04, '2018-05-02 17:26:40', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1128, 80, 3889, "approuvee", NULL, 432.48, 432.48, "2019-07-13 18:17:50", "mastercard", 6);
+(1128, 7, 3135, 'en attente', NULL, 94.24, 94.24, '2020-05-10 13:18:53', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1129, 11, 3146, "payee", NULL, 217.00, 217.00, "2019-02-24 01:35:07", "paypal", 4);
+(1129, 82, 3492, 'payee', NULL, 108.29, 108.29, '2016-07-19 19:58:21', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1130, 8, 2695, "approuvee", 3, 68.4880, 47.941600, "2017-05-24 06:50:53", "debit", 2);
+(1130, 523, 3536, 'payee', NULL, 46.01, 46.01, '2017-06-04 19:02:45', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1131, NULL, 213, "payee", 4, NULL, NULL, "2017-05-15 16:52:48", "mastercard", 5);
+(1131, 398, 552, 'annulee', NULL, 143.01, 143.01, '2016-12-01 12:38:25', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1132, 76, 1411, "approuvee", NULL, 172.29, 172.29, "2018-04-09 08:26:09", "paypal", 3);
+(1132, 261, 1106, 'annulee', NULL, 106.80, 106.80, '2016-09-03 00:52:15', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1133, 75, 2598, "en attente", NULL, 186.48, 186.48, "2020-04-07 17:14:13", "paypal", 4);
+(1133, 808, 124, 'payee', NULL, 52.70, 52.70, '2016-11-28 10:48:18', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1134, 83, 116, "en attente", 2, 61.2360, 49.601160, "2017-11-25 17:36:49", "visa", 5);
+(1134, 770, 3162, 'approuvee', NULL, 215.28, 215.28, '2019-02-26 19:16:49', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1135, 58, 835, "payee", NULL, 48.30, 48.30, "2018-04-14 22:32:01", "mastercard", 5);
+(1135, 516, 2930, 'annulee', NULL, 117.40, 117.40, '2019-10-19 17:28:38', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1136, 96, 3827, "annulee", 5, 74.7000, 37.350000, "2016-09-06 19:44:55", "debit", 2);
+(1136, 459, 591, 'payee', NULL, 329.10, 329.10, '2016-05-23 09:12:03', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1137, 64, 1798, "annulee", NULL, 196.60, 196.60, "2016-10-16 13:15:03", "debit", 4);
+(1137, 870, 3559, 'en attente', NULL, 30.20, 30.20, '2016-08-30 04:52:11', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1138, 51, 1019, "en attente", NULL, 55.85, 55.85, "2018-11-11 19:50:15", "mastercard", 1);
+(1138, 304, 2728, 'approuvee', 6, 264.2220, 214.019820, '2018-05-15 03:19:17', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1139, 11, 2958, "annulee", NULL, 210.44, 210.44, "2018-03-28 13:12:52", "visa", 4);
+(1139, 903, 3230, 'approuvee', 2, 72.0720, 65.585520, '2020-07-11 23:05:28', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1140, 89, 4243, "payee", 1, 176.7660, 150.251100, "2019-04-09 15:54:41", "visa", 3);
+(1140, 789, 117, 'en attente', NULL, 280.56, 280.56, '2018-06-05 06:06:21', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1141, 27, 1334, "approuvee", NULL, 403.80, 403.80, "2019-06-13 11:27:31", "paypal", 6);
+(1141, 355, 1953, 'approuvee', 3, 259.1595, 209.919195, '2017-04-21 16:46:50', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1142, 78, 571, "approuvee", NULL, 7.84, 7.84, "2016-02-02 19:11:20", "mastercard", 1);
+(1142, 50, 4117, 'approuvee', 4, 389.5000, 370.025000, '2018-06-16 14:07:54', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1143, 89, 2063, "approuvee", NULL, 322.56, 322.56, "2018-06-04 21:17:41", "mastercard", 7);
+(1143, 741, 1236, 'annulee', NULL, 45.72, 45.72, '2018-02-15 08:27:09', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1144, 7, 356, "payee", NULL, 45.29, 45.29, "2017-01-10 17:33:08", "visa", 1);
+(1144, 856, 442, 'annulee', NULL, 79.24, 79.24, '2018-04-13 09:24:59', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1145, 18, 3180, "annulee", NULL, 129.20, 129.20, "2016-07-07 08:06:52", "visa", 2);
+(1145, 183, 4214, 'en attente', NULL, 79.80, 79.80, '2018-10-28 10:59:19', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1146, 52, 957, "payee", NULL, 145.65, 145.65, "2017-01-13 15:13:28", "paypal", 3);
+(1146, 850, 3863, 'payee', NULL, 167.24, 167.24, '2016-05-28 16:57:33', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1147, 4, 2247, "approuvee", NULL, 175.62, 175.62, "2019-11-16 12:39:30", "debit", 3);
+(1147, 429, 3764, 'en attente', 2, 275.9484, 251.113044, '2019-02-26 19:57:35', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1148, 48, 256, "annulee", NULL, 246.60, 246.60, "2017-03-21 07:19:46", "mastercard", 6);
+(1148, 191, 2377, 'payee', NULL, 155.97, 155.97, '2016-03-31 19:49:31', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1149, 99, 3058, "annulee", NULL, 201.50, 201.50, "2019-10-24 19:27:12", "debit", 5);
+(1149, 702, 2594, 'payee', NULL, 274.92, 274.92, '2020-12-28 16:14:44', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1150, 48, 2898, "payee", NULL, 346.02, 346.02, "2020-06-03 16:32:49", "debit", 6);
+(1150, 630, 1544, 'en attente', NULL, 40.10, 40.10, '2018-07-18 10:22:45', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1151, 45, 4, "annulee", NULL, 19.23, 19.23, "2019-01-15 12:14:27", "visa", 1);
+(1151, 569, 3687, 'approuvee', 6, 125.7930, 101.892330, '2019-03-14 12:31:13', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1152, 24, 1493, "annulee", NULL, 326.90, 326.90, "2017-03-09 15:29:02", "visa", 7);
+(1152, 158, 1540, 'payee', 1, 322.8960, 193.737600, '2017-11-07 14:40:15', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1153, 42, 174, "annulee", NULL, 348.12, 348.12, "2017-11-23 07:31:15", "mastercard", 6);
+(1153, 506, 2133, 'en attente', NULL, 187.85, 187.85, '2019-07-05 14:17:42', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1154, 49, 2653, "payee", 4, NULL, NULL, "2018-04-12 03:06:09", "paypal", 3);
+(1154, 301, 3375, 'payee', NULL, 98.85, 98.85, '2018-02-26 13:57:22', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1155, 38, 1980, "annulee", NULL, 164.80, 164.80, "2019-07-31 23:02:34", "visa", 8);
+(1155, 475, 1657, 'annulee', NULL, 119.80, 119.80, '2018-04-13 01:23:17', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1156, 45, 2973, "annulee", 4, NULL, NULL, "2017-11-22 20:30:04", "paypal", 3);
+(1156, 652, 149, 'en attente', NULL, 246.60, 246.60, '2016-03-13 07:43:18', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1157, 51, 3977, "annulee", NULL, 387.78, 387.78, "2016-08-15 08:58:01", "mastercard", 6);
+(1157, 860, 2979, 'approuvee', 6, 293.2605, 237.541005, '2016-12-31 02:16:37', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1158, 16, 1407, "annulee", NULL, 178.36, 178.36, "2017-10-29 10:58:54", "mastercard", 7);
+(1158, 964, 777, 'approuvee', 6, 180.7191, 146.382471, '2019-12-17 00:34:57', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1159, 82, 2512, "payee", 2, 58.1580, 47.107980, "2020-12-21 18:31:51", "visa", 2);
+(1159, 91, 2255, 'payee', 1, 44.8680, 26.920800, '2020-07-18 16:02:57', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1160, 52, 2163, "approuvee", NULL, 105.76, 105.76, "2016-03-18 06:34:31", "mastercard", 4);
+(1160, 466, 4133, 'approuvee', NULL, 279.60, 279.60, '2017-09-03 22:24:43', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1161, 84, 2293, "en attente", NULL, 399.76, 399.76, "2016-09-10 00:03:14", "paypal", 8);
+(1161, 264, 3397, 'approuvee', NULL, 71.76, 71.76, '2017-03-24 07:54:37', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1162, 13, 1400, "approuvee", NULL, 67.33, 67.33, "2018-08-18 17:10:53", "debit", 1);
+(1162, 337, 3342, 'approuvee', NULL, 103.41, 103.41, '2020-11-24 12:31:52', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1163, 90, 3463, "payee", NULL, 520.40, 520.40, "2016-03-07 16:39:09", "paypal", 8);
+(1163, 981, 2784, 'en attente', NULL, 45.52, 45.52, '2019-05-08 18:56:20', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1164, 94, 4016, "approuvee", 2, 228.3390, 184.954590, "2017-12-14 14:06:41", "debit", 5);
+(1164, 739, 3835, 'payee', NULL, 119.80, 119.80, '2016-03-04 03:27:37', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1165, 47, 834, "approuvee", NULL, 110.24, 110.24, "2019-02-13 00:17:58", "visa", 4);
+(1165, 346, 4172, 'approuvee', NULL, 225.35, 225.35, '2017-05-07 04:47:28', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1166, 53, 1393, "annulee", NULL, 586.32, 586.32, "2020-11-29 02:43:16", "mastercard", 8);
+(1166, 653, 1787, 'en attente', 4, 153.1020, 145.446900, '2016-04-23 12:13:45', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1167, 30, 2424, "annulee", NULL, 34.03, 34.03, "2019-02-26 02:28:12", "paypal", 1);
+(1167, 628, 2465, 'payee', NULL, 564.08, 564.08, '2016-10-25 16:46:11', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1168, 43, 4128, "en attente", NULL, 325.85, 325.85, "2016-01-02 21:24:58", "debit", 7);
+(1168, 461, 1605, 'payee', NULL, 88.76, 88.76, '2017-11-04 01:03:32', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1169, 87, 451, "en attente", NULL, 14.06, 14.06, "2018-08-13 22:31:32", "debit", 1);
+(1169, 168, 941, 'payee', NULL, 113.36, 113.36, '2020-01-01 08:49:38', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1170, 31, 2283, "en attente", NULL, 299.76, 299.76, "2018-09-18 06:21:58", "paypal", 8);
+(1170, 560, 2877, 'approuvee', 3, 37.7298, 30.561138, '2017-10-20 13:40:57', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1171, 26, 1037, "en attente", NULL, 283.30, 283.30, "2017-03-08 02:34:29", "visa", 5);
+(1171, 925, 699, 'annulee', 4, 321.8600, 305.767000, '2018-08-14 18:14:13', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1172, 68, 1491, "approuvee", NULL, 169.98, 169.98, "2017-07-07 23:34:40", "mastercard", 3);
+(1172, 684, 2933, 'approuvee', 3, 15.0012, 12.150972, '2017-05-24 13:34:17', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1173, 23, 2986, "approuvee", NULL, 140.04, 140.04, "2018-09-28 01:33:20", "paypal", 6);
+(1173, 744, 1052, 'annulee', 1, 142.7040, 85.622400, '2019-11-25 23:27:12', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1174, 63, 3723, "payee", NULL, 437.78, 437.78, "2016-02-22 02:41:17", "debit", 7);
+(1174, 67, 3920, 'en attente', NULL, 55.28, 55.28, '2018-05-01 06:45:45', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1175, 68, 3888, "approuvee", NULL, 64.62, 64.62, "2016-12-19 12:25:20", "mastercard", 1);
+(1175, 417, 2271, 'payee', NULL, 222.39, 222.39, '2016-05-13 15:55:38', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1176, 95, 650, "en attente", NULL, 283.50, 283.50, "2018-01-05 06:55:51", "mastercard", 5);
+(1176, 890, 1321, 'payee', NULL, 38.58, 38.58, '2016-01-14 22:59:36', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1177, 66, 1913, "payee", NULL, 110.36, 110.36, "2019-08-26 07:03:22", "paypal", 2);
+(1177, 482, 3203, 'approuvee', 1, 156.6360, 93.981600, '2018-03-31 04:13:39', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1178, NULL, 3669, "payee", 4, NULL, NULL, "2019-01-22 09:31:00", "visa", 2);
+(1178, 44, 2932, 'approuvee', NULL, 337.05, 337.05, '2019-04-24 21:10:16', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1179, 51, 2966, "payee", NULL, 36.40, 36.40, "2020-06-14 15:17:36", "mastercard", 5);
+(1179, 659, 619, 'en attente', NULL, 385.70, 385.70, '2019-06-15 09:12:45', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1180, 61, 3302, "annulee", NULL, 58.72, 58.72, "2018-12-15 00:22:41", "paypal", 4);
+(1180, 927, 466, 'approuvee', 2, 34.2160, 31.136560, '2017-11-25 22:57:08', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1181, 56, 858, "annulee", NULL, 51.57, 51.57, "2016-07-06 18:49:28", "visa", 3);
+(1181, 933, 143, 'payee', 4, 295.8870, 281.092650, '2016-03-31 15:42:45', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1182, 18, 2818, "annulee", NULL, 362.18, 362.18, "2020-09-26 11:17:39", "mastercard", 7);
+(1182, 337, 1451, 'approuvee', NULL, 30.57, 30.57, '2017-09-17 03:58:52', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1183, 86, 1288, "annulee", NULL, 234.36, 234.36, "2017-05-02 21:51:01", "paypal", 7);
+(1183, 789, 3654, 'approuvee', NULL, 34.38, 34.38, '2020-01-24 03:33:23', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1184, 92, 3798, "en attente", NULL, 109.54, 109.54, "2019-05-16 19:49:11", "paypal", 2);
+(1184, 385, 1213, 'payee', 1, 40.9680, 24.580800, '2020-07-08 22:11:38', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1185, 22, 2120, "approuvee", NULL, 105.40, 105.40, "2016-05-01 04:10:12", "debit", 2);
+(1185, 654, 2643, 'en attente', NULL, 57.72, 57.72, '2018-09-11 04:42:01', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1186, 97, 2154, "payee", 5, 123.2000, 61.600000, "2017-05-01 01:59:34", "debit", 4);
+(1186, 211, 2342, 'annulee', 5, 101.7000, 50.850000, '2017-05-28 16:40:52', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1187, 55, 1206, "payee", NULL, 67.50, 67.50, "2020-12-04 09:34:26", "debit", 3);
+(1187, 958, 1373, 'payee', NULL, 212.58, 212.58, '2018-05-24 12:24:27', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1188, 79, 1170, "payee", 3, 177.5480, 124.283600, "2019-02-04 12:06:45", "paypal", 4);
+(1188, 666, 4064, 'approuvee', NULL, 44.08, 44.08, '2018-12-15 04:24:12', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1189, 80, 2392, "annulee", NULL, 156.72, 156.72, "2019-08-11 17:57:22", "visa", 8);
+(1189, 867, 4002, 'annulee', NULL, 134.47, 134.47, '2016-04-14 09:11:39', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1190, 33, 3649, "payee", NULL, 241.02, 241.02, "2020-03-18 11:32:25", "debit", 6);
+(1190, 349, 3868, 'approuvee', NULL, 135.72, 135.72, '2017-07-22 16:28:58', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1191, 72, 72, "payee", NULL, 358.47, 358.47, "2016-05-27 16:31:23", "debit", 7);
+(1191, 457, 2043, 'payee', NULL, 360.60, 360.60, '2017-02-16 21:59:01', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1192, 25, 3569, "approuvee", 1, 24.7860, 21.068100, "2020-01-24 05:46:11", "visa", 2);
+(1192, 779, 2539, 'en attente', NULL, 62.68, 62.68, '2019-09-04 10:16:19', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1193, 47, 1449, "annulee", NULL, 326.22, 326.22, "2019-12-23 16:27:44", "mastercard", 6);
+(1193, 675, 1814, 'payee', NULL, 53.88, 53.88, '2020-01-04 15:41:39', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1194, 44, 4011, "en attente", NULL, 62.23, 62.23, "2016-12-17 12:46:11", "mastercard", 7);
+(1194, 817, 442, 'annulee', NULL, 33.96, 33.96, '2017-05-23 12:00:03', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1195, 28, 1498, "approuvee", NULL, 14.73, 14.73, "2016-06-05 05:37:29", "debit", 1);
+(1195, 883, 2861, 'en attente', NULL, 240.73, 240.73, '2019-12-17 06:46:40', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1196, 53, 2009, "annulee", 3, 95.1510, 66.605700, "2018-02-03 14:10:18", "debit", 3);
+(1196, 339, 2242, 'approuvee', NULL, 227.04, 227.04, '2020-09-20 15:39:15', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1197, 13, 3474, "annulee", 2, 58.3848, 47.291688, "2020-11-02 19:55:16", "paypal", 1);
+(1197, 906, 2016, 'payee', NULL, 28.47, 28.47, '2016-07-19 07:22:32', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1198, 8, 362, "annulee", NULL, 302.90, 302.90, "2018-04-05 13:53:30", "mastercard", 5);
+(1198, 480, 144, 'payee', NULL, 57.28, 57.28, '2020-01-31 10:13:27', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1199, 25, 3345, "en attente", NULL, 196.95, 196.95, "2017-02-27 15:10:53", "visa", 3);
+(1199, 743, 1605, 'annulee', NULL, 63.40, 63.40, '2017-02-16 17:50:14', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1200, 62, 2042, "payee", 6, 230.8600, 196.231000, "2017-10-03 00:20:05", "visa", 8);
+(1200, 105, 2604, 'payee', NULL, 61.80, 61.80, '2020-05-04 00:20:04', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1201, 39, 9, "annulee", NULL, 200.28, 200.28, "2018-10-24 01:27:20", "visa", 3);
+(1201, 299, 823, 'annulee', NULL, 57.18, 57.18, '2017-11-09 12:13:00', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1202, 7, 1992, "annulee", NULL, 210.87, 210.87, "2017-03-12 13:03:01", "paypal", 3);
+(1202, 983, 3702, 'en attente', 3, 304.4304, 246.588624, '2020-02-29 03:59:16', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1203, 77, 2841, "annulee", 3, 77.0000, 53.900000, "2018-02-27 22:28:24", "debit", 5);
+(1203, 758, 3551, 'en attente', NULL, 377.28, 377.28, '2016-07-08 23:26:12', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1204, 36, 2762, "approuvee", NULL, 420.66, 420.66, "2016-10-26 21:14:55", "paypal", 6);
+(1204, 57, 3573, 'annulee', NULL, 96.78, 96.78, '2020-02-27 10:12:14', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1205, 9, 535, "payee", NULL, 272.88, 272.88, "2019-08-04 02:14:19", "paypal", 6);
+(1205, 209, 2227, 'en attente', 4, 272.3840, 258.764800, '2019-04-14 03:11:25', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1206, 4, 85, "annulee", NULL, 65.61, 65.61, "2017-08-06 10:20:28", "paypal", 3);
+(1206, 381, 1974, 'en attente', NULL, 471.24, 471.24, '2019-06-07 15:12:58', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1207, 59, 697, "approuvee", NULL, 333.36, 333.36, "2019-08-27 23:04:47", "visa", 6);
+(1207, 583, 1026, 'approuvee', 3, 269.3412, 218.166372, '2020-10-11 15:09:15', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1208, 4, 3506, "annulee", 1, 137.0200, 116.467000, "2019-04-13 20:30:56", "debit", 8);
+(1208, 830, 278, 'payee', NULL, 352.55, 352.55, '2019-07-20 03:22:28', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1209, 56, 3602, "annulee", 5, 18.8100, 9.405000, "2020-08-30 05:01:53", "mastercard", 1);
+(1209, 180, 3551, 'payee', NULL, 47.16, 47.16, '2020-09-25 09:49:37', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1210, 28, 3908, "payee", 2, 48.2112, 39.051072, "2017-04-21 22:24:30", "debit", 1);
+(1210, 920, 1393, 'annulee', NULL, 259.70, 259.70, '2020-01-25 20:02:32', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1211, 13, 3563, "payee", NULL, 17.14, 17.14, "2016-05-07 19:59:15", "debit", 1);
+(1211, 673, 314, 'approuvee', NULL, 31.86, 31.86, '2018-09-22 05:45:49', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1212, 88, 823, "approuvee", NULL, 502.48, 502.48, "2020-02-28 16:16:20", "mastercard", 8);
+(1212, 160, 4218, 'annulee', NULL, 118.94, 118.94, '2020-04-03 21:04:15', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1213, 84, 4016, "payee", NULL, 338.28, 338.28, "2019-10-26 04:45:35", "visa", 6);
+(1213, 561, 2708, 'payee', 2, 437.6190, 398.233290, '2020-04-30 15:39:11', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1214, 50, 2381, "en attente", NULL, 198.56, 198.56, "2018-03-30 01:13:54", "mastercard", 8);
+(1214, 763, 3483, 'payee', NULL, 189.84, 189.84, '2018-03-29 21:33:56', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1215, 86, 3577, "payee", 6, 119.1530, 101.280050, "2018-10-13 17:52:04", "debit", 2);
+(1215, 376, 662, 'payee', NULL, 36.86, 36.86, '2016-04-26 08:37:39', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1216, 60, 1086, "approuvee", NULL, 260.24, 260.24, "2016-03-10 01:34:34", "mastercard", 8);
+(1216, 336, 1096, 'annulee', NULL, 520.03, 520.03, '2018-07-05 01:39:51', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1217, 75, 646, "en attente", 4, NULL, NULL, "2017-01-11 01:15:38", "mastercard", 3);
+(1217, 707, 307, 'approuvee', NULL, 102.05, 102.05, '2019-11-03 09:14:37', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1218, 68, 1007, "approuvee", NULL, 182.94, 182.94, "2020-06-23 08:11:20", "mastercard", 3);
+(1218, 906, 1211, 'approuvee', NULL, 65.76, 65.76, '2018-09-01 08:47:12', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1219, 76, 1803, "en attente", NULL, 36.93, 36.93, "2018-07-29 12:31:57", "paypal", 3);
+(1219, 388, 3042, 'payee', NULL, 201.90, 201.90, '2018-12-14 02:09:58', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1220, 43, 3068, "approuvee", NULL, 221.61, 221.61, "2017-09-10 05:18:07", "paypal", 3);
+(1220, 266, 4106, 'approuvee', NULL, 37.31, 37.31, '2017-04-08 13:57:58', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1221, 88, 1363, "en attente", NULL, 181.26, 181.26, "2016-10-20 13:57:24", "paypal", 6);
+(1221, 81, 320, 'payee', NULL, 529.84, 529.84, '2017-04-25 11:29:07', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1222, 29, 940, "approuvee", NULL, 170.72, 170.72, "2019-01-05 23:56:53", "debit", 8);
+(1222, 35, 3760, 'payee', NULL, 293.94, 293.94, '2016-07-19 23:49:30', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1223, 61, 91, "en attente", NULL, 214.60, 214.60, "2020-06-14 04:38:04", "mastercard", 4);
+(1223, 715, 950, 'annulee', NULL, 129.43, 129.43, '2018-05-13 16:51:23', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1224, 41, 2683, "payee", NULL, 82.08, 82.08, "2016-01-02 12:08:19", "paypal", 8);
+(1224, 706, 2723, 'annulee', NULL, 342.00, 342.00, '2020-10-17 00:05:46', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1225, 17, 2261, "annulee", NULL, 484.26, 484.26, "2020-06-03 08:25:25", "debit", 7);
+(1225, 517, 4041, 'annulee', NULL, 144.09, 144.09, '2019-06-30 19:32:27', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1226, 30, 1587, "approuvee", NULL, 74.40, 74.40, "2020-12-27 10:07:21", "debit", 4);
+(1226, 594, 2450, 'payee', NULL, 180.09, 180.09, '2016-07-01 12:33:27', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1227, 44, 1348, "approuvee", NULL, 349.56, 349.56, "2017-12-26 17:05:57", "mastercard", 6);
+(1227, 623, 2971, 'payee', NULL, 18.82, 18.82, '2017-12-19 06:00:55', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1228, 48, 2342, "annulee", NULL, 203.68, 203.68, "2017-04-19 11:35:31", "debit", 4);
+(1228, 746, 2071, 'annulee', NULL, 437.78, 437.78, '2019-01-04 04:03:35', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1229, 34, 2059, "en attente", NULL, 91.16, 91.16, "2016-10-30 13:51:20", "debit", 2);
+(1229, 449, 2036, 'annulee', 3, 89.2134, 72.262854, '2019-04-13 03:34:31', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1230, 19, 2746, "payee", 5, 29.5300, 14.765000, "2018-03-31 11:55:13", "debit", 2);
+(1230, 60, 996, 'approuvee', NULL, 192.18, 192.18, '2018-08-12 18:44:32', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1231, 31, 2236, "annulee", NULL, 267.72, 267.72, "2019-07-26 05:20:11", "visa", 6);
+(1231, 683, 3583, 'approuvee', NULL, 88.68, 88.68, '2019-12-26 07:24:09', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1232, 21, 2094, "approuvee", NULL, 136.88, 136.88, "2019-02-15 03:38:02", "debit", 4);
+(1232, 73, 2967, 'approuvee', NULL, 106.88, 106.88, '2019-04-23 01:22:03', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1233, 19, 1701, "annulee", 4, NULL, NULL, "2018-11-08 17:57:26", "paypal", 7);
+(1233, 705, 1861, 'approuvee', 4, 185.8010, 176.510950, '2018-09-06 14:54:21', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1234, 80, 3306, "annulee", NULL, 162.72, 162.72, "2020-09-25 07:08:26", "mastercard", 8);
+(1234, 220, 197, 'annulee', NULL, 42.88, 42.88, '2016-09-04 05:38:28', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1235, 72, 2997, "payee", 1, 208.4285, 177.164225, "2019-08-01 00:15:04", "visa", 7);
+(1235, 61, 973, 'approuvee', NULL, 94.85, 94.85, '2020-10-22 12:16:29', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1236, 44, 1685, "en attente", NULL, 521.71, 521.71, "2018-03-19 16:33:32", "mastercard", 7);
+(1236, 962, 1747, 'approuvee', NULL, 210.68, 210.68, '2020-10-31 21:56:23', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1237, 70, 240, "annulee", NULL, 55.43, 55.43, "2018-03-21 12:55:28", "mastercard", 1);
+(1237, 443, 577, 'approuvee', NULL, 213.48, 213.48, '2018-09-12 04:41:26', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1238, 32, 4209, "en attente", NULL, 105.51, 105.51, "2017-08-18 21:55:12", "debit", 3);
+(1238, 655, 1982, 'annulee', NULL, 65.54, 65.54, '2019-10-18 02:00:30', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1239, 58, 2468, "en attente", NULL, 432.81, 432.81, "2016-04-01 19:11:14", "paypal", 7);
+(1239, 729, 1259, 'annulee', NULL, 34.68, 34.68, '2018-05-19 21:19:17', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1240, 12, 1798, "annulee", NULL, 147.45, 147.45, "2017-03-12 12:48:04", "paypal", 3);
+(1240, 288, 3947, 'annulee', NULL, 350.95, 350.95, '2016-07-15 09:21:32', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1241, 70, 506, "payee", NULL, 162.93, 162.93, "2018-01-21 18:03:51", "debit", 3);
+(1241, 380, 631, 'en attente', NULL, 97.58, 97.58, '2020-10-21 04:05:39', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1242, 92, 2811, "annulee", NULL, 85.04, 85.04, "2019-12-11 00:51:38", "debit", 8);
+(1242, 476, 1550, 'annulee', NULL, 270.25, 270.25, '2018-07-24 07:24:25', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1243, 62, 3152, "annulee", NULL, 246.75, 246.75, "2017-10-27 08:13:21", "debit", 5);
+(1243, 300, 2786, 'annulee', 1, 110.6880, 66.412800, '2016-03-02 17:52:47', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1244, 3, 2957, "en attente", NULL, 136.36, 136.36, "2016-07-21 10:34:59", "paypal", 4);
+(1244, 553, 794, 'approuvee', 2, 137.6739, 125.283249, '2016-01-09 02:55:42', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1245, 45, 156, "approuvee", 5, 294.9200, 147.460000, "2018-08-29 18:55:37", "visa", 8);
+(1245, 842, 449, 'annulee', NULL, 192.32, 192.32, '2019-10-03 15:08:55', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1246, 96, 1494, "annulee", 2, 19.3914, 15.707034, "2016-10-03 06:17:26", "paypal", 3);
+(1246, 177, 2103, 'approuvee', NULL, 337.68, 337.68, '2018-08-13 23:18:20', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1247, 19, 1932, "en attente", NULL, 152.43, 152.43, "2019-01-06 02:08:25", "paypal", 3);
+(1247, 866, 1626, 'en attente', NULL, 272.46, 272.46, '2019-03-25 06:26:14', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1248, 1, 422, "approuvee", NULL, 295.36, 295.36, "2020-10-23 14:17:40", "paypal", 8);
+(1248, 958, 43, 'annulee', NULL, 593.28, 593.28, '2018-07-29 17:05:00', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1249, 5, 2141, "approuvee", NULL, 340.30, 340.30, "2020-02-20 18:07:39", "visa", 5);
+(1249, 874, 1932, 'en attente', 1, 237.5520, 142.531200, '2017-10-29 06:31:53', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1250, 56, 24, "annulee", 2, 59.5512, 48.236472, "2020-12-21 15:28:08", "debit", 4);
+(1250, 195, 2025, 'payee', 2, 277.2315, 252.280665, '2016-10-23 01:13:57', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1251, 72, 1137, "approuvee", 1, 204.4250, 173.761250, "2016-08-31 10:22:19", "debit", 5);
+(1251, 5, 2714, 'en attente', 3, 63.8685, 51.733485, '2018-05-30 08:06:54', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1252, 17, 1104, "payee", 3, 92.7920, 64.954400, "2017-07-03 09:39:38", "mastercard", 8);
+(1252, 54, 4225, 'approuvee', NULL, 127.15, 127.15, '2018-09-16 07:57:27', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1253, 63, 4205, "approuvee", NULL, 424.69, 424.69, "2018-05-23 04:41:42", "visa", 7);
+(1253, 886, 453, 'annulee', NULL, 11.98, 11.98, '2018-02-23 14:37:25', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1254, 66, 2365, "payee", NULL, 32.28, 32.28, "2020-10-15 10:51:06", "visa", 6);
+(1254, 54, 3551, 'annulee', 3, 229.1976, 185.650056, '2018-09-13 04:34:17', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1255, 26, 1535, "en attente", NULL, 166.92, 166.92, "2018-12-06 12:49:32", "paypal", 3);
+(1255, 884, 2996, 'approuvee', NULL, 30.49, 30.49, '2016-10-28 08:17:41', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1256, 37, 331, "en attente", 1, 123.5220, 104.993700, "2017-11-04 13:53:48", "visa", 3);
+(1256, 862, 2056, 'annulee', NULL, 55.16, 55.16, '2020-08-01 09:23:25', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1257, 57, 2267, "annulee", NULL, 408.88, 408.88, "2019-06-16 08:01:16", "debit", 8);
+(1257, 727, 2276, 'approuvee', NULL, 214.00, 214.00, '2019-08-20 19:07:04', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1258, 30, 3104, "annulee", NULL, 199.48, 199.48, "2020-09-08 07:40:17", "paypal", 4);
+(1258, 118, 3618, 'en attente', NULL, 242.64, 242.64, '2019-01-14 21:39:48', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1259, 33, 1768, "payee", NULL, 517.68, 517.68, "2020-05-01 07:48:46", "debit", 8);
+(1259, 570, 3830, 'annulee', 6, 53.0550, 42.974550, '2018-09-13 13:18:59', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1260, 33, 633, "payee", NULL, 33.08, 33.08, "2016-08-06 17:45:59", "debit", 4);
+(1260, 996, 160, 'en attente', NULL, 29.36, 29.36, '2018-03-05 22:53:50', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1261, 70, NULL, "payee", 5, 55.1200, 27.560000, "2019-07-06 11:51:43", "debit", 8);
+(1261, 925, 3685, 'en attente', NULL, 362.30, 362.30, '2017-03-16 04:03:02', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1262, 45, 2071, "annulee", NULL, 162.51, 162.51, "2020-10-19 07:56:57", "debit", 3);
+(1262, 865, 3527, 'approuvee', NULL, 174.75, 174.75, '2018-02-03 02:47:33', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1263, 39, 2695, "en attente", NULL, 146.76, 146.76, "2020-07-20 14:18:37", "visa", 3);
+(1263, 259, 3318, 'en attente', NULL, 39.24, 39.24, '2017-06-18 06:56:01', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1264, 41, 3094, "en attente", 5, 64.4300, 32.215000, "2020-12-17 09:23:31", "mastercard", 2);
+(1264, 739, 2092, 'payee', NULL, 60.61, 60.61, '2017-09-23 00:19:14', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1265, 69, 1513, "annulee", NULL, 204.56, 204.56, "2017-12-03 03:07:35", "paypal", 4);
+(1265, 168, 1060, 'annulee', NULL, 488.88, 488.88, '2017-10-05 22:42:47', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1266, 13, 2456, "annulee", NULL, 29.78, 29.78, "2018-12-23 19:32:44", "visa", 1);
+(1266, 997, 3389, 'approuvee', 5, 213.7200, 106.860000, '2019-04-13 10:54:05', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1267, 31, 1765, "annulee", 4, NULL, NULL, "2020-09-16 02:45:00", "mastercard", 3);
+(1267, 913, 136, 'en attente', 4, 195.5480, 185.770600, '2019-04-15 08:49:54', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1268, 41, 1902, "payee", NULL, 19.57, 19.57, "2020-10-27 03:53:31", "visa", 1);
+(1268, 860, 2501, 'approuvee', NULL, 169.45, 169.45, '2018-05-28 19:53:33', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1269, 38, 2963, "en attente", NULL, 64.64, 64.64, "2018-04-03 02:05:42", "paypal", 1);
+(1269, 982, 280, 'en attente', NULL, 523.52, 523.52, '2017-03-26 05:38:29', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1270, 82, 1225, "annulee", NULL, 314.30, 314.30, "2020-11-23 07:01:06", "paypal", 5);
+(1270, 39, 1107, 'annulee', 4, 160.1225, 152.116375, '2018-02-20 17:27:15', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1271, 85, 3928, "approuvee", NULL, 98.32, 98.32, "2019-02-06 01:12:01", "paypal", 4);
+(1271, 939, 2710, 'approuvee', 5, 131.7000, 65.850000, '2016-03-08 07:03:45', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1272, 95, 2649, "annulee", NULL, 124.70, 124.70, "2018-01-31 13:14:03", "mastercard", 5);
+(1272, 781, 1472, 'en attente', NULL, 286.84, 286.84, '2020-09-03 16:19:41', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1273, 16, 3788, "approuvee", NULL, 356.02, 356.02, "2017-10-03 15:46:52", "visa", 7);
+(1273, 820, 3162, 'annulee', 3, 43.5942, 35.311302, '2016-07-27 18:22:13', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1274, 65, 2009, "en attente", NULL, 135.93, 135.93, "2020-02-13 01:57:25", "paypal", 3);
+(1274, 724, 4154, 'annulee', NULL, 31.86, 31.86, '2020-10-06 01:51:11', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1275, 10, 779, "en attente", NULL, 65.87, 65.87, "2017-11-20 19:41:55", "paypal", 1);
+(1275, 497, 1076, 'en attente', NULL, 208.45, 208.45, '2018-06-07 16:06:53', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1276, 67, 3825, "approuvee", NULL, 55.98, 55.98, "2017-03-18 19:34:11", "debit", 6);
+(1276, 739, 1738, 'payee', NULL, 258.06, 258.06, '2016-06-30 05:06:48', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1277, 12, 1523, "annulee", NULL, 305.68, 305.68, "2017-07-28 08:12:53", "paypal", 8);
+(1277, 231, 2037, 'en attente', NULL, 197.28, 197.28, '2018-12-24 14:37:15', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1278, 44, 3958, "payee", NULL, 242.06, 242.06, "2020-01-01 00:18:12", "paypal", 7);
+(1278, 42, 702, 'payee', NULL, 46.62, 46.62, '2016-10-08 07:55:14', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1279, 20, 346, "approuvee", NULL, 223.84, 223.84, "2018-12-26 21:03:40", "visa", 4);
+(1279, 900, 2482, 'annulee', 1, 131.8800, 79.128000, '2016-06-30 02:32:27', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1280, 22, 3184, "approuvee", NULL, 445.04, 445.04, "2019-05-23 10:57:25", "paypal", 8);
+(1280, 520, 4100, 'annulee', NULL, 74.61, 74.61, '2019-09-17 04:47:34', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1281, 28, 1641, "en attente", NULL, 440.48, 440.48, "2020-09-28 05:19:30", "paypal", 8);
+(1281, 936, 1878, 'payee', NULL, 175.12, 175.12, '2018-12-16 03:46:44', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1282, 51, 3926, "payee", 2, 234.1548, 189.665388, "2017-07-12 15:29:53", "visa", 6);
+(1282, 218, 2692, 'payee', NULL, 108.00, 108.00, '2019-09-11 19:29:31', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1283, 94, 1921, "approuvee", 3, 229.2080, 160.445600, "2016-05-14 22:48:18", "paypal", 8);
+(1283, 259, 3223, 'approuvee', NULL, 24.25, 24.25, '2016-08-26 19:16:12', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1284, 1, 2105, "en attente", NULL, 318.10, 318.10, "2018-08-20 07:00:07", "mastercard", 5);
+(1284, 120, 2483, 'annulee', NULL, 39.69, 39.69, '2017-11-18 20:39:46', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1285, 33, 2539, "approuvee", NULL, 40.04, 40.04, "2020-12-23 16:54:14", "paypal", 7);
+(1285, 684, 3939, 'payee', 6, 32.9994, 26.729514, '2018-05-13 06:37:44', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1286, 35, 847, "approuvee", 4, NULL, NULL, "2019-10-16 18:55:15", "debit", 2);
+(1286, 608, 868, 'approuvee', 1, 72.0720, 43.243200, '2016-08-18 20:05:29', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1287, NULL, 2434, "approuvee", NULL, 115.86, 115.86, "2020-04-04 20:37:17", "mastercard", 6);
+(1287, 223, 2251, 'payee', NULL, 394.66, 394.66, '2018-10-19 22:30:44', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1288, 13, 4234, "annulee", NULL, 37.87, 37.87, "2017-06-23 11:56:59", "paypal", 7);
+(1288, 289, 1642, 'annulee', NULL, 61.95, 61.95, '2019-12-11 23:20:31', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1289, 8, 2288, "en attente", 6, 38.6580, 32.859300, "2018-07-20 00:58:40", "debit", 6);
+(1289, 648, 3998, 'payee', NULL, 74.58, 74.58, '2019-05-28 09:15:17', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1290, 48, 2880, "annulee", NULL, 134.52, 134.52, "2019-09-16 15:09:52", "paypal", 2);
+(1290, 810, 2811, 'payee', NULL, 374.90, 374.90, '2016-02-14 18:16:00', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1291, 15, 1847, "en attente", NULL, 237.65, 237.65, "2016-12-13 21:10:35", "paypal", 5);
+(1291, 544, 3395, 'en attente', NULL, 130.50, 130.50, '2018-07-11 03:02:00', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1292, 63, 614, "payee", NULL, 224.88, 224.88, "2019-05-24 01:51:40", "mastercard", 6);
+(1292, 207, 1588, 'approuvee', 5, 19.5600, 9.780000, '2019-06-04 03:40:04', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1293, 80, 3780, "annulee", 3, 184.2960, 129.007200, "2018-03-15 13:24:36", "visa", 4);
+(1293, 198, 3944, 'en attente', NULL, 34.83, 34.83, '2018-04-22 16:03:34', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1294, 7, 1077, "annulee", NULL, 114.40, 114.40, "2016-08-10 11:52:15", "mastercard", 2);
+(1294, 305, 1814, 'en attente', NULL, 161.64, 161.64, '2017-02-10 11:02:48', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1295, 18, 2174, "annulee", NULL, 115.46, 115.46, "2018-12-22 11:14:34", "paypal", 2);
+(1295, 531, 1780, 'annulee', 5, 38.6750, 19.337500, '2018-09-29 06:32:38', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1296, 77, 1221, "annulee", NULL, 298.48, 298.48, "2018-10-05 07:05:13", "mastercard", 4);
+(1296, 419, 4218, 'payee', NULL, 416.29, 416.29, '2018-07-09 00:46:39', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1297, 34, 1565, "en attente", NULL, 95.65, 95.65, "2020-08-29 10:26:06", "debit", 5);
+(1297, 614, 558, 'approuvee', NULL, 56.65, 56.65, '2017-09-30 05:23:10', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1298, 57, 467, "en attente", NULL, 232.08, 232.08, "2018-12-29 23:29:45", "mastercard", 4);
+(1298, 300, 4036, 'payee', 6, 115.2306, 93.336786, '2017-03-11 09:16:28', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1299, 48, 2685, "annulee", NULL, 77.32, 77.32, "2020-08-28 19:13:37", "paypal", 2);
+(1299, 230, 1102, 'payee', NULL, 113.46, 113.46, '2017-12-22 11:56:42', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1300, 90, 1695, "annulee", 2, 220.7088, 178.774128, "2020-09-06 01:42:17", "debit", 8);
+(1300, 482, 3677, 'annulee', NULL, 24.40, 24.40, '2017-02-27 00:47:21', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1301, 19, 1443, "en attente", NULL, 57.64, 57.64, "2018-08-03 21:00:19", "visa", 4);
+(1301, 887, 1275, 'annulee', NULL, 39.31, 39.31, '2017-11-29 23:08:09', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1302, 4, 602, "en attente", NULL, 52.92, 52.92, "2016-01-17 07:29:22", "paypal", 2);
+(1302, 465, 1971, 'approuvee', NULL, 132.35, 132.35, '2020-08-04 07:17:59', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1303, 87, 2601, "payee", NULL, 69.50, 69.50, "2016-11-13 21:08:51", "mastercard", 1);
+(1303, 593, 1056, 'en attente', NULL, 352.65, 352.65, '2019-05-03 19:06:12', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1304, 89, 3943, "en attente", NULL, 10.58, 10.58, "2019-09-27 22:55:44", "mastercard", 1);
+(1304, 101, 3286, 'annulee', NULL, 12.86, 12.86, '2019-03-15 19:59:51', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1305, 8, 747, "approuvee", NULL, 140.88, 140.88, "2019-06-14 23:29:37", "mastercard", 8);
+(1305, 83, 1900, 'payee', 6, 202.5000, 164.025000, '2016-01-19 06:36:51', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1306, 10, 1577, "annulee", 5, 96.9200, 48.460000, "2017-10-20 21:12:56", "visa", 8);
+(1306, 602, 1571, 'en attente', NULL, 195.90, 195.90, '2016-05-23 01:22:23', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1307, 38, 4064, "approuvee", NULL, 210.18, 210.18, "2019-06-30 00:11:15", "mastercard", 3);
+(1307, 87, 3082, 'en attente', NULL, 18.09, 18.09, '2016-07-24 11:57:45', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1308, 58, 1646, "en attente", 1, 37.3745, 31.768325, "2020-07-20 00:04:15", "visa", 1);
+(1308, 535, 3561, 'approuvee', 6, 52.5609, 42.574329, '2019-11-17 16:07:47', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1309, 77, 1013, "annulee", 5, 35.7300, 17.865000, "2020-08-02 01:11:13", "debit", 2);
+(1309, 544, 2202, 'approuvee', NULL, 230.16, 230.16, '2018-03-22 13:38:00', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1310, 40, 3322, "payee", NULL, 108.92, 108.92, "2020-02-17 16:16:03", "mastercard", 4);
+(1310, 833, 1187, 'payee', NULL, 437.92, 437.92, '2017-05-22 15:02:34', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1311, 7, 4202, "en attente", 1, 7.5480, 6.415800, "2017-06-20 02:05:38", "visa", 1);
+(1311, 629, 3143, 'approuvee', 4, 45.1440, 42.886800, '2018-04-11 03:07:07', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1312, 44, 3664, "approuvee", 2, 103.9230, 84.177630, "2017-06-23 14:44:51", "paypal", 2);
+(1312, 515, 2541, 'en attente', NULL, 408.66, 408.66, '2016-07-14 00:09:17', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1313, 51, 1763, "annulee", NULL, 559.76, 559.76, "2016-06-23 15:41:47", "mastercard", 8);
+(1313, 47, 804, 'payee', NULL, 82.34, 82.34, '2016-06-07 16:27:38', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1314, 97, 2883, "approuvee", NULL, 145.56, 145.56, "2016-05-29 14:49:38", "debit", 2);
+(1314, 968, 1493, 'approuvee', NULL, 243.68, 243.68, '2017-07-10 15:58:57', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1315, 31, 806, "approuvee", NULL, 98.22, 98.22, "2018-11-06 08:07:17", "paypal", 2);
+(1315, 883, 3976, 'en attente', NULL, 555.68, 555.68, '2019-12-05 12:48:40', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1316, 51, 2112, "payee", NULL, 54.18, 54.18, "2019-03-13 13:38:15", "visa", 1);
+(1316, 332, 2571, 'annulee', NULL, 208.14, 208.14, '2017-06-13 07:41:34', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1317, 86, 3876, "payee", 5, 45.0100, 22.505000, "2020-08-12 10:25:00", "mastercard", 7);
+(1317, 325, 1196, 'annulee', NULL, 396.88, 396.88, '2020-04-10 13:57:08', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1318, 27, 288, "annulee", NULL, 262.20, 262.20, "2019-12-21 04:50:38", "paypal", 5);
+(1318, 595, 2943, 'annulee', 2, 333.3876, 303.382716, '2018-09-19 21:25:02', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1319, 74, 3822, "en attente", NULL, 144.25, 144.25, "2018-08-25 11:59:22", "visa", 5);
+(1319, 225, 1924, 'en attente', 1, 162.6720, 97.603200, '2018-12-13 13:52:42', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1320, 50, 3123, "en attente", NULL, 209.23, 209.23, "2018-05-01 17:39:59", "debit", 7);
+(1320, 517, 547, 'annulee', NULL, 333.10, 333.10, '2019-03-09 02:35:03', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1321, 75, 4173, "payee", NULL, 145.94, 145.94, "2018-02-11 23:14:24", "mastercard", 2);
+(1321, 198, 486, 'en attente', NULL, 235.56, 235.56, '2020-09-07 23:54:17', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1322, 15, 2761, "approuvee", 4, NULL, NULL, "2017-02-14 12:03:49", "visa", 5);
+(1322, 769, 1771, 'payee', 6, 170.7804, 138.332124, '2016-05-01 21:21:14', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1323, 13, 804, "annulee", NULL, 484.68, 484.68, "2017-01-31 08:57:29", "mastercard", 7);
+(1323, 993, 1562, 'approuvee', 4, 92.8530, 88.210350, '2020-03-25 11:13:40', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1324, 94, 1787, "approuvee", NULL, 113.56, 113.56, "2018-05-01 21:28:21", "paypal", 2);
+(1324, 379, 3163, 'en attente', NULL, 116.92, 116.92, '2017-02-27 19:32:02', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1325, 52, 511, "en attente", NULL, 44.74, 44.74, "2020-12-11 11:44:19", "mastercard", 2);
+(1325, 264, 3146, 'approuvee', NULL, 47.59, 47.59, '2017-04-14 20:59:54', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1326, 42, 2013, "en attente", 5, 31.3750, 15.687500, "2020-10-12 16:56:51", "debit", 1);
+(1326, 66, 3664, 'annulee', NULL, 90.56, 90.56, '2020-11-23 20:41:03', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1327, 67, 1769, "en attente", NULL, 282.16, 282.16, "2019-02-28 11:34:41", "visa", 8);
+(1327, 456, 3476, 'en attente', NULL, 34.80, 34.80, '2020-01-12 02:15:00', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1328, 20, 1165, "payee", NULL, 280.56, 280.56, "2018-08-01 20:35:11", "mastercard", 7);
+(1328, 864, 3666, 'annulee', NULL, 242.92, 242.92, '2020-07-30 14:33:07', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1329, 13, 2589, "payee", NULL, 149.60, 149.60, "2019-10-26 17:04:40", "visa", 2);
+(1329, 181, 893, 'approuvee', NULL, 22.92, 22.92, '2019-07-25 05:21:03', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1330, 21, 1723, "approuvee", NULL, 478.31, 478.31, "2020-01-19 08:05:31", "visa", 7);
+(1330, 394, 3941, 'en attente', 5, 88.6000, 44.300000, '2019-01-04 16:00:57', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1331, 81, 3081, "en attente", NULL, 281.12, 281.12, "2018-08-18 20:11:29", "debit", 7);
+(1331, 10, 1922, 'en attente', NULL, 185.72, 185.72, '2017-06-18 16:56:32', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1332, 38, 1555, "en attente", NULL, 61.28, 61.28, "2018-03-28 14:53:26", "visa", 2);
+(1332, 789, 1269, 'payee', NULL, 125.88, 125.88, '2017-11-08 16:55:12', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1333, 84, 4022, "en attente", NULL, 207.00, 207.00, "2019-08-29 17:49:50", "debit", 4);
+(1333, 326, 3498, 'en attente', NULL, 439.11, 439.11, '2018-02-19 09:19:17', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1334, 26, 2280, "approuvee", NULL, 305.05, 305.05, "2016-01-31 07:20:10", "debit", 5);
+(1334, 860, 129, 'approuvee', 6, 295.6176, 239.450256, '2019-11-27 13:05:01', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1335, 82, 266, "annulee", 3, 10.7800, 7.546000, "2016-08-07 02:47:08", "paypal", 1);
+(1335, 842, 1834, 'approuvee', NULL, 141.36, 141.36, '2017-08-18 22:39:58', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1336, 52, 942, "approuvee", NULL, 135.63, 135.63, "2016-11-22 21:34:18", "paypal", 3);
+(1336, 837, 2010, 'payee', NULL, 153.06, 153.06, '2020-06-04 07:43:23', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1337, 74, 3317, "annulee", NULL, 274.60, 274.60, "2018-02-09 19:15:45", "visa", 4);
+(1337, 553, 2052, 'en attente', 2, 410.0369, 373.133579, '2016-07-23 16:51:57', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1338, 8, 1576, "annulee", NULL, 229.86, 229.86, "2019-06-14 23:24:47", "visa", 6);
+(1338, 526, 1365, 'approuvee', NULL, 196.08, 196.08, '2017-05-14 09:31:55', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1339, 23, 618, "annulee", 5, 9.6600, 4.830000, "2017-01-09 02:38:57", "visa", 3);
+(1339, 851, 399, 'payee', 2, 167.2944, 152.237904, '2020-08-10 13:06:31', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1340, 58, 2018, "annulee", NULL, 183.96, 183.96, "2016-01-17 00:28:06", "visa", 3);
+(1340, 84, 3712, 'en attente', NULL, 102.52, 102.52, '2020-09-03 12:29:30', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1341, 78, 4181, "en attente", 3, 132.2160, 92.551200, "2016-04-26 01:10:29", "paypal", 6);
+(1341, 268, 879, 'approuvee', NULL, 30.54, 30.54, '2016-01-18 15:33:34', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1342, 43, 658, "annulee", NULL, 107.03, 107.03, "2016-11-01 19:35:39", "mastercard", 7);
+(1342, 285, 1830, 'en attente', NULL, 291.83, 291.83, '2016-04-05 07:43:57', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1343, 67, 3705, "en attente", NULL, 427.84, 427.84, "2018-10-23 12:26:15", "paypal", 8);
+(1343, 227, 612, 'payee', NULL, 167.04, 167.04, '2019-05-09 15:08:59', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1344, 47, 1806, "approuvee", 4, NULL, NULL, "2016-09-12 15:08:03", "mastercard", 1);
+(1344, 150, 3192, 'annulee', NULL, 131.45, 131.45, '2020-06-24 14:23:28', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1345, 27, 3259, "annulee", NULL, 20.76, 20.76, "2020-08-10 16:53:39", "visa", 2);
+(1345, 613, 1200, 'payee', 1, 56.5380, 33.922800, '2018-05-04 16:34:56', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1346, 33, 873, "en attente", NULL, 63.48, 63.48, "2020-04-13 21:01:16", "debit", 1);
+(1346, 129, 1124, 'payee', NULL, 78.64, 78.64, '2018-10-22 17:08:06', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1347, 10, 1440, "payee", NULL, 109.52, 109.52, "2019-07-19 15:42:02", "paypal", 4);
+(1347, 745, 1190, 'payee', NULL, 273.75, 273.75, '2017-04-05 12:37:40', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1348, 12, 642, "payee", NULL, 86.49, 86.49, "2018-02-08 04:45:01", "paypal", 3);
+(1348, 962, 3773, 'en attente', NULL, 479.84, 479.84, '2017-09-29 02:54:11', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1349, 41, 2285, "en attente", NULL, 144.12, 144.12, "2019-02-02 12:10:39", "visa", 3);
+(1349, 765, 3372, 'en attente', NULL, 7.09, 7.09, '2018-11-15 08:28:24', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1350, NULL, 3463, "approuvee", NULL, 325.25, 325.25, "2018-05-31 09:43:42", "debit", 5);
+(1350, 3, 222, 'approuvee', NULL, 127.56, 127.56, '2018-11-02 21:31:21', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1351, 32, 2779, "payee", 1, 413.3465, 351.344525, "2019-07-19 06:08:24", "debit", 7);
+(1351, 545, 735, 'payee', NULL, 109.12, 109.12, '2018-10-24 04:01:04', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1352, 9, 2534, "annulee", 2, 50.8356, 41.176836, "2019-06-15 09:55:02", "mastercard", 2);
+(1352, 95, 404, 'annulee', NULL, 55.11, 55.11, '2017-11-24 02:19:42', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1353, 65, 3344, "payee", NULL, 68.10, 68.10, "2018-08-14 17:23:19", "debit", 5);
+(1353, 745, 543, 'en attente', NULL, 9.09, 9.09, '2017-11-14 11:21:44', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1354, 5, 2576, "en attente", NULL, 135.68, 135.68, "2018-12-12 22:57:07", "paypal", 4);
+(1354, 587, 1111, 'annulee', 1, 20.9400, 12.564000, '2020-03-02 14:46:29', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1355, 31, 1404, "approuvee", NULL, 358.14, 358.14, "2020-11-20 09:47:30", "visa", 6);
+(1355, 35, 2092, 'en attente', NULL, 424.27, 424.27, '2018-09-27 10:31:54', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1356, 13, 462, "approuvee", NULL, 108.66, 108.66, "2018-10-04 17:29:04", "paypal", 3);
+(1356, 627, 1304, 'en attente', 5, 73.4000, 36.700000, '2020-09-16 12:29:30', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1357, 65, 2987, "approuvee", NULL, 29.04, 29.04, "2019-09-13 04:37:57", "visa", 1);
+(1357, 202, 3118, 'en attente', 6, 50.7546, 41.111226, '2020-10-30 04:49:54', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1358, 60, 80, "payee", NULL, 167.55, 167.55, "2018-02-06 22:34:54", "visa", 5);
+(1358, 112, 1498, 'annulee', NULL, 51.18, 51.18, '2018-06-17 05:22:48', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1359, 9, 215, "annulee", 2, 95.2317, 77.137677, "2016-06-04 02:37:51", "debit", 3);
+(1359, 537, 1993, 'payee', NULL, 46.70, 46.70, '2019-12-14 03:25:18', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1360, 65, 841, "approuvee", NULL, 305.92, 305.92, "2020-08-28 14:11:51", "paypal", 8);
+(1360, 181, 574, 'payee', NULL, 288.60, 288.60, '2016-11-06 22:49:54', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1361, 67, 40, "payee", NULL, 105.12, 105.12, "2016-01-03 17:27:48", "debit", 4);
+(1361, 983, 1627, 'approuvee', NULL, 39.21, 39.21, '2020-02-09 15:15:05', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1362, 82, 75, "payee", NULL, 41.28, 41.28, "2020-08-13 17:49:51", "mastercard", 8);
+(1362, 122, 1263, 'approuvee', NULL, 207.72, 207.72, '2018-04-30 02:35:26', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1363, 46, 2028, "en attente", NULL, 210.87, 210.87, "2018-06-01 06:28:42", "visa", 3);
+(1363, 666, 1909, 'approuvee', NULL, 16.38, 16.38, '2020-01-21 12:27:41', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1364, 43, 745, "annulee", 4, NULL, NULL, "2019-11-21 07:37:39", "paypal", 6);
+(1364, 367, 3550, 'annulee', NULL, 321.12, 321.12, '2016-03-24 18:22:49', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1365, 68, 1055, "annulee", 1, 241.4425, 205.226125, "2019-09-25 06:29:54", "visa", 5);
+(1365, 971, 2110, 'annulee', NULL, 331.80, 331.80, '2019-05-02 00:22:24', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1366, 70, 1183, "en attente", NULL, 65.00, 65.00, "2016-10-24 17:03:24", "paypal", 5);
+(1366, 329, 21, 'annulee', NULL, 350.84, 350.84, '2017-03-28 08:01:45', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1367, 64, 1376, "payee", 5, 68.3250, 34.162500, "2017-07-10 21:38:26", "debit", 5);
+(1367, 561, 2189, 'payee', 3, 194.0355, 157.168755, '2017-07-22 10:51:12', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1368, 3, 1975, "annulee", NULL, 165.84, 165.84, "2016-02-28 12:03:21", "debit", 3);
+(1368, 910, 2536, 'approuvee', 5, 60.0300, 30.015000, '2016-03-23 21:10:42', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1369, 35, 2408, "en attente", NULL, 137.02, 137.02, "2016-09-11 13:16:42", "visa", 2);
+(1369, 491, 691, 'en attente', 1, 330.7680, 198.460800, '2019-11-08 04:29:19', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1370, 54, 1892, "annulee", NULL, 286.64, 286.64, "2017-09-26 09:23:23", "visa", 8);
+(1370, 58, 1292, 'payee', NULL, 29.77, 29.77, '2018-02-02 06:23:43', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1371, 94, 3595, "en attente", NULL, 65.70, 65.70, "2020-11-06 17:37:33", "mastercard", 5);
+(1371, 614, 1148, 'en attente', NULL, 521.57, 521.57, '2018-10-13 14:46:49', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1372, 32, 1477, "approuvee", 4, NULL, NULL, "2019-12-22 18:43:15", "paypal", 5);
+(1372, 413, 1502, 'en attente', NULL, 38.55, 38.55, '2016-10-20 11:36:42', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1373, 42, 1848, "payee", 4, NULL, NULL, "2016-08-16 10:39:53", "debit", 8);
+(1373, 282, 2565, 'en attente', NULL, 413.82, 413.82, '2019-04-28 15:51:39', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1374, 31, 4, "approuvee", 2, 62.3052, 50.467212, "2019-03-26 02:49:02", "paypal", 4);
+(1374, 941, 1904, 'annulee', 2, 457.8756, 416.666796, '2019-10-03 06:52:14', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1375, 85, 3947, "payee", NULL, 152.30, 152.30, "2017-12-03 18:54:16", "visa", 5);
+(1375, 301, 3811, 'annulee', NULL, 105.52, 105.52, '2018-09-07 11:35:02', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1376, 29, 1832, "annulee", NULL, 435.68, 435.68, "2017-10-13 21:19:23", "debit", 7);
+(1376, 918, 4233, 'payee', NULL, 127.96, 127.96, '2018-08-28 17:02:49', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1377, 89, 3688, "en attente", NULL, 140.68, 140.68, "2018-05-02 03:42:28", "mastercard", 4);
+(1377, 533, 3658, 'payee', 1, 73.6200, 44.172000, '2019-12-20 13:22:09', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1378, 16, 97, "payee", NULL, 194.24, 194.24, "2020-08-25 01:00:25", "mastercard", 8);
+(1378, 931, 1174, 'en attente', NULL, 65.85, 65.85, '2017-04-22 02:51:47', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1379, 70, 2500, "annulee", NULL, 166.95, 166.95, "2019-07-08 20:22:47", "mastercard", 7);
+(1379, 72, 1908, 'approuvee', 4, 224.5420, 213.314900, '2019-06-05 20:07:03', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1380, 89, 3934, "en attente", NULL, 523.74, 523.74, "2016-10-20 07:03:09", "mastercard", 7);
+(1380, 413, 1843, 'en attente', 5, 82.3400, 41.170000, '2019-07-08 14:37:44', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1381, 6, 1483, "payee", NULL, 96.78, 96.78, "2019-12-02 04:32:48", "mastercard", 2);
+(1381, 604, 3346, 'approuvee', NULL, 288.10, 288.10, '2019-09-06 09:05:22', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1382, 99, 370, "payee", NULL, 395.15, 395.15, "2019-08-07 08:48:17", "mastercard", 7);
+(1382, 806, 3998, 'annulee', NULL, 49.72, 49.72, '2017-08-30 08:11:15', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1383, 35, 559, "annulee", NULL, 81.56, 81.56, "2016-11-15 14:38:51", "mastercard", 4);
+(1383, 314, 2250, 'annulee', NULL, 225.05, 225.05, '2017-02-25 05:52:00', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1384, 25, 3421, "approuvee", 1, 154.3600, 131.206000, "2018-05-07 13:08:21", "paypal", 5);
+(1384, 972, 4092, 'payee', NULL, 412.98, 412.98, '2020-02-10 13:40:10', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1385, 17, 855, "en attente", NULL, 127.20, 127.20, "2020-07-02 16:30:51", "visa", 6);
+(1385, 910, 2075, 'payee', NULL, 444.64, 444.64, '2016-09-08 22:12:46', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1386, 20, 1658, "en attente", NULL, 378.72, 378.72, "2016-10-26 08:10:49", "visa", 8);
+(1386, 663, 670, 'en attente', NULL, 208.68, 208.68, '2020-03-18 12:02:11', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1387, 11, 826, "en attente", NULL, 68.63, 68.63, "2020-03-03 04:04:42", "visa", 1);
+(1387, 165, 2829, 'annulee', NULL, 438.97, 438.97, '2020-07-14 20:55:02', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1388, 41, 3443, "annulee", NULL, 134.16, 134.16, "2020-12-24 09:07:49", "visa", 6);
+(1388, 354, 2829, 'approuvee', NULL, 250.84, 250.84, '2017-02-20 23:01:56', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1389, 64, 1079, "en attente", NULL, 42.11, 42.11, "2017-06-30 14:17:42", "debit", 1);
+(1389, 887, 205, 'payee', NULL, 100.05, 100.05, '2020-02-26 12:16:06', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1390, 16, 4006, "approuvee", 5, 80.9000, 40.450000, "2018-10-17 00:25:24", "visa", 5);
+(1390, 192, 2302, 'en attente', 2, 179.3610, 163.218510, '2018-06-20 09:00:27', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1391, 89, 1862, "en attente", NULL, 308.64, 308.64, "2017-03-27 10:57:22", "visa", 8);
+(1391, 698, 2241, 'payee', 4, 65.1700, 61.911500, '2020-08-07 19:27:33', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1392, 10, 3019, "payee", NULL, 233.25, 233.25, "2017-05-19 23:36:57", "paypal", 5);
+(1392, 169, 1677, 'annulee', 5, 58.2100, 29.105000, '2018-05-02 19:30:45', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1393, 70, 466, "payee", 4, NULL, NULL, "2016-01-14 23:44:09", "mastercard", 1);
+(1393, 170, 4155, 'en attente', 5, 13.9000, 6.950000, '2020-10-24 14:50:57', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1394, 45, 1173, "payee", 3, 22.8690, 16.008300, "2018-04-12 05:58:45", "visa", 3);
+(1394, 679, 1598, 'en attente', NULL, 40.20, 40.20, '2020-06-17 20:06:40', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1395, 66, 1826, "annulee", 6, 185.4870, 157.663950, "2017-02-09 13:56:54", "debit", 6);
+(1395, 192, 883, 'annulee', NULL, 29.60, 29.60, '2016-12-05 23:31:53', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1396, 43, 1863, "en attente", NULL, 288.00, 288.00, "2018-06-02 14:07:17", "visa", 8);
+(1396, 194, 1215, 'approuvee', NULL, 64.70, 64.70, '2018-06-16 22:51:51', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1397, 87, 2327, "annulee", NULL, 176.97, 176.97, "2019-09-30 00:42:37", "visa", 3);
+(1397, 288, 3352, 'approuvee', NULL, 83.43, 83.43, '2016-01-09 07:12:36', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1398, 86, 3085, "annulee", 3, 134.1130, 93.879100, "2017-06-28 06:28:52", "paypal", 7);
+(1398, 840, 2247, 'annulee', NULL, 451.64, 451.64, '2020-10-10 22:11:48', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1399, 83, 1449, "en attente", 1, 231.0725, 196.411625, "2020-02-20 13:22:34", "debit", 5);
+(1399, 985, 3944, 'approuvee', NULL, 278.64, 278.64, '2017-03-20 09:40:00', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1400, 69, 3840, "approuvee", NULL, 19.90, 19.90, "2017-12-10 15:36:53", "paypal", 2);
+(1400, 330, 1574, 'approuvee', NULL, 534.40, 534.40, '2017-12-06 12:43:42', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1401, 71, 1298, "approuvee", NULL, 194.11, 194.11, "2020-10-24 00:52:49", "debit", 7);
+(1401, 680, 1846, 'approuvee', 6, 116.6400, 94.478400, '2020-10-31 12:12:36', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1402, 51, 3092, "payee", 6, 73.0150, 62.062750, "2020-02-13 10:44:31", "debit", 2);
+(1402, 384, 3173, 'annulee', NULL, 90.48, 90.48, '2016-01-16 13:09:53', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1403, 72, 2480, "en attente", NULL, 33.90, 33.90, "2016-12-22 17:45:38", "visa", 3);
+(1403, 936, 1431, 'en attente', NULL, 287.04, 287.04, '2017-03-31 06:22:07', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1404, 50, 567, "approuvee", NULL, 53.74, 53.74, "2019-10-28 04:05:07", "debit", 1);
+(1404, 938, 1821, 'approuvee', NULL, 213.84, 213.84, '2018-09-24 06:15:03', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1405, 30, 2625, "payee", 3, 37.6950, 26.386500, "2020-04-23 16:11:17", "debit", 5);
+(1405, 381, 2201, 'payee', 6, 351.5400, 284.747400, '2020-06-11 07:58:19', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1406, 1, 458, "approuvee", NULL, 212.52, 212.52, "2020-07-15 00:41:21", "paypal", 7);
+(1406, 796, 2740, 'payee', NULL, 65.88, 65.88, '2017-07-29 11:54:40', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1407, 91, 422, "approuvee", 1, 31.3820, 26.674700, "2016-05-29 18:27:43", "debit", 1);
+(1407, 996, 1944, 'payee', 5, 100.4600, 50.230000, '2018-10-08 18:26:31', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1408, 7, 2602, "approuvee", 5, 233.8000, 116.900000, "2016-10-27 11:57:29", "paypal", 7);
+(1408, 303, 2365, 'approuvee', 6, 57.5586, 46.622466, '2018-05-27 10:17:34', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1409, 49, 2324, "approuvee", 6, 182.9370, 155.496450, "2020-01-09 02:22:55", "visa", 6);
+(1409, 329, 3214, 'payee', NULL, 109.76, 109.76, '2016-06-05 20:45:06', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1410, 85, 1498, "annulee", NULL, 29.46, 29.46, "2018-05-26 23:51:03", "mastercard", 2);
+(1410, 370, 1031, 'en attente', 4, 121.6570, 115.574150, '2020-04-20 01:33:19', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1411, 93, 269, "annulee", 4, NULL, NULL, "2016-02-12 00:05:09", "paypal", 2);
+(1411, 327, 842, 'en attente', NULL, 158.70, 158.70, '2018-04-20 15:18:36', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1412, 95, 498, "approuvee", NULL, 482.00, 482.00, "2016-10-07 23:21:37", "debit", 8);
+(1412, 90, 782, 'approuvee', NULL, 122.40, 122.40, '2020-05-10 19:48:33', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1413, 23, 1917, "annulee", NULL, 181.68, 181.68, "2020-03-14 22:44:10", "paypal", 6);
+(1413, 837, 2078, 'payee', 3, 105.5592, 85.502952, '2017-07-07 19:35:09', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1414, 39, 1380, "en attente", 6, 8.0920, 6.878200, "2019-01-24 21:56:40", "visa", 1);
+(1414, 966, 2097, 'payee', NULL, 291.72, 291.72, '2018-06-15 14:45:37', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1415, 55, 33, "en attente", 2, 222.4584, 180.191304, "2019-05-28 00:44:15", "mastercard", 8);
+(1415, 888, 4118, 'en attente', 2, 494.6760, 450.155160, '2018-04-27 06:57:24', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1416, 43, 3745, "annulee", 1, 109.6500, 93.202500, "2017-07-22 16:23:31", "debit", 5);
+(1416, 899, 1085, 'annulee', NULL, 311.99, 311.99, '2019-07-08 08:47:47', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1417, 65, 3084, "approuvee", NULL, 65.24, 65.24, "2019-04-15 00:28:37", "mastercard", 7);
+(1417, 906, 1280, 'annulee', NULL, 190.77, 190.77, '2017-04-04 20:52:38', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1418, 16, 2260, "approuvee", NULL, 276.96, 276.96, "2019-09-29 13:32:23", "mastercard", 8);
+(1418, 114, 897, 'annulee', NULL, 49.80, 49.80, '2016-03-22 15:55:46', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1419, 8, 2644, "payee", NULL, 457.66, 457.66, "2018-07-19 11:04:18", "mastercard", 7);
+(1419, 309, 2316, 'en attente', NULL, 74.30, 74.30, '2017-01-07 23:02:11', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1420, 26, 572, "annulee", NULL, 76.60, 76.60, "2020-11-27 03:29:13", "mastercard", 5);
+(1420, 746, 3792, 'payee', NULL, 78.96, 78.96, '2016-03-11 05:30:47', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1421, 57, 1844, "approuvee", NULL, 78.22, 78.22, "2019-04-20 09:26:39", "visa", 2);
+(1421, 98, 2495, 'approuvee', NULL, 26.15, 26.15, '2016-03-03 09:52:20', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1422, 16, 851, "en attente", 2, 282.5928, 228.900168, "2017-10-09 16:06:30", "paypal", 7);
+(1422, 149, 3766, 'en attente', NULL, 116.64, 116.64, '2020-08-08 23:22:32', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1423, 75, 1908, "annulee", NULL, 168.35, 168.35, "2016-09-16 00:27:16", "paypal", 7);
+(1423, 689, 1482, 'payee', NULL, 72.58, 72.58, '2018-07-22 23:43:08', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1424, 68, 1498, "approuvee", NULL, 58.92, 58.92, "2018-03-31 04:09:29", "paypal", 4);
+(1424, 539, 2134, 'approuvee', NULL, 59.80, 59.80, '2018-04-05 23:25:04', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1425, 67, 2209, "annulee", NULL, 76.82, 76.82, "2019-08-09 13:40:15", "mastercard", 2);
+(1425, 213, 1405, 'approuvee', NULL, 78.30, 78.30, '2017-12-27 05:46:36', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1426, 12, 3845, "annulee", 6, 74.5280, 63.348800, "2016-05-29 02:02:53", "paypal", 8);
+(1426, 425, 3480, 'payee', NULL, 97.16, 97.16, '2019-03-31 08:46:12', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1427, 73, 2793, "annulee", NULL, 92.36, 92.36, "2018-10-23 02:00:39", "mastercard", 2);
+(1427, 821, 705, 'approuvee', NULL, 256.88, 256.88, '2020-02-17 17:20:29', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1428, 87, 2265, "payee", NULL, 92.00, 92.00, "2018-12-15 03:23:53", "mastercard", 5);
+(1428, 349, 2411, 'approuvee', NULL, 242.10, 242.10, '2018-10-07 08:40:08', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1429, 65, 3597, "payee", 5, 174.4500, 87.225000, "2020-06-30 14:39:33", "paypal", 5);
+(1429, 3, 44, 'approuvee', NULL, 521.29, 521.29, '2020-09-05 06:29:47', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1430, 85, 3982, "approuvee", NULL, 118.16, 118.16, "2017-05-24 06:19:34", "paypal", 4);
+(1430, 353, 3382, 'approuvee', NULL, 39.70, 39.70, '2016-04-12 10:15:29', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1431, 40, 4235, "en attente", NULL, 280.98, 280.98, "2017-09-29 07:18:28", "visa", 7);
+(1431, 324, 414, 'annulee', NULL, 310.32, 310.32, '2016-02-24 16:31:04', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1432, 79, 2824, "annulee", NULL, 191.94, 191.94, "2018-06-26 23:06:54", "paypal", 7);
+(1432, 435, 2841, 'annulee', 5, 30.6300, 15.315000, '2016-07-08 21:16:36', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1433, 10, 2641, "payee", NULL, 82.52, 82.52, "2018-08-31 07:30:57", "visa", 2);
+(1433, 852, 324, 'en attente', NULL, 125.73, 125.73, '2018-04-29 02:03:08', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1434, 31, 593, "en attente", 1, 442.9520, 376.509200, "2016-07-07 14:25:37", "debit", 8);
+(1434, 892, 1205, 'payee', NULL, 26.90, 26.90, '2019-01-12 00:27:50', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1435, 56, 115, "payee", NULL, 78.04, 78.04, "2018-12-30 03:28:37", "visa", 2);
+(1435, 854, 177, 'en attente', NULL, 31.28, 31.28, '2017-08-31 05:46:59', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1436, 90, 2401, "en attente", NULL, 221.35, 221.35, "2018-11-19 06:16:20", "visa", 5);
+(1436, 302, 1463, 'payee', NULL, 67.10, 67.10, '2019-07-03 03:27:33', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1437, 99, 3050, "payee", NULL, 24.31, 24.31, "2019-03-17 11:07:39", "paypal", 1);
+(1437, 347, 2426, 'annulee', NULL, 31.16, 31.16, '2020-11-25 05:47:17', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1438, 67, 1559, "payee", NULL, 151.74, 151.74, "2017-05-27 22:24:07", "paypal", 6);
+(1438, 213, 768, 'annulee', NULL, 104.65, 104.65, '2019-01-21 07:20:18', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1439, 55, 204, "approuvee", 4, NULL, NULL, "2017-11-15 17:27:35", "mastercard", 5);
+(1439, 24, 455, 'en attente', NULL, 284.76, 284.76, '2020-03-01 20:28:01', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1440, 68, 3154, "en attente", NULL, 137.70, 137.70, "2020-10-22 15:21:09", "debit", 6);
+(1440, 516, 2752, 'approuvee', NULL, 20.43, 20.43, '2017-09-26 15:35:30', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1441, 33, 2972, "payee", NULL, 347.52, 347.52, "2019-06-21 16:26:32", "paypal", 6);
+(1441, 969, 2729, 'annulee', NULL, 23.30, 23.30, '2017-01-11 19:37:11', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1442, 81, 4080, "en attente", NULL, 243.76, 243.76, "2018-04-14 01:17:43", "paypal", 4);
+(1442, 209, 1320, 'annulee', NULL, 104.42, 104.42, '2016-01-18 01:37:53', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1443, 47, 3690, "en attente", NULL, 205.14, 205.14, "2019-10-27 15:16:22", "paypal", 3);
+(1443, 170, 187, 'en attente', NULL, 24.89, 24.89, '2017-03-21 17:15:23', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1444, 50, 2125, "payee", NULL, 40.00, 40.00, "2018-04-05 08:35:36", "mastercard", 1);
+(1444, 371, 2191, 'approuvee', NULL, 598.56, 598.56, '2018-04-03 16:34:36', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1445, 38, 4235, "annulee", NULL, 321.12, 321.12, "2017-03-21 01:33:16", "mastercard", 8);
+(1445, 821, 885, 'payee', 1, 106.4880, 63.892800, '2016-03-30 19:13:27', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1446, 99, 858, "approuvee", NULL, 68.76, 68.76, "2020-05-09 21:19:28", "paypal", 4);
+(1446, 673, 3694, 'en attente', NULL, 23.52, 23.52, '2019-06-27 06:19:56', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1447, 26, 948, "payee", NULL, 209.04, 209.04, "2020-09-30 16:06:08", "mastercard", 6);
+(1447, 372, 3351, 'approuvee', NULL, 400.56, 400.56, '2020-08-15 07:49:45', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1448, 6, 2836, "payee", 4, NULL, NULL, "2016-06-12 05:21:56", "visa", 7);
+(1448, 521, 2727, 'approuvee', NULL, 271.25, 271.25, '2019-10-23 23:20:52', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1449, 38, 2203, "en attente", 6, 15.0365, 12.781025, "2017-01-23 17:23:47", "debit", 1);
+(1449, 258, 742, 'en attente', NULL, 133.60, 133.60, '2017-01-03 12:43:25', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1450, 79, 75, "en attente", NULL, 41.28, 41.28, "2020-03-04 22:46:40", "mastercard", 8);
+(1450, 816, 317, 'annulee', NULL, 144.96, 144.96, '2016-06-05 19:08:31', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1451, 40, 65, "annulee", 6, 330.5310, 280.951350, "2017-07-22 09:06:15", "mastercard", 6);
+(1451, 570, 698, 'payee', NULL, 26.58, 26.58, '2017-04-14 08:07:30', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1452, 32, 4143, "approuvee", NULL, 119.64, 119.64, "2018-02-25 08:57:39", "paypal", 3);
+(1452, 86, 694, 'approuvee', 6, 135.4644, 109.726164, '2017-01-18 05:27:22', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1453, 85, 2074, "payee", NULL, 448.40, 448.40, "2020-05-07 10:20:58", "debit", 8);
+(1453, 652, 74, 'approuvee', NULL, 67.96, 67.96, '2019-03-28 19:26:37', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1454, 92, 3855, "payee", NULL, 143.79, 143.79, "2017-07-16 13:22:53", "paypal", 3);
+(1454, 638, 2183, 'en attente', NULL, 356.40, 356.40, '2016-10-02 02:25:04', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1455, 35, 2140, "annulee", NULL, 576.56, 576.56, "2018-09-22 20:45:19", "mastercard", 8);
+(1455, 228, 3634, 'approuvee', NULL, 132.88, 132.88, '2017-04-12 15:33:43', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1456, 47, 2109, "annulee", NULL, 218.55, 218.55, "2020-05-05 15:04:19", "debit", 3);
+(1456, 521, 138, 'payee', NULL, 483.84, 483.84, '2017-11-13 11:01:09', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1457, 64, 3497, "approuvee", NULL, 354.66, 354.66, "2016-08-18 21:16:57", "visa", 6);
+(1457, 673, 2245, 'payee', NULL, 192.71, 192.71, '2017-08-20 04:12:43', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1458, 45, 2750, "approuvee", NULL, 111.40, 111.40, "2019-03-10 17:44:42", "visa", 2);
+(1458, 277, 721, 'payee', NULL, 20.08, 20.08, '2019-04-09 01:47:55', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1459, 62, 191, "payee", NULL, 32.08, 32.08, "2020-06-03 10:05:49", "visa", 1);
+(1459, 523, 3269, 'annulee', 5, 63.7200, 31.860000, '2019-06-01 04:12:32', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1460, 2, 909, "payee", NULL, 482.56, 482.56, "2019-04-11 07:30:41", "debit", 8);
+(1460, 744, 3557, 'en attente', NULL, 35.04, 35.04, '2020-12-16 13:42:46', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1461, 20, 2014, "annulee", NULL, 92.34, 92.34, "2019-03-04 23:11:00", "debit", 6);
+(1461, 881, 1721, 'approuvee', 4, 48.9060, 46.460700, '2020-06-18 06:40:49', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1462, 39, 3467, "approuvee", NULL, 505.19, 505.19, "2016-04-22 09:02:22", "visa", 7);
+(1462, 181, 3229, 'approuvee', NULL, 79.76, 79.76, '2020-05-01 07:13:17', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1463, 87, 4168, "en attente", NULL, 29.87, 29.87, "2018-01-20 04:01:51", "debit", 1);
+(1463, 142, 2229, 'annulee', NULL, 12.34, 12.34, '2018-09-22 20:50:07', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1464, 66, 2549, "payee", NULL, 245.92, 245.92, "2019-02-21 04:52:31", "visa", 4);
+(1464, 594, 1732, 'annulee', NULL, 39.55, 39.55, '2016-10-10 23:25:29', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1465, 16, 1338, "en attente", 4, NULL, NULL, "2018-08-19 11:05:54", "mastercard", 8);
+(1465, 179, 1481, 'annulee', NULL, 196.64, 196.64, '2020-07-14 13:47:14', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1466, 95, 1946, "payee", NULL, 63.68, 63.68, "2018-06-20 19:00:12", "debit", 1);
+(1466, 987, 3314, 'payee', NULL, 233.72, 233.72, '2017-04-05 09:39:26', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1467, 74, 100, "approuvee", NULL, 330.89, 330.89, "2020-02-04 00:12:39", "paypal", 7);
+(1467, 58, 441, 'payee', 5, 59.2100, 29.605000, '2016-12-06 11:46:03', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1468, 43, 4069, "approuvee", NULL, 26.19, 26.19, "2016-04-05 12:51:51", "visa", 1);
+(1468, 735, 676, 'approuvee', NULL, 49.40, 49.40, '2020-12-09 05:50:51', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1469, 8, 189, "payee", NULL, 281.90, 281.90, "2017-06-15 09:46:24", "visa", 5);
+(1469, 266, 2613, 'payee', NULL, 41.74, 41.74, '2019-07-29 04:59:20', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1470, 19, 1198, "approuvee", NULL, 9.36, 9.36, "2016-12-30 22:52:09", "debit", 1);
+(1470, 406, 3041, 'annulee', NULL, 138.08, 138.08, '2019-12-12 04:05:20', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1471, 90, 3291, "en attente", NULL, 30.96, 30.96, "2019-06-24 15:30:12", "paypal", 3);
+(1471, 39, 3389, 'payee', NULL, 213.72, 213.72, '2017-03-20 18:17:46', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1472, 6, 839, "payee", NULL, 109.44, 109.44, "2019-01-19 19:53:05", "visa", 2);
+(1472, 530, 4143, 'annulee', NULL, 390.32, 390.32, '2016-07-06 11:52:13', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1473, 35, 3215, "annulee", NULL, 215.34, 215.34, "2016-06-18 03:51:26", "debit", 6);
+(1473, 807, 1703, 'payee', NULL, 102.38, 102.38, '2016-10-15 12:53:41', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1474, 61, 3800, "approuvee", 6, 150.3480, 127.795800, "2018-07-12 23:05:59", "debit", 8);
+(1474, 76, 883, 'annulee', NULL, 29.60, 29.60, '2018-03-03 19:26:13', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1475, 83, 714, "payee", NULL, 507.68, 507.68, "2019-04-11 07:45:32", "debit", 8);
+(1475, 135, 4004, 'en attente', NULL, 68.48, 68.48, '2016-01-31 22:55:32', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1476, 66, 1448, "approuvee", 2, 95.8392, 77.629752, "2019-08-05 11:15:33", "debit", 3);
+(1476, 842, 2408, 'en attente', NULL, 147.14, 147.14, '2018-09-04 15:59:26', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1477, 29, 3196, "annulee", NULL, 20.24, 20.24, "2019-02-28 06:27:52", "debit", 4);
+(1477, 7, 2506, 'approuvee', NULL, 17.90, 17.90, '2018-02-05 21:42:57', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1478, 35, 2911, "approuvee", NULL, 52.92, 52.92, "2016-06-18 11:52:16", "mastercard", 7);
+(1478, 426, 163, 'en attente', NULL, 66.43, 66.43, '2020-06-27 21:11:26', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1479, 83, 2040, "annulee", NULL, 518.00, 518.00, "2020-05-21 11:53:27", "debit", 7);
+(1479, 924, 2496, 'approuvee', 4, 96.6720, 91.838400, '2017-08-08 23:36:28', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1480, 58, 1800, "payee", NULL, 512.40, 512.40, "2017-12-05 03:55:37", "mastercard", 8);
+(1480, 133, 4201, 'en attente', 4, 477.8120, 453.921400, '2020-08-09 03:43:38', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1481, 13, 1434, "annulee", NULL, 266.80, 266.80, "2018-12-23 04:20:35", "paypal", 4);
+(1481, 262, 2677, 'annulee', 3, 14.3856, 11.652336, '2016-11-10 09:06:45', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1482, 93, 1118, "en attente", 3, 161.2590, 112.881300, "2016-12-06 04:12:57", "mastercard", 7);
+(1482, 200, 3856, 'en attente', NULL, 552.96, 552.96, '2016-02-06 06:17:09', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1483, 88, 852, "approuvee", 1, 148.3760, 126.119600, "2020-06-23 01:30:00", "visa", 8);
+(1483, 676, 873, 'annulee', 3, 322.5582, 261.272142, '2020-08-27 13:16:53', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1484, 98, 722, "en attente", NULL, 467.18, 467.18, "2020-03-31 03:36:16", "mastercard", 7);
+(1484, 535, 1651, 'en attente', NULL, 121.20, 121.20, '2019-12-22 02:02:37', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1485, 87, 1376, "payee", 5, 54.6600, 27.330000, "2016-02-23 15:59:49", "debit", 4);
+(1485, 799, 412, 'annulee', NULL, 115.60, 115.60, '2019-08-02 09:35:39', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1486, 48, 1014, "approuvee", NULL, 507.71, 507.71, "2017-05-20 09:31:46", "paypal", 7);
+(1486, 977, 2228, 'approuvee', 6, 272.8080, 220.974480, '2017-01-01 14:24:39', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1487, 28, 1877, "approuvee", NULL, 67.24, 67.24, "2017-12-10 02:12:39", "paypal", 1);
+(1487, 396, 1169, 'approuvee', NULL, 267.36, 267.36, '2016-01-29 05:26:20', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1488, 48, 2958, "en attente", NULL, 210.44, 210.44, "2017-05-16 07:57:04", "visa", 4);
+(1488, 840, 1531, 'en attente', NULL, 469.49, 469.49, '2018-04-05 09:27:10', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1489, 51, 1371, "approuvee", NULL, 15.98, 15.98, "2017-12-29 09:30:38", "debit", 1);
+(1489, 14, 742, 'en attente', NULL, 200.40, 200.40, '2019-02-24 03:15:14', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1490, 5, 2857, "annulee", 6, 149.7105, 127.253925, "2020-10-24 15:33:36", "mastercard", 3);
+(1490, 630, 1533, 'payee', NULL, 127.14, 127.14, '2019-11-26 09:11:47', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1491, 44, 2549, "annulee", NULL, 307.40, 307.40, "2018-09-26 14:04:54", "visa", 5);
+(1491, 421, 1974, 'payee', 6, 109.0584, 88.337304, '2018-01-13 01:28:12', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1492, 25, 4154, "annulee", NULL, 201.76, 201.76, "2017-07-08 06:32:26", "paypal", 4);
+(1492, 418, 796, 'en attente', NULL, 231.80, 231.80, '2020-10-04 10:20:40', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1493, 41, 1984, "annulee", NULL, 138.14, 138.14, "2020-04-26 02:10:49", "debit", 2);
+(1493, 136, 3407, 'annulee', NULL, 124.08, 124.08, '2016-02-04 14:01:02', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1494, 55, 3561, "en attente", NULL, 376.08, 376.08, "2019-10-11 19:48:42", "debit", 6);
+(1494, 160, 1625, 'annulee', NULL, 42.09, 42.09, '2020-09-14 22:21:10', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1495, 2, 4082, "annulee", NULL, 74.55, 74.55, "2019-05-22 20:17:36", "debit", 1);
+(1495, 395, 4089, 'approuvee', NULL, 35.76, 35.76, '2018-03-26 09:20:05', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1496, 38, 787, "annulee", NULL, 368.13, 368.13, "2018-07-27 14:36:16", "paypal", 7);
+(1496, 175, 4032, 'approuvee', NULL, 255.50, 255.50, '2016-11-17 05:42:27', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1497, 16, 2880, "en attente", NULL, 538.08, 538.08, "2019-05-16 02:24:01", "visa", 8);
+(1497, 468, 4132, 'annulee', 5, 29.4250, 14.712500, '2018-01-01 10:12:47', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1498, 83, 2103, "en attente", NULL, 365.30, 365.30, "2019-08-08 08:40:08", "debit", 5);
+(1498, 490, 1929, 'annulee', 4, 52.6680, 50.034600, '2016-05-21 05:43:09', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1499, 16, 2653, "approuvee", NULL, 478.87, 478.87, "2019-08-29 08:41:13", "visa", 7);
+(1499, 778, 1176, 'en attente', 6, 169.4844, 137.282364, '2017-05-31 01:55:41', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1500, 33, 711, "en attente", NULL, 146.50, 146.50, "2016-07-31 00:59:38", "paypal", 5);
+(1500, 771, 547, 'en attente', NULL, 66.62, 66.62, '2017-12-02 07:48:33', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1501, 81, 226, "annulee", NULL, 519.04, 519.04, "2020-06-02 17:36:25", "mastercard", 8);
+(1501, 607, 2995, 'approuvee', NULL, 134.86, 134.86, '2016-04-03 19:50:21', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1502, 1, 2445, "annulee", NULL, 265.16, 265.16, "2019-11-26 03:16:56", "debit", 4);
+(1502, 119, 360, 'approuvee', NULL, 41.68, 41.68, '2016-03-11 09:50:00', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1503, 91, 2819, "approuvee", NULL, 220.52, 220.52, "2016-03-13 20:53:43", "debit", 4);
+(1503, 1, 1307, 'annulee', 1, 20.0640, 12.038400, '2019-12-14 11:09:14', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1504, 38, 1452, "en attente", NULL, 242.40, 242.40, "2016-12-03 03:37:42", "visa", 6);
+(1504, 2, 759, 'annulee', NULL, 15.12, 15.12, '2020-06-04 21:13:46', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1505, 63, 4005, "approuvee", 3, 157.9760, 110.583200, "2017-04-15 20:12:28", "mastercard", 7);
+(1505, 491, 2413, 'payee', NULL, 175.44, 175.44, '2016-08-19 09:09:48', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1506, 98, 3179, "approuvee", 2, 140.7456, 114.003936, "2020-08-21 13:55:25", "debit", 4);
+(1506, 461, 1907, 'en attente', NULL, 116.82, 116.82, '2020-05-26 14:59:58', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1507, 74, 1046, "en attente", 3, 303.6600, 212.562000, "2020-08-30 06:16:51", "mastercard", 6);
+(1507, 510, 783, 'en attente', NULL, 77.24, 77.24, '2016-03-20 17:40:18', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1508, 71, 458, "payee", NULL, 91.08, 91.08, "2019-08-09 20:39:30", "mastercard", 3);
+(1508, 553, 4249, 'payee', NULL, 288.75, 288.75, '2020-11-14 21:02:51', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1509, 70, 3167, "en attente", NULL, 411.54, 411.54, "2017-09-18 11:02:00", "visa", 6);
+(1509, 78, 1309, 'payee', 1, 86.4960, 51.897600, '2018-05-20 06:15:18', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1510, 5, 1743, "en attente", NULL, 525.04, 525.04, "2019-08-29 00:23:59", "visa", 8);
+(1510, 376, 1940, 'en attente', NULL, 26.98, 26.98, '2020-02-02 04:02:39', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1511, 29, 377, "annulee", NULL, 50.05, 50.05, "2018-10-07 06:50:06", "mastercard", 1);
+(1511, 15, 2438, 'annulee', NULL, 143.70, 143.70, '2018-12-03 10:25:42', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1512, 83, 144, "annulee", NULL, 137.49, 137.49, "2016-06-12 11:58:47", "debit", 3);
+(1512, 456, 3335, 'payee', NULL, 369.80, 369.80, '2017-08-15 16:10:34', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1513, 13, 4064, "payee", 3, 196.1680, 137.317600, "2017-10-03 14:28:25", "debit", 4);
+(1513, 379, 822, 'approuvee', NULL, 22.16, 22.16, '2016-01-31 03:21:45', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1514, 71, 4158, "payee", NULL, 188.07, 188.07, "2019-12-07 06:20:27", "debit", 3);
+(1514, 945, 3012, 'en attente', NULL, 168.16, 168.16, '2018-10-01 19:07:12', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1515, 38, 3090, "en attente", NULL, 64.00, 64.00, "2017-09-01 20:27:39", "debit", 1);
+(1515, 594, 2425, 'annulee', NULL, 442.68, 442.68, '2017-10-01 19:21:49', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1516, 44, 819, "annulee", 5, 66.7800, 33.390000, "2019-07-03 13:11:33", "mastercard", 4);
+(1516, 511, 3214, 'payee', NULL, 109.76, 109.76, '2019-11-17 03:48:47', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1517, 12, 1959, "approuvee", NULL, 69.30, 69.30, "2016-12-08 06:34:05", "visa", 6);
+(1517, 191, 3312, 'en attente', NULL, 415.20, 415.20, '2020-05-13 19:39:33', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1518, 36, 2558, "annulee", NULL, 91.50, 91.50, "2016-02-06 09:24:25", "mastercard", 2);
+(1518, 372, 368, 'en attente', 4, 285.1520, 270.894400, '2016-09-21 23:39:35', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1519, 14, 3550, "payee", 6, 106.2330, 90.298050, "2020-03-12 19:17:30", "visa", 3);
+(1519, 690, 1014, 'en attente', 3, 111.9420, 90.673020, '2020-06-20 13:17:39', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1520, 18, 2167, "annulee", NULL, 382.56, 382.56, "2019-02-06 15:06:48", "visa", 8);
+(1520, 624, 144, 'payee', 5, 85.9200, 42.960000, '2017-05-29 02:36:35', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1521, 66, 830, "approuvee", NULL, 141.50, 141.50, "2016-08-13 20:05:52", "paypal", 2);
+(1521, 461, 921, 'payee', NULL, 147.00, 147.00, '2018-08-15 00:08:01', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1522, 96, 3716, "approuvee", NULL, 596.72, 596.72, "2018-02-01 12:22:14", "paypal", 8);
+(1522, 24, 2199, 'approuvee', NULL, 98.40, 98.40, '2016-04-19 02:30:46', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1523, 12, 2390, "en attente", NULL, 385.44, 385.44, "2018-06-11 19:40:22", "debit", 8);
+(1523, 19, 3791, 'annulee', NULL, 155.32, 155.32, '2016-03-05 13:55:32', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1524, 4, 4149, "approuvee", NULL, 226.56, 226.56, "2018-06-06 00:23:44", "debit", 8);
+(1524, 988, 66, 'payee', NULL, 40.18, 40.18, '2018-08-30 20:40:25', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1525, 84, 991, "en attente", NULL, 315.55, 315.55, "2017-12-15 06:48:39", "mastercard", 5);
+(1525, 533, 2316, 'approuvee', NULL, 37.15, 37.15, '2020-12-13 06:21:19', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1526, 28, 1864, "en attente", NULL, 90.76, 90.76, "2016-01-26 08:50:30", "mastercard", 2);
+(1526, 450, 2203, 'en attente', NULL, 294.36, 294.36, '2016-12-23 04:22:45', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1527, 89, 3785, "annulee", NULL, 31.98, 31.98, "2020-06-12 15:31:42", "paypal", 6);
+(1527, 68, 2302, 'annulee', NULL, 131.40, 131.40, '2020-09-26 18:28:17', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1528, 77, 53, "payee", NULL, 185.55, 185.55, "2020-09-01 08:05:02", "debit", 3);
+(1528, 507, 3704, 'approuvee', NULL, 97.30, 97.30, '2019-04-03 14:47:54', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1529, 60, 1075, "payee", NULL, 52.80, 52.80, "2020-03-26 12:53:56", "paypal", 4);
+(1529, 273, 969, 'payee', NULL, 323.00, 323.00, '2019-05-26 12:44:03', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1530, 32, 3149, "en attente", NULL, 68.22, 68.22, "2016-04-22 00:14:24", "visa", 2);
+(1530, 704, 2347, 'approuvee', NULL, 273.98, 273.98, '2019-04-28 19:10:40', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1531, 5, 1408, "en attente", NULL, 97.48, 97.48, "2017-05-08 09:30:33", "visa", 2);
+(1531, 318, 3712, 'annulee', NULL, 358.82, 358.82, '2019-09-29 01:47:58', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1532, 63, 3738, "approuvee", 1, 55.2500, 46.962500, "2018-10-03 03:44:22", "visa", 4);
+(1532, 632, 4016, 'payee', 5, 193.6800, 96.840000, '2019-10-05 17:14:13', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1533, 67, 4100, "en attente", 3, 51.2190, 35.853300, "2019-08-31 20:58:32", "visa", 1);
+(1533, 984, 2945, 'annulee', 6, 36.1746, 29.301426, '2019-07-04 21:42:50', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1534, 2, 985, "en attente", 2, 204.2496, 165.442176, "2020-12-24 06:44:37", "visa", 8);
+(1534, 470, 3193, 'en attente', 2, 232.0591, 211.173781, '2018-12-02 06:35:10', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1535, 42, 3349, "payee", NULL, 25.86, 25.86, "2017-05-10 22:17:55", "debit", 2);
+(1535, 78, 1732, 'en attente', NULL, 237.30, 237.30, '2016-10-20 23:12:30', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1536, 94, 2854, "approuvee", NULL, 48.60, 48.60, "2020-07-28 15:53:04", "mastercard", 1);
+(1536, 920, 2137, 'en attente', NULL, 434.88, 434.88, '2020-05-12 19:43:34', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1537, 53, 1070, "payee", NULL, 83.58, 83.58, "2018-04-15 01:36:03", "mastercard", 2);
+(1537, 580, 2835, 'payee', NULL, 74.96, 74.96, '2017-01-29 02:14:38', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1538, 89, 1441, "en attente", NULL, 321.72, 321.72, "2020-10-03 19:13:12", "visa", 7);
+(1538, 758, 966, 'payee', 6, 94.6566, 76.671846, '2018-11-17 07:20:14', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1539, 81, 2630, "annulee", NULL, 291.36, 291.36, "2016-10-25 02:51:03", "paypal", 4);
+(1539, 491, 600, 'approuvee', NULL, 160.40, 160.40, '2016-01-13 10:30:05', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1540, 15, 1496, "en attente", NULL, 577.84, 577.84, "2016-08-06 21:48:54", "debit", 8);
+(1540, 599, 2624, 'approuvee', 5, 16.5800, 8.290000, '2018-09-01 05:02:32', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1541, 63, 872, "payee", NULL, 151.02, 151.02, "2018-02-17 03:04:09", "debit", 3);
+(1541, 764, 1880, 'payee', NULL, 590.64, 590.64, '2018-05-15 11:27:26', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1542, 68, 1927, "annulee", 1, 37.6125, 31.970625, "2017-06-16 01:19:00", "paypal", 5);
+(1542, 796, 170, 'en attente', 6, 82.1826, 66.567906, '2019-04-18 01:15:37', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1543, 77, 300, "payee", NULL, 359.28, 359.28, "2016-06-14 20:39:07", "debit", 8);
+(1543, 690, 534, 'en attente', 1, 23.1360, 13.881600, '2020-08-27 18:45:26', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1544, 41, 2153, "approuvee", NULL, 217.98, 217.98, "2020-02-18 05:44:04", "debit", 7);
+(1544, 764, 3500, 'annulee', NULL, 10.30, 10.30, '2019-11-02 22:55:14', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1545, 21, 1333, "approuvee", NULL, 234.92, 234.92, "2016-01-09 22:48:55", "paypal", 7);
+(1545, 962, 2311, 'approuvee', NULL, 208.60, 208.60, '2018-12-14 20:03:41', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1546, 71, 2808, "annulee", NULL, 149.52, 149.52, "2016-02-20 18:32:37", "mastercard", 2);
+(1546, 823, 1147, 'approuvee', NULL, 352.14, 352.14, '2016-06-25 07:15:31', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1547, 28, 4020, "en attente", NULL, 268.32, 268.32, "2017-02-02 00:36:30", "mastercard", 4);
+(1547, 489, 6, 'payee', NULL, 119.75, 119.75, '2019-10-16 23:34:38', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1548, 69, 1332, "payee", NULL, 566.64, 566.64, "2019-06-19 19:48:49", "debit", 8);
+(1548, 472, 3442, 'payee', NULL, 339.48, 339.48, '2019-07-02 16:13:03', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1549, 28, 1450, "payee", NULL, 81.24, 81.24, "2020-06-09 20:12:08", "visa", 2);
+(1549, 280, 3128, 'approuvee', NULL, 415.04, 415.04, '2016-08-25 06:14:38', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1550, 98, 587, "approuvee", 5, 213.4300, 106.715000, "2016-11-17 11:05:19", "paypal", 7);
+(1550, 511, 245, 'en attente', NULL, 203.84, 203.84, '2016-01-24 21:42:08', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1551, 8, 1286, "en attente", NULL, 30.42, 30.42, "2020-06-25 16:33:03", "mastercard", 3);
+(1551, 146, 65, 'payee', 4, 183.2550, 174.092250, '2017-11-28 09:21:53', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1552, 75, 265, "approuvee", NULL, 150.84, 150.84, "2016-07-04 22:23:30", "visa", 4);
+(1552, 963, 2377, 'annulee', NULL, 207.96, 207.96, '2020-02-12 17:39:32', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1553, 20, 1885, "approuvee", NULL, 449.82, 449.82, "2019-10-15 02:23:26", "debit", 6);
+(1553, 87, 3561, 'payee', NULL, 194.67, 194.67, '2019-11-19 10:05:24', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1554, 87, 2188, "approuvee", NULL, 79.85, 79.85, "2016-12-03 10:43:33", "paypal", 5);
+(1554, 184, 2428, 'approuvee', NULL, 271.74, 271.74, '2020-04-18 11:21:03', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1555, 46, 4149, "approuvee", NULL, 198.24, 198.24, "2018-09-24 10:20:43", "mastercard", 7);
+(1555, 394, 1738, 'payee', NULL, 258.06, 258.06, '2016-01-03 11:17:41', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1556, 66, 1709, "approuvee", NULL, 220.62, 220.62, "2018-06-09 22:30:54", "paypal", 6);
+(1556, 994, 2132, 'en attente', NULL, 190.53, 190.53, '2019-11-12 18:51:41', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1557, 11, 1183, "payee", 4, NULL, NULL, "2018-02-22 12:50:39", "mastercard", 6);
+(1557, 702, 3012, 'approuvee', NULL, 42.04, 42.04, '2020-04-14 03:41:48', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1558, 15, 1565, "approuvee", 5, 47.8250, 23.912500, "2016-07-13 13:08:05", "debit", 5);
+(1558, 523, 2520, 'approuvee', NULL, 27.63, 27.63, '2016-09-15 09:29:19', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1559, 16, 2193, "en attente", 1, 71.4680, 60.747800, "2017-01-20 06:49:52", "paypal", 2);
+(1559, 659, 1650, 'approuvee', NULL, 82.00, 82.00, '2020-12-16 09:59:46', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1560, 64, 1236, "en attente", 2, 56.2545, 45.566145, "2016-11-23 13:24:52", "paypal", 3);
+(1560, 289, 4004, 'annulee', 2, 15.5792, 14.177072, '2017-11-11 20:06:58', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1561, 66, 2956, "payee", NULL, 224.00, 224.00, "2016-08-07 10:39:35", "paypal", 5);
+(1561, 679, 3038, 'en attente', NULL, 138.56, 138.56, '2017-10-18 16:35:30', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1562, 51, 260, "approuvee", NULL, 365.28, 365.28, "2016-01-20 06:48:12", "debit", 8);
+(1562, 90, 3330, 'approuvee', NULL, 191.08, 191.08, '2019-06-05 02:56:17', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1563, 14, 179, "payee", NULL, 181.50, 181.50, "2018-11-15 04:27:40", "visa", 5);
+(1563, 857, 1889, 'en attente', NULL, 215.31, 215.31, '2018-10-12 23:17:48', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1564, 47, 229, "en attente", NULL, 447.48, 447.48, "2017-05-20 01:39:18", "paypal", 6);
+(1564, 122, 2296, 'payee', NULL, 253.12, 253.12, '2017-07-18 04:15:36', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1565, 96, 688, "payee", 5, 33.1750, 16.587500, "2016-05-12 16:51:21", "visa", 5);
+(1565, 586, 3442, 'en attente', NULL, 169.74, 169.74, '2016-02-11 06:22:58', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1566, 24, 1349, "en attente", NULL, 31.86, 31.86, "2017-08-12 20:05:45", "paypal", 2);
+(1566, 329, 2279, 'approuvee', NULL, 18.65, 18.65, '2019-04-06 10:39:43', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1567, 98, 2168, "en attente", NULL, 542.48, 542.48, "2017-01-10 21:39:25", "mastercard", 8);
+(1567, 810, 412, 'annulee', NULL, 14.45, 14.45, '2018-12-05 16:19:27', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1568, 91, 1671, "en attente", NULL, 405.86, 405.86, "2018-08-14 11:24:07", "visa", 7);
+(1568, 654, 367, 'annulee', NULL, 382.06, 382.06, '2017-09-23 06:35:20', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1569, 74, 2240, "annulee", NULL, 69.94, 69.94, "2019-10-10 03:35:25", "paypal", 2);
+(1569, 500, 2706, 'annulee', NULL, 215.60, 215.60, '2016-10-29 03:35:43', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1570, 56, 2677, "approuvee", 4, NULL, NULL, "2020-05-22 16:23:08", "visa", 3);
+(1570, 236, 1198, 'en attente', NULL, 104.10, 104.10, '2017-12-01 10:27:47', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1571, 17, 2467, "payee", 6, 225.4710, 191.650350, "2019-01-18 18:17:42", "debit", 6);
+(1571, 606, 1875, 'approuvee', NULL, 28.00, 28.00, '2016-12-26 17:33:06', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1572, 30, 107, "payee", NULL, 297.20, 297.20, "2020-04-15 10:37:10", "paypal", 4);
+(1572, 555, 2183, 'annulee', NULL, 311.85, 311.85, '2016-08-08 01:16:38', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1573, 88, 3043, "en attente", NULL, 220.62, 220.62, "2020-04-30 12:47:10", "paypal", 3);
+(1573, 327, 511, 'payee', 5, 39.6200, 19.810000, '2017-05-04 16:00:55', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1574, 47, 296, "annulee", NULL, 579.60, 579.60, "2020-11-16 04:55:20", "visa", 8);
+(1574, 202, 2955, 'en attente', NULL, 233.85, 233.85, '2020-12-09 17:53:35', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1575, 18, 2606, "approuvee", NULL, 19.78, 19.78, "2019-09-23 22:06:49", "mastercard", 2);
+(1575, 576, 292, 'payee', 3, 233.6850, 189.284850, '2018-10-23 11:10:38', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1576, 72, 2634, "annulee", NULL, 138.80, 138.80, "2018-10-27 21:25:50", "debit", 8);
+(1576, 328, 2001, 'annulee', NULL, 113.28, 113.28, '2020-12-01 08:04:55', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1577, 84, 2807, "en attente", NULL, 90.92, 90.92, "2017-01-26 01:50:39", "paypal", 2);
+(1577, 307, 3378, 'payee', NULL, 130.32, 130.32, '2017-08-12 18:50:35', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1578, 16, 552, "en attente", NULL, 404.08, 404.08, "2019-04-12 22:10:01", "visa", 8);
+(1578, NULL, 1513, 'annulee', 5, 119.0000, 59.500000, '2019-06-03 09:05:54', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1579, 1, 1655, "approuvee", 1, 483.0720, 410.611200, "2016-02-19 20:33:08", "mastercard", 8);
+(1579, 331, 799, 'en attente', NULL, 114.40, 114.40, '2019-11-20 22:36:05', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1580, 57, 3093, "payee", NULL, 30.03, 30.03, "2017-10-14 16:31:36", "mastercard", 1);
+(1580, 723, 2555, 'payee', NULL, 19.57, 19.57, '2016-03-08 08:01:47', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1581, 67, 2030, "annulee", NULL, 28.55, 28.55, "2018-09-13 02:27:58", "mastercard", 1);
+(1581, 485, 997, 'payee', NULL, 597.92, 597.92, '2016-01-10 17:56:35', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1582, 39, 1062, "payee", 6, 55.5305, 47.200925, "2017-12-27 04:18:12", "debit", 1);
+(1582, 348, 1199, 'annulee', NULL, 206.64, 206.64, '2017-02-18 06:16:55', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1583, 91, 66, "payee", 4, NULL, NULL, "2020-01-07 10:08:52", "visa", 1);
+(1583, 111, 2091, 'approuvee', 6, 203.5125, 164.845125, '2019-08-02 20:40:18', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1584, 77, 1320, "en attente", NULL, 111.84, 111.84, "2020-07-03 07:47:32", "visa", 3);
+(1584, 445, 2735, 'payee', NULL, 84.18, 84.18, '2019-04-21 17:11:12', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1585, 22, 2601, "en attente", NULL, 278.00, 278.00, "2020-05-30 11:17:36", "mastercard", 4);
+(1585, 390, 220, 'en attente', NULL, 122.85, 122.85, '2018-07-31 18:44:02', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1586, 51, 670, "payee", NULL, 250.96, 250.96, "2019-04-23 22:15:41", "visa", 8);
+(1586, 64, 3473, 'annulee', 1, 22.2000, 13.320000, '2016-09-08 12:20:29', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1587, 26, 2578, "approuvee", NULL, 225.84, 225.84, "2017-03-27 06:32:46", "visa", 6);
+(1587, 885, 1595, 'annulee', 3, 174.1257, 141.041817, '2017-01-20 03:21:28', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1588, 50, 3612, "annulee", NULL, 146.12, 146.12, "2017-11-14 22:07:50", "debit", 2);
+(1588, 723, 3920, 'payee', 3, 16.7913, 13.600953, '2019-03-31 17:02:10', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1589, 28, 4184, "en attente", NULL, 241.92, 241.92, "2016-11-12 10:17:40", "visa", 4);
+(1589, 413, 2576, 'payee', NULL, 195.36, 195.36, '2019-03-18 18:30:12', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1590, 33, 1064, "payee", NULL, 276.10, 276.10, "2018-07-28 08:10:14", "mastercard", 5);
+(1590, 916, 3851, 'approuvee', 1, 90.8160, 54.489600, '2016-11-12 02:42:39', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1591, 7, 706, "approuvee", NULL, 591.36, 591.36, "2016-03-21 17:21:05", "visa", 8);
+(1591, 765, 1134, 'approuvee', NULL, 61.74, 61.74, '2016-04-14 05:38:40', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1592, 59, 2402, "approuvee", 5, 119.9400, 59.970000, "2016-01-11 09:58:42", "visa", 6);
+(1592, 127, 449, 'en attente', NULL, 48.08, 48.08, '2019-06-08 11:15:55', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1593, 76, 3840, "approuvee", NULL, 59.70, 59.70, "2017-10-30 12:38:10", "debit", 6);
+(1593, 325, 3966, 'en attente', 2, 75.3844, 68.599804, '2017-10-11 23:38:17', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1594, 16, 1881, "annulee", NULL, 50.18, 50.18, "2017-11-02 09:56:30", "mastercard", 2);
+(1594, 222, 1900, 'payee', 2, 28.4375, 25.878125, '2019-04-06 04:45:51', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1595, 65, 2609, "annulee", NULL, 301.50, 301.50, "2016-03-24 13:53:56", "debit", 6);
+(1595, 385, 2346, 'payee', 2, 103.3032, 94.005912, '2018-09-29 06:25:53', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1596, 69, 2244, "payee", NULL, 81.39, 81.39, "2016-08-03 20:33:59", "paypal", 3);
+(1596, 158, 867, 'payee', NULL, 202.09, 202.09, '2019-02-16 23:31:07', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1597, 98, 1146, "annulee", NULL, 94.42, 94.42, "2016-12-11 17:35:29", "paypal", 2);
+(1597, 975, 3356, 'en attente', 6, 93.3363, 75.602403, '2017-04-02 21:29:58', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1598, 21, 2265, "approuvee", NULL, 73.60, 73.60, "2020-09-23 15:59:00", "visa", 4);
+(1598, 569, 4141, 'approuvee', NULL, 83.40, 83.40, '2019-10-01 10:51:53', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1599, 71, 1473, "approuvee", NULL, 333.90, 333.90, "2016-01-01 19:41:49", "visa", 7);
+(1599, 357, 1760, 'payee', NULL, 130.70, 130.70, '2020-07-21 15:28:29', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1600, 50, 1650, "payee", NULL, 19.26, 19.26, "2018-11-29 08:05:10", "paypal", 2);
+(1600, 23, 4233, 'annulee', NULL, 223.93, 223.93, '2018-02-26 13:28:49', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1601, 69, 2272, "en attente", NULL, 30.90, 30.90, "2017-08-11 03:47:19", "debit", 5);
+(1601, 472, 3657, 'en attente', NULL, 70.92, 70.92, '2020-02-17 21:44:28', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1602, 66, 3214, "approuvee", NULL, 447.02, 447.02, "2016-07-15 02:21:29", "mastercard", 7);
+(1602, 222, 3431, 'annulee', NULL, 464.66, 464.66, '2017-09-22 16:52:48', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1603, 75, 2225, "approuvee", 2, 77.8572, 63.064332, "2016-02-11 13:02:38", "paypal", 6);
+(1603, 738, 2325, 'en attente', NULL, 185.08, 185.08, '2020-06-26 17:18:32', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1604, 22, 1540, "payee", NULL, 40.00, 40.00, "2020-02-22 12:19:35", "debit", 1);
+(1604, 351, 3972, 'approuvee', 3, 157.6908, 127.729548, '2017-06-16 04:18:37', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1605, 30, 3475, "approuvee", 6, 133.0420, 113.085700, "2018-01-23 16:46:38", "mastercard", 7);
+(1605, 606, 1431, 'en attente', NULL, 334.88, 334.88, '2016-03-12 01:01:43', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1606, 39, 2581, "approuvee", NULL, 413.28, 413.28, "2020-03-07 05:25:13", "debit", 8);
+(1606, 449, 488, 'annulee', NULL, 48.62, 48.62, '2016-11-13 21:10:44', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1607, 72, 2552, "approuvee", NULL, 114.44, 114.44, "2020-04-10 22:51:37", "mastercard", 2);
+(1607, 723, 3239, 'annulee', NULL, 240.94, 240.94, '2018-03-31 20:54:03', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1608, 34, 3937, "en attente", NULL, 136.76, 136.76, "2016-08-29 11:58:08", "visa", 4);
+(1608, 880, 687, 'payee', NULL, 56.88, 56.88, '2016-09-02 03:37:40', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1609, NULL, 1558, "approuvee", 1, 140.3265, 119.277525, "2016-11-15 10:53:37", "paypal", 3);
+(1609, 995, 90, 'en attente', NULL, 266.49, 266.49, '2020-06-14 03:56:38', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1610, 60, 1464, "approuvee", NULL, 88.29, 88.29, "2016-04-30 22:28:16", "paypal", 3);
+(1610, 570, 2362, 'annulee', NULL, 114.66, 114.66, '2019-04-02 21:29:29', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1611, 66, 1858, "payee", 6, 113.0500, 96.092500, "2019-01-29 08:08:38", "paypal", 4);
+(1611, 409, 3966, 'approuvee', NULL, 20.71, 20.71, '2017-02-13 01:55:48', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1612, 90, 414, "annulee", NULL, 273.00, 273.00, "2018-04-26 05:42:25", "paypal", 4);
+(1612, 146, 3007, 'annulee', NULL, 353.92, 353.92, '2019-05-04 19:37:07', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1613, 18, 2922, "approuvee", 4, NULL, NULL, "2019-10-31 19:27:30", "debit", 7);
+(1613, 158, 2726, 'annulee', NULL, 91.20, 91.20, '2017-08-07 18:26:31', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1614, 27, 1133, "approuvee", 1, 122.7400, 104.329000, "2016-10-24 19:28:06", "debit", 8);
+(1614, 748, 357, 'payee', NULL, 370.86, 370.86, '2018-06-08 17:31:17', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1615, 38, 1614, "payee", NULL, 439.38, 439.38, "2019-03-21 06:11:20", "visa", 6);
+(1615, 670, 5, 'annulee', 5, 102.0000, 51.000000, '2020-04-13 03:45:23', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1616, 96, 1841, "annulee", NULL, 37.72, 37.72, "2019-06-20 10:17:51", "visa", 2);
+(1616, 859, 2467, 'approuvee', NULL, 60.78, 60.78, '2017-08-01 10:26:49', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1617, 63, 2128, "annulee", NULL, 102.54, 102.54, "2018-01-06 05:28:33", "visa", 6);
+(1617, 918, 1107, 'approuvee', 5, 134.8400, 67.420000, '2018-03-15 09:12:05', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1618, 38, 3767, "payee", NULL, 211.76, 211.76, "2020-03-02 10:21:06", "mastercard", 4);
+(1618, 535, 1960, 'payee', NULL, 224.65, 224.65, '2016-03-11 23:39:17', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1619, 16, 1903, "payee", NULL, 246.28, 246.28, "2020-01-08 09:09:02", "debit", 4);
+(1619, 462, 1794, 'approuvee', NULL, 106.68, 106.68, '2019-09-12 21:25:22', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1620, 49, 3185, "annulee", NULL, 27.76, 27.76, "2017-05-08 09:50:23", "paypal", 2);
+(1620, 877, 2167, 'approuvee', NULL, 231.68, 231.68, '2017-03-27 22:58:22', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1621, 18, 4099, "approuvee", NULL, 355.80, 355.80, "2018-08-25 21:48:03", "debit", 6);
+(1621, 587, 1760, 'payee', 1, 62.7360, 37.641600, '2016-06-26 19:13:59', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1622, 41, 313, "annulee", NULL, 324.95, 324.95, "2016-12-21 21:26:02", "visa", 5);
+(1622, 299, 1885, 'annulee', 4, 396.1880, 376.378600, '2020-11-26 18:31:27', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1623, 16, 692, "annulee", NULL, 388.56, 388.56, "2020-06-27 15:35:36", "visa", 8);
+(1623, 921, 126, 'en attente', NULL, 183.60, 183.60, '2019-12-21 23:25:44', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1624, 43, 2512, "approuvee", NULL, 215.40, 215.40, "2017-02-24 15:54:01", "visa", 6);
+(1624, 123, 834, 'annulee', NULL, 587.36, 587.36, '2016-01-07 15:33:55', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1625, 88, 458, "annulee", 3, 106.2600, 74.382000, "2019-11-04 22:34:19", "debit", 5);
+(1625, 374, 3886, 'approuvee', 2, 37.3464, 33.985224, '2016-09-03 19:26:14', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1626, 22, 2539, "en attente", 1, 34.0340, 28.928900, "2017-05-08 05:14:07", "visa", 7);
+(1626, 219, 680, 'approuvee', NULL, 179.01, 179.01, '2017-08-05 13:37:33', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1627, 52, 675, "payee", NULL, 57.60, 57.60, "2020-07-25 05:10:14", "debit", 4);
+(1627, 784, 2885, 'annulee', NULL, 99.80, 99.80, '2019-01-17 10:28:50', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1628, 34, 2154, "payee", NULL, 184.80, 184.80, "2019-01-21 02:22:27", "visa", 3);
+(1628, 525, 316, 'approuvee', NULL, 294.80, 294.80, '2019-05-28 20:43:12', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1629, 74, 1750, "annulee", NULL, 105.12, 105.12, "2020-09-16 20:51:25", "mastercard", 4);
+(1629, 272, 2383, 'approuvee', 4, 85.5380, 81.261100, '2017-01-24 09:58:37', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1630, 61, 985, "annulee", 2, 25.5312, 20.680272, "2019-01-25 21:26:13", "visa", 1);
+(1630, 346, 2024, 'annulee', NULL, 60.24, 60.24, '2016-01-22 12:18:26', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1631, 34, 1271, "payee", NULL, 265.44, 265.44, "2019-06-30 09:48:39", "paypal", 6);
+(1631, 388, 3639, 'approuvee', NULL, 139.58, 139.58, '2019-02-20 06:42:22', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1632, 34, 3392, "annulee", NULL, 259.50, 259.50, "2017-08-14 11:07:56", "debit", 6);
+(1632, 805, 3280, 'payee', NULL, 296.88, 296.88, '2020-03-03 01:52:12', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1633, 5, 1770, "payee", 3, 119.7350, 83.814500, "2017-03-09 03:02:04", "visa", 5);
+(1633, 166, 1681, 'payee', NULL, 5.49, 5.49, '2016-11-28 05:15:03', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1634, 90, 316, "en attente", NULL, 440.70, 440.70, "2019-12-01 12:09:57", "visa", 6);
+(1634, 350, 185, 'en attente', NULL, 242.55, 242.55, '2017-08-07 21:19:35', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1635, 11, 1314, "en attente", NULL, 149.10, 149.10, "2016-03-11 11:51:55", "mastercard", 3);
+(1635, 201, 774, 'approuvee', NULL, 353.80, 353.80, '2016-02-09 05:31:32', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1636, 8, 2052, "en attente", 1, 193.4175, 164.404875, "2020-10-22 14:24:56", "paypal", 5);
+(1636, 287, 1474, 'payee', NULL, 102.90, 102.90, '2020-03-06 00:28:50', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1637, 4, 1916, "approuvee", 4, NULL, NULL, "2017-01-24 06:57:48", "debit", 8);
+(1637, 49, 1329, 'annulee', NULL, 23.62, 23.62, '2019-01-05 06:04:07', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1638, 28, 3239, "payee", NULL, 87.84, 87.84, "2017-05-28 08:18:56", "visa", 3);
+(1638, 61, 1311, 'approuvee', NULL, 260.08, 260.08, '2018-07-11 07:13:58', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1639, 87, 2936, "approuvee", 5, 181.4000, 90.700000, "2017-06-18 17:30:30", "visa", 5);
+(1639, 701, 3094, 'approuvee', NULL, 33.31, 33.31, '2017-03-28 10:17:34', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1640, 36, 2015, "payee", NULL, 495.46, 495.46, "2016-07-11 19:44:31", "paypal", 7);
+(1640, 537, 4036, 'payee', 2, 215.7610, 196.342510, '2020-06-14 19:33:14', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1641, 26, 1662, "approuvee", 6, 304.3850, 258.727250, "2016-01-04 20:10:28", "paypal", 5);
+(1641, 153, 213, 'annulee', NULL, 209.90, 209.90, '2016-05-09 03:30:18', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1642, 65, 3755, "payee", NULL, 366.24, 366.24, "2019-12-04 23:40:43", "debit", 8);
+(1642, 84, 2209, 'payee', 1, 26.4780, 15.886800, '2019-03-26 00:40:23', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1643, 27, 1438, "en attente", NULL, 153.88, 153.88, "2020-04-20 11:31:50", "visa", 4);
+(1643, 40, 3635, 'annulee', NULL, 122.58, 122.58, '2018-12-08 04:35:46', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1644, 81, 2000, "payee", NULL, 30.90, 30.90, "2020-04-01 23:40:00", "visa", 6);
+(1644, 476, 3799, 'annulee', NULL, 176.40, 176.40, '2019-03-10 21:23:05', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1645, 25, 2018, "en attente", 3, 214.6200, 150.234000, "2018-03-06 16:48:28", "paypal", 5);
+(1645, 688, 498, 'approuvee', NULL, 291.27, 291.27, '2018-04-14 20:35:21', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1646, 73, 3598, "approuvee", NULL, 572.48, 572.48, "2019-01-25 17:17:49", "paypal", 8);
+(1646, 616, 1123, 'payee', NULL, 306.30, 306.30, '2016-05-04 00:20:30', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1647, 22, 4219, "approuvee", NULL, 323.84, 323.84, "2020-06-09 20:23:32", "mastercard", 8);
+(1647, 828, 3671, 'approuvee', NULL, 229.74, 229.74, '2016-06-03 16:46:18', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1648, 28, 1554, "approuvee", NULL, 142.05, 142.05, "2016-01-10 04:17:38", "mastercard", 3);
+(1648, 424, 3162, 'annulee', NULL, 53.82, 53.82, '2019-05-17 08:58:22', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1649, 38, 3592, "annulee", NULL, 301.80, 301.80, "2018-08-26 17:38:03", "debit", 5);
+(1649, 589, 2181, 'en attente', NULL, 557.28, 557.28, '2019-08-08 17:33:12', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1650, 18, 4071, "en attente", NULL, 37.92, 37.92, "2018-03-02 01:04:02", "debit", 2);
+(1650, 256, 1600, 'en attente', NULL, 340.74, 340.74, '2020-05-19 02:00:44', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1651, 72, 831, "approuvee", NULL, 108.33, 108.33, "2016-05-12 11:22:14", "debit", 3);
+(1651, 310, 3533, 'en attente', NULL, 317.28, 317.28, '2018-01-25 15:29:22', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1652, 32, 4179, "en attente", NULL, 61.04, 61.04, "2020-11-28 01:00:05", "visa", 1);
+(1652, 835, 1654, 'payee', 5, 84.0600, 42.030000, '2020-02-08 02:03:45', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1653, 26, 4230, "en attente", NULL, 129.36, 129.36, "2020-06-13 10:26:21", "mastercard", 7);
+(1653, 465, 3288, 'en attente', 5, 14.1000, 7.050000, '2020-09-19 21:31:52', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1654, 8, 4198, "payee", NULL, 350.34, 350.34, "2017-08-26 21:42:26", "mastercard", 6);
+(1654, 494, 1626, 'annulee', 3, 257.4747, 208.554507, '2018-10-14 19:44:55', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1655, 37, 1380, "payee", NULL, 28.56, 28.56, "2016-01-21 04:03:06", "visa", 3);
+(1655, 389, 3966, 'en attente', NULL, 124.26, 124.26, '2016-02-19 07:05:50', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1656, 59, 1939, "approuvee", NULL, 36.16, 36.16, "2017-08-05 14:00:05", "paypal", 2);
+(1656, 960, 2468, 'en attente', 5, 91.6000, 45.800000, '2017-04-17 14:39:59', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1657, 57, 2586, "approuvee", NULL, 19.96, 19.96, "2017-10-10 21:43:30", "mastercard", 2);
+(1657, 676, 2757, 'approuvee', NULL, 401.66, 401.66, '2020-11-03 22:34:48', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1658, 93, 978, "en attente", 4, NULL, NULL, "2016-10-26 08:08:55", "paypal", 2);
+(1658, 1, 2641, 'annulee', NULL, 63.70, 63.70, '2018-08-16 10:47:03', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1659, 27, 2737, "approuvee", NULL, 21.12, 21.12, "2019-09-04 20:29:25", "paypal", 1);
+(1659, 157, 1965, 'approuvee', NULL, 253.62, 253.62, '2019-07-23 04:49:49', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1660, 12, 4228, "annulee", NULL, 34.50, 34.50, "2017-08-22 11:32:59", "mastercard", 5);
+(1660, 726, 3016, 'approuvee', NULL, 52.85, 52.85, '2017-02-05 02:32:26', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1661, 57, 3337, "payee", NULL, 444.48, 444.48, "2018-04-15 03:37:52", "debit", 8);
+(1661, 364, 2606, 'payee', NULL, 52.22, 52.22, '2020-07-04 12:50:42', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1662, 72, 544, "approuvee", NULL, 374.15, 374.15, "2017-12-23 00:41:09", "visa", 5);
+(1662, 818, 2395, 'payee', 1, 135.6300, 81.378000, '2017-06-07 18:11:17', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1663, 82, 962, "payee", NULL, 108.56, 108.56, "2020-02-13 05:45:23", "mastercard", 4);
+(1663, 949, 3836, 'annulee', NULL, 78.32, 78.32, '2019-01-20 17:49:13', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1664, 21, 1717, "approuvee", 1, 29.8520, 25.374200, "2018-04-09 22:58:55", "paypal", 4);
+(1664, 546, 1224, 'payee', NULL, 283.80, 283.80, '2020-10-27 21:25:18', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1665, 58, 129, "en attente", NULL, 9.75, 9.75, "2016-06-13 12:51:54", "debit", 1);
+(1665, 194, 1590, 'en attente', 4, 177.4410, 168.568950, '2018-01-11 11:53:57', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1666, 58, 4132, "en attente", NULL, 60.18, 60.18, "2016-11-15 12:38:57", "visa", 2);
+(1666, 618, 80, 'approuvee', NULL, 220.98, 220.98, '2017-11-24 04:24:36', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1667, 3, 3706, "payee", 6, 405.5520, 344.719200, "2017-11-01 15:13:25", "debit", 7);
+(1667, 23, 1734, 'en attente', NULL, 493.71, 493.71, '2017-05-09 01:32:08', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1668, 21, 3655, "payee", NULL, 54.48, 54.48, "2018-05-11 02:31:06", "debit", 2);
+(1668, 813, 1662, 'annulee', NULL, 174.00, 174.00, '2016-07-25 15:43:16', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1669, 10, 347, "annulee", 5, 34.7650, 17.382500, "2016-07-26 22:18:10", "visa", 1);
+(1669, 890, 2884, 'payee', NULL, 235.00, 235.00, '2020-03-09 08:02:30', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1670, 84, 1413, "payee", NULL, 294.91, 294.91, "2019-05-25 00:04:13", "visa", 7);
+(1670, 851, 1360, 'approuvee', 1, 49.2480, 29.548800, '2020-11-01 04:43:54', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1671, 23, 740, "annulee", NULL, 175.32, 175.32, "2019-04-19 13:27:30", "paypal", 4);
+(1671, 121, 3600, 'approuvee', NULL, 486.24, 486.24, '2019-10-13 12:05:36', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1672, 78, 1863, "payee", NULL, 216.00, 216.00, "2019-05-11 20:45:48", "debit", 6);
+(1672, 524, 2844, 'payee', NULL, 193.44, 193.44, '2018-08-20 04:38:43', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1673, 50, 3474, "annulee", NULL, 360.40, 360.40, "2019-01-04 21:21:24", "visa", 5);
+(1673, 269, 301, 'approuvee', NULL, 155.67, 155.67, '2016-11-09 10:33:20', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1674, 88, 2484, "approuvee", 1, 118.0140, 100.311900, "2019-07-31 18:22:59", "mastercard", 6);
+(1674, 313, 1269, 'en attente', 5, 125.8800, 62.940000, '2017-12-04 02:32:06', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1675, 97, 223, "payee", 2, 123.0390, 99.661590, "2020-05-27 12:45:15", "visa", 7);
+(1675, 501, 3401, 'approuvee', NULL, 430.38, 430.38, '2016-11-20 12:52:07', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1676, 86, 3160, "payee", NULL, 72.56, 72.56, "2018-01-12 10:28:17", "visa", 8);
+(1676, 259, 2581, 'en attente', 2, 286.6500, 260.851500, '2018-12-18 10:57:01', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1677, 56, 1667, "annulee", NULL, 511.20, 511.20, "2019-10-28 21:49:47", "paypal", 8);
+(1677, 90, 3722, 'en attente', NULL, 322.21, 322.21, '2019-05-23 20:02:29', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1678, 98, 1251, "payee", NULL, 98.40, 98.40, "2016-04-22 08:35:50", "debit", 4);
+(1678, 711, 3692, 'annulee', 1, 121.3020, 72.781200, '2018-10-07 22:28:01', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1679, 87, 1283, "approuvee", NULL, 247.68, 247.68, "2018-11-23 07:04:50", "paypal", 4);
+(1679, 528, NULL, 'approuvee', NULL, 68.44, 68.44, '2016-01-02 06:38:36', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1680, 67, 2502, "en attente", NULL, 165.84, 165.84, "2018-04-28 12:46:03", "visa", 6);
+(1680, 321, 2248, 'annulee', 1, 44.2920, 26.575200, '2020-12-20 18:45:48', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1681, 40, 3635, "en attente", 2, 102.5460, 83.062260, "2016-05-28 02:12:10", "visa", 6);
+(1681, 845, 1694, 'annulee', NULL, 270.80, 270.80, '2018-01-18 02:10:24', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1682, 77, 1682, "approuvee", 3, 101.9970, 71.397900, "2018-07-05 16:31:56", "paypal", 3);
+(1682, 134, 3298, 'en attente', NULL, 436.72, 436.72, '2017-05-01 12:19:32', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1683, 80, 2635, "en attente", NULL, 247.84, 247.84, "2017-05-16 04:17:35", "mastercard", 4);
+(1683, 482, 3453, 'en attente', NULL, 95.36, 95.36, '2019-08-12 04:43:35', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1684, 45, 3325, "annulee", NULL, 141.38, 141.38, "2019-03-11 05:05:24", "paypal", 2);
+(1684, 881, 2268, 'en attente', NULL, 284.06, 284.06, '2020-07-15 05:55:55', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1685, 83, 195, "en attente", 6, 73.8990, 62.814150, "2017-04-18 18:09:17", "mastercard", 7);
+(1685, 517, 2815, 'annulee', NULL, 297.00, 297.00, '2020-09-27 18:00:33', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1686, 78, 289, "annulee", NULL, 248.04, 248.04, "2020-05-29 08:34:41", "debit", 4);
+(1686, 719, 9, 'approuvee', NULL, 160.86, 160.86, '2019-11-04 12:34:01', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1687, 43, 747, "en attente", NULL, 123.27, 123.27, "2019-08-20 21:17:01", "visa", 7);
+(1687, 995, 1430, 'en attente', NULL, 114.10, 114.10, '2018-05-07 18:59:15', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1688, 14, 1571, "en attente", NULL, 230.44, 230.44, "2019-05-31 10:54:32", "mastercard", 4);
+(1688, 67, 2612, 'approuvee', 4, 48.6685, 46.235075, '2019-11-03 23:15:55', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1689, 15, 789, "payee", 1, 222.8190, 189.396150, "2019-05-15 20:06:05", "mastercard", 6);
+(1689, 685, 1190, 'annulee', NULL, 54.75, 54.75, '2017-06-04 18:08:33', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1690, 66, 2083, "approuvee", NULL, 391.23, 391.23, "2017-11-29 17:38:59", "debit", 7);
+(1690, 464, 2426, 'approuvee', NULL, 109.06, 109.06, '2017-07-23 05:21:27', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1691, 61, 3702, "payee", NULL, 23.72, 23.72, "2020-12-14 15:26:26", "mastercard", 4);
+(1691, 557, 997, 'en attente', 1, 134.5320, 80.719200, '2019-03-31 23:55:05', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1692, 11, 3630, "approuvee", NULL, 192.96, 192.96, "2019-10-13 22:37:51", "debit", 8);
+(1692, 186, 3254, 'annulee', NULL, 183.76, 183.76, '2018-10-22 11:33:01', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1693, 40, 98, "en attente", NULL, 249.28, 249.28, "2016-03-24 13:25:03", "visa", 8);
+(1693, 423, 336, 'annulee', NULL, 100.40, 100.40, '2017-07-12 15:51:53', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1694, 35, 2888, "payee", NULL, 146.02, 146.02, "2017-08-04 02:53:13", "mastercard", 2);
+(1694, 378, 3821, 'en attente', 6, 307.2006, 248.832486, '2019-03-27 09:49:32', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1695, 42, 1962, "en attente", NULL, 374.58, 374.58, "2017-07-27 13:09:56", "mastercard", 6);
+(1695, 730, 3513, 'payee', NULL, 74.88, 74.88, '2018-08-25 19:28:27', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1696, 91, 396, "approuvee", NULL, 7.11, 7.11, "2020-03-30 18:09:09", "mastercard", 1);
+(1696, 398, 1368, 'approuvee', 2, 336.5908, 306.297628, '2017-11-26 20:44:29', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1697, 65, 433, "annulee", NULL, 139.02, 139.02, "2016-03-22 20:40:18", "paypal", 2);
+(1697, 642, 3184, 'approuvee', NULL, 205.50, 205.50, '2017-10-20 11:31:57', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1698, 85, 2039, "annulee", NULL, 305.48, 305.48, "2019-03-24 08:45:43", "debit", 7);
+(1698, 389, 1512, 'payee', NULL, 58.14, 58.14, '2019-05-20 16:49:28', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1699, 89, 3905, "payee", 5, 178.2550, 89.127500, "2017-11-30 10:27:37", "visa", 7);
+(1699, 850, 440, 'approuvee', NULL, 42.94, 42.94, '2020-07-27 21:14:18', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1700, 81, 791, "en attente", NULL, 281.12, 281.12, "2019-09-22 23:28:25", "paypal", 8);
+(1700, 801, 4138, 'annulee', 1, 214.6080, 128.764800, '2018-09-14 17:29:57', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1701, 94, 940, "en attente", NULL, 42.68, 42.68, "2019-12-20 09:36:45", "mastercard", 2);
+(1701, 484, 2611, 'en attente', 1, 258.4680, 155.080800, '2019-09-02 18:22:56', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1702, 33, 1886, "payee", 3, 77.0000, 53.900000, "2020-12-25 01:57:12", "paypal", 2);
+(1702, 227, 2007, 'approuvee', NULL, 409.44, 409.44, '2017-02-12 02:14:56', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1703, 79, 1523, "en attente", NULL, 114.63, 114.63, "2019-03-22 22:30:30", "mastercard", 3);
+(1703, 835, 1938, 'approuvee', NULL, 36.04, 36.04, '2019-10-03 09:39:53', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1704, 31, 236, "approuvee", NULL, 101.32, 101.32, "2019-03-14 03:34:22", "paypal", 4);
+(1704, 55, 3965, 'approuvee', 6, 39.9249, 32.339169, '2020-12-22 02:01:30', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1705, 83, 2322, "approuvee", NULL, 56.52, 56.52, "2016-06-22 00:32:19", "paypal", 1);
+(1705, 498, 3101, 'en attente', NULL, 100.11, 100.11, '2016-09-08 08:45:40', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1706, 18, 786, "payee", NULL, 70.16, 70.16, "2016-10-12 22:49:30", "visa", 8);
+(1706, 402, 4216, 'annulee', NULL, 423.92, 423.92, '2018-09-19 08:32:19', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1707, 14, 2492, "annulee", NULL, 182.32, 182.32, "2020-12-20 10:25:21", "debit", 8);
+(1707, 993, 2822, 'approuvee', NULL, 79.96, 79.96, '2019-08-03 00:08:14', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1708, 54, 1333, "en attente", NULL, 167.80, 167.80, "2016-10-04 09:19:53", "mastercard", 5);
+(1708, 67, 4177, 'payee', NULL, 256.14, 256.14, '2019-08-22 02:28:01', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1709, 3, 179, "approuvee", 5, 90.7500, 45.375000, "2020-10-21 22:12:46", "mastercard", 5);
+(1709, 884, 3721, 'payee', 1, 27.3600, 16.416000, '2016-02-15 22:10:22', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1710, 78, 1375, "payee", NULL, 341.60, 341.60, "2019-07-29 18:01:13", "debit", 5);
+(1710, 963, 3645, 'approuvee', 1, 156.8160, 94.089600, '2018-06-06 21:15:04', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1711, 52, 390, "payee", NULL, 280.56, 280.56, "2016-06-15 21:35:48", "mastercard", 6);
+(1711, 267, 3308, 'en attente', NULL, 149.54, 149.54, '2017-09-23 07:45:33', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1712, 80, 1234, "annulee", NULL, 91.45, 91.45, "2018-04-19 13:22:59", "paypal", 5);
+(1712, 398, 1329, 'payee', NULL, 35.43, 35.43, '2017-04-20 08:53:58', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1713, 62, 1034, "payee", NULL, 382.56, 382.56, "2016-06-11 23:08:03", "debit", 6);
+(1713, 257, 2549, 'en attente', NULL, 189.60, 189.60, '2017-01-17 16:08:35', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1714, 64, 2947, "payee", NULL, 37.85, 37.85, "2017-02-03 21:12:44", "mastercard", 5);
+(1714, 678, 1641, 'annulee', NULL, 123.04, 123.04, '2019-07-29 22:05:49', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1715, 31, 535, "annulee", NULL, 90.96, 90.96, "2018-04-09 21:26:48", "mastercard", 2);
+(1715, 796, 2388, 'en attente', NULL, 59.12, 59.12, '2020-08-17 02:39:30', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1716, 21, 2529, "payee", NULL, 14.27, 14.27, "2018-03-09 21:05:34", "mastercard", 1);
+(1716, 388, 3027, 'annulee', NULL, 212.37, 212.37, '2016-05-28 20:31:14', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1717, 10, 1356, "approuvee", 6, 13.2090, 11.227650, "2020-08-18 20:00:49", "paypal", 3);
+(1717, 740, 843, 'annulee', NULL, 246.92, 246.92, '2016-05-12 23:34:27', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1718, 74, 1628, "payee", NULL, 298.64, 298.64, "2016-12-12 16:47:40", "visa", 8);
+(1718, 124, 3516, 'payee', 6, 56.8620, 46.058220, '2016-08-16 22:11:37', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1719, 98, 2999, "approuvee", NULL, 65.60, 65.60, "2018-05-21 15:29:29", "mastercard", 1);
+(1719, 916, 3880, 'annulee', NULL, 122.56, 122.56, '2018-06-26 14:04:05', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1720, 98, 2428, "payee", NULL, 137.76, 137.76, "2019-12-02 05:09:51", "debit", 8);
+(1720, 141, 352, 'payee', NULL, 74.08, 74.08, '2017-05-23 20:14:46', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1721, 42, 1837, "en attente", NULL, 75.00, 75.00, "2016-05-02 00:42:29", "debit", 1);
+(1721, 41, 2266, 'en attente', NULL, 208.18, 208.18, '2017-02-18 05:09:25', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1722, 51, 3906, "payee", NULL, 41.38, 41.38, "2020-10-03 14:21:23", "paypal", 1);
+(1722, 536, 2500, 'annulee', NULL, 60.48, 60.48, '2018-12-19 18:34:55', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1723, 31, 4221, "annulee", NULL, 145.11, 145.11, "2018-05-31 16:15:15", "visa", 7);
+(1723, 290, 2261, 'payee', 3, 56.2707, 45.579267, '2020-05-24 00:48:58', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1724, 62, 613, "approuvee", 5, 19.4400, 9.720000, "2019-05-10 13:20:26", "visa", 2);
+(1724, 272, 1317, 'en attente', 1, 90.8880, 54.532800, '2017-05-08 21:50:15', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1725, 86, 1973, "payee", 5, 47.3000, 23.650000, "2017-12-01 06:01:01", "paypal", 4);
+(1725, 310, 1968, 'payee', 5, 103.6500, 51.825000, '2020-10-23 14:26:22', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1726, 81, 71, "approuvee", NULL, 31.32, 31.32, "2019-08-11 03:44:56", "visa", 4);
+(1726, 670, 3732, 'payee', NULL, 64.19, 64.19, '2019-12-21 16:11:53', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1727, 28, 1461, "en attente", 4, NULL, NULL, "2017-04-15 19:31:27", "mastercard", 4);
+(1727, 322, 3965, 'annulee', 2, 89.7078, 81.634098, '2018-10-06 20:03:39', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1728, 98, 2527, "approuvee", NULL, 108.71, 108.71, "2018-10-28 14:16:04", "mastercard", 7);
+(1728, 750, 1048, 'payee', 2, 59.0317, 53.718847, '2020-10-26 16:46:06', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1729, 35, 657, "approuvee", 6, 74.8850, 63.652250, "2016-09-21 07:27:56", "mastercard", 5);
+(1729, 47, 976, 'annulee', NULL, 139.75, 139.75, '2020-05-04 13:57:33', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1730, 41, 3150, "en attente", NULL, 85.20, 85.20, "2018-09-08 07:11:52", "visa", 2);
+(1730, 400, 1251, 'annulee', NULL, 73.84, 73.84, '2018-06-08 06:44:47', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1731, 30, 1092, "annulee", NULL, 133.50, 133.50, "2016-10-23 00:26:16", "debit", 3);
+(1731, 771, 769, 'payee', 2, 34.3434, 31.252494, '2017-12-10 07:24:51', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1732, 29, 2913, "approuvee", NULL, 110.37, 110.37, "2018-01-26 17:00:55", "visa", 3);
+(1732, 779, 1653, 'payee', NULL, 117.96, 117.96, '2018-01-31 08:54:41', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1733, 37, 1470, "payee", NULL, 290.24, 290.24, "2016-05-03 04:55:56", "mastercard", 8);
+(1733, 964, 1266, 'approuvee', NULL, 92.94, 92.94, '2017-10-16 09:49:56', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1734, 51, 2573, "annulee", NULL, 96.93, 96.93, "2018-04-04 15:20:04", "paypal", 3);
+(1734, 843, 2859, 'en attente', 5, 171.0800, 85.540000, '2019-08-17 06:29:21', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1735, 84, 1884, "en attente", NULL, 435.54, 435.54, "2016-06-21 12:09:06", "mastercard", 6);
+(1735, 775, 1493, 'payee', NULL, 91.38, 91.38, '2016-12-21 14:50:48', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1736, 90, 3599, "annulee", 4, NULL, NULL, "2016-01-25 04:51:18", "paypal", 8);
+(1736, 220, 576, 'en attente', NULL, 65.90, 65.90, '2018-04-17 19:16:28', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1737, 30, 49, "payee", NULL, 251.44, 251.44, "2018-08-15 06:22:14", "paypal", 7);
+(1737, 342, 1567, 'payee', NULL, 96.30, 96.30, '2019-05-13 08:31:03', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1738, 93, 3722, "approuvee", NULL, 325.36, 325.36, "2018-10-19 11:31:11", "paypal", 8);
+(1738, 590, 1813, 'en attente', NULL, 141.92, 141.92, '2017-10-14 04:54:21', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1739, 2, 1265, "approuvee", NULL, 187.95, 187.95, "2016-04-07 06:16:19", "debit", 3);
+(1739, 316, 4109, 'payee', 4, 31.3025, 29.737375, '2019-08-18 17:27:11', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1740, 96, 866, "approuvee", 2, 172.0440, 139.355640, "2017-01-22 12:23:58", "debit", 4);
+(1740, 590, 3808, 'annulee', NULL, 143.06, 143.06, '2018-09-21 21:06:02', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1741, 87, 1387, "annulee", 4, NULL, NULL, "2017-12-19 02:47:10", "paypal", 7);
+(1741, 486, 1363, 'approuvee', NULL, 107.12, 107.12, '2017-06-12 03:03:06', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1742, 14, 1667, "en attente", NULL, 63.90, 63.90, "2018-02-17 22:50:13", "mastercard", 1);
+(1742, 274, 431, 'payee', 3, 60.0048, 48.603888, '2018-11-25 01:37:42', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1743, 39, 3972, "annulee", NULL, 148.98, 148.98, "2020-10-02 11:05:39", "paypal", 2);
+(1743, 141, 2509, 'annulee', NULL, 92.52, 92.52, '2017-05-14 00:35:52', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1744, 66, 2987, "approuvee", NULL, 58.08, 58.08, "2016-01-20 07:52:57", "paypal", 2);
+(1744, 456, 2094, 'en attente', 4, 59.9640, 56.965800, '2020-07-31 12:46:51', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1745, 25, 1987, "approuvee", NULL, 47.67, 47.67, "2020-01-01 17:38:02", "paypal", 1);
+(1745, 925, 529, 'annulee', 2, 36.2453, 32.983223, '2019-12-23 21:13:26', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1746, 30, 1944, "payee", NULL, 448.00, 448.00, "2017-07-20 07:23:27", "debit", 7);
+(1746, 542, 489, 'annulee', NULL, 13.03, 13.03, '2020-11-13 17:31:04', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1747, 50, 2040, "payee", NULL, 370.00, 370.00, "2018-02-14 02:00:11", "mastercard", 5);
+(1747, 803, 2621, 'annulee', NULL, 453.68, 453.68, '2016-05-05 20:49:56', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1748, 63, 2015, "approuvee", 3, 247.7300, 173.411000, "2019-05-07 08:43:09", "paypal", 5);
+(1748, 195, 2238, 'en attente', NULL, 141.68, 141.68, '2017-11-06 02:18:04', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1749, 41, 978, "approuvee", NULL, 150.40, 150.40, "2019-09-21 11:29:04", "visa", 8);
+(1749, 261, 2695, 'approuvee', NULL, 212.56, 212.56, '2017-12-22 10:05:16', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1750, 43, 92, "en attente", NULL, 72.87, 72.87, "2019-07-27 15:34:17", "visa", 3);
+(1750, 355, 228, 'annulee', NULL, 16.67, 16.67, '2018-01-25 12:26:56', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1751, 88, 4083, "annulee", 1, 70.5840, 59.996400, "2020-11-14 10:59:14", "paypal", 8);
+(1751, 947, 2548, 'payee', NULL, 154.88, 154.88, '2016-09-14 00:32:27', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1752, 59, 2977, "annulee", NULL, 123.24, 123.24, "2017-11-18 10:15:00", "paypal", 2);
+(1752, 199, 2027, 'en attente', NULL, 504.08, 504.08, '2018-02-23 13:18:49', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1753, 92, 757, "en attente", NULL, 198.60, 198.60, "2018-02-25 17:33:34", "debit", 4);
+(1753, 950, 1452, 'payee', NULL, 277.28, 277.28, '2020-11-11 08:59:52', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1754, 64, 416, "en attente", NULL, 104.80, 104.80, "2020-06-28 21:55:51", "debit", 8);
+(1754, 623, 2669, 'en attente', NULL, 367.92, 367.92, '2018-08-22 03:19:14', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1755, 41, 2675, "payee", NULL, 330.40, 330.40, "2020-02-09 09:26:38", "visa", 7);
+(1755, 45, 1989, 'en attente', NULL, 338.24, 338.24, '2018-01-17 07:22:59', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1756, 91, 4078, "en attente", NULL, 384.56, 384.56, "2016-03-16 00:52:38", "paypal", 8);
+(1756, 136, 1261, 'approuvee', NULL, 534.72, 534.72, '2019-08-17 17:35:59', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1757, 35, 407, "annulee", 3, 25.2350, 17.664500, "2016-01-22 01:20:42", "visa", 7);
+(1757, 38, 3264, 'payee', NULL, 332.40, 332.40, '2020-06-15 10:55:37', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1758, 69, 2797, "annulee", NULL, 231.12, 231.12, "2017-07-14 10:29:32", "paypal", 8);
+(1758, 428, 246, 'annulee', NULL, 179.55, 179.55, '2018-11-26 05:44:01', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1759, 86, 1849, "approuvee", NULL, 263.46, 263.46, "2019-04-15 22:49:24", "debit", 6);
+(1759, 852, 1739, 'en attente', NULL, 159.30, 159.30, '2017-08-31 08:26:55', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1760, 1, 4073, "en attente", 5, 36.7200, 18.360000, "2018-05-10 10:26:07", "debit", 8);
+(1760, 78, 1187, 'en attente', NULL, 437.92, 437.92, '2017-08-01 21:12:57', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1761, 66, 1284, "en attente", NULL, 369.36, 369.36, "2017-01-15 19:35:26", "paypal", 8);
+(1761, 470, 518, 'payee', NULL, 38.43, 38.43, '2020-07-18 23:25:44', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1762, 68, 767, "approuvee", NULL, 149.45, 149.45, "2018-09-29 01:47:11", "mastercard", 7);
+(1762, 652, 444, 'approuvee', NULL, 86.31, 86.31, '2016-12-04 20:40:42', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1763, 80, 795, "approuvee", NULL, 178.08, 178.08, "2020-09-12 19:40:32", "debit", 4);
+(1763, 702, 3180, 'en attente', 3, 40.5324, 32.831244, '2019-12-19 03:16:04', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1764, 43, 3578, "payee", NULL, 429.68, 429.68, "2017-08-27 00:56:43", "visa", 8);
+(1764, 368, 1487, 'payee', NULL, 454.40, 454.40, '2018-08-05 07:32:00', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1765, 23, 1200, "annulee", 2, 116.5104, 94.373424, "2017-10-02 08:20:10", "visa", 8);
+(1765, 73, 734, 'payee', NULL, 293.86, 293.86, '2016-10-26 07:04:38', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1766, 34, 2153, "payee", NULL, 62.28, 62.28, "2020-12-27 02:34:50", "mastercard", 2);
+(1766, 283, 2891, 'annulee', NULL, 63.28, 63.28, '2019-08-22 12:45:16', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1767, 67, 4099, "annulee", 4, NULL, NULL, "2017-04-03 21:55:40", "mastercard", 5);
+(1767, 123, 214, 'approuvee', NULL, 33.84, 33.84, '2017-04-14 03:11:03', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1768, 60, 1309, "approuvee", NULL, 62.38, 62.38, "2016-09-17 23:31:45", "paypal", 2);
+(1768, 755, 945, 'en attente', NULL, 502.24, 502.24, '2020-08-27 13:56:50', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1769, 85, 1314, "payee", NULL, 248.50, 248.50, "2016-02-20 03:21:08", "debit", 5);
+(1769, 550, 2289, 'approuvee', NULL, 540.72, 540.72, '2020-07-18 08:56:06', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1770, 35, 2730, "approuvee", 2, 34.2468, 27.739908, "2016-06-17 19:24:04", "debit", 2);
+(1770, 7, 3986, 'en attente', NULL, 184.44, 184.44, '2020-07-25 16:35:45', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1771, 49, 3959, "approuvee", NULL, 135.28, 135.28, "2019-03-27 01:13:19", "paypal", 8);
+(1771, 924, 4116, 'approuvee', NULL, 42.61, 42.61, '2018-06-24 23:16:34', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1772, 90, 2706, "en attente", NULL, 312.48, 312.48, "2018-07-07 21:30:24", "debit", 8);
+(1772, 480, 214, 'en attente', NULL, 42.30, 42.30, '2018-12-27 09:48:17', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1773, 95, 316, "en attente", NULL, 367.25, 367.25, "2017-10-24 20:53:36", "debit", 5);
+(1773, 629, 3651, 'annulee', NULL, 266.10, 266.10, '2019-02-27 12:21:03', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1774, 8, 1976, "annulee", 4, NULL, NULL, "2016-02-10 16:40:46", "debit", 1);
+(1774, 923, 3979, 'payee', NULL, 20.28, 20.28, '2017-08-21 10:44:13', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1775, 75, 1666, "en attente", NULL, 208.15, 208.15, "2018-09-02 02:34:28", "paypal", 5);
+(1775, 824, 1444, 'approuvee', 2, 216.3616, 196.889056, '2016-08-19 10:01:56', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1776, 44, 2375, "payee", NULL, 93.40, 93.40, "2019-07-21 21:16:28", "debit", 4);
+(1776, 68, 975, 'approuvee', NULL, 141.84, 141.84, '2019-01-30 20:57:01', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1777, 32, 3092, "en attente", NULL, 214.75, 214.75, "2019-08-06 21:34:07", "mastercard", 5);
+(1777, 638, 1150, 'en attente', NULL, 115.66, 115.66, '2016-10-11 11:37:26', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1778, 5, 3117, "en attente", NULL, 62.96, 62.96, "2019-05-12 22:38:06", "mastercard", 1);
+(1778, 836, 1433, 'annulee', NULL, 11.90, 11.90, '2016-09-23 16:01:51', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1779, 13, 2959, "payee", NULL, 63.18, 63.18, "2020-09-29 20:47:47", "paypal", 3);
+(1779, 6, 3369, 'payee', NULL, 528.80, 528.80, '2018-12-07 06:40:05', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1780, 22, 106, "approuvee", NULL, 203.64, 203.64, "2020-11-02 02:38:53", "visa", 6);
+(1780, 646, 490, 'approuvee', NULL, 494.20, 494.20, '2019-08-29 09:38:25', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1781, 40, 1483, "approuvee", NULL, 193.56, 193.56, "2017-03-30 04:42:17", "debit", 4);
+(1781, 511, 2926, 'payee', NULL, 28.26, 28.26, '2016-11-02 18:01:37', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1782, 82, 773, "annulee", NULL, 196.96, 196.96, "2018-03-28 15:05:11", "mastercard", 4);
+(1782, 617, 1489, 'approuvee', 6, 280.7784, 227.430504, '2016-08-17 06:51:41', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1783, 57, 3298, "en attente", 5, 21.0500, 10.525000, "2018-09-07 23:27:40", "mastercard", 5);
+(1783, 535, 1119, 'annulee', 5, 44.6100, 22.305000, '2017-05-05 11:03:09', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1784, 12, 1598, "en attente", NULL, 146.04, 146.04, "2016-02-22 13:57:25", "debit", 4);
+(1784, 586, 2297, 'payee', NULL, 57.76, 57.76, '2018-08-16 09:13:52', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1785, 40, 4211, "en attente", NULL, 291.92, 291.92, "2016-09-18 19:43:23", "debit", 8);
+(1785, 37, 735, 'en attente', NULL, 436.48, 436.48, '2018-08-16 21:20:58', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1786, 18, 1785, "annulee", 2, 342.4032, 277.346592, "2020-09-18 16:06:54", "visa", 8);
+(1786, 550, 2991, 'approuvee', 5, 149.5000, 74.750000, '2019-10-23 13:55:43', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1787, 33, 3142, "payee", NULL, 383.76, 383.76, "2020-10-13 08:13:49", "visa", 6);
+(1787, 40, 3101, 'approuvee', NULL, 266.96, 266.96, '2019-04-16 10:36:37', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1788, 39, 2091, "annulee", NULL, 193.45, 193.45, "2020-04-30 20:41:11", "debit", 5);
+(1788, 924, 2278, 'payee', NULL, 32.48, 32.48, '2016-01-12 20:40:03', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1789, 15, 1638, "en attente", NULL, 310.30, 310.30, "2017-12-26 09:37:54", "mastercard", 5);
+(1789, 143, 237, 'payee', NULL, 111.42, 111.42, '2020-05-12 22:13:09', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1790, 81, 2178, "en attente", NULL, 125.50, 125.50, "2018-12-13 04:11:26", "visa", 5);
+(1790, 605, 1771, 'payee', 2, 159.8870, 145.497170, '2016-01-19 01:21:00', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1791, 33, 117, "annulee", NULL, 90.85, 90.85, "2016-01-31 21:59:56", "debit", 5);
+(1791, 864, 2171, 'annulee', 2, 177.4136, 161.446376, '2018-07-21 15:39:27', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1792, 74, 4039, "annulee", NULL, 62.35, 62.35, "2016-09-11 15:47:11", "paypal", 5);
+(1792, 645, 2795, 'payee', NULL, 23.82, 23.82, '2019-03-17 02:23:39', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1793, 52, 1912, "annulee", NULL, 139.86, 139.86, "2016-12-15 23:49:23", "visa", 3);
+(1793, 101, 3141, 'annulee', NULL, 48.59, 48.59, '2018-05-03 07:04:40', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1794, 31, 3789, "annulee", NULL, 276.42, 276.42, "2020-11-13 11:57:40", "paypal", 6);
+(1794, 954, 990, 'en attente', NULL, 227.76, 227.76, '2020-06-18 19:18:41', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1795, 15, 4030, "approuvee", NULL, 217.68, 217.68, "2019-11-02 07:35:48", "paypal", 8);
+(1795, 632, 3533, 'en attente', 6, 171.3312, 138.778272, '2018-08-19 09:36:32', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1796, 68, 3389, "annulee", NULL, 120.84, 120.84, "2018-07-23 14:47:00", "mastercard", 6);
+(1796, 893, 155, 'payee', 5, 45.7000, 22.850000, '2017-01-29 08:36:59', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1797, 40, 3466, "approuvee", NULL, 140.76, 140.76, "2017-12-23 13:59:43", "debit", 4);
+(1797, 302, 1321, 'annulee', NULL, 38.58, 38.58, '2020-08-07 01:25:53', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1798, 72, 2647, "en attente", NULL, 289.56, 289.56, "2019-05-09 19:21:14", "paypal", 4);
+(1798, 953, 665, 'en attente', 2, 26.7813, 24.370983, '2019-12-05 20:51:02', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1799, 30, 3986, "approuvee", NULL, 69.48, 69.48, "2018-08-12 00:58:02", "debit", 3);
+(1799, 342, 856, 'approuvee', 6, 114.5745, 92.805345, '2019-03-17 09:11:16', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1800, 24, 2019, "approuvee", 6, 5.9925, 5.093625, "2017-11-17 19:37:07", "paypal", 1);
+(1800, 986, 359, 'payee', NULL, 136.38, 136.38, '2017-08-28 21:51:05', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1801, 76, 301, "approuvee", NULL, 54.74, 54.74, "2019-09-26 19:12:09", "debit", 2);
+(1801, 188, 2773, 'annulee', NULL, 60.66, 60.66, '2017-03-24 00:06:24', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1802, 20, 1327, "approuvee", NULL, 164.20, 164.20, "2016-08-19 23:59:28", "mastercard", 5);
+(1802, 380, 587, 'approuvee', NULL, 315.65, 315.65, '2019-06-18 11:11:24', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1803, 26, 4063, "payee", NULL, 144.16, 144.16, "2020-03-15 00:37:00", "mastercard", 4);
+(1803, 504, 1305, 'en attente', 1, 228.6240, 137.174400, '2019-04-11 17:12:55', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1804, 40, 4214, "en attente", NULL, 66.28, 66.28, "2020-12-17 14:59:50", "paypal", 2);
+(1804, 536, 405, 'payee', NULL, 262.50, 262.50, '2019-04-17 05:45:01', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1805, 77, 2333, "en attente", 5, 35.6000, 17.800000, "2018-03-31 03:32:17", "mastercard", 1);
+(1805, 790, 1468, 'annulee', NULL, 123.42, 123.42, '2017-07-10 00:11:34', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1806, 85, 2583, "payee", 5, 6.7750, 3.387500, "2017-12-19 18:14:55", "debit", 1);
+(1806, 107, 1009, 'en attente', NULL, 39.41, 39.41, '2020-08-03 17:04:14', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1807, 19, 4105, "approuvee", NULL, 157.36, 157.36, "2018-10-12 15:08:53", "visa", 7);
+(1807, 424, 2110, 'approuvee', 3, 89.5860, 72.564660, '2019-03-02 09:36:44', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1808, 26, 4092, "approuvee", NULL, 385.02, 385.02, "2020-03-10 06:39:50", "paypal", 6);
+(1808, 570, 3989, 'en attente', 2, 321.7487, 292.791317, '2020-06-13 01:10:58', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1809, 10, 2016, "en attente", NULL, 397.74, 397.74, "2017-08-08 04:13:54", "visa", 7);
+(1809, 134, 4154, 'en attente', 1, 25.4880, 15.292800, '2019-01-03 11:29:08', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1810, 38, 1547, "annulee", NULL, 228.32, 228.32, "2020-09-12 21:06:55", "visa", 8);
+(1810, 881, 2484, 'approuvee', 1, 92.4480, 55.468800, '2018-02-27 09:16:52', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1811, 91, 145, "approuvee", NULL, 441.54, 441.54, "2018-06-12 14:24:34", "debit", 6);
+(1811, 790, 631, 'en attente', NULL, 27.88, 27.88, '2016-11-13 13:25:14', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1812, 51, 3445, "approuvee", 1, 71.4850, 60.762250, "2019-11-23 18:14:31", "visa", 5);
+(1812, 646, 963, 'payee', NULL, 306.95, 306.95, '2016-07-09 00:52:36', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1813, 84, 3875, "payee", NULL, 117.00, 117.00, "2020-10-14 18:45:00", "visa", 4);
+(1813, 330, 260, 'annulee', NULL, 105.40, 105.40, '2020-10-31 11:07:21', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1814, 33, 3155, "approuvee", NULL, 325.40, 325.40, "2017-05-27 00:32:12", "paypal", 5);
+(1814, 568, 2565, 'en attente', NULL, 482.79, 482.79, '2019-03-04 02:00:34', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1815, 29, 3259, "payee", NULL, 72.66, 72.66, "2017-05-06 12:56:14", "paypal", 7);
+(1815, 108, 2670, 'annulee', NULL, 96.38, 96.38, '2019-11-13 16:19:52', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1816, 11, 597, "payee", NULL, 54.85, 54.85, "2020-07-11 12:40:38", "mastercard", 1);
+(1816, 552, 496, 'annulee', NULL, 162.82, 162.82, '2018-08-15 23:50:46', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1817, 54, 373, "payee", NULL, 87.64, 87.64, "2016-02-10 18:48:11", "mastercard", 2);
+(1817, 880, 2616, 'annulee', NULL, 156.96, 156.96, '2018-09-21 10:41:39', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1818, 57, 2981, "payee", 3, 152.6350, 106.844500, "2017-03-24 17:39:39", "debit", 5);
+(1818, 524, 389, 'approuvee', NULL, 68.12, 68.12, '2016-10-01 17:38:13', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1819, 80, 1128, "approuvee", NULL, 305.20, 305.20, "2020-06-12 16:03:04", "debit", 8);
+(1819, 348, 1122, 'en attente', NULL, 192.40, 192.40, '2018-05-12 23:26:31', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1820, 27, 2113, "payee", NULL, 251.84, 251.84, "2020-07-28 13:39:04", "debit", 4);
+(1820, 936, 3797, 'en attente', NULL, 113.70, 113.70, '2016-10-30 04:28:04', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1821, 48, 30, "payee", NULL, 64.14, 64.14, "2016-07-03 09:17:17", "debit", 6);
+(1821, 495, 2170, 'approuvee', 2, 66.9942, 60.964722, '2019-05-17 17:25:18', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1822, 48, 2178, "approuvee", NULL, 125.50, 125.50, "2018-02-28 19:26:12", "mastercard", 5);
+(1822, 753, 3967, 'annulee', NULL, 305.41, 305.41, '2019-05-08 18:15:55', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1823, 26, 2547, "annulee", NULL, 354.85, 354.85, "2017-03-29 19:09:47", "visa", 5);
+(1823, 398, 1203, 'en attente', 4, 57.5510, 54.673450, '2018-02-06 15:04:07', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1824, 65, 3796, "payee", NULL, 50.24, 50.24, "2020-01-02 11:13:13", "paypal", 2);
+(1824, 230, 1945, 'approuvee', 5, 28.4100, 14.205000, '2018-10-09 09:54:06', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1825, 50, 2630, "approuvee", 4, NULL, NULL, "2019-11-16 10:08:05", "debit", 3);
+(1825, 199, 681, 'annulee', NULL, 448.35, 448.35, '2020-05-26 07:36:31', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1826, 12, 2461, "approuvee", 3, 73.5000, 51.450000, "2020-11-08 23:52:02", "mastercard", 4);
+(1826, 179, 3092, 'annulee', NULL, 27.60, 27.60, '2019-11-15 08:48:21', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1827, 15, 2634, "approuvee", 5, 26.0250, 13.012500, "2018-10-27 16:55:24", "visa", 3);
+(1827, 31, 3298, 'annulee', NULL, 272.95, 272.95, '2020-09-28 09:32:35', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1828, 99, 1882, "annulee", 5, 44.9550, 22.477500, "2019-07-02 00:43:09", "paypal", 3);
+(1828, 680, 3500, 'annulee', NULL, 30.90, 30.90, '2020-09-04 10:49:59', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1829, 47, 1977, "payee", NULL, 70.68, 70.68, "2017-11-18 21:15:04", "paypal", 4);
+(1829, 56, 3473, 'en attente', NULL, 111.00, 111.00, '2019-02-17 22:20:50', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1830, NULL, 2131, "payee", 3, 261.5200, 183.064000, "2019-03-04 13:50:43", "visa", 8);
+(1830, 575, 3760, 'en attente', NULL, 48.99, 48.99, '2016-12-31 13:28:10', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1831, 67, 2868, "approuvee", NULL, 73.88, 73.88, "2019-10-30 15:41:32", "debit", 2);
+(1831, 662, 1185, 'payee', NULL, 297.78, 297.78, '2016-07-04 20:43:45', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1832, 90, 2832, "payee", NULL, 97.86, 97.86, "2018-01-29 05:30:08", "paypal", 6);
+(1832, 360, 3527, 'annulee', NULL, 69.90, 69.90, '2020-09-02 01:29:07', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1833, 9, 1657, "payee", NULL, 180.32, 180.32, "2018-12-05 03:59:30", "debit", 4);
+(1833, 434, 2851, 'approuvee', NULL, 226.10, 226.10, '2016-12-31 18:06:44', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1834, 60, 2024, "payee", NULL, 142.94, 142.94, "2016-07-21 18:56:00", "debit", 2);
+(1834, 279, 1814, 'en attente', NULL, 107.76, 107.76, '2018-04-28 19:47:32', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1835, 85, 2457, "payee", NULL, 154.35, 154.35, "2017-01-09 02:40:56", "mastercard", 5);
+(1835, 267, 1040, 'approuvee', 2, 404.8590, 368.421690, '2020-12-23 11:39:34', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1836, 89, 124, "approuvee", NULL, 72.60, 72.60, "2018-12-19 04:25:32", "paypal", 1);
+(1836, 878, 4016, 'approuvee', NULL, 129.12, 129.12, '2018-11-02 21:25:31', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1837, 12, 664, "en attente", 5, 26.9000, 13.450000, "2018-04-15 23:54:29", "visa", 2);
+(1837, 86, 596, 'en attente', 6, 92.2995, 74.762595, '2016-08-30 11:02:12', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1838, 6, 2562, "payee", NULL, 50.48, 50.48, "2017-03-26 20:30:10", "mastercard", 2);
+(1838, 300, 3371, 'approuvee', NULL, 56.92, 56.92, '2019-12-27 05:53:06', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1839, 56, 1426, "payee", 4, NULL, NULL, "2017-04-21 15:03:38", "paypal", 3);
+(1839, 220, 221, 'annulee', NULL, 279.92, 279.92, '2016-10-16 09:51:40', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1840, 26, 3789, "approuvee", NULL, 230.35, 230.35, "2017-08-30 00:42:57", "visa", 5);
+(1840, 624, 2893, 'en attente', NULL, 89.67, 89.67, '2018-04-22 03:42:11', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1841, 74, 3850, "annulee", NULL, 135.40, 135.40, "2017-07-13 06:55:09", "mastercard", 5);
+(1841, 703, 910, 'payee', NULL, 71.84, 71.84, '2019-12-07 00:20:47', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1842, 63, 1537, "en attente", NULL, 38.00, 38.00, "2016-02-28 02:18:30", "debit", 5);
+(1842, 924, 887, 'approuvee', 6, 273.8205, 221.794605, '2017-05-12 17:46:23', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1843, 41, 1863, "payee", NULL, 180.00, 180.00, "2017-01-26 08:05:35", "paypal", 5);
+(1843, 585, 2907, 'payee', NULL, 131.22, 131.22, '2018-07-05 07:40:04', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1844, 73, 3759, "en attente", NULL, 260.84, 260.84, "2020-05-21 18:59:52", "visa", 4);
+(1844, 124, 3687, 'approuvee', NULL, 93.18, 93.18, '2019-05-19 09:40:38', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1845, 49, 818, "payee", NULL, 95.15, 95.15, "2018-05-14 00:32:27", "debit", 5);
+(1845, 545, 2307, 'approuvee', NULL, 163.87, 163.87, '2020-12-19 05:50:09', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1846, 79, 3056, "en attente", NULL, 189.63, 189.63, "2016-10-07 11:07:53", "visa", 3);
+(1846, 179, 2073, 'payee', NULL, 346.48, 346.48, '2016-01-18 16:18:26', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1847, 39, 227, "approuvee", NULL, 122.14, 122.14, "2020-10-17 12:38:29", "mastercard", 2);
+(1847, 579, 107, 'approuvee', NULL, 243.75, 243.75, '2020-12-19 02:59:48', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1848, 31, 2993, "approuvee", NULL, 39.71, 39.71, "2020-12-09 17:09:18", "mastercard", 1);
+(1848, 645, 2221, 'payee', NULL, 361.25, 361.25, '2020-06-05 17:37:23', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1849, 38, 2729, "en attente", NULL, 234.64, 234.64, "2019-03-30 00:00:07", "mastercard", 8);
+(1849, 352, 1038, 'en attente', NULL, 35.76, 35.76, '2018-08-10 17:42:26', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1850, 33, 1960, "payee", NULL, 99.92, 99.92, "2018-08-10 16:27:14", "mastercard", 4);
+(1850, 699, 397, 'payee', NULL, 26.62, 26.62, '2020-01-06 09:14:42', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1851, 10, 2040, "payee", NULL, 148.00, 148.00, "2017-11-08 15:25:52", "mastercard", 2);
+(1851, 679, 4183, 'en attente', 4, 414.8935, 394.148825, '2018-05-14 05:58:20', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1852, 92, 1851, "annulee", 5, 57.1800, 28.590000, "2016-03-11 14:03:49", "visa", 2);
+(1852, 414, 3718, 'annulee', NULL, 110.60, 110.60, '2016-09-07 19:27:34', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1853, 72, 4127, "annulee", NULL, 199.28, 199.28, "2016-05-07 10:27:43", "debit", 8);
+(1853, 739, 1898, 'annulee', 6, 240.9750, 195.189750, '2017-04-23 11:28:36', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1854, 74, 1922, "approuvee", NULL, 167.16, 167.16, "2020-11-18 05:38:08", "paypal", 4);
+(1854, 330, 171, 'en attente', 2, 35.2716, 32.097156, '2020-07-31 15:16:46', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1855, 43, 4048, "en attente", NULL, 149.84, 149.84, "2016-05-11 03:14:08", "debit", 2);
+(1855, 59, 850, 'approuvee', NULL, 217.14, 217.14, '2019-04-21 18:34:38', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1856, 57, 2218, "approuvee", NULL, 73.56, 73.56, "2018-07-01 08:52:46", "mastercard", 2);
+(1856, 757, 2725, 'annulee', NULL, 84.20, 84.20, '2018-05-28 03:30:16', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1857, 14, 3287, "annulee", NULL, 106.40, 106.40, "2016-03-14 06:29:42", "visa", 8);
+(1857, 784, 3402, 'en attente', NULL, 56.04, 56.04, '2016-02-10 16:42:21', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1858, 72, 1983, "approuvee", NULL, 43.04, 43.04, "2018-08-11 09:28:45", "visa", 1);
+(1858, 574, 2615, 'approuvee', 5, 109.1100, 54.555000, '2016-05-27 23:07:58', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1859, 55, 3733, "payee", NULL, 488.64, 488.64, "2019-05-26 19:34:43", "paypal", 8);
+(1859, 835, 35, 'annulee', NULL, 445.74, 445.74, '2016-09-08 02:58:54', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1860, 97, 1168, "payee", 2, 186.6240, 151.165440, "2019-05-27 19:41:06", "debit", 4);
+(1860, 847, 434, 'annulee', NULL, 435.12, 435.12, '2018-07-12 13:37:26', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1861, 82, 2347, "en attente", NULL, 245.80, 245.80, "2020-06-07 15:34:46", "visa", 4);
+(1861, 898, 201, 'en attente', NULL, 50.62, 50.62, '2018-08-13 18:03:24', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1862, 68, 1220, "approuvee", NULL, 347.60, 347.60, "2018-04-13 23:44:24", "mastercard", 5);
+(1862, 453, 1199, 'en attente', NULL, 147.60, 147.60, '2017-11-28 17:32:30', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1863, 57, 2086, "approuvee", NULL, 116.73, 116.73, "2018-04-19 03:04:45", "mastercard", 3);
+(1863, 117, 251, 'en attente', 5, 106.8600, 53.430000, '2016-11-08 16:48:42', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1864, 39, 24, "payee", 2, 44.6634, 36.177354, "2017-02-19 03:54:52", "debit", 3);
+(1864, 403, 4134, 'en attente', NULL, 304.56, 304.56, '2019-11-21 03:18:03', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1865, 83, 2010, "en attente", NULL, 233.60, 233.60, "2020-01-08 21:13:54", "paypal", 5);
+(1865, 742, 2181, 'approuvee', 5, 278.6400, 139.320000, '2018-01-23 01:46:07', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1866, 21, 1240, "en attente", NULL, 192.15, 192.15, "2019-09-10 16:08:01", "mastercard", 3);
+(1866, 885, 1745, 'en attente', NULL, 23.89, 23.89, '2018-01-08 20:16:08', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1867, 35, 3391, "en attente", 2, 150.2550, 121.706550, "2017-12-02 02:31:43", "debit", 5);
+(1867, 638, 1105, 'en attente', NULL, 229.81, 229.81, '2020-10-05 03:25:37', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1868, 53, 3022, "annulee", NULL, 21.80, 21.80, "2020-07-12 18:15:33", "mastercard", 4);
+(1868, 425, 921, 'en attente', NULL, 58.80, 58.80, '2017-12-28 21:38:11', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1869, 28, 3786, "approuvee", 1, 268.4640, 228.194400, "2020-04-07 14:22:16", "paypal", 8);
+(1869, 321, 3387, 'approuvee', NULL, 428.40, 428.40, '2017-07-26 12:06:49', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1870, 85, 3571, "approuvee", 2, 229.0518, 185.531958, "2018-01-16 06:51:30", "mastercard", 6);
+(1870, 82, 1612, 'annulee', NULL, 88.34, 88.34, '2019-09-27 13:22:09', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1871, 92, 1018, "payee", 3, 16.3940, 11.475800, "2020-05-02 18:10:28", "mastercard", 1);
+(1871, 982, 1229, 'approuvee', NULL, 170.40, 170.40, '2019-09-03 20:36:44', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1872, 58, 369, "annulee", NULL, 13.78, 13.78, "2016-08-24 11:56:24", "debit", 2);
+(1872, 462, 598, 'approuvee', NULL, 57.62, 57.62, '2016-07-05 10:54:19', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1873, 79, 3906, "annulee", NULL, 248.28, 248.28, "2018-03-06 21:39:59", "visa", 6);
+(1873, 981, 2406, 'payee', 3, 82.7415, 67.020615, '2019-03-07 02:28:17', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1874, 51, 895, "payee", NULL, 169.36, 169.36, "2016-01-10 00:31:57", "mastercard", 8);
+(1874, 259, 3976, 'payee', 4, 395.9220, 376.125900, '2019-05-19 17:50:36', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1875, 46, 3750, "en attente", 5, 84.8000, 42.400000, "2016-12-04 06:34:35", "mastercard", 5);
+(1875, 663, 610, 'payee', NULL, 61.62, 61.62, '2019-10-09 00:12:04', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1876, 17, 3008, "annulee", NULL, 50.38, 50.38, "2017-02-27 16:35:53", "debit", 2);
+(1876, 699, 1821, 'payee', NULL, 427.68, 427.68, '2020-04-27 16:46:01', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1877, 5, 827, "approuvee", NULL, 191.37, 191.37, "2020-04-29 01:10:53", "visa", 3);
+(1877, 493, 975, 'annulee', NULL, 141.84, 141.84, '2018-06-01 14:39:23', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1878, 25, 695, "en attente", NULL, 175.38, 175.38, "2016-08-20 09:02:25", "paypal", 6);
+(1878, 789, 3955, 'annulee', NULL, 157.08, 157.08, '2019-12-23 19:14:56', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1879, 26, 2278, "annulee", NULL, 170.24, 170.24, "2016-03-01 20:39:56", "debit", 4);
+(1879, 419, 3495, 'en attente', NULL, 115.34, 115.34, '2019-03-11 05:45:35', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1880, 7, 2895, "approuvee", NULL, 93.86, 93.86, "2020-05-03 10:49:28", "paypal", 2);
+(1880, 143, 2305, 'payee', NULL, 368.58, 368.58, '2016-01-02 08:19:52', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1881, 19, 1674, "en attente", NULL, 272.94, 272.94, "2020-05-31 10:00:51", "mastercard", 6);
+(1881, 45, 855, 'approuvee', NULL, 80.68, 80.68, '2020-09-28 21:20:55', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1882, 49, 1090, "approuvee", 2, 461.3112, 373.662072, "2020-03-25 10:23:31", "debit", 8);
+(1882, 526, 3289, 'en attente', NULL, 294.84, 294.84, '2018-05-16 20:39:29', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1883, 48, 2179, "payee", NULL, 368.35, 368.35, "2019-06-21 19:39:29", "paypal", 5);
+(1883, 957, 1992, 'payee', NULL, 101.22, 101.22, '2020-09-24 14:46:52', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1884, 88, 1756, "payee", 3, 90.2720, 63.190400, "2020-06-12 00:42:42", "mastercard", 4);
+(1884, 810, 1789, 'en attente', NULL, 39.18, 39.18, '2020-01-27 11:15:56', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1885, 21, 3419, "payee", NULL, 250.81, 250.81, "2020-10-14 01:55:07", "mastercard", 7);
+(1885, 768, 2122, 'annulee', NULL, 28.62, 28.62, '2019-03-30 12:46:22', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1886, 64, 4038, "en attente", NULL, 32.72, 32.72, "2017-06-25 06:36:55", "mastercard", 4);
+(1886, 555, 3129, 'annulee', NULL, 349.92, 349.92, '2016-06-24 19:37:30', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1887, 43, 3246, "annulee", NULL, 26.26, 26.26, "2019-03-29 20:10:03", "debit", 2);
+(1887, 24, 1912, 'en attente', NULL, 35.54, 35.54, '2020-06-01 18:46:42', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1888, 46, 4130, "en attente", 2, 41.3262, 33.474222, "2020-06-21 00:28:30", "debit", 2);
+(1888, 156, 722, 'approuvee', NULL, 209.15, 209.15, '2016-12-04 16:29:44', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1889, 32, 1045, "en attente", NULL, 186.42, 186.42, "2019-02-05 10:35:52", "visa", 6);
+(1889, 422, 267, 'annulee', NULL, 205.40, 205.40, '2020-09-27 08:03:21', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1890, 66, 2374, "approuvee", NULL, 298.80, 298.80, "2017-12-18 19:10:39", "paypal", 5);
+(1890, 343, 2023, 'en attente', 4, 25.4125, 24.141875, '2017-06-15 14:46:26', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1891, 58, 1289, "en attente", NULL, 19.62, 19.62, "2020-07-28 05:08:13", "mastercard", 3);
+(1891, 196, 1773, 'payee', NULL, 28.08, 28.08, '2017-08-20 23:24:53', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1892, 83, 3928, "annulee", NULL, 122.90, 122.90, "2018-07-16 04:33:12", "mastercard", 5);
+(1892, 956, 2691, 'approuvee', NULL, 76.32, 76.32, '2019-05-23 10:47:49', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1893, 30, 184, "annulee", NULL, 19.68, 19.68, "2019-03-18 10:38:35", "debit", 1);
+(1893, 329, 3541, 'en attente', 6, 16.4268, 13.305708, '2016-07-20 07:13:00', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1894, 48, 3438, "approuvee", 2, 9.3312, 7.558272, "2020-06-01 02:24:24", "visa", 2);
+(1894, 944, 476, 'en attente', NULL, 297.08, 297.08, '2016-01-11 23:19:55', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1895, 70, 3394, "en attente", NULL, 473.52, 473.52, "2020-01-23 18:24:56", "paypal", 8);
+(1895, 241, 437, 'payee', 4, 129.5610, 123.082950, '2017-04-26 01:27:53', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1896, 87, 4107, "annulee", 2, 137.8539, 111.661659, "2018-10-14 17:39:08", "visa", 3);
+(1896, 483, 497, 'en attente', NULL, 250.10, 250.10, '2019-03-28 19:19:49', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1897, 34, 2356, "annulee", 1, 77.0440, 65.487400, "2020-05-19 05:55:08", "visa", 8);
+(1897, 866, 1308, 'approuvee', NULL, 303.38, 303.38, '2020-01-05 07:27:16', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1898, 10, 979, "approuvee", NULL, 318.42, 318.42, "2016-12-25 01:26:17", "paypal", 6);
+(1898, 342, 3792, 'en attente', 6, 23.9841, 19.427121, '2017-05-09 13:13:02', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1899, 89, 3686, "payee", NULL, 63.36, 63.36, "2016-04-24 16:05:11", "mastercard", 6);
+(1899, 691, 1690, 'payee', NULL, 96.42, 96.42, '2019-02-16 21:04:35', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1900, 37, 116, "en attente", NULL, 90.72, 90.72, "2016-05-18 23:59:58", "visa", 6);
+(1900, 566, 2629, 'en attente', NULL, 279.12, 279.12, '2020-07-31 11:28:54', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1901, 39, 1192, "en attente", 1, 45.4750, 38.653750, "2020-03-14 11:08:24", "visa", 5);
+(1901, 681, 956, 'annulee', NULL, 323.76, 323.76, '2019-05-04 03:17:57', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1902, 92, 3546, "annulee", NULL, 51.72, 51.72, "2018-03-12 10:43:02", "debit", 2);
+(1902, 865, 878, 'annulee', NULL, 24.31, 24.31, '2017-11-30 11:01:48', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1903, 15, 895, "annulee", NULL, 84.68, 84.68, "2018-04-26 00:43:07", "visa", 4);
+(1903, 553, 3147, 'approuvee', 3, 179.6904, 145.549224, '2018-07-22 04:27:09', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1904, 93, 884, "annulee", NULL, 22.16, 22.16, "2016-09-11 02:42:13", "visa", 1);
+(1904, 877, 3146, 'approuvee', NULL, 95.18, 95.18, '2019-07-07 20:07:47', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1905, 70, 3628, "en attente", NULL, 27.44, 27.44, "2017-07-04 06:16:07", "debit", 2);
+(1905, 179, 1475, 'en attente', 6, 311.1858, 252.060498, '2019-02-22 20:54:17', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1906, 61, 1922, "en attente", NULL, 334.32, 334.32, "2016-06-13 22:45:33", "paypal", 8);
+(1906, 516, 1227, 'annulee', NULL, 104.88, 104.88, '2016-10-04 18:15:44', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1907, 38, 3456, "annulee", NULL, 6.29, 6.29, "2017-10-15 17:51:15", "mastercard", 1);
+(1907, 966, 4129, 'en attente', NULL, 414.00, 414.00, '2016-06-11 02:12:59', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1908, 90, 2185, "payee", NULL, 26.64, 26.64, "2016-06-24 17:29:47", "visa", 1);
+(1908, 498, 478, 'payee', NULL, 238.56, 238.56, '2020-08-17 11:50:32', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1909, 12, 3923, "en attente", NULL, 183.27, 183.27, "2019-03-01 18:31:37", "mastercard", 3);
+(1909, 16, 2274, 'en attente', NULL, 139.00, 139.00, '2019-05-06 15:25:51', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1910, 98, 730, "approuvee", NULL, 101.68, 101.68, "2019-01-06 07:54:07", "mastercard", 4);
+(1910, 55, 3839, 'en attente', 2, 240.7496, 219.082136, '2020-05-01 22:29:48', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1911, 53, 751, "approuvee", NULL, 518.84, 518.84, "2017-08-01 01:05:23", "paypal", 7);
+(1911, 271, 2299, 'annulee', NULL, 148.72, 148.72, '2017-03-30 11:19:03', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1912, 41, 3367, "annulee", NULL, 36.21, 36.21, "2019-08-31 12:11:39", "visa", 1);
+(1912, 201, 2535, 'annulee', 5, 31.6900, 15.845000, '2018-10-22 22:00:51', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1913, 85, 775, "annulee", 3, 43.2670, 30.286900, "2016-04-15 13:04:26", "debit", 7);
+(1913, 297, 1163, 'approuvee', 5, 117.6300, 58.815000, '2016-01-22 18:32:53', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1914, 19, 3374, "payee", 6, 47.4045, 40.293825, "2016-04-02 16:23:19", "mastercard", 3);
+(1914, 206, 3079, 'annulee', NULL, 97.98, 97.98, '2020-08-15 10:41:59', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1915, 49, 695, "approuvee", NULL, 58.46, 58.46, "2017-08-24 03:02:05", "mastercard", 2);
+(1915, 98, 923, 'annulee', NULL, 276.01, 276.01, '2016-04-18 20:03:08', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1916, 58, 2213, "annulee", NULL, 240.30, 240.30, "2017-06-26 10:06:22", "mastercard", 5);
+(1916, 838, 182, 'annulee', NULL, 38.09, 38.09, '2019-02-19 04:44:45', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1917, 31, 1805, "approuvee", NULL, 130.41, 130.41, "2020-02-06 23:47:59", "mastercard", 3);
+(1917, 411, 2308, 'approuvee', NULL, 293.30, 293.30, '2018-10-26 22:25:33', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1918, 96, 3731, "payee", NULL, 53.10, 53.10, "2017-03-13 04:07:34", "visa", 5);
+(1918, 74, 2862, 'approuvee', NULL, 251.23, 251.23, '2016-05-27 23:00:19', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1919, 97, 473, "en attente", NULL, 92.72, 92.72, "2020-06-02 16:59:27", "visa", 2);
+(1919, 261, 65, 'annulee', NULL, 385.80, 385.80, '2017-10-16 02:39:33', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1920, 96, 587, "payee", NULL, 60.98, 60.98, "2017-07-06 22:50:00", "paypal", 1);
+(1920, 201, 461, 'payee', NULL, 66.13, 66.13, '2019-10-10 18:52:31', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1921, 14, 2295, "approuvee", NULL, 45.91, 45.91, "2016-07-30 22:01:14", "mastercard", 1);
+(1921, 908, 2266, 'approuvee', NULL, 208.18, 208.18, '2020-07-03 06:03:36', 'visa', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1922, 65, 3289, "annulee", NULL, 25.90, 25.90, "2020-11-27 14:08:12", "mastercard", 1);
+(1922, 363, 3594, 'approuvee', NULL, 35.88, 35.88, '2016-02-10 21:28:01', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1923, 6, 1426, "approuvee", 4, NULL, NULL, "2016-06-28 16:20:20", "mastercard", 1);
+(1923, 718, 3138, 'annulee', NULL, 349.44, 349.44, '2019-01-27 09:53:53', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1924, 79, 2097, "annulee", NULL, 113.88, 113.88, "2017-12-24 22:21:15", "visa", 3);
+(1924, 192, 161, 'payee', NULL, 113.56, 113.56, '2018-04-19 02:49:35', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1925, 9, 1847, "annulee", NULL, 190.12, 190.12, "2016-01-26 08:04:14", "mastercard", 4);
+(1925, 115, 1165, 'payee', NULL, 26.10, 26.10, '2017-05-13 04:06:20', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1926, 72, 121, "payee", NULL, 177.80, 177.80, "2019-11-30 04:46:07", "paypal", 7);
+(1926, 847, 996, 'annulee', NULL, 192.18, 192.18, '2016-01-18 14:16:38', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1927, 23, 1296, "payee", NULL, 397.68, 397.68, "2019-11-19 21:18:34", "paypal", 8);
+(1927, 880, 352, 'payee', 1, 38.8920, 23.335200, '2016-11-03 00:46:24', 'paypal', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1928, 69, 2937, "en attente", NULL, 333.65, 333.65, "2016-09-01 18:20:17", "debit", 5);
+(1928, 706, 1303, 'annulee', NULL, 54.76, 54.76, '2019-04-19 14:12:07', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1929, 81, 1821, "annulee", NULL, 422.31, 422.31, "2017-06-13 14:29:13", "mastercard", 7);
+(1929, 72, 3917, 'en attente', NULL, 49.64, 49.64, '2016-03-28 21:48:41', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1930, 3, 4133, "en attente", NULL, 18.81, 18.81, "2017-03-29 11:57:57", "visa", 1);
+(1930, 763, 586, 'payee', 6, 408.7503, 331.087743, '2016-11-19 14:38:01', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1931, 39, 905, "en attente", 1, 89.8110, 76.339350, "2019-01-05 23:47:11", "debit", 2);
+(1931, 996, 416, 'payee', NULL, 502.16, 502.16, '2016-09-26 01:22:48', 'visa', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1932, 3, 1547, "en attente", NULL, 142.70, 142.70, "2018-07-12 06:32:29", "mastercard", 5);
+(1932, 232, 2205, 'annulee', NULL, 158.76, 158.76, '2017-03-02 21:38:47', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1933, 28, 2435, "annulee", NULL, 376.20, 376.20, "2018-08-29 20:47:34", "visa", 6);
+(1933, 992, 3689, 'payee', NULL, 66.78, 66.78, '2020-04-26 03:27:17', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1934, 40, 553, "approuvee", 1, 4.7090, 4.002650, "2017-02-14 06:05:02", "debit", 1);
+(1934, 561, 2722, 'payee', NULL, 62.01, 62.01, '2017-09-13 01:13:54', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1935, 53, 3271, "payee", NULL, 121.50, 121.50, "2016-04-13 01:12:18", "paypal", 2);
+(1935, 132, 1616, 'approuvee', 4, 243.2000, 231.040000, '2016-07-12 19:15:41', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1936, 71, 2531, "en attente", 5, 144.3400, 72.170000, "2016-04-05 00:30:10", "debit", 7);
+(1936, 76, 3791, 'approuvee', 4, 221.3310, 210.264450, '2018-11-19 04:55:27', 'visa', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1937, 40, 1089, "payee", NULL, 591.60, 591.60, "2016-12-18 21:08:36", "paypal", 8);
+(1937, 532, 1467, 'annulee', NULL, 32.64, 32.64, '2020-09-02 01:38:29', 'visa', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1938, 36, 1603, "payee", 1, 200.4300, 170.365500, "2017-10-23 02:47:14", "visa", 5);
+(1938, 216, 4117, 'annulee', NULL, 153.75, 153.75, '2019-07-29 10:36:35', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1939, 10, 2158, "en attente", 4, NULL, NULL, "2016-12-14 00:39:46", "visa", 8);
+(1939, 894, 4163, 'approuvee', NULL, 45.38, 45.38, '2018-05-23 07:47:33', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1940, 93, 1859, "en attente", NULL, 132.14, 132.14, "2017-04-18 07:38:43", "mastercard", 2);
+(1940, 521, 916, 'approuvee', NULL, 104.28, 104.28, '2018-03-12 09:11:26', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1941, 61, 2027, "annulee", NULL, 180.16, 180.16, "2018-07-04 07:27:32", "mastercard", 8);
+(1941, 29, 3520, 'annulee', NULL, 146.56, 146.56, '2019-07-04 21:06:26', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1942, 41, 4217, "approuvee", NULL, 234.05, 234.05, "2018-02-14 17:27:43", "debit", 5);
+(1942, 81, 2143, 'en attente', NULL, 55.42, 55.42, '2019-01-23 02:06:19', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1943, 39, 3709, "payee", NULL, 177.80, 177.80, "2018-04-06 13:31:28", "visa", 4);
+(1943, 351, 1006, 'en attente', NULL, 5.99, 5.99, '2019-10-13 11:15:54', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1944, 25, 3872, "en attente", NULL, 289.08, 289.08, "2020-08-24 17:51:47", "mastercard", 4);
+(1944, 774, 1677, 'annulee', NULL, 407.47, 407.47, '2018-05-07 11:23:41', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1945, 20, 2925, "payee", NULL, 33.68, 33.68, "2019-08-28 07:26:28", "debit", 1);
+(1945, 306, 2472, 'payee', NULL, 128.52, 128.52, '2018-08-05 20:22:00', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1946, 80, 2045, "approuvee", 3, 68.0190, 47.613300, "2020-06-12 13:17:44", "visa", 3);
+(1946, 719, 3591, 'annulee', NULL, 186.54, 186.54, '2018-01-08 14:28:28', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1947, 42, 912, "approuvee", NULL, 64.64, 64.64, "2018-09-17 22:51:42", "paypal", 1);
+(1947, 810, 3305, 'approuvee', NULL, 307.84, 307.84, '2019-01-03 13:13:42', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1948, 4, 3168, "payee", NULL, 71.00, 71.00, "2017-05-23 06:28:18", "visa", 1);
+(1948, 914, 2666, 'annulee', NULL, 49.24, 49.24, '2018-04-15 22:32:42', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1949, 74, 3104, "en attente", NULL, 199.48, 199.48, "2020-11-02 08:56:12", "paypal", 4);
+(1949, 764, 192, 'payee', NULL, 81.21, 81.21, '2018-11-11 14:44:44', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1950, 86, 3055, "annulee", 2, 97.5888, 79.046928, "2020-08-22 10:21:37", "visa", 3);
+(1950, 467, 422, 'payee', NULL, 140.58, 140.58, '2018-11-14 08:04:12', 'visa', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1951, 34, 199, "approuvee", 5, 65.9750, 32.987500, "2019-12-24 17:07:38", "debit", 7);
+(1951, 680, 706, 'annulee', 2, 183.0010, 166.530910, '2018-02-12 21:11:32', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1952, 78, 1762, "en attente", NULL, 28.36, 28.36, "2016-07-02 17:18:44", "mastercard", 2);
+(1952, 936, 1381, 'payee', NULL, 75.28, 75.28, '2018-09-04 20:45:57', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1953, 45, 1144, "en attente", NULL, 18.17, 18.17, "2016-11-19 13:47:40", "debit", 1);
+(1953, 92, 4195, 'payee', NULL, 64.26, 64.26, '2018-04-27 16:38:37', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1954, 82, 1600, "payee", 1, 328.9160, 279.578600, "2019-09-13 18:19:29", "debit", 8);
+(1954, 729, 1239, 'approuvee', NULL, 219.32, 219.32, '2017-12-27 23:34:25', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1955, 76, 3948, "approuvee", NULL, 396.90, 396.90, "2020-08-22 18:34:07", "visa", 6);
+(1955, 354, 572, 'payee', NULL, 61.62, 61.62, '2020-10-24 04:38:21', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1956, 24, 1553, "approuvee", NULL, 140.44, 140.44, "2017-07-08 22:24:21", "debit", 4);
+(1956, 376, 3286, 'en attente', NULL, 51.44, 51.44, '2020-11-06 03:20:40', 'debit', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1957, 88, 2517, "approuvee", 1, 94.5370, 80.356450, "2016-12-24 03:15:29", "visa", 2);
+(1957, 688, 3936, 'payee', NULL, 50.86, 50.86, '2016-04-05 04:21:39', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1958, 53, 3968, "payee", NULL, 213.42, 213.42, "2020-02-15 14:05:35", "paypal", 6);
+(1958, 659, 742, 'approuvee', NULL, 133.60, 133.60, '2019-04-22 18:27:57', 'paypal', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1959, 66, 484, "payee", 5, 30.5650, 15.282500, "2018-09-17 20:45:46", "debit", 1);
+(1959, 104, 3340, 'annulee', 6, 144.4635, 117.015435, '2016-10-25 08:36:27', 'mastercard', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1960, 95, 1113, "payee", 5, 58.0050, 29.002500, "2016-08-03 22:13:09", "visa", 3);
+(1960, 239, 1122, 'annulee', NULL, 288.60, 288.60, '2019-01-13 17:35:39', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1961, 69, 976, "en attente", NULL, 447.37, 447.37, "2020-08-06 00:58:59", "visa", 7);
+(1961, 235, 2796, 'en attente', 4, 92.3875, 87.768125, '2018-09-03 22:43:10', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1962, 24, 2797, "en attente", 3, 161.7840, 113.248800, "2018-07-28 21:49:43", "debit", 8);
+(1962, 672, 2820, 'en attente', NULL, 513.92, 513.92, '2016-01-18 17:51:44', 'mastercard', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1963, 17, 1829, "en attente", NULL, 256.15, 256.15, "2018-05-17 20:02:43", "debit", 5);
+(1963, 132, 2374, 'payee', NULL, 241.70, 241.70, '2016-11-22 04:43:27', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1964, 97, 2061, "en attente", NULL, 84.57, 84.57, "2020-12-21 22:30:17", "debit", 3);
+(1964, 402, 3181, 'annulee', 4, 14.8295, 14.088025, '2020-01-01 20:45:15', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1965, 43, 4198, "annulee", NULL, 408.73, 408.73, "2020-08-12 20:25:31", "visa", 7);
+(1965, 169, 2881, 'annulee', 6, 322.2666, 261.035946, '2018-06-06 09:35:36', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1966, 21, 1863, "annulee", NULL, 180.00, 180.00, "2016-06-27 07:21:55", "visa", 5);
+(1966, 446, 1373, 'en attente', NULL, 70.86, 70.86, '2019-03-17 14:25:37', 'mastercard', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1967, 93, 512, "en attente", NULL, 252.48, 252.48, "2016-06-05 03:15:02", "mastercard", 4);
+(1967, 429, 3266, 'approuvee', 4, 142.5760, 135.447200, '2018-08-11 21:51:00', 'mastercard', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1968, 74, 3761, "annulee", 3, 106.5750, 74.602500, "2019-05-23 09:59:50", "mastercard", 3);
+(1968, 94, 3868, 'en attente', NULL, 135.72, 135.72, '2018-01-07 20:09:32', 'mastercard', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1969, 48, 2410, "approuvee", NULL, 164.08, 164.08, "2016-05-11 11:54:10", "paypal", 7);
+(1969, 529, 1838, 'en attente', NULL, 14.62, 14.62, '2016-03-30 17:52:07', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1970, 49, 2993, "en attente", NULL, 119.13, 119.13, "2018-10-31 22:48:37", "visa", 3);
+(1970, 881, 1355, 'approuvee', NULL, 98.08, 98.08, '2019-08-20 22:20:03', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1971, 94, 3490, "approuvee", NULL, 81.75, 81.75, "2019-03-15 09:02:11", "mastercard", 3);
+(1971, 30, 448, 'annulee', NULL, 24.84, 24.84, '2019-07-18 23:32:34', 'debit', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1972, 85, 1428, "payee", NULL, 29.27, 29.27, "2017-12-13 13:13:35", "debit", 1);
+(1972, 878, 878, 'payee', NULL, 48.62, 48.62, '2016-04-19 21:02:22', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1973, 71, 4167, "approuvee", 5, 67.9100, 33.955000, "2017-02-26 00:11:34", "debit", 2);
+(1973, 921, 4196, 'en attente', NULL, 176.01, 176.01, '2018-05-21 21:29:23', 'paypal', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1974, 99, 968, "annulee", NULL, 48.56, 48.56, "2019-05-05 22:47:22", "mastercard", 8);
+(1974, 419, 3065, 'approuvee', NULL, 29.80, 29.80, '2020-10-14 17:19:45', 'debit', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1975, 63, 4038, "en attente", 1, 20.8590, 17.730150, "2016-06-25 22:09:49", "mastercard", 3);
+(1975, 537, 566, 'payee', NULL, 68.34, 68.34, '2020-01-16 20:56:22', 'debit', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1976, 10, 2939, "en attente", 2, 57.9150, 46.911150, "2017-04-28 04:30:00", "mastercard", 1);
+(1976, 641, 130, 'annulee', NULL, 12.46, 12.46, '2017-03-09 08:42:45', 'mastercard', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1977, 32, 855, "annulee", NULL, 148.40, 148.40, "2018-12-20 17:30:08", "paypal", 7);
+(1977, 98, 3899, 'payee', NULL, 28.95, 28.95, '2016-07-26 10:47:25', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1978, 45, 2645, "en attente", NULL, 114.33, 114.33, "2017-08-17 21:06:34", "debit", 3);
+(1978, 125, 1092, 'annulee', NULL, 85.54, 85.54, '2019-03-07 10:57:27', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1979, 50, 627, "en attente", NULL, 288.18, 288.18, "2020-07-11 10:41:52", "paypal", 6);
+(1979, 66, 2219, 'en attente', 2, 116.4072, 105.930552, '2017-02-12 01:37:56', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1980, 75, 2446, "approuvee", NULL, 526.32, 526.32, "2018-06-04 07:48:30", "debit", 8);
+(1980, 40, 3876, 'en attente', NULL, 123.36, 123.36, '2019-08-21 13:09:00', 'debit', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1981, 94, 2974, "approuvee", 1, 122.3660, 104.011100, "2017-04-06 09:54:11", "mastercard", 2);
+(1981, 693, 2160, 'approuvee', 2, 250.1772, 227.661252, '2017-07-02 14:04:02', 'debit', 4);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1982, 63, 3353, "payee", NULL, 91.04, 91.04, "2019-02-22 07:27:08", "debit", 4);
+(1982, 528, 1917, 'approuvee', 2, 298.9896, 272.080536, '2017-10-17 17:35:07', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1983, 21, 2066, "payee", NULL, 209.40, 209.40, "2018-04-14 03:43:49", "mastercard", 5);
+(1983, 324, 171, 'en attente', 3, 62.7912, 50.860872, '2020-09-10 05:12:13', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1984, 39, 2317, "approuvee", 6, 133.6880, 113.634800, "2019-06-09 11:52:15", "debit", 4);
+(1984, 974, 561, 'en attente', NULL, 16.58, 16.58, '2018-04-03 17:21:19', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1985, 35, 1811, "annulee", NULL, 354.84, 354.84, "2017-08-06 17:00:17", "debit", 6);
+(1985, 569, 55, 'annulee', NULL, 45.23, 45.23, '2016-03-30 02:50:46', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1986, 87, 2491, "annulee", NULL, 43.90, 43.90, "2018-12-08 20:26:00", "debit", 2);
+(1986, 351, 323, 'en attente', NULL, 179.75, 179.75, '2016-06-22 19:34:30', 'visa', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1987, 37, 2577, "annulee", NULL, 31.66, 31.66, "2019-12-16 01:25:12", "visa", 2);
+(1987, 45, 3417, 'en attente', 3, 94.8024, 76.789944, '2019-02-23 08:44:11', 'debit', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1988, 79, 547, "en attente", NULL, 39.54, 39.54, "2018-09-22 17:47:46", "debit", 2);
+(1988, 358, 2512, 'annulee', NULL, 73.62, 73.62, '2019-03-24 21:09:29', 'paypal', 6);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1989, 5, 3913, "approuvee", NULL, 40.80, 40.80, "2016-07-02 09:20:04", "paypal", 6);
+(1989, 303, 805, 'payee', NULL, 48.14, 48.14, '2020-06-28 17:27:38', 'visa', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1990, 19, 3431, "annulee", NULL, 528.96, 528.96, "2017-05-24 13:37:01", "visa", 8);
+(1990, 510, 732, 'payee', NULL, 27.60, 27.60, '2017-08-08 02:15:49', 'paypal', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1991, 57, 3067, "approuvee", 1, 41.7095, 35.453075, "2018-07-20 18:15:23", "debit", 1);
+(1991, 218, 4242, 'annulee', NULL, 309.54, 309.54, '2016-07-18 06:43:54', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1992, 98, 2013, "en attente", NULL, 313.75, 313.75, "2018-12-25 22:45:32", "paypal", 5);
+(1992, 25, 3872, 'en attente', NULL, 16.20, 16.20, '2018-03-05 18:32:09', 'mastercard', 3);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1993, 11, 4042, "payee", NULL, 154.64, 154.64, "2020-08-29 22:02:13", "paypal", 8);
+(1993, 348, 116, 'approuvee', NULL, 124.81, 124.81, '2019-10-21 06:51:14', 'mastercard', 7);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1994, 90, 1667, "annulee", NULL, 447.30, 447.30, "2016-03-31 14:40:36", "debit", 7);
+(1994, 277, 2526, 'en attente', NULL, 10.06, 10.06, '2018-06-09 03:41:39', 'paypal', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1995, 73, 681, "payee", NULL, 264.32, 264.32, "2017-08-18 19:18:37", "paypal", 4);
+(1995, 961, 864, 'approuvee', NULL, 14.08, 14.08, '2018-10-10 02:59:02', 'debit', 1);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1996, 67, 4061, "annulee", NULL, 27.67, 27.67, "2020-03-06 01:08:54", "mastercard", 1);
+(1996, 472, 2250, 'en attente', NULL, 360.08, 360.08, '2020-12-13 15:08:52', 'paypal', 8);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1997, 41, 2638, "annulee", NULL, 187.56, 187.56, "2016-06-05 14:56:40", "paypal", 3);
+(1997, 753, 1237, 'approuvee', NULL, 105.06, 105.06, '2020-09-07 17:30:18', 'visa', 2);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1998, 38, 3030, "annulee", 6, 31.3905, 26.681925, "2017-04-11 15:48:53", "mastercard", 1);
+(1998, 742, 4164, 'annulee', 6, 264.2220, 214.019820, '2016-04-01 15:59:10', 'paypal', 5);
 
 INSERT INTO transaction
 (noTransaction, noClient, noOccurence, statut, codeCoupon, cout, montantPaye, dateEtHeure, modePaiement, nbBillets)
 VALUES
-(1999, 24, 3361, "payee", 5, 59.1850, 29.592500, "2016-10-03 09:19:29", "mastercard", 7);
+(1999, 559, 930, 'approuvee', 4, 43.0160, 40.865200, '2018-08-29 19:46:48', 'visa', 2);
 

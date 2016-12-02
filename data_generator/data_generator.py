@@ -42,7 +42,8 @@ def general_INSERT_str(tableName, columnNames, values):
         if (e == 'None' or not e):
             vals_str.append("NULL")
         elif (isinstance(e, basestring)):
-            vals_str.append('"{}"'.format(e))
+            if ("INTERVAL" not in e):
+                vals_str.append("'{}'".format(e.replace("'","''")))
         else:
             vals_str.append(str(e))
 
@@ -321,8 +322,9 @@ def createRandomTransaction():
 print fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
 
 # Remplissage de clients
-print 'Creation de {} clients'.format(1000)
-for id in range(1000):
+nb_clients = 1000
+print 'Creation de {} clients'.format(nb_clients)
+for id in range(nb_clients):
     cur = 20* id/(nb_clients-1)
     progress = "\r[{}{}]".format('#'*cur, '-'*(20-cur))
     sys.stdout.write(progress)
@@ -359,7 +361,8 @@ print "Rabais: " + str(len(rabais_list))
 print "Transactions: " + str(len(transaction_list))
 
 # Files printing
-with open ('output/peuplement.sql', 'w+') as p:
+print "\nImpression dans fichier '../peuplement.sql'"
+with open ('../peuplement.sql', 'w+') as p:
     s =""
     print "\nImpression dans fichier 'output/clients.sql'"
     with open('output/clients.sql', 'w+') as f:
