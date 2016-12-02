@@ -4,8 +4,6 @@
 --   type:      Oracle Database 11g
 
 
-@droptables.sql;
-
 CREATE TABLE Addresse
   (
     NoCivique  INTEGER NOT NULL ,
