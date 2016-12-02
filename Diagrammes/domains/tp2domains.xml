@@ -21,8 +21,8 @@
          <logicalDatatype>LOGDT024</logicalDatatype>
          <listOfValues>
             <valueDef value="comptant" description=""/>
-            <valueDef value="crédit" description=""/>
-            <valueDef value="débit" description=""/>
+            <valueDef value="credit" description=""/>
+            <valueDef value="debit" description=""/>
          </listOfValues>
       </Domain>
    </domains>

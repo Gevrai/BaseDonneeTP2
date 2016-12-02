@@ -30,7 +30,7 @@ WHERE evenementID IN (
     GROUP BY evenementID HAVING COUNT(evenementID) > 4)
 AND ;
 
--- Calculer les économies faites par un client de votre choix grâce aux coupons rabais de toutes ses transactions ;
+-- Calculer les économies faites par un client de votre choix grâce aux coupons rabais de toutes ses transactions ;cd 
 
 -- Afficher les informations des évènements qui ont plus de 4 occurrences en Ontario et dont le prix est inférieur à $150 après le rabais “âge d’or”.
 
