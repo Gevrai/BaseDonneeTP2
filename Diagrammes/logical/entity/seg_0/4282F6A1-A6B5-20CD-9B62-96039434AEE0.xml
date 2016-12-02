@@ -37,11 +37,11 @@
 </engineerTo>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>98DEC3A5-4DAA-3C7D-09BE-F9723115725C</domain>
+<domain>31006AC1-F11B-B222-7015-7B22A63806B6</domain>
 <defaultValue>en attente</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Coût" id="3804C0FA-7CB1-35E8-AE96-E9CB1D1DA6F8">
+<Attribute name="Cout" id="3804C0FA-7CB1-35E8-AE96-E9CB1D1DA6F8">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-22 19:40:58 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
@@ -77,7 +77,7 @@
 <domain>E16D8C1C-2B40-9FFD-2AAC-0137272AB145</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="MontantPayé" id="0E13FE46-5AAA-4C56-C211-4E0C0B690EBA">
+<Attribute name="MontantPaye" id="0E13FE46-5AAA-4C56-C211-4E0C0B690EBA">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-22 19:40:58 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>

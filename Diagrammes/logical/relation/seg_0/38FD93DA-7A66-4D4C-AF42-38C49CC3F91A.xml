@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OccurenceEmplacement" directorySegmentName="seg_0" id="38FD93DA-7A66-4D4C-AF42-38C49CC3F91A">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 22:38:12 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<sourcePk>087FF83C-FFF3-8B55-0585-9BE3BD963200</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2EC32D8-8E93-221B-9BFA-B500A64A7348</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A67C83EF-7FE1-5167-9FB5-98ABE9191932</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

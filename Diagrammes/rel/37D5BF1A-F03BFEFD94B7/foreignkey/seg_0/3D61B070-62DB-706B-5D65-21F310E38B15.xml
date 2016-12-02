@@ -9,7 +9,7 @@
 <keyObject>FC51FB73-7E78-5692-2792-1B3EC29416A7</keyObject>
 <referredKeyID>FC51FB73-7E78-5692-2792-1B3EC29416A7</referredKeyID>
 <mandatory>false</mandatory>
-<transferable>false</transferable>
+<transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

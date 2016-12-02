@@ -97,7 +97,7 @@
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Telephone" id="1A2DBFFA-0164-9B09-FB1E-F46315D7691E">
+<Column name="NumTel" id="1A2DBFFA-0164-9B09-FB1E-F46315D7691E">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 02:33:44 UTC</createdTime>
 <generatorID>EE275552-3596-A014-5C74-A97C8DF89074</generatorID>

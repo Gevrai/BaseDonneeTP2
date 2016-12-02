@@ -9,7 +9,7 @@
 <keyObject>42408F83-7F10-EB8D-E4FB-B3C987B54807</keyObject>
 <referredKeyID>42408F83-7F10-EB8D-E4FB-B3C987B54807</referredKeyID>
 <mandatory>true</mandatory>
-<transferable>true</transferable>
+<transferable>false</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

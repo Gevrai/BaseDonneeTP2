@@ -85,6 +85,19 @@
 <colAssociation fkAssociation="EF6D1D60-6BB1-6810-B288-80800296BDA6" referredColumn="E5BC7CDD-01D5-56BF-B61C-174740F17A17"/>
 </associations>
 </Column>
+<Column name="NumTel" id="1FDD7929-B641-CB9F-4529-DCAA68CABD8E">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 22:38:49 UTC</createdTime>
+<generatorID>0F123FA9-3E5D-B0BA-0100-9FBB5A215FD0</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31</dataTypeSize>
+<ownDataTypeParameters>31,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F2805EC9-79D4-11A2-6CE1-B98D64A11F6C" name="Emplacement_PK">

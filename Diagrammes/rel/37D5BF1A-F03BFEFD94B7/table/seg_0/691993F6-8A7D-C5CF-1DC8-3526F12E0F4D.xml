@@ -27,12 +27,12 @@
 <ownerDesignName>Diagrammes</ownerDesignName>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>98DEC3A5-4DAA-3C7D-09BE-F9723115725C</domain>
+<domain>31006AC1-F11B-B222-7015-7B22A63806B6</domain>
 <defaultValue>en attente</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Coût" id="0CF7E082-81E1-4B2E-A2B2-37331EBF4873">
+<Column name="Cout" id="0CF7E082-81E1-4B2E-A2B2-37331EBF4873">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>3804C0FA-7CB1-35E8-AE96-E9CB1D1DA6F8</generatorID>
@@ -65,7 +65,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MontantPayé" id="48D17454-5174-60AD-8474-E34AD91A7FA8">
+<Column name="MontantPaye" id="48D17454-5174-60AD-8474-E34AD91A7FA8">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>0E13FE46-5AAA-4C56-C211-4E0C0B690EBA</generatorID>

@@ -9,7 +9,7 @@
 <keyObject>14A1593D-6CA3-2E09-3ECA-8478F5653B7C</keyObject>
 <referredKeyID>14A1593D-6CA3-2E09-3ECA-8478F5653B7C</referredKeyID>
 <mandatory>false</mandatory>
-<transferable>false</transferable>
+<transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
 </FKIndexAssociation>

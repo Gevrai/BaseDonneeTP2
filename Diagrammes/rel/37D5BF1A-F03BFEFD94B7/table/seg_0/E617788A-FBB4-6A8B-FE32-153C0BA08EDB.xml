@@ -60,6 +60,21 @@
 <colAssociation fkAssociation="22B5D6E9-9EDD-4FDE-D452-0D740C165953" referredColumn="98DF5D83-62B4-4938-5C00-6E462DF68501"/>
 </associations>
 </Column>
+<Column name="NoEmplacement" id="5A01CEB3-6308-DF5E-DE36-326385DA33B5">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 22:38:49 UTC</createdTime>
+<generatorID>123660A9-AB53-24DD-BFB1-B0B250539BD9</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E69ED90-84A6-6BBB-92A7-FD2B3A429545" referredColumn="0217B632-C226-123F-1A31-0610B046A305"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="6D787739-993A-A01B-9F4C-60312E6DD8A2" name="Occurence_PK">
@@ -83,6 +98,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FA1E356B-7092-FF67-BB5E-B68F9F18A04C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B40F34AB-50A1-72D7-B0A8-744CA0B2B5E4" name="OccurenceEmplacement">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 22:38:49 UTC</createdTime>
+<generatorID>38FD93DA-7A66-4D4C-AF42-38C49CC3F91A</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A01CEB3-6308-DF5E-DE36-326385DA33B5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

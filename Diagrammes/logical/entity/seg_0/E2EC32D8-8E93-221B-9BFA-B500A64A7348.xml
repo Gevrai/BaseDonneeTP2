@@ -96,6 +96,20 @@
 <logicalDatatype>LOGDT027</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NumTel" id="0F123FA9-3E5D-B0BA-0100-9FBB5A215FD0">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-01 22:37:36 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31</dataTypeSize>
+<ownDataTypeParameters>31,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="087FF83C-FFF3-8B55-0585-9BE3BD963200" name="Emplacement PK">

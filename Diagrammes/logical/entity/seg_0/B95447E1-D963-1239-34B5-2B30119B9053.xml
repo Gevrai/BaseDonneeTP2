@@ -109,7 +109,7 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Telephone" id="EE275552-3596-A014-5C74-A97C8DF89074">
+<Attribute name="NumTel" id="EE275552-3596-A014-5C74-A97C8DF89074">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 02:28:43 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
