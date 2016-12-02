@@ -1,9 +1,8 @@
-BEGIN
-
-  --Bye Tables!
-  FOR i IN (SELECT ut.table_name
-              FROM USER_TABLES ut) LOOP
-    EXECUTE IMMEDIATE 'drop table '|| i.table_name ||' CASCADE CONSTRAINTS ';
-  END LOOP;
-
-END;
+drop table OCCURENCE cascade constraints;
+drop table TRANSACTION cascade constraints;
+drop table CATEGORIE cascade constraints;
+drop table CLIENT cascade constraints;
+drop table COUPON cascade constraints;
+drop table EMPLACEMENT cascade constraints;
+drop table EVENEMENT cascade constraints;
+drop table ADRESSE cascade constraints;
