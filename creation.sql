@@ -4,7 +4,7 @@
 --   type:      Oracle Database 11g
 
 
-@droptables.sql
+@droptables.sql;
 
 CREATE TABLE Addresse
   (
