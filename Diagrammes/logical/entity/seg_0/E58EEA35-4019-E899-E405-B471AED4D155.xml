@@ -37,8 +37,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Description" id="4E912FF2-8196-0C88-A941-CB2B6734AB41">
 <createdBy>gevrai</createdBy>
@@ -51,8 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512</dataTypeSize>
-<ownDataTypeParameters>512,,</ownDataTypeParameters>
+<dataTypeSize>2048</dataTypeSize>
+<ownDataTypeParameters>2048,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SiteWeb" id="6490AC81-E475-FB9F-96B1-33622E1B7B3F">
 <createdBy>gevrai</createdBy>
