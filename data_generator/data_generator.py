@@ -241,20 +241,18 @@ class Transaction():
         return general_INSERT_str(tableName, columnNames, values)
 
 class Rabais():
-    def __init__(self, code):
+    def __init__(self, code, nom, taux):
         global fake
         self.code = code
-        coupons = ["age d'or","etudiant","employe","membre","special","ouverture"]
-        taux = [0.65,0.7,0.5,0.9,0.95,0.6]
-        self.description = nomsDesCoupons[code%6]
-        self.tauxRabais = taux[code%6]
+        self.nom = nom 
+        self.tauxRabais = taux
         self.expiration =("to_date('" 
                 + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
                 + "','yyyy-mm-dd')")
 
     def INSERT_str(self, tableName):
         columnNames = ['codeCoupon', 'Rabais', 'expiration','description']
-        values = [self.code, self.tauxRabais, self.expiration,self.description[:10]] 
+        values = [self.code, self.tauxRabais, self.expiration,self.nom[:10]] 
         return general_INSERT_str(tableName, columnNames, values)
 
 def fetchEventsVenues(page=1):
@@ -319,9 +317,11 @@ def createRandomOccurrence():
 
 def createRabais():
     global rabais_list
-    for i in range(6):
-        rab = Rabais(i)
-        rabais_list.append(rab)
+    coupons = ["age d'or","etudiant","employe","membre","special","ouverture"]
+    taux = [0.65,0.7,0.5,0.9,0.95,0.6]
+    for i in range(len(coupons)):
+        r = Rabais(i, coupons[i],taux[i])
+        rabais_list.append(r)
 
 def getTauxRabaisFromID(rabaisID):
     global rabais_list
