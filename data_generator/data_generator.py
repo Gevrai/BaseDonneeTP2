@@ -31,19 +31,34 @@ rabais_list = []
 amtAdressCreated = 0
 
 def general_INSERT_str(tableName, columnNames, values):
+    # Test if valid input
     assert(len(columnNames) == len(values)),"Error inserting into '{}':\nColumn (size {}):\t{}\nValues (size {}):\t{}".format(
             tableName, str(len(columnNames)), str(columnNames), str(len(values)), str(values)) 
     assert(columnNames),"Nothing to INSERT into '{}' table!".format(tableName)
+    # Test if columns are right ammounts
+    if (not((tableName == "adresse" and len(columnNames) == 6) or
+            (tableName == "categorie" and len(columnNames) == 3) or
+            (tableName == "client" and len(columnNames) == 8) or
+            (tableName == "coupon" and len(columnNames) == 4) or
+            (tableName == "emplacement" and len(columnNames) == 7) or
+            (tableName == "evenement" and len(columnNames) == 7) or
+            (tableName == "occurence" and len(columnNames) == 5) or
+            (tableName == "transaction" and len(columnNames) == 10))):
+        print "error printing into {} : trying to insert {} columns".format(tableName, len(columnNames))
+
     # Making sure every element is a string with correct format
     cols_str, vals_str = ([],[])
     for e in columnNames:
         cols_str.append(str(e))
     for e in values:
-        if (e == 'None' or not e):
+        if (isinstance(e,int)):
+            vals_str.append(str(e))
+        elif (e == 'None' or not e):
             vals_str.append("NULL")
         elif (isinstance(e, basestring)):
-            if ("INTERVAL" not in e):
-                vals_str.append("'{}'".format(e.replace("'","''")))
+            if (("INTERVAL" not in e) and ("to_date" not in e)):
+                vals_str.append("'{}'".format(
+                    e.replace("&","e").replace("'","''").replace(";","")))
         else:
             vals_str.append(str(e))
 
@@ -63,17 +78,17 @@ class Client():
         self.couriel = fake.free_email()
         self.password = fake.password(length=10)
         self.numCivique = fake.building_number()
-        self.rue = fake.street_name()
-        self.codePostal = fake.postalcode()
-        self.ville = fake.city()
-        self.province = fake.province_abbr()
+        self.rue = fake.street_name()[:256]
+        self.codePostal = fake.postalcode().replace(" ","")
+        self.ville = fake.city()[:20]
+        self.province = fake.province_abbr()[:40]
         self.numTel = fake.phone_number()
 
     def INSERT_str(self, tableName):
         # Table Addresse
         columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
-        values = [self.adressID, self.numCivique,self.rue,self.codePostal,self.ville,self.province]
-        insertString = general_INSERT_str('Adresse', columnNames, values)
+        values = [self.adressID, self.numCivique,self.rue,self.codePostal.replace(' ',''),self.ville,self.province]
+        insertString = general_INSERT_str('adresse', columnNames, values)
 
         # Table client -> tableName
         columnNames = ['NoClient','nomUtilisateur','nom','prenom','courriel','motDePasse','NoAdresse','numTel']
@@ -83,9 +98,13 @@ class Client():
 class Evenement():
     def __init__(self, e, id):
         self.evenementID = id
-        self.titre = e['title']
+        self.titre = e['title'][:50]
         self.description = e['description']
+        if (self.description):
+            self.description = self.description[:512]
         self.siteWeb = e['url']
+        if (self.siteWeb):
+            self.siteWeb = self.siteWeb[:256]
         self.duree = "INTERVAL '" + random.choice(['01:00','01:30','02:00','02:30','03:00','04:00','06:00','10:00','24:00','48:00']) + ":00' HOUR TO MINUTE" 
         global categ_list
         for c in categ_list:
@@ -106,8 +125,10 @@ class Categorie():
         self.APIname = cat
         cat = cat.replace('&amp;','and').split(': ',1)
         if(len(cat) == 2):
-            self.surCategorie = cat[0]
             self.categorie = cat[1]
+            for c in categ_list:
+                if (c.categorie == cat[0]):
+                    self.surCategorie = c.id
         else: 
             self.categorie = cat[0]
             self.surCategorie = None
@@ -123,15 +144,21 @@ class Occurence():
         self.occurenceID = id
         if (start_time == None):
             # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
-            self.dateEtHeure = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
+            self.dateEtHeure =("to_date('" 
+                    + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
+                    + "', 'yyyy-mm-dd hh:mi:ss')")
         else:
-            self.dateEtHeure = start_time
+            # self.dateEtHeure = start_time
+            self.dateEtHeure =("to_date('" 
+                    + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
+                    + "', 'yyyy-mm-dd hh:mi:ss')")
+
         self.prix = float2decimal(random.uniform(5.0,75.0))
         self.evenementID = evenementID
         self.emplacementID = emplacementID
 
     def INSERT_str(self, tableName):
-        columnNames = ['noOccurence', 'dateEtHeure', 'prix', 'noEvenement', 'noEmplacment']
+        columnNames = ['noOccurence', 'dateEtHeure', 'prix', 'noEvenement', 'noEmplacement']
         values = [self.occurenceID, self.dateEtHeure, self.prix, self.evenementID, self.emplacementID] 
         return general_INSERT_str(tableName, columnNames, values)
 
@@ -144,9 +171,9 @@ class Emplacement():
 
         self.emplacementID = id
         self.siteID = e['id'] 
-        self.nom = e['venue_name']
-        self.siteWeb = e['url']
-        self.courriel = fake.free_email()
+        self.nom = e['venue_name'][:50]
+        self.siteWeb = e['url'][:256]
+        self.courriel = fake.free_email()[:256]
         self.capacite = random.choice([50,100,200,300,500,1000,2000,5000,10000,15000])
         if (e['address'] != None):
             address = e['address'].split(' ',1)
@@ -156,23 +183,26 @@ class Emplacement():
             else:
                 self.rue = None
             self.codePostal = e['postal_code']
+            if (self.codePostal):
+                self.codePostal.replace(" ",'')
+            else:
+                self.codePostal = fake.postalcode().replace(" ","");
             self.ville = e['city_name']
             self.province = e['region_abbr']
         else:
-            address = None
-            self.numCivique = None
-            self.rue = None
-            self.codePostal = None
-            self.ville = None
-            self.province = None
+            self.numCivique = fake.building_number()
+            self.rue = fake.street_name()
+            self.codePostal = fake.postalcode().replace(" ","")
+            self.ville = fake.city()
+            self.province = fake.province_abbr()
 
-        self.numTel = fake.phone_number()
+        self.numTel = fake.phone_number()[:31]
 
     def INSERT_str(self, tableName):
         # Table Addresse
         columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
         values = [self.adressID, self.numCivique,self.rue,self.codePostal,self.ville,self.province]
-        insertString = general_INSERT_str('Adresse', columnNames, values)
+        insertString = general_INSERT_str('adresse', columnNames, values)
 
         # Table occurrence -> tableName
         columnNames = ['noEmplacement', 'nom', 'siteWeb', 'capacite','NoAdresse', 'numTel','courriel']
@@ -198,7 +228,9 @@ class Transaction():
                     tauxRabais = float2decimal(c.tauxRabais)
             self.montantPayee = self.cout*tauxRabais
         # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
-        self.dateEtHeure = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
+        self.dateEtHeure =("to_date('" 
+                + fake.date_time_between_dates(datetime(2012,01,01),datetime(2016,10,30)).isoformat(':')
+                + "', 'yyyy-mm-dd hh:mi:ss')")
         self.modePaiement = random.choice(['mastercard','visa','debit','paypal'])
 
     def INSERT_str(self, tableName):
@@ -214,8 +246,8 @@ class Rabais():
         self.expiration = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
 
     def INSERT_str(self, tableName):
-        columnNames = ['code', 'Rabais', 'expiration','nom']
-        values = [self.code, self.tauxRabais, self.expiration,self.nom] 
+        columnNames = ['codeCoupon', 'Rabais', 'expiration','description']
+        values = [self.code, self.tauxRabais, self.expiration,self.nom[:10]] 
         return general_INSERT_str(tableName, columnNames, values)
 
 def fetchEventsVenues(page=1):
@@ -322,7 +354,7 @@ def createRandomTransaction():
 print fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
 
 # Remplissage de clients
-nb_clients = 1000
+nb_clients = 100
 print 'Creation de {} clients'.format(nb_clients)
 for id in range(nb_clients):
     cur = 20* id/(nb_clients-1)
@@ -341,7 +373,7 @@ print "\nCréation de {} categories".format(str(len(categ_list)))
 print "[{}]".format('#'*20)
 
 print "Création des evénements, emplacements et occurences associées"
-for page in range(1,10):
+for page in range(1,2):
     fetchEventsVenues(page)
 print ''
 
@@ -363,6 +395,7 @@ print "Transactions: " + str(len(transaction_list))
 # Files printing
 print "\nImpression dans fichier '../peuplement.sql'"
 with open ('../peuplement.sql', 'w+') as p:
+    print >>p, "set sqlblanklines on"
     s =""
     print "\nImpression dans fichier 'output/clients.sql'"
     with open('output/clients.sql', 'w+') as f:
@@ -406,9 +439,9 @@ with open ('../peuplement.sql', 'w+') as p:
             print >>f,s
             print >>p,s
 
-    print "Impression dans fichier 'output/rabais.sql'"
-    with open('output/rabais.sql', 'w+') as f:
+    print "Impression dans fichier 'output/couponRabais.sql'"
+    with open('output/couponRabais.sql', 'w+') as f:
         for e in rabais_list:
-            s = e.INSERT_str('rabais')
+            s = e.INSERT_str('coupon')
             print >>f,s
             print >>p,s
