@@ -243,7 +243,9 @@ class Rabais():
         global fake
         self.code = code
         self.tauxRabais = random.choice([0,.5,.6,.7,.8,.85,.9,.95])
-        self.expiration = fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
+        self.expiration =("to_date('" 
+                + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
+                + "','yyyy-mm-dd')")
 
     def INSERT_str(self, tableName):
         columnNames = ['codeCoupon', 'Rabais', 'expiration','description']
