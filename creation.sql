@@ -8,7 +8,7 @@
 
 CREATE TABLE Adresse
   (
-    NoCivique  INTEGER NOT NULL ,
+    NoCivique  VARCHAR2 (10) NOT NULL ,
     Rue        VARCHAR2 (256) NOT NULL ,
     CodePostal VARCHAR2 (7) NOT NULL ,
     Ville      VARCHAR2 (20) NOT NULL ,
@@ -81,11 +81,7 @@ CREATE TABLE Evenement
     ImageAffiche BLOB ,
     NoCategorie INTEGER
   ) ;
-CREATE UNIQUE INDEX Evenement__IDX ON Evenement
-  (
-    NoCategorie ASC
-  )
-  ;
+-- CREATE UNIQUE INDEX Evenement__IDX ON Evenement(NoCategorie ASC);
 ALTER TABLE Evenement ADD CONSTRAINT Evenement_PK PRIMARY KEY ( NoEvenement ) ;
 
 
@@ -114,7 +110,7 @@ CREATE TABLE Transaction
     NoOccurence   INTEGER NOT NULL ,
     CodeCoupon    INTEGER
   ) ;
-ALTER TABLE Transaction ADD CHECK ( Statut       IN ('annulée', 'approuvée', 'en attente', 'payée')) ;
+ALTER TABLE Transaction ADD CHECK ( Statut       IN ('annulee', 'approuvee', 'en attente', 'payee')) ;
 ALTER TABLE Transaction ADD CHECK ( ModePaiement IN ('comptant', 'credit', 'debit')) ;
 ALTER TABLE Transaction ADD CONSTRAINT Transaction_PK PRIMARY KEY ( NoTransaction ) ;
 
