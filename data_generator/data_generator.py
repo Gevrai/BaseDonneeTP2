@@ -148,12 +148,12 @@ class Occurence():
             # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
             self.dateEtHeure =("to_date('" 
                     + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
-                    + "', 'yyyy-mm-dd hh:mi:ss')")
+                    + "', 'yyyy-mm-dd hh24:mi:ss')")
         else:
             # self.dateEtHeure = start_time
             self.dateEtHeure =("to_date('" 
                     + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
-                    + "', 'yyyy-mm-dd hh:mi:ss')")
+                    + "', 'yyyy-mm-dd hh24:mi:ss')")
 
         self.prix = float2decimal(random.uniform(5.0,75.0))
         self.evenementID = evenementID
@@ -232,8 +232,8 @@ class Transaction():
         # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
         self.dateEtHeure =("to_date('" 
                 + fake.date_time_between_dates(datetime(2012,01,01),datetime(2016,10,30)).isoformat(':')
-                + "', 'yyyy-mm-dd hh:mi:ss')")
-        self.modePaiement = random.choice(['mastercard','visa','debit','paypal'])
+                + "', 'yyyy-mm-dd hh24:mi:ss')")
+        self.modePaiement = random.choice(['comptant','credit','debit'])
 
     def INSERT_str(self, tableName):
         columnNames = ['noTransaction', 'noClient', 'noOccurence', 'statut', 'codeCoupon', 'cout','montantPaye', 'dateEtHeure', 'modePaiement','nbBillets']
@@ -255,12 +255,14 @@ class Rabais():
         values = [self.code, self.tauxRabais, self.expiration,self.nom[:10]] 
         return general_INSERT_str(tableName, columnNames, values)
 
-def fetchEventsVenues(page=1):
+def fetchEventsVenues(page=1, maxevent=None):
     # Remplissage d'evenements et de leur emplacement en meme temps
     events = simplejson.load(open('json/event_page'+str(page)+'.json', 'r'))
     global event_list
     global empl_list
     for event in events['events']['event']:
+        if(maxevent and len(event_list)>max_events):
+            return
         # Print progress
         cur = 20*len(event_list)/2250
         progress = "\r[{}{}] {}/2250".format('#'*cur, '-'*(20-cur), len(event_list))
@@ -356,11 +358,13 @@ def createRandomTransaction():
 
     transaction_list.append(t)
 
-# Date string format test
-print fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(' ')
+
+nb_clients = 100
+nb_randOccurrences = 100
+nb_randTransactions = 100
+max_events = 100
 
 # Remplissage de clients
-nb_clients = 100
 print 'Creation de {} clients'.format(nb_clients)
 for id in range(nb_clients):
     cur = 20* id/(nb_clients-1)
@@ -380,15 +384,15 @@ print "[{}]".format('#'*20)
 
 print "Création des evénements, emplacements et occurences associées"
 for page in range(1,2):
-    fetchEventsVenues(page)
+    fetchEventsVenues(page, 100)
 print ''
 
-for i in range(2000):
+for i in range(nb_randOccurrences):
     createRandomOccurrence()
 
 createRabais()
 
-for i in range(2000):
+for i in range(nb_randTransactions):
     createRandomTransaction()
 
 print "\nCategories: " + str(len(categ_list))
