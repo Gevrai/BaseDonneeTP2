@@ -107,7 +107,7 @@ class Evenement():
         self.siteWeb = e['url']
         if (self.siteWeb):
             self.siteWeb = self.siteWeb[:256]
-        self.duree = "INTERVAL '" + random.choice(['01:00','01:30','02:00','02:30','03:00','04:00','06:00','10:00','24:00','48:00']) + ":00' HOUR TO MINUTE" 
+        self.duree = "INTERVAL '" + random.choice(['01:00','01:30','02:00','02:30','03:00','04:00','06:00','10:00','24:00','48:00']) + "' HOUR TO MINUTE" 
         global categ_list
         for c in categ_list:
             if (c.APIname == e['categories']['category'][0]['name']):
@@ -244,14 +244,17 @@ class Rabais():
     def __init__(self, code):
         global fake
         self.code = code
-        self.tauxRabais = random.choice([0,.5,.6,.7,.8,.85,.9,.95])
+        coupons = ["age d'or","etudiant","employe","membre","special","ouverture"]
+        taux = [0.65,0.7,0.5,0.9,0.95,0.6]
+        self.description = nomsDesCoupons[code%6]
+        self.tauxRabais = taux[code%6]
         self.expiration =("to_date('" 
                 + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).date().isoformat()
                 + "','yyyy-mm-dd')")
 
     def INSERT_str(self, tableName):
         columnNames = ['codeCoupon', 'Rabais', 'expiration','description']
-        values = [self.code, self.tauxRabais, self.expiration,self.nom[:10]] 
+        values = [self.code, self.tauxRabais, self.expiration,self.description[:10]] 
         return general_INSERT_str(tableName, columnNames, values)
 
 def fetchEventsVenues(page=1):
@@ -317,8 +320,7 @@ def createRandomOccurrence():
 def createRabais():
     global rabais_list
     for i in range(6):
-        rab = Rabais(i+1)
-        rab.nom = 'Rabais numero ' + str(i+1)
+        rab = Rabais(i)
         rabais_list.append(rab)
 
 def getTauxRabaisFromID(rabaisID):
@@ -408,17 +410,24 @@ with open ('../peuplement.sql', 'w+') as p:
             print >>f,s
             print >>p,s
 
-    print "Impression dans fichier 'output/evenements.sql'"
-    with open('output/evenements.sql', 'w+') as f:
-        for e in event_list:
-            s = e.INSERT_str('evenement')
-            print >>f,s
-            print >>p,s
-
     print "Impression dans fichier 'output/categories.sql'"
     with open('output/categories.sql', 'w+') as f:
         for e in categ_list:
             s = e.INSERT_str('categorie')
+            print >>f,s
+            print >>p,s
+
+    print "Impression dans fichier 'output/couponRabais.sql'"
+    with open('output/couponRabais.sql', 'w+') as f:
+        for e in rabais_list:
+            s = e.INSERT_str('coupon')
+            print >>f,s
+            print >>p,s
+
+    print "Impression dans fichier 'output/evenements.sql'"
+    with open('output/evenements.sql', 'w+') as f:
+        for e in event_list:
+            s = e.INSERT_str('evenement')
             print >>f,s
             print >>p,s
 
@@ -440,12 +449,5 @@ with open ('../peuplement.sql', 'w+') as p:
     with open('output/transactions.sql', 'w+') as f:
         for e in transaction_list:
             s = e.INSERT_str('transaction')
-            print >>f,s
-            print >>p,s
-
-    print "Impression dans fichier 'output/couponRabais.sql'"
-    with open('output/couponRabais.sql', 'w+') as f:
-        for e in rabais_list:
-            s = e.INSERT_str('coupon')
             print >>f,s
             print >>p,s
