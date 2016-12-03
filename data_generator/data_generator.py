@@ -56,7 +56,9 @@ def general_INSERT_str(tableName, columnNames, values):
         elif (e == 'None' or not e):
             vals_str.append("NULL")
         elif (isinstance(e, basestring)):
-            if (("INTERVAL" not in e) and ("to_date" not in e)):
+            if (("INTERVAL '" in e) or ("to_date" in e)):
+                vals_str.append(e)
+            else:
                 vals_str.append("'{}'".format(
                     e.replace("&","e").replace("'","''").replace(";","")))
         else:
