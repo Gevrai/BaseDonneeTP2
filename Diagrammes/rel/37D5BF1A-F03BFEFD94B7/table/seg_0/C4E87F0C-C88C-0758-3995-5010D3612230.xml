@@ -83,7 +83,7 @@
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 02:24:42 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
-<rule>Rabais &lt; 1</rule>
+<rule>Rabais &lt;= 1</rule>
 </tableCheckConstraint>
 </tableCheckConstraints>
 </Table>
