@@ -1,6 +1,9 @@
 Contraintes
 --------------
+On assume les contraintes de type(e.g. une colonne de type "Integer" ne peut être qu'un entier...).
+
 * Contraintes de clé primaires, clé étrangères
+  * NoClient, NoEvenement, NoEmplacement, NoAdresse, NoTransaction, NoOccurence, CodeCoupon
 * Contraintes de "non-nullité"
   * Sur les clés primaires
   * Evenement: Titre, Duree
@@ -16,10 +19,12 @@ Contraintes
   * Transaction: CodeCoupon, NoClient, NoOccurence
 * Contraintes de domaine:
   * Coupon: Rabais(entre 0 et 1)
-  * Transaction: Cout(supérieur à 0), MontantPaye(supérieur à 0), DateEtHeure(avant le présent, ou égal au présent), NbBillets(positif),
-    Statut(dans ['annulée', 'approuvée', 'en attente', 'payée']), ModePaiement(dans ['comptant', 'credit', 'debit'])    
+  * Transaction: Cout(positif), DateEtHeure(avant le temps présent, ou égal au temps présent), NbBillets(positif),
+    Statut(valeurs dans ['annulée', 'approuvée', 'en attente', 'payée']), ModePaiement(valeurs dans ['comptant', 'credit', 'debit'])
+    * Le cout peut être égal à zéro si le nombre de billets est égal à zéro.
+    * Le MontantPayé peut être négatif pour permettre des remboursements 
   * Emplacement: Capacite(supérieur à 0)
-  *
+  * 
   
           
   
