@@ -43,7 +43,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Date" id="04CB9A13-3665-D7F7-6586-C9364038DE88">
+<Column name="DateEtHeure" id="04CB9A13-3665-D7F7-6586-C9364038DE88">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>EB507E3D-E67A-150F-598A-99AC2C8AD5B0</generatorID>

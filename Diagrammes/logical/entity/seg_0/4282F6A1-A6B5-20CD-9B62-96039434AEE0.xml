@@ -53,7 +53,7 @@
 <logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Date" id="EB507E3D-E67A-150F-598A-99AC2C8AD5B0">
+<Attribute name="DateEtHeure" id="EB507E3D-E67A-150F-598A-99AC2C8AD5B0">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-22 19:40:58 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
