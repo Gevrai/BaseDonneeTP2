@@ -89,12 +89,12 @@ class Client():
     def INSERT_str(self, tableName):
         # Table Addresse
         columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
-        values = [self.adressID, self.numCivique,self.rue,self.codePostal.replace(' ',''),self.ville,self.province]
+        values = [self.adressID, self.numCivique[:10],self.rue,self.codePostal.replace(' ','')[:7],self.ville,self.province]
         insertString = general_INSERT_str('adresse', columnNames, values)
 
         # Table client -> tableName
         columnNames = ['NoClient','nomUtilisateur','nom','prenom','courriel','motDePasse','NoAdresse','numTel']
-        values = [self.clientID, self.nom+'.'+self.prenom, self.nom, self.prenom, self.couriel, self.password, self.adressID, self.numTel]
+        values = [self.clientID, (self.nom+'.'+self.prenom)[:20], self.nom, self.prenom, self.couriel, self.password, self.adressID, self.numTel]
         return insertString + general_INSERT_str(tableName, columnNames, values)
         
 class Evenement():
@@ -160,6 +160,9 @@ class Occurence():
         self.emplacementID = emplacementID
 
     def INSERT_str(self, tableName):
+        if (not self.emplacementID):
+            self.emplacementID = random.randint(0,len(empl_list))
+
         columnNames = ['noOccurence', 'dateEtHeure', 'prix', 'noEvenement', 'noEmplacement']
         values = [self.occurenceID, self.dateEtHeure, self.prix, self.evenementID, self.emplacementID] 
         return general_INSERT_str(tableName, columnNames, values)
@@ -179,11 +182,12 @@ class Emplacement():
         self.capacite = random.choice([50,100,200,300,500,1000,2000,5000,10000,15000])
         if (e['address'] != None):
             address = e['address'].split(' ',1)
-            self.numCivique = address[0]
             if (len(address) == 2):
+                self.numCivique = address[0]
                 self.rue = address[1]
             else:
-                self.rue = None
+                self.numCivique = fake.building_number()
+                self.rue = fake.street_name()
             self.codePostal = e['postal_code']
             if (self.codePostal):
                 self.codePostal.replace(" ",'')
@@ -203,7 +207,7 @@ class Emplacement():
     def INSERT_str(self, tableName):
         # Table Addresse
         columnNames = ['noAdresse','noCivique','rue','codePostal','ville','province']
-        values = [self.adressID, self.numCivique,self.rue,self.codePostal,self.ville,self.province]
+        values = [self.adressID, self.numCivique[:10],self.rue,self.codePostal.replace(' ','')[:7],self.ville,self.province]
         insertString = general_INSERT_str('adresse', columnNames, values)
 
         # Table occurrence -> tableName
@@ -261,8 +265,6 @@ def fetchEventsVenues(page=1, maxevent=None):
     global event_list
     global empl_list
     for event in events['events']['event']:
-        if(maxevent and len(event_list)>max_events):
-            return
         # Print progress
         cur = 20*len(event_list)/2250
         progress = "\r[{}{}] {}/2250".format('#'*cur, '-'*(20-cur), len(event_list))
@@ -343,7 +345,7 @@ def createRandomTransaction():
     o = random.choice(occurence_list)
 
     if (random.random() > 0.75):
-        codeRabais = random.randint(1,len(rabais_list))
+        codeRabais = random.choice(rabais_list).code
         prixTrans = o.prix*getTauxRabaisFromID(codeRabais)
     else:
         codeRabais = None
@@ -359,10 +361,10 @@ def createRandomTransaction():
     transaction_list.append(t)
 
 
-nb_clients = 100
-nb_randOccurrences = 100
-nb_randTransactions = 100
-max_events = 100
+nb_clients = 1000
+nb_randOccurrences = 1000
+nb_randTransactions = 3000
+max_events = None
 
 # Remplissage de clients
 print 'Creation de {} clients'.format(nb_clients)
@@ -383,7 +385,7 @@ print "\nCréation de {} categories".format(str(len(categ_list)))
 print "[{}]".format('#'*20)
 
 print "Création des evénements, emplacements et occurences associées"
-for page in range(1,2):
+for page in range(1,10):
     fetchEventsVenues(page, 100)
 print ''
 
