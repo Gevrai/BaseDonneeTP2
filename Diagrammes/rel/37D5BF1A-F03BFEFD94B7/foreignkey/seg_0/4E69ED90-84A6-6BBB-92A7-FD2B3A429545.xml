@@ -4,11 +4,11 @@
 <createdTime>2016-12-01 22:38:49 UTC</createdTime>
 <generatorID>38FD93DA-7A66-4D4C-AF42-38C49CC3F91A</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>SET NULL</deleteRule>
 <referredTableID>E339D372-3511-07BA-8F92-3DA596EB7AC7</referredTableID>
 <keyObject>F2805EC9-79D4-11A2-6CE1-B98D64A11F6C</keyObject>
 <referredKeyID>F2805EC9-79D4-11A2-6CE1-B98D64A11F6C</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

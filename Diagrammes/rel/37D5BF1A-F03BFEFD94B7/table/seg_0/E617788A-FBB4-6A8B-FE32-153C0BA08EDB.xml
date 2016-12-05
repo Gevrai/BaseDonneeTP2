@@ -65,6 +65,7 @@
 <createdTime>2016-12-01 22:38:49 UTC</createdTime>
 <generatorID>123660A9-AB53-24DD-BFB1-B0B250539BD9</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT027</logicalDatatype>
