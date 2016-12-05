@@ -61,7 +61,7 @@
 <colUsage columnID="077EA80C-E499-197B-7F59-02C655059342"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6BFA3DF0-545E-6A8B-73B7-DCCDEAA92042" name="Sous-categorie">
+<ind_PK_UK id="6BFA3DF0-545E-6A8B-73B7-DCCDEAA92042" name="souscat">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>9B0CB2ED-C11F-17ED-1785-371F7592A05B</generatorID>

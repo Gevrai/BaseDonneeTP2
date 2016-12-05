@@ -1,6 +1,22 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="tp2domains">
    <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="StatutTransaction" id="31006AC1-F11B-B222-7015-7B22A63806B6">
+         <createdBy>drpyser</createdBy>
+         <createdTime>2016-12-05 21:45:06 UTC</createdTime>
+         <ownerDesignName>Diagrammes</ownerDesignName>
+         <importedID>31006AC1-F11B-B222-7015-7B22A63806B6</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>12</dataTypeSize>
+         <fileName>tp2domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="annulee" description=""/>
+            <valueDef value="approuvee" description=""/>
+            <valueDef value="en attente" description=""/>
+            <valueDef value="payee" description=""/>
+         </listOfValues>
+      </Domain>
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
          <createdBy>drpyser</createdBy>
          <createdTime>2016-11-08 19:16:36 UTC</createdTime>

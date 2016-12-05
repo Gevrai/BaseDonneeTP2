@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ÉvènementCatégorie" directorySegmentName="seg_0" id="75B04050-EAD8-7AE5-C4AF-D3F8602E30EC">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EvenementCategories" directorySegmentName="seg_0" id="75B04050-EAD8-7AE5-C4AF-D3F8602E30EC">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-08 20:23:39 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>

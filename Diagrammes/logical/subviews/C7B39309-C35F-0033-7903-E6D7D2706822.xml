@@ -240,7 +240,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="322" y="475" width="76" height="20"/>
+<labelBounds x="322" y="475" width="78" height="23"/>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Text</foType>
@@ -250,7 +250,7 @@
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="406" y="475" width="81" height="20"/>
+<labelBounds x="406" y="475" width="82" height="23"/>
 <fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
 <FontObject>
 <foType>Text</foType>

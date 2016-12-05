@@ -81,7 +81,7 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NoAddresse" id="86E1ACF7-B6E4-EF6B-70E7-379321169F1E">
+<Attribute name="NoAdresse" id="86E1ACF7-B6E4-EF6B-70E7-379321169F1E">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-10 18:01:52 UTC</createdTime>
 <generatorID>823F1D41-9F37-6941-CE8E-93F8692A5319</generatorID>

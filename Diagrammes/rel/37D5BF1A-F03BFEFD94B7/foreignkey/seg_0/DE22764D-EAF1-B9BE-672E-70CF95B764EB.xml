@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE22764D-EAF1-B9BE-672E-70CF95B764EB" containerWithKeyObject="E78D4D6F-9A1A-2BEE-9F60-CE2AAC63AD25" localFKIndex="60E319B7-9178-9BCE-77ED-7C766CE9BEFE" name="ÉvènementCatégorie">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE22764D-EAF1-B9BE-672E-70CF95B764EB" containerWithKeyObject="E78D4D6F-9A1A-2BEE-9F60-CE2AAC63AD25" localFKIndex="60E319B7-9178-9BCE-77ED-7C766CE9BEFE" name="EvenementCategories">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>75B04050-EAD8-7AE5-C4AF-D3F8602E30EC</generatorID>

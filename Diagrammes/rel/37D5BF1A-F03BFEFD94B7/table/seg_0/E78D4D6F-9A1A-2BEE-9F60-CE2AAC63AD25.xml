@@ -122,7 +122,7 @@
 <colUsage columnID="D891BDAD-958A-A920-1658-21593C8F82A7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="60E319B7-9178-9BCE-77ED-7C766CE9BEFE" name="ÉvènementCatégorie">
+<ind_PK_UK id="60E319B7-9178-9BCE-77ED-7C766CE9BEFE" name="EvenementCategories">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>75B04050-EAD8-7AE5-C4AF-D3F8602E30EC</generatorID>

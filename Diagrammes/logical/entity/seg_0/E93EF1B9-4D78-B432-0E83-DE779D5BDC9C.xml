@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E93EF1B9-4D78-B432-0E83-DE779D5BDC9C" name="Addresse">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E93EF1B9-4D78-B432-0E83-DE779D5BDC9C" name="Adresse">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-08 19:54:47 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
@@ -81,7 +81,7 @@
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NoAddresse" id="8249E8DD-EDA5-0F04-F7B1-2F5B506144B2">
+<Attribute name="NoAdresse" id="8249E8DD-EDA5-0F04-F7B1-2F5B506144B2">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-08 20:01:34 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
