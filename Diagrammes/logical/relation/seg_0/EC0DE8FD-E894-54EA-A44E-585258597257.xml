@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CategorieEvenements" directorySegmentName="seg_0" id="EC0DE8FD-E894-54EA-A44E-585258597257">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-05 22:31:59 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<sourcePk>72DB2457-581A-F59C-25F0-5934C67A694B</sourcePk>
+<targetPk>7F678EE4-1467-427F-DF72-6F414A42FAE3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>catégorize</nameOnSource>
+<nameOnTarget>catégorizé par</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>607680D2-190B-24FF-0C70-EF5C81ED0041</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E58EEA35-4019-E899-E405-B471AED4D155</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

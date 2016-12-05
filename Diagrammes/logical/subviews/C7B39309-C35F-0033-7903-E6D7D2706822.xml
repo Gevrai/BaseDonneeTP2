@@ -112,34 +112,6 @@
 <point x="880" y="250"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="75B04050-EAD8-7AE5-C4AF-D3F8602E30EC" otype="Relation" vid_source="A7FBB629-341C-0442-3E4D-9D7807F9303B" vid_target="3466CDF0-CDDC-E480-7959-A579AA482288">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<sourceLabel class="oracle.dbtools.crest.model.design.Label">
-<site>0</site>
-<labelBounds x="173" y="165" width="64" height="20"/>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Text</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-</fonts>
-</sourceLabel>
-<targetLabel class="oracle.dbtools.crest.model.design.Label">
-<site>2</site>
-<labelBounds x="173" y="209" width="60" height="20"/>
-<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
-<FontObject>
-<foType>Text</foType>
-<colorRGB>-16777216</colorRGB>
-</FontObject>
-</fonts>
-</targetLabel>
-<points>
-<point x="170" y="161"/>
-<point x="170" y="225"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="823F1D41-9F37-6941-CE8E-93F8692A5319" otype="Relation" vid_source="3DB92E61-CCBB-B69F-7EA3-B8D03336B135" vid_target="432A8D6E-7B08-3923-4131-679D7FB34ED2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
@@ -263,6 +235,34 @@
 <point x="442" y="472"/>
 </points>
 </Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EC0DE8FD-E894-54EA-A44E-585258597257" otype="Relation" vid_source="3466CDF0-CDDC-E480-7959-A579AA482288" vid_target="A7FBB629-341C-0442-3E4D-9D7807F9303B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<sourceLabel class="oracle.dbtools.crest.model.design.Label">
+<site>0</site>
+<labelBounds x="183" y="209" width="60" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</sourceLabel>
+<targetLabel class="oracle.dbtools.crest.model.design.Label">
+<site>2</site>
+<labelBounds x="183" y="165" width="79" height="20"/>
+<fonts itemClass="oracle.dbtools.crest.model.design.FontObjectWr">
+<FontObject>
+<foType>Text</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+</targetLabel>
+<points>
+<point x="180" y="225"/>
+<point x="180" y="161"/>
+</points>
+</Connector>
 </connectors>
 <displays>
 <Display class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Display_1" id="9EC771DA-3482-3DA8-D1A1-B09B03B7E1B5">
@@ -334,14 +334,6 @@
 <point x="893" y="250"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="75B04050-EAD8-7AE5-C4AF-D3F8602E30EC" otype="Relation" vid_source="2C587865-42CD-9B4F-1A56-6D42DA249429" vid_target="C1936F18-7427-E1BE-ACCD-EA92C3A92475">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<lineWidth>1</lineWidth>
-<points>
-<point x="170" y="161"/>
-<point x="170" y="225"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="823F1D41-9F37-6941-CE8E-93F8692A5319" otype="Relation" vid_source="C4AD4810-A700-1B41-5E4F-DAEF8AD30C28" vid_target="CFC16566-F73B-F881-EA7E-A2B45A6D9DE7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
@@ -378,6 +370,10 @@
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="BE099420-F268-3D04-D329-C855E9B7D7A4" otype="Relation" vid_source="A9359123-E0AB-4F29-E0B6-9A6B61315E60" vid_target="FC7191CF-CC04-F72E-BDDE-C9DD5AFAC372">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="EC0DE8FD-E894-54EA-A44E-585258597257" otype="Relation" vid_source="C1936F18-7427-E1BE-ACCD-EA92C3A92475" vid_target="2C587865-42CD-9B4F-1A56-6D42DA249429">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 </Connector>
