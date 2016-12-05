@@ -19,12 +19,12 @@ On assume les contraintes de type(e.g. une colonne de type "Integer" ne peut êt
   * Transaction: CodeCoupon, NoClient, NoOccurence
 * Contraintes de domaine:
   * Coupon: Rabais(entre 0 et 1)
-  * Transaction: Cout(positif), DateEtHeure(avant le temps présent, ou égal au temps présent), NbBillets(positif),
+  * Transaction: Cout(positif), DateEtHeure(avant le temps présent, ou égal au temps présent),
     Statut(valeurs dans ['annulée', 'approuvée', 'en attente', 'payée']), ModePaiement(valeurs dans ['comptant', 'credit', 'debit'])
-    * Le cout peut être égal à zéro si le nombre de billets est égal à zéro.
-    * Le MontantPayé peut être négatif pour permettre des remboursements 
+    * "NbBillets" peut être négatif dans le cas d'un remboursement
+    * "Cout" et"MontantPaye" peuvent être égal à zéro si "NbBillets" est égal à zéro, et négatif si "NbBillets" est négatif
   * Emplacement: Capacite(supérieur à 0)
-  * 
+
   
           
   
