@@ -76,7 +76,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Billets" id="C5718C36-17A0-8725-9C0A-A6FD4540CF0B">
+<Column name="NbBillets" id="C5718C36-17A0-8725-9C0A-A6FD4540CF0B">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 01:53:24 UTC</createdTime>
 <generatorID>1D62B126-C26C-713C-2410-0A46ADCFA4C0</generatorID>

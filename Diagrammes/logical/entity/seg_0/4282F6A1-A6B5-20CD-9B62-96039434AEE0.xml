@@ -89,7 +89,7 @@
 <logicalDatatype>LOGDT043</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Billets" id="1D62B126-C26C-713C-2410-0A46ADCFA4C0">
+<Attribute name="NbBillets" id="1D62B126-C26C-713C-2410-0A46ADCFA4C0">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-11-22 19:40:58 UTC</createdTime>
 <ownerDesignName>Diagrammes</ownerDesignName>
