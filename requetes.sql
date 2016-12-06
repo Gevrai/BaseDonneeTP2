@@ -1,9 +1,9 @@
 -- Afficher le nombre de transactions d’achats des 5 dernières semaines ;
-SELECT count(*) as nbTransactions FROM transaction
-WHERE (SYSDATE - dateEtHeure) < INTERVAL '99' DAY;
+SELECT count(*) as "Nombre de transactions des 5 dernieres semaines" FROM transaction
+WHERE (SYSDATE - dateEtHeure) < INTERVAL '35' DAY;
 
 -- Afficher le nombre de clients utilisateurs de Google ;
-SELECT count(*) as nbClients FROM client
+SELECT count(*) as "Nombre de clients utilisateurs de google"  FROM client
 WHERE courriel LIKE '%@gmail.%';
 
 -- Afficher les clients de l'arrondissement “B4” (indiqué par le code postale commençant par “B4”) et qui n'ont pas un compte google ;
@@ -25,7 +25,7 @@ AND ville = 'Montreal'
 AND capacite > 2000;
 
 -- Afficher les informations des évènements qui ont plus de 4 occurrences et dont le prix est supérieur à $150 avant rabais ;
-SELECT titre FROM evenement
+SELECT * FROM evenement
 WHERE noEvenement IN (
     SELECT DISTINCT noEvenement
     FROM occurence
@@ -35,7 +35,8 @@ WHERE noEvenement IN (
 ); 
 
 -- Calculer les économies faites par un client de votre choix (id=5) grâce aux coupons rabais de toutes ses transactions;
-SELECT SUM(cout-montantPaye) FROM transaction
+SELECT SUM(cout-montantPaye) as "Economies faites par le client 5 grace a ces coupons"
+FROM transaction
 GROUP BY noClient
 HAVING noClient = 5;
 
@@ -52,13 +53,18 @@ WHERE NoEvenement IN (
 );
 
 -- Calculer et afficher les revenus totaux des emplacements pour tous les évènements triés par ordre décroissant. (PS. Faites attention aux statut des transactions).
-SELECT noEvenement, revenus
-FROM transaction
-GROUP BY noEvenement
-HAVING (statut = 'payee' OR statut = 'approuvee')
-ORDER BY SUM(montantPaye) as revenus DESC;
+WITH transaction_payee AS (
+    SELECT * FROM transaction 
+    WHERE (transaction.statut = 'payee' OR transaction.statut = 'approuvee')
+)
+SELECT emplacement.nom, SUM(transaction_payee.montantPaye) as "Revenus total"
+FROM transaction_payee, occurence, emplacement
+WHERE emplacement.noEmplacement = occurence.noEmplacement
+AND transaction_payee.noOccurence = occurence.noOccurence
+GROUP BY emplacement.noEmplacement, emplacement.nom
+ORDER BY SUM(transaction_payee.montantPaye) DESC;
 
 -- Afficher l'arborescence de toutes les catégories et toutes leurs sous-categories.
-SELECT *
-FROM Categorie
+SELECT rpad(' ', level-1) || nom as Nom FROM Categorie
+START WITH Parent is null
 CONNECT BY PRIOR NoCategorie = Parent;
