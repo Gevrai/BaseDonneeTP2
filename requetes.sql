@@ -59,3 +59,6 @@ HAVING (statut = 'payee' OR statut = 'approuvee')
 ORDER BY SUM(montantPaye) as revenus DESC;
 
 -- Afficher l'arborescence de toutes les catégories et toutes leurs sous-categories.
+SELECT *
+FROM Categorie
+CONNECT BY PRIOR NoCategorie = Parent;

@@ -181,4 +181,24 @@
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Transaction_cout_positif" directorySegmentName="seg_0" id="EF160FA4-4764-48B0-5E78-C3A27B7DE014">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-05 23:31:28 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>Cout &gt;= 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Transaction_nbbillets_positif" directorySegmentName="seg_0" id="04A90D4D-E349-3F51-E142-5185BDE8B9DE">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-05 23:31:28 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>NbBillets &gt;= 0</rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Transaction_montant_positif" directorySegmentName="seg_0" id="FD92CFE0-1DD7-8770-F290-79FDE9D71934">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-05 23:31:28 UTC</createdTime>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<rule>MontantPaye &gt;= 0&lt;br/&gt;</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
 </Table>

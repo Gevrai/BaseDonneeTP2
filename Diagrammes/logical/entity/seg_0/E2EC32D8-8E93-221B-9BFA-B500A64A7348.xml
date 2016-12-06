@@ -82,20 +82,6 @@
 <dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NoAdresse" id="A0E4547C-6A4A-54E4-6585-33F713BA10ED">
-<createdBy>drpyser</createdBy>
-<createdTime>2016-11-08 20:18:47 UTC</createdTime>
-<generatorID>6A5E2672-8F18-08C4-23B0-A71EE8A0C611</generatorID>
-<ownerDesignName>Diagrammes</ownerDesignName>
-<engineerTo>
-<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
-</engineerTo>
-<referedAttribute>8249E8DD-EDA5-0F04-F7B1-2F5B506144B2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="NumTel" id="0F123FA9-3E5D-B0BA-0100-9FBB5A215FD0">
 <createdBy>drpyser</createdBy>
 <createdTime>2016-12-01 22:37:36 UTC</createdTime>
@@ -109,6 +95,20 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>31</dataTypeSize>
 <ownDataTypeParameters>31,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NoAdresse" id="E3EA4750-1AF3-3B8D-1A3C-84339EE1C706">
+<createdBy>drpyser</createdBy>
+<createdTime>2016-12-05 23:21:53 UTC</createdTime>
+<generatorID>80CAE139-BF3A-89AE-0337-0E5984ABC215</generatorID>
+<ownerDesignName>Diagrammes</ownerDesignName>
+<engineerTo>
+<item key="37D5BF1A-DBD7-9D4B-88C8-F03BFEFD94B7" value="true"/>
+</engineerTo>
+<referedAttribute>8249E8DD-EDA5-0F04-F7B1-2F5B506144B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

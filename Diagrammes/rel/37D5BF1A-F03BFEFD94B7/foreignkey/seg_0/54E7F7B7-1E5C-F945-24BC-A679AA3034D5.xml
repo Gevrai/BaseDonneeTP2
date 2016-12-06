@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF6D1D60-6BB1-6810-B288-80800296BDA6" containerWithKeyObject="E339D372-3511-07BA-8F92-3DA596EB7AC7" localFKIndex="95B80AE3-1A36-A3C1-166F-697753E44353" name="EmplacementAddresse">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="54E7F7B7-1E5C-F945-24BC-A679AA3034D5" containerWithKeyObject="E339D372-3511-07BA-8F92-3DA596EB7AC7" localFKIndex="1117530D-4F60-9225-FC70-26ECEACAD6B2" name="AdresseEmplacements">
 <createdBy>drpyser</createdBy>
-<createdTime>2016-12-01 01:53:24 UTC</createdTime>
-<generatorID>6A5E2672-8F18-08C4-23B0-A71EE8A0C611</generatorID>
+<createdTime>2016-12-05 23:22:57 UTC</createdTime>
+<generatorID>80CAE139-BF3A-89AE-0337-0E5984ABC215</generatorID>
 <ownerDesignName>Diagrammes</ownerDesignName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>26BF57B1-5A81-11BB-82F5-D56E829A489D</referredTableID>
 <keyObject>14A1593D-6CA3-2E09-3ECA-8478F5653B7C</keyObject>
 <referredKeyID>14A1593D-6CA3-2E09-3ECA-8478F5653B7C</referredKeyID>

@@ -12,7 +12,7 @@
 <targetPk>13DEE977-AFD7-D4BD-B457-31DE41E10FC6</targetPk>
 <identifying>false</identifying>
 <nameOnSource>s&apos;applique sur</nameOnSource>
-<nameOnTarget>est réduite par</nameOnTarget>
+<nameOnTarget>est réduit par</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
