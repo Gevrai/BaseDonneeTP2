@@ -51,7 +51,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="DateEtHeure" id="EB507E3D-E67A-150F-598A-99AC2C8AD5B0">
 <createdBy>drpyser</createdBy>
@@ -87,7 +89,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT043</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NbBillets" id="1D62B126-C26C-713C-2410-0A46ADCFA4C0">
 <createdBy>drpyser</createdBy>

@@ -50,10 +50,10 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>10</dataTypePrecision>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="NoEvenement" id="624AA287-1B7D-4801-189D-8F8FC14C4B84">
 <createdBy>gevrai</createdBy>
