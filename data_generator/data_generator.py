@@ -147,12 +147,12 @@ class Occurence():
         if (start_time == None):
             # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
             self.dateEtHeure =("to_date('" 
-                    + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
+                    + fake.date_time_between_dates(datetime(2014,01,01),datetime(2020,12,30)).isoformat(':')
                     + "', 'yyyy-mm-dd hh24:mi:ss')")
         else:
             # self.dateEtHeure = start_time
             self.dateEtHeure =("to_date('" 
-                    + fake.date_time_between_dates(datetime(2016,01,01),datetime(2020,12,30)).isoformat(':')
+                    + fake.date_time_between_dates(datetime(2014,01,01),datetime(2020,12,30)).isoformat(':')
                     + "', 'yyyy-mm-dd hh24:mi:ss')")
 
         self.prix = float2decimal(random.uniform(5.0,75.0))
@@ -235,7 +235,7 @@ class Transaction():
             self.montantPayee = self.cout*tauxRabais
         # TODO check date syntax -> probably TIMESTAMP '2003-01-01 2:00:00'
         self.dateEtHeure =("to_date('" 
-                + fake.date_time_between_dates(datetime(2012,01,01),datetime(2016,10,30)).isoformat(':')
+                + fake.date_time_between_dates(datetime(2012,01,01),datetime.now()).isoformat(':')
                 + "', 'yyyy-mm-dd hh24:mi:ss')")
         self.modePaiement = random.choice(['comptant','credit','debit'])
 
@@ -363,7 +363,7 @@ def createRandomTransaction():
 
 nb_clients = 1000
 nb_randOccurrences = 1000
-nb_randTransactions = 3000
+nb_randTransactions = 10000
 max_events = None
 
 # Remplissage de clients
@@ -389,11 +389,13 @@ for page in range(1,10):
     fetchEventsVenues(page, 100)
 print ''
 
+print "Création de {} occurences aléatoires".format(nb_randOccurrences)
 for i in range(nb_randOccurrences):
     createRandomOccurrence()
 
 createRabais()
 
+print "Création de {} transactions aléatoires\n".format(nb_randTransactions)
 for i in range(nb_randTransactions):
     createRandomTransaction()
 
