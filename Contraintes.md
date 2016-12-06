@@ -29,7 +29,7 @@ On assume les contraintes de type(e.g. une colonne de type "Integer" ne peut êt
   * Le retrait d'un emplacement entraîne le changement de la référence dans "Occurence" à "NULL"
 * Autre
   * Transaction: MontantPaye(doit être inférieur à Cout - Cout*Rabais dans le cas ou un coupon est utilisé).
-
+  
   
   
           
